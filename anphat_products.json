@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Màn Hình Asus Văn Phòng",
+    "price": 6,
+    "price_raw": "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n      })(window,document,'script','dataLayer','GTM-M6MCKXT');",
+    "specs": {
+      "Tên đầy đủ": "",
+      "Email": "",
+      "Điện thoại": "",
+      "Thông tin liên hệ": ""
+    },
+    "url": "https://www.anphatpc.com.vn/man-hinh-asus-van-phong.html",
+    "image": "https://www.anphatpc.com.vn/media/category/0"
+  },
+  {
+    "name": "Kiểu Loa",
+    "price": 6,
+    "price_raw": "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n      })(window,document,'script','dataLayer','GTM-M6MCKXT');",
+    "specs": {
+      "Tên đầy đủ": "",
+      "Email": "",
+      "Điện thoại": "",
+      "Thông tin liên hệ": ""
+    },
+    "url": "https://www.anphatpc.com.vn/kieu-loa.html",
+    "image": "https://www.anphatpc.com.vn/media/category/0"
+  },
+  {
+    "name": "Ram for Sever",
+    "price": 6,
+    "price_raw": "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n      })(window,document,'script','dataLayer','GTM-M6MCKXT');",
+    "specs": {
+      "Tên đầy đủ": "",
+      "Email": "",
+      "Điện thoại": "",
+      "Thông tin liên hệ": ""
+    },
+    "url": "https://www.anphatpc.com.vn/ram-sever_dm1224.html",
+    "image": "https://www.anphatpc.com.vn/media/category/0"
+  },
+  {
+    "name": "Giá tốt - SL có hạn",
+    "price": 6,
+    "price_raw": "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n      })(window,document,'script','dataLayer','GTM-M6MCKXT');",
+    "specs": {
+      "Tên đầy đủ": "",
+      "Email": "",
+      "Điện thoại": "",
+      "Thông tin liên hệ": ""
+    },
+    "url": "https://www.anphatpc.com.vn/hang-gia-soc.html",
+    "image": "https://www.anphatpc.com.vn/media/category/cb_448d012b8855158b46a8674d770285e0.jpeg"
+  },
+  {
+    "name": "Khổ Giấy K58 (50mm)",
+    "price": 6,
+    "price_raw": "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n      })(window,document,'script','dataLayer','GTM-M6MCKXT');",
+    "specs": {
+      "Tên đầy đủ": "",
+      "Email": "",
+      "Điện thoại": "",
+      "Thông tin liên hệ": ""
+    },
+    "url": "https://www.anphatpc.com.vn/may-in-hoa-don-kho-giay-k58-50mm.html",
+    "image": "https://www.anphatpc.com.vn/media/category/0"
+  }
+]
