@@ -1121,63 +1121,66 @@ def quick_test_two_links(urls: List[str], use_selenium_fallback: bool = True, he
     Fpt.log(None, f'Saved {out_json}', color='green')
 
 
-if __name__ == '__main__':
-    # ===== Chế độ TEST CHỈ 1–2 LINK =====
-    TEST_URLS = [
-        "https://fptshop.com.vn/may-tinh-xach-tay/asus-vivobook-go-15-e1504ga-bq1141w-i3-n305",
-        "https://fptshop.com.vn/may-tinh-xach-tay/asus-vivobook-gaming-k3605vc-rp431w-i5-13420h",
-        "https://fptshop.com.vn/may-tinh-xach-tay/lenovo-ideapad-slim-3-14irh10-83k00008vn",
-        "https://fptshop.com.vn/may-tinh-xach-tay/msi-gaming-katana-15-b13vfk-676vn-i7-13620h"
-    ]
-    quick_test_two_links(TEST_URLS, use_selenium_fallback=True, headless=True)
-
-    # ===== Nếu muốn chạy pipeline đầy đủ thì bật các dòng dưới đây =====
-    # fpt = Fpt(headless=True)
-    # fpt.get_all_product_links()
-    # fpt.crawl_raw_htmls()
-    # fpt.parse_specs()
-    # fpt.enhancer()
-    # products = safe_load_json('data/fpt/all_columns_fpt.json', default=[])
-    # if products:
-    #     cleaned = [fpt.regexing(p) for p in products]
-    #     import pandas as pd
-    #     pd.DataFrame(cleaned).to_csv('data/fpt/fpt.csv', index=False)
-    #     print('Saved CSV to data/fpt/fpt.csv')
-
-# def safe_load_json(path: str, default):
-#     try:
-#         if not os.path.exists(path) or os.path.getsize(path) == 0:
-#             return default
-#         with open(path, 'r', encoding='utf-8') as f:
-#             return json.load(f)
-#     except Exception as e:
-#         print(f'[WARN] Cannot load JSON {path}: {e}')
-#         return default
+def safe_load_json(path: str, default):
+    try:
+        if not os.path.exists(path) or os.path.getsize(path) == 0:
+            return default
+        with open(path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except Exception as e:
+        print(f'[WARN] Cannot load JSON {path}: {e}')
+        return default 
 
 
 # if __name__ == '__main__':
-#     # Nếu site chặn headless, thử headless=False để test lần đầu
+#     # ===== Chế độ TEST CHỈ 1–2 LINK =====
+#     TEST_URLS = [
+#         "https://fptshop.com.vn/may-tinh-xach-tay/asus-vivobook-go-15-e1504ga-bq1141w-i3-n305",
+#         "https://fptshop.com.vn/may-tinh-xach-tay/asus-vivobook-gaming-k3605vc-rp431w-i5-13420h",
+#         "https://fptshop.com.vn/may-tinh-xach-tay/lenovo-ideapad-slim-3-14irh10-83k00008vn",
+#         "https://fptshop.com.vn/may-tinh-xach-tay/msi-gaming-katana-15-b13vfk-676vn-i7-13620h"
+#     ]
+#     quick_test_two_links(TEST_URLS, use_selenium_fallback=True, headless=True)
+
+#     # ===== Nếu muốn chạy pipeline đầy đủ thì bật các dòng dưới đây =====
 #     fpt = Fpt(headless=True)
-
-#     # 1) Lấy link sản phẩm (tối đa 5 trang/brand)
 #     fpt.get_all_product_links()
-
-#     # 2) Tải RAW + DETAIL HTML (reuse 1 driver/brand)
 #     fpt.crawl_raw_htmls()
-
-#     # 3) Parse specs (mạnh)
 #     fpt.parse_specs()
-
-#     # 4) Chuẩn hóa 16 cột
 #     fpt.enhancer()
-
-#     # 5) Regex cleaning + CSV (không cần polars)
 #     products = safe_load_json('data/fpt/all_columns_fpt.json', default=[])
-#     if not products:
-#         print('File all_columns_fpt.json rỗng/chưa có. Hãy chạy enhancer() sau khi parse.')
-#     else:
+#     if products:
 #         cleaned = [fpt.regexing(p) for p in products]
 #         import pandas as pd
-#         os.makedirs('data/fpt', exist_ok=True)
 #         pd.DataFrame(cleaned).to_csv('data/fpt/fpt.csv', index=False)
 #         print('Saved CSV to data/fpt/fpt.csv')
+
+
+
+
+if __name__ == '__main__':
+    # Nếu site chặn headless, thử headless=False để test lần đầu
+    fpt = Fpt(headless=True)
+
+    # 1) Lấy link sản phẩm (tối đa 5 trang/brand)
+    fpt.get_all_product_links()
+
+    # 2) Tải RAW + DETAIL HTML (reuse 1 driver/brand)
+    fpt.crawl_raw_htmls()
+
+    # 3) Parse specs (mạnh)
+    fpt.parse_specs()
+
+    # 4) Chuẩn hóa 16 cột
+    fpt.enhancer()
+
+    # 5) Regex cleaning + CSV (không cần polars)
+    products = safe_load_json('data/fpt/all_columns_fpt.json', default=[])
+    if not products:
+        print('File all_columns_fpt.json rỗng/chưa có. Hãy chạy enhancer() sau khi parse.')
+    else:
+        cleaned = [fpt.regexing(p) for p in products]
+        import pandas as pd
+        os.makedirs('data/fpt', exist_ok=True)
+        pd.DataFrame(cleaned).to_csv('data/fpt/fpt.csv', index=False)
+        print('Saved CSV to data/fpt/fpt.csv')
