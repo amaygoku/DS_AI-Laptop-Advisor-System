@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Acer",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": "Ryzen 5",
+  "CPU generation": "7535HS",
+  "CPU Speed (GHz)": 4.55,
+  "RAM (GB)": 16.0,
+  "RAM Type": null,
+  "Bus (MHz)": 4800,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 180,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.11,
+  "Battery": "4 Cell, 57 Whr",
+  "Product Name": "Gaming ACER Nitro V 15 Propanel Anv15 41 R7ap Nh.qpgsv.002",
+  "Price (VND)": 22990000,
+  "url": "https://www.anphatpc.com.vn/laptop-gaming-acer-nitro-v-15-propanel-anv15-41-r7ap-nh.qpgsv.002.html",
+  "saved_path": "data/anphat/raw_htmls\\acer_77.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\acer_77_specs.html"
+}

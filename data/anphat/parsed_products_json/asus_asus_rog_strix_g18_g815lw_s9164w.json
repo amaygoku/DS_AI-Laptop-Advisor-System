@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Asus",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 9",
+  "CPU generation": "275HX",
+  "CPU Speed (GHz)": 2.7,
+  "RAM (GB)": 32.0,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 18.0,
+  "Screen Resolution": "2560 x 1600",
+  "Refresh Rate (Hz)": 240,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 3.2,
+  "Battery": "90WHrs, 4S1P, 4-cell Li-ion",
+  "Product Name": "ASUS Rog Strix G18 G815lw S9164w",
+  "Price (VND)": 78490000,
+  "url": "https://www.anphatpc.com.vn/laptop-asus-rog-strix-g18-g815lw-s9164w.html",
+  "saved_path": "data/anphat/raw_htmls\\asus_109.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\asus_109_specs.html"
+}

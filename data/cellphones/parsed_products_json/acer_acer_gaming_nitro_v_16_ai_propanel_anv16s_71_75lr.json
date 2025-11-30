@@ -1,0 +1,22 @@
+{
+  "Product Name": "ACER Gaming Nitro V 16 Ai Propanel Anv16s 71 75lr",
+  "Manufacturer": "acer",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": null,
+  "CPU generation": null,
+  "CPU Speed (GHz)": 1.8,
+  "RAM (GB)": 32,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 4096,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "2560 x 1600",
+  "Refresh Rate (Hz)": 180,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.1,
+  "Battery": "76Wh 4-cell Li-ion battery, 135W_5.5PHY adapter",
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/laptop-acer-gaming-nitro-v-16-ai-propanel-anv16s-71-75lr.html",
+  "saved_path": "data/cellphones/raw_htmls\\acer_78.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_78_specs.html"
+}

@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "MSI",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": null,
+  "CPU generation": null,
+  "CPU Speed (GHz)": 5.1,
+  "RAM (GB)": 32.0,
+  "RAM Type": null,
+  "Bus (MHz)": 7500,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "2560 x 1600",
+  "Refresh Rate (Hz)": 240,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.1,
+  "Battery": "4Cell 99.9WHr",
+  "Product Name": "MSI Stealth A16 Ai A3xwhg085vn",
+  "Price (VND)": 75990000,
+  "url": "https://www.anphatpc.com.vn/laptop-msi-stealth-a16-ai-a3xwhg085vn.html",
+  "saved_path": "data/anphat/raw_htmls\\msi_16.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\msi_16_specs.html"
+}

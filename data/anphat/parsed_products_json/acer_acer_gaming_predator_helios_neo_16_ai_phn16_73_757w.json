@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Acer",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 7",
+  "CPU generation": "255HX",
+  "CPU Speed (GHz)": 5.2,
+  "RAM (GB)": 32.0,
+  "RAM Type": null,
+  "Bus (MHz)": 6400,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "2560 x 1600",
+  "Refresh Rate (Hz)": 240,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.7,
+  "Battery": "90Wh 4-cell Li-ion battery 230W AC Adapter",
+  "Product Name": "ACER Gaming Predator Helios Neo 16 Ai Phn16 73 757w",
+  "Price (VND)": 56990000,
+  "url": "https://www.anphatpc.com.vn/laptop-acer-gaming-predator-helios-neo-16-ai-phn16-73-757w.html",
+  "saved_path": "data/anphat/raw_htmls\\acer_49.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\acer_49_specs.html"
+}

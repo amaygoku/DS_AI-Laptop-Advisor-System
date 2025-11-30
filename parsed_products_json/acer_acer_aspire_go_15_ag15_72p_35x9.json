@@ -1,0 +1,22 @@
+{
+  "Product Name": "ACER Aspire Go 15 Ag15 72p 35x9",
+  "Manufacturer": "acer",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I3",
+  "CPU generation": "31",
+  "CPU Speed (GHz)": 3.3,
+  "RAM (GB)": 8,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 2048,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.53,
+  "Battery": "55Wh 3-cell Li-ion, 65W Type-C Adapter",
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/laptop-acer-aspire-go-15-ag15-72p-35x9.html",
+  "saved_path": "data/cellphones/raw_htmls\\acer_77.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_77_specs.html"
+}

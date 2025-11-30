@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Asus",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": null,
+  "CPU generation": "240H",
+  "CPU Speed (GHz)": 5.2,
+  "RAM (GB)": 16.0,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": null,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": 144,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 1.95,
+  "Battery": "63WHrs, 3S1P, 3-cell Li-ion",
+  "Product Name": "ASUS Vivobook 16 K3607vj Rp106w",
+  "Price (VND)": 24490000,
+  "url": "https://www.anphatpc.com.vn/laptop-asus-vivobook-16-k3607vj-rp106w.html",
+  "saved_path": "data/anphat/raw_htmls\\asus_100.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\asus_100_specs.html"
+}

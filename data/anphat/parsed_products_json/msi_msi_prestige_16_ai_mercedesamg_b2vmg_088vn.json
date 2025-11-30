@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "MSI",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 9",
+  "CPU generation": "288V",
+  "CPU Speed (GHz)": 5.1,
+  "RAM (GB)": 32.0,
+  "RAM Type": "LPDDR5X",
+  "Bus (MHz)": 8533,
+  "Storage (GB)": 2048,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": null,
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.5,
+  "Battery": "99WHrs",
+  "Product Name": "MSI Prestige 16 Ai Mercedesamg B2vmg 088vn",
+  "Price (VND)": 56990000,
+  "url": "https://www.anphatpc.com.vn/laptop-msi-prestige-16-ai-mercedesamg-b2vmg-088vn.html",
+  "saved_path": "data/anphat/raw_htmls\\msi_13.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\msi_13_specs.html"
+}

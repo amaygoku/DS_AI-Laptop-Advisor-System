@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "HP",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i5",
+  "CPU generation": "1334U",
+  "CPU Speed (GHz)": 4.6,
+  "RAM (GB)": 16.0,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.59,
+  "Battery": "3-cell, 41 Wh Li-ion",
+  "Product Name": "HP 15 Fd0235tu 9q970pa",
+  "Price (VND)": 19990000,
+  "url": "https://www.anphatpc.com.vn/laptop-hp-15-fd0235tu-9q970pa.html",
+  "saved_path": "data/anphat/raw_htmls\\hp_78.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\hp_78_specs.html"
+}

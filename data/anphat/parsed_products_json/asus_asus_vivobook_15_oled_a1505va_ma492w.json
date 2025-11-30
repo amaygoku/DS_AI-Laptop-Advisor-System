@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Asus",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core  i7",
+  "CPU generation": null,
+  "CPU Speed (GHz)": 5.0,
+  "RAM (GB)": 16.0,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "2880 x 1620",
+  "Refresh Rate (Hz)": 120,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.7,
+  "Battery": "3-cell, 50WHrs",
+  "Product Name": "ASUS Vivobook 15 Oled A1505va Ma492w",
+  "Price (VND)": 22990000,
+  "url": "https://www.anphatpc.com.vn/laptop-asus-vivobook-15-oled-a1505va-ma492w.html",
+  "saved_path": "data/anphat/raw_htmls\\asus_120.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\asus_120_specs.html"
+}

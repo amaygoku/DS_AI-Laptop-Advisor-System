@@ -1,0 +1,22 @@
+{
+  "Product Name": "ACER Aspire 5 A515 58p 56rp",
+  "Manufacturer": "acer",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I5",
+  "CPU generation": "51",
+  "CPU Speed (GHz)": 3.4,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": null,
+  "Storage (GB)": 2048,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.7,
+  "Battery": "50Wh Li-ion battery",
+  "Price (VND)": 16990000,
+  "url": "https://cellphones.com.vn/laptop-acer-aspire-5-a515-58p-56rp.html",
+  "saved_path": "data/cellphones/raw_htmls\\acer_85.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_85_specs.html"
+}

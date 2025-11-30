@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Dell",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i5",
+  "CPU generation": "1334U",
+  "CPU Speed (GHz)": null,
+  "RAM (GB)": 8.0,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 4400,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": null,
+  "Weight (kg)": 1.69,
+  "Battery": "4-cell",
+  "Product Name": "DELL Inspiron 14 5440 Ndy5v1",
+  "Price (VND)": 21990000,
+  "url": "https://www.anphatpc.com.vn/laptop-dell-inspiron-14-5440-ndy5v1.html",
+  "saved_path": "data/anphat/raw_htmls\\dell_13.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\dell_13_specs.html"
+}

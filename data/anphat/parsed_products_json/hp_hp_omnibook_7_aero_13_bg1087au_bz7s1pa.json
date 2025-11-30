@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "HP",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": null,
+  "CPU generation": null,
+  "CPU Speed (GHz)": 4.8,
+  "RAM (GB)": 16.0,
+  "RAM Type": "LPDDR5X",
+  "Bus (MHz)": 7500,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 13.3,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "AMD",
+  "Weight (kg)": null,
+  "Battery": "3-cell",
+  "Product Name": "HP Omnibook 7 Aero 13 Bg1087au Bz7s1pa",
+  "Price (VND)": 28990000,
+  "url": "https://www.anphatpc.com.vn/laptop-hp-omnibook-7-aero-13-bg1087au-bz7s1pa.html",
+  "saved_path": "data/anphat/raw_htmls\\hp_48.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\hp_48_specs.html"
+}

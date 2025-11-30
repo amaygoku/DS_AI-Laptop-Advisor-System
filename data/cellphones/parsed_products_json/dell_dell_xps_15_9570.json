@@ -1,0 +1,22 @@
+{
+  "Product Name": "DELL Xps 15 9570",
+  "Manufacturer": "dell",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I7",
+  "CPU generation": "78",
+  "CPU Speed (GHz)": 2.2,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 2666,
+  "Storage (GB)": 256,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 1.8,
+  "Battery": "97Whr",
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/laptop-dell-xps-15-9570.html",
+  "saved_path": "data/cellphones/raw_htmls\\dell_46.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_46_specs.html"
+}

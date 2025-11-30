@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Asus",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i5",
+  "CPU generation": null,
+  "CPU Speed (GHz)": 4.6,
+  "RAM (GB)": 8.0,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": null,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.7,
+  "Battery": "42WHrs, 3S1P, 3-cell",
+  "Product Name": "ASUS Vivobook 15 X1502va Bq885w",
+  "Price (VND)": 15700000,
+  "url": "https://www.anphatpc.com.vn/laptop-asus-vivobook-15-x1502va-bq885w.html",
+  "saved_path": "data/anphat/raw_htmls\\asus_4.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\asus_4_specs.html"
+}

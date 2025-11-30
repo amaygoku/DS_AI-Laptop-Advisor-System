@@ -1,0 +1,22 @@
+{
+  "Product Name": "LENOVO Ideapad Slim 5 16iah8 83bg001xvn",
+  "Manufacturer": "lenovo",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I5",
+  "CPU generation": "51",
+  "CPU Speed (GHz)": 4.4,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 4800,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.89,
+  "Battery": "56.6Wh",
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-5-16iah8-83bg001xvn.html",
+  "saved_path": "data/cellphones/raw_htmls\\lenovo_142.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_142_specs.html"
+}

@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Dell",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 7",
+  "CPU generation": "165H",
+  "CPU Speed (GHz)": 5.0,
+  "RAM (GB)": 16.0,
+  "RAM Type": null,
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 1.62,
+  "Battery": "3-cell, 42Wh",
+  "Product Name": "Nb DELL Mobile Precision 3590",
+  "Price (VND)": 48990000,
+  "url": "https://www.anphatpc.com.vn/laptop-nb-dell-mobile-precision-3590.html",
+  "saved_path": "data/anphat/raw_htmls\\dell_20.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\dell_20_specs.html"
+}

@@ -1,0 +1,22 @@
+{
+  "Product Name": "HP Pavilion 15 Eg2062tx 7c0w7pa",
+  "Manufacturer": "hp",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I5",
+  "CPU generation": "51",
+  "CPU Speed (GHz)": null,
+  "RAM (GB)": 8,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 1.75,
+  "Battery": "3 Cell 41WHrs",
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/laptop-hp-pavilion-15-eg2062tx-7c0w7pa.html",
+  "saved_path": "data/cellphones/raw_htmls\\hp_55.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_55_specs.html"
+}

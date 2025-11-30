@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Acer",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": "Ryzen 5",
+  "CPU generation": "6600H",
+  "CPU Speed (GHz)": 4.5,
+  "RAM (GB)": 16.0,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": null,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.1,
+  "Battery": "57WHrs, 4-cell Li-ion",
+  "Product Name": "ACER Nitro V Anv15 41 R1jy Nh.qpfsv.001",
+  "Price (VND)": 22990000,
+  "url": "https://www.anphatpc.com.vn/laptop-acer-nitro-v-anv15-41-r1jy-nh.qpfsv.001.html",
+  "saved_path": "data/anphat/raw_htmls\\acer_86.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\acer_86_specs.html"
+}

@@ -1,0 +1,22 @@
+{
+  "Product Name": "LENOVO Ideapad 5 14itl05 82fg0129vn",
+  "Manufacturer": "lenovo",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I5",
+  "CPU generation": "11",
+  "CPU Speed (GHz)": null,
+  "RAM (GB)": 8,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.66,
+  "Battery": "3 Cell Lithium polymer 45 W",
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-5-14itl05-82fg0129vn.html",
+  "saved_path": "data/cellphones/raw_htmls\\lenovo_130.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_130_specs.html"
+}

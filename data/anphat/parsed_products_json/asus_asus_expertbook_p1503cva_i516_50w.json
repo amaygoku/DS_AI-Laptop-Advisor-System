@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Asus",
+  "CPU manufacturer": null,
+  "CPU brand modifier": null,
+  "CPU generation": null,
+  "CPU Speed (GHz)": null,
+  "RAM (GB)": 16.0,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": null,
+  "Storage (GB)": null,
+  "Screen Size (inch)": null,
+  "Screen Resolution": null,
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": null,
+  "Weight (kg)": 1.65,
+  "Battery": "3-cell Li-ion",
+  "Product Name": "ASUS Expertbook P1503cva I516 50w",
+  "Price (VND)": 15990000,
+  "url": "https://www.anphatpc.com.vn/laptop-asus-expertbook-p1503cva-i516-50w.html",
+  "saved_path": "data/anphat/raw_htmls\\asus_61.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\asus_61_specs.html"
+}

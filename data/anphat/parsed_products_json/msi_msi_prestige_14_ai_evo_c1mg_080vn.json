@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "MSI",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 5",
+  "CPU generation": "125H",
+  "CPU Speed (GHz)": 4.5,
+  "RAM (GB)": 32.0,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "2880 x 1800",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.7,
+  "Battery": "4 Cell, 90Whr",
+  "Product Name": "MSI Prestige 14 Ai Evo C1mg 080vn",
+  "Price (VND)": 32990000,
+  "url": "https://www.anphatpc.com.vn/laptop-msi-prestige-14-ai-evo-c1mg-080vn.html",
+  "saved_path": "data/anphat/raw_htmls\\msi_59.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\msi_59_specs.html"
+}

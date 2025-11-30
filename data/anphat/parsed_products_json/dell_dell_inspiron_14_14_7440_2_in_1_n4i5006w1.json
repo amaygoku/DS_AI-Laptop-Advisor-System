@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Dell",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": null,
+  "CPU generation": "120U",
+  "CPU Speed (GHz)": 5.0,
+  "RAM (GB)": 16.0,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5200,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.74,
+  "Battery": "4Cell 54WHrs",
+  "Product Name": "DELL Inspiron 14 14 7440 2 In 1 N4i5006w1",
+  "Price (VND)": 31990000,
+  "url": "https://www.anphatpc.com.vn/laptop-dell-inspiron-14-14-7440-2-in-1-n4i5006w1.html",
+  "saved_path": "data/anphat/raw_htmls\\dell_40.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\dell_40_specs.html"
+}

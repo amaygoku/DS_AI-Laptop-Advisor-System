@@ -1,0 +1,22 @@
+{
+  "Product Name": "LENOVO Loq 15ahp10 83jg0047vn",
+  "Manufacturer": "lenovo",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": "Ryzen 7",
+  "CPU generation": "2",
+  "CPU Speed (GHz)": 5.1,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 144,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.4,
+  "Battery": "60Wh, 170W Slim Tip (3-pin)",
+  "Price (VND)": 32490000,
+  "url": "https://cellphones.com.vn/laptop-lenovo-loq-15ahp10-83jg0047vn.html",
+  "saved_path": "data/cellphones/raw_htmls\\lenovo_9.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_9_specs.html"
+}

@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Acer",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i5",
+  "CPU generation": null,
+  "CPU Speed (GHz)": 4.7,
+  "RAM (GB)": 8.0,
+  "RAM Type": null,
+  "Bus (MHz)": 4800,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "2560 x 1600",
+  "Refresh Rate (Hz)": 165,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.6,
+  "Battery": "4-cell, 90 Wh",
+  "Product Name": "ACER Predator Helios Neo Phn16 71 547e Nh.qlusv.00a",
+  "Price (VND)": 40890000,
+  "url": "https://www.anphatpc.com.vn/laptop-acer-predator-helios-neo-phn16-71-547e-nh.qlusv.00a.html",
+  "saved_path": "data/anphat/raw_htmls\\acer_92.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\acer_92_specs.html"
+}

@@ -1,0 +1,22 @@
+{
+  "Product Name": "HP Gaming Omen 16 Am0176tx Bx9d3pa",
+  "Manufacturer": "hp",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": null,
+  "CPU generation": null,
+  "CPU Speed (GHz)": 5.1,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": 165,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.43,
+  "Battery": "6-cell, 83 Wh Li-ion polymer",
+  "Price (VND)": 43890000,
+  "url": "https://cellphones.com.vn/laptop-hp-gaming-omen-16-am0176tx-bx9d3pa.html",
+  "saved_path": "data/cellphones/raw_htmls\\hp_25.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_25_specs.html"
+}

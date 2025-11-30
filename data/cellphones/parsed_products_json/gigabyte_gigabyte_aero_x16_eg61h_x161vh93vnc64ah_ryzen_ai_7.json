@@ -1,0 +1,22 @@
+{
+  "Product Name": "GIGABYTE Aero X16 Eg61h X161vh93vnc64ah RYZEN Ai 7",
+  "Manufacturer": "gigabyte",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": null,
+  "CPU generation": "3",
+  "CPU Speed (GHz)": 2.0,
+  "RAM (GB)": 32,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "2560 x 1600",
+  "Refresh Rate (Hz)": 165,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 1.99,
+  "Battery": "Li Polymer 76Wh",
+  "Price (VND)": 39690000,
+  "url": "https://cellphones.com.vn/laptop-gigabyte-aero-x16-eg61h-x161vh93vnc64ah-ryzen-ai-7.html",
+  "saved_path": "data/cellphones/raw_htmls\\gigabyte_2.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\gigabyte_2_specs.html"
+}

@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Dell",
+  "CPU manufacturer": null,
+  "CPU brand modifier": null,
+  "CPU generation": null,
+  "CPU Speed (GHz)": 3.4,
+  "RAM (GB)": 16.0,
+  "RAM Type": "LPDDR5X",
+  "Bus (MHz)": 8448,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": null,
+  "Weight (kg)": 1.53,
+  "Battery": "3Cell 54Wh",
+  "Product Name": "DELL Inspiron 14 5441 5mnk1",
+  "Price (VND)": 31990000,
+  "url": "https://www.anphatpc.com.vn/laptop-dell-inspiron-14-5441-5mnk1.html",
+  "saved_path": "data/anphat/raw_htmls\\dell_17.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\dell_17_specs.html"
+}

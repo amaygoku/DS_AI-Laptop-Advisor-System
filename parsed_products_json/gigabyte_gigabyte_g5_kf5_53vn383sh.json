@@ -1,0 +1,22 @@
+{
+  "Product Name": "GIGABYTE G5 Kf5 53vn383sh",
+  "Manufacturer": "gigabyte",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I5",
+  "CPU generation": "51",
+  "CPU Speed (GHz)": 4.7,
+  "RAM (GB)": 8,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 4800,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 144,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.08,
+  "Battery": "54WHrs",
+  "Price (VND)": 26290000,
+  "url": "https://cellphones.com.vn/laptop-gigabyte-g5-kf5-53vn383sh.html",
+  "saved_path": "data/cellphones/raw_htmls\\gigabyte_16.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\gigabyte_16_specs.html"
+}

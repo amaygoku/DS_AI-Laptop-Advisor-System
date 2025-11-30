@@ -1,0 +1,22 @@
+{
+  "Product Name": "LENOVO 100e Gen 2 Celeron",
+  "Manufacturer": "lenovo",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": null,
+  "CPU generation": "40",
+  "CPU Speed (GHz)": 1.1,
+  "RAM (GB)": 4,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 2400,
+  "Storage (GB)": 64,
+  "Screen Size (inch)": 11.6,
+  "Screen Resolution": "1366 x 768",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.21,
+  "Battery": "3 Cell",
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/laptop-lenovo-100e-gen-2-celeron.html",
+  "saved_path": "data/cellphones/raw_htmls\\lenovo_122.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_122_specs.html"
+}

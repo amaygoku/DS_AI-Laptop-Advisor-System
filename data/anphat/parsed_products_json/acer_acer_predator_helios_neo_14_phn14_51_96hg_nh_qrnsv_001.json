@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Acer",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": null,
+  "CPU generation": "185H",
+  "CPU Speed (GHz)": 5.1,
+  "RAM (GB)": 32.0,
+  "RAM Type": null,
+  "Bus (MHz)": 6400,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 14.5,
+  "Screen Resolution": "2560 x 1600",
+  "Refresh Rate (Hz)": 165,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 1.9,
+  "Battery": "76Whr 4-cell",
+  "Product Name": "ACER Predator Helios Neo 14 Phn14 51 96hg Nh.qrnsv.001",
+  "Price (VND)": 59990000,
+  "url": "https://www.anphatpc.com.vn/laptop-acer-predator-helios-neo-14-phn14-51-96hg-nh.qrnsv.001.html",
+  "saved_path": "data/anphat/raw_htmls\\acer_107.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\acer_107_specs.html"
+}

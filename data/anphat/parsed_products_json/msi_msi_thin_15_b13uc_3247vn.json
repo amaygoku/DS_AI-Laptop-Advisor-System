@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "MSI",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i5",
+  "CPU generation": null,
+  "CPU Speed (GHz)": 4.6,
+  "RAM (GB)": 8.0,
+  "RAM Type": null,
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 144,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 1.86,
+  "Battery": "3-Cell, 52.4 Whrs",
+  "Product Name": "MSI Thin 15 B13uc 3247vn",
+  "Price (VND)": 19990000,
+  "url": "https://www.anphatpc.com.vn/laptop-msi-thin-15-b13uc-3247vn.html",
+  "saved_path": "data/anphat/raw_htmls\\msi_14.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\msi_14_specs.html"
+}

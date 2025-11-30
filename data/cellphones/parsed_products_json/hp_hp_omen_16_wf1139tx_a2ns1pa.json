@@ -1,0 +1,22 @@
+{
+  "Product Name": "HP Omen 16 Wf1139tx A2ns1pa",
+  "Manufacturer": "hp",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I7",
+  "CPU generation": "71",
+  "CPU Speed (GHz)": 5.0,
+  "RAM (GB)": 32,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 16.1,
+  "Screen Resolution": "2560 x 1440",
+  "Refresh Rate (Hz)": 240,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.39,
+  "Battery": "6-cell, 83 Wh Li-ion polymer Bộ đổi nguồn AC thông minh 280 W Hỗ trợ sạc pin nhanh: khoảng 50% trong 30 phút",
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/laptop-hp-omen-16-wf1139tx-a2ns1pa.html",
+  "saved_path": "data/cellphones/raw_htmls\\hp_84.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_84_specs.html"
+}

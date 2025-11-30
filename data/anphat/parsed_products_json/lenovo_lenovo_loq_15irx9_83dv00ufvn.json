@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Lenovo",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i7",
+  "CPU generation": null,
+  "CPU Speed (GHz)": 4.9,
+  "RAM (GB)": 12.0,
+  "RAM Type": null,
+  "Bus (MHz)": 4800,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 144,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.38,
+  "Battery": "60Wh",
+  "Product Name": "LENOVO Loq 15irx9 83dv00ufvn",
+  "Price (VND)": 35990000,
+  "url": "https://www.anphatpc.com.vn/laptop-lenovo-loq-15irx9-83dv00ufvn.html",
+  "saved_path": "data/anphat/raw_htmls\\lenovo_146.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\lenovo_146_specs.html"
+}

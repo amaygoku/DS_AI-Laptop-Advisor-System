@@ -1,0 +1,22 @@
+{
+  "Product Name": "Apple MACBOOK Pro 14 M4 10cpu 10gpu 16gb 512gb 2024 Sac 96w",
+  "Manufacturer": "macbook",
+  "CPU manufacturer": null,
+  "CPU brand modifier": null,
+  "CPU generation": null,
+  "CPU Speed (GHz)": null,
+  "RAM (GB)": 16,
+  "RAM Type": null,
+  "Bus (MHz)": null,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.2,
+  "Screen Resolution": "3024 x 1964",
+  "Refresh Rate (Hz)": 120,
+  "GPU manufacturer": null,
+  "Weight (kg)": 1.55,
+  "Battery": "Pin Li-Po 72.4 watt-giờ Thời gian xem video trực tuyến lên đến 24 giờ Thời gian duyệt web trên mạng không dây lên đến 16 giờ",
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/apple-macbook-pro-14-m4-10cpu-10gpu-16gb-512gb-2024-sac-96w.html",
+  "saved_path": "data/cellphones/raw_htmls\\macbook_73.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\macbook_73_specs.html"
+}

@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Dell",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": null,
+  "CPU generation": "150U",
+  "CPU Speed (GHz)": 5.4,
+  "RAM (GB)": 16.0,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.67,
+  "Battery": "4Cell 54WHrs",
+  "Product Name": "DELL Inspiron 14 5440 N4i7204w1",
+  "Price (VND)": 26999000,
+  "url": "https://www.anphatpc.com.vn/laptop-dell-inspiron-14-5440-n4i7204w1.html",
+  "saved_path": "data/anphat/raw_htmls\\dell_15.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\dell_15_specs.html"
+}

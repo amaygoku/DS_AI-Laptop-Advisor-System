@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Dell",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 5",
+  "CPU generation": "226V",
+  "CPU Speed (GHz)": 4.5,
+  "RAM (GB)": 16.0,
+  "RAM Type": "LPDDR5X",
+  "Bus (MHz)": null,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 13.4,
+  "Screen Resolution": "2560 x 1600",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.21,
+  "Battery": "3Cell 55WHrs",
+  "Product Name": "DELL Xps 13 9350 71058714",
+  "Price (VND)": 58990000,
+  "url": "https://www.anphatpc.com.vn/laptop-dell-xps-13-9350-71058714.html",
+  "saved_path": "data/anphat/raw_htmls\\dell_14.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\dell_14_specs.html"
+}

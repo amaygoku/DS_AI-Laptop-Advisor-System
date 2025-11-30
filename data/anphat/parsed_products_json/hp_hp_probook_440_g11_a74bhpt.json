@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "HP",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 7",
+  "CPU generation": "155U",
+  "CPU Speed (GHz)": 4.8,
+  "RAM (GB)": 16.0,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.39,
+  "Battery": "3-cell, 56 Wh",
+  "Product Name": "HP Probook 440 G11 A74bhpt",
+  "Price (VND)": 29990000,
+  "url": "https://www.anphatpc.com.vn/laptop-hp-probook-440-g11-a74bhpt.html",
+  "saved_path": "data/anphat/raw_htmls\\hp_123.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\hp_123_specs.html"
+}

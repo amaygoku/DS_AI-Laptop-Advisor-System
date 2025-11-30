@@ -1,0 +1,22 @@
+{
+  "Product Name": "ASUS Tuf Gaming F16 Fx607vj Rl034w",
+  "Manufacturer": "asus",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": null,
+  "CPU generation": null,
+  "CPU Speed (GHz)": 2.2,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 2048,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": 144,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.2,
+  "Battery": "56WHrs, 4S1P, 4-cell Li-ion",
+  "Price (VND)": 24490000,
+  "url": "https://cellphones.com.vn/laptop-asus-tuf-gaming-f16-fx607vj-rl034w.html",
+  "saved_path": "data/cellphones/raw_htmls\\asus_0.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_0_specs.html"
+}

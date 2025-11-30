@@ -1,0 +1,22 @@
+{
+  "Product Name": "LENOVO Loq 15irx9 83dv0092vn",
+  "Manufacturer": "lenovo",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I7",
+  "CPU generation": "71",
+  "CPU Speed (GHz)": 4.9,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 4800,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 144,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.38,
+  "Battery": "60Wh",
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/laptop-lenovo-loq-15irx9-83dv0092vn.html",
+  "saved_path": "data/cellphones/raw_htmls\\lenovo_133.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_133_specs.html"
+}

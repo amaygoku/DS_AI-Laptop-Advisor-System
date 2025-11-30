@@ -1,0 +1,22 @@
+{
+  "Product Name": "DELL Vostro 3520 F0v0vi3",
+  "Manufacturer": "dell",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I3",
+  "CPU generation": "31",
+  "CPU Speed (GHz)": 1.2,
+  "RAM (GB)": 8,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": null,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 120,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.9,
+  "Battery": "3-cell, 41 Wh lithium-polymer",
+  "Price (VND)": 11990000,
+  "url": "https://cellphones.com.vn/laptop-dell-vostro-3520-f0v0vi3.html",
+  "saved_path": "data/cellphones/raw_htmls\\dell_8.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_8_specs.html"
+}

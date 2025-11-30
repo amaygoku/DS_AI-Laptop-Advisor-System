@@ -1,0 +1,22 @@
+{
+  "Product Name": "HP Gaming Victus 16 E1102ax 7c139pa",
+  "Manufacturer": "hp",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": "Ryzen 7",
+  "CPU generation": "6",
+  "CPU Speed (GHz)": 3.2,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 4800,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 16.1,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.4,
+  "Battery": "70Wh",
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/laptop-hp-gaming-victus-16-e1102ax-7c139pa.html",
+  "saved_path": "data/cellphones/raw_htmls\\hp_65.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_65_specs.html"
+}

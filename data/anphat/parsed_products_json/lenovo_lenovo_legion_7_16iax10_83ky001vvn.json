@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Lenovo",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 9",
+  "CPU generation": "275HX",
+  "CPU Speed (GHz)": 5.4,
+  "RAM (GB)": 32.0,
+  "RAM Type": null,
+  "Bus (MHz)": null,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "2560 x 1600",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.57,
+  "Battery": "80Wh",
+  "Product Name": "LENOVO Legion 7 16iax10 83ky001vvn",
+  "Price (VND)": 69990000,
+  "url": "https://www.anphatpc.com.vn/laptop-lenovo-legion-7-16iax10-83ky001vvn.html",
+  "saved_path": "data/anphat/raw_htmls\\lenovo_44.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\lenovo_44_specs.html"
+}

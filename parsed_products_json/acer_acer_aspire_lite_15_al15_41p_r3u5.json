@@ -1,0 +1,22 @@
+{
+  "Product Name": "ACER Aspire Lite 15 Al15 41p R3u5",
+  "Manufacturer": "acer",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": "Ryzen 7",
+  "CPU generation": "5",
+  "CPU Speed (GHz)": 1.8,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 2048,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "AMD",
+  "Weight (kg)": 1.7,
+  "Battery": "Pin Li-ion 3 cell 58Wh, Bộ chuyển đổi 65W PD Type C",
+  "Price (VND)": 12990000,
+  "url": "https://cellphones.com.vn/laptop-acer-aspire-lite-15-al15-41p-r3u5.html",
+  "saved_path": "data/cellphones/raw_htmls\\acer_15.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_15_specs.html"
+}

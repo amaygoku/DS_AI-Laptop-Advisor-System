@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Acer",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 7",
+  "CPU generation": "258V",
+  "CPU Speed (GHz)": null,
+  "RAM (GB)": 32.0,
+  "RAM Type": null,
+  "Bus (MHz)": 8533,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "2880 x 1800",
+  "Refresh Rate (Hz)": 90,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.26,
+  "Battery": "65 Wh 3-cell Li-ion battery",
+  "Product Name": "ACER Swift Ai Sf14 51 75vp Nx.j2ksv.001",
+  "Price (VND)": 39990000,
+  "url": "https://www.anphatpc.com.vn/laptop-acer-swift-ai-sf14-51-75vp-nx.j2ksv.001.html",
+  "saved_path": "data/anphat/raw_htmls\\acer_44.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\acer_44_specs.html"
+}

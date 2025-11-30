@@ -1,0 +1,22 @@
+{
+  "Product Name": "ACER Nitro V Anv15 41 R2up",
+  "Manufacturer": "acer",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": "Ryzen 5",
+  "CPU generation": "6",
+  "CPU Speed (GHz)": 3.3,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 4800,
+  "Storage (GB)": 4096,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 165,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.1,
+  "Battery": "57Whr 4-cell, 135W AC Adapter",
+  "Price (VND)": 18690000,
+  "url": "https://cellphones.com.vn/laptop-acer-nitro-v-anv15-41-r2up.html",
+  "saved_path": "data/cellphones/raw_htmls\\acer_5.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_5_specs.html"
+}

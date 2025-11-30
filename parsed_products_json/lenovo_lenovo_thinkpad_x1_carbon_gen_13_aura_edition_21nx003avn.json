@@ -1,0 +1,22 @@
+{
+  "Product Name": "LENOVO Thinkpad X1 Carbon Gen 13 Aura Edition 21nx003avn",
+  "Manufacturer": "lenovo",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": null,
+  "CPU generation": null,
+  "CPU Speed (GHz)": 5.1,
+  "RAM (GB)": 32,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 8400,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.006,
+  "Battery": "57Wh, 65W USB-C Slim GaN (3-pin)",
+  "Price (VND)": 57190000,
+  "url": "https://cellphones.com.vn/laptop-lenovo-thinkpad-x1-carbon-gen-13-aura-edition-21nx003avn.html",
+  "saved_path": "data/cellphones/raw_htmls\\lenovo_86.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_86_specs.html"
+}

@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "HP",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 9",
+  "CPU generation": "288V",
+  "CPU Speed (GHz)": 5.1,
+  "RAM (GB)": 32.0,
+  "RAM Type": "LPDDR5X",
+  "Bus (MHz)": 8533,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "2880 x 1800",
+  "Refresh Rate (Hz)": 120,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": null,
+  "Battery": "6-cell, 64 Wh",
+  "Product Name": "HP Omnibook Uf 14 Fh0038tu B2cp4pa",
+  "Price (VND)": 63990000,
+  "url": "https://www.anphatpc.com.vn/laptop-hp-omnibook-uf-14-fh0038tu-b2cp4pa.html",
+  "saved_path": "data/anphat/raw_htmls\\hp_92.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\hp_92_specs.html"
+}

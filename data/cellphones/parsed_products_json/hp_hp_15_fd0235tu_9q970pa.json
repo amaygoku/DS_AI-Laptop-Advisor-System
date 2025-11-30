@@ -1,0 +1,22 @@
+{
+  "Product Name": "HP 15 Fd0235tu 9q970pa",
+  "Manufacturer": "hp",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I5",
+  "CPU generation": "51",
+  "CPU Speed (GHz)": 4.6,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.59,
+  "Battery": "Pin Li-ion polymer 3 cell, công suất 41 Wh Bộ chuyển đổi nguồn điện AC thông minh 45 W Hỗ trợ sạc pin nhanh: khoảng 50% trong 45 phút",
+  "Price (VND)": 19190000,
+  "url": "https://cellphones.com.vn/laptop-hp-15-fd0235tu-9q970pa.html",
+  "saved_path": "data/cellphones/raw_htmls\\hp_31.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_31_specs.html"
+}

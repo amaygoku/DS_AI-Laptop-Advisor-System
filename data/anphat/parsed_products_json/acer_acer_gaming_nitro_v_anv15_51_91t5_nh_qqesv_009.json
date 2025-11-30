@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Acer",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i9",
+  "CPU generation": null,
+  "CPU Speed (GHz)": 5.4,
+  "RAM (GB)": 16.0,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 144,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.1,
+  "Battery": "4 cell - 57 Wh",
+  "Product Name": "ACER Gaming Nitro V Anv15 51 91t5 Nh.qqesv.009",
+  "Price (VND)": 32990000,
+  "url": "https://www.anphatpc.com.vn/laptop-acer-gaming-nitro-v-anv15-51-91t5-nh.qqesv.009.html",
+  "saved_path": "data/anphat/raw_htmls\\acer_88.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\acer_88_specs.html"
+}

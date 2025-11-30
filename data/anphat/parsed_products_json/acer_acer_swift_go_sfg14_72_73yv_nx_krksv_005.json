@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Acer",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 7",
+  "CPU generation": "155H",
+  "CPU Speed (GHz)": 4.8,
+  "RAM (GB)": 16.0,
+  "RAM Type": null,
+  "Bus (MHz)": null,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "2240 x 1400",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.3,
+  "Battery": "65Wh Li-ion",
+  "Product Name": "ACER Swift Go Sfg14 72 73yv Nx.krksv.005",
+  "Price (VND)": 26990000,
+  "url": "https://www.anphatpc.com.vn/laptop-acer-swift-go-sfg14-72-73yv-nx.krksv.005.html",
+  "saved_path": "data/anphat/raw_htmls\\acer_60.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\acer_60_specs.html"
+}

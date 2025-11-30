@@ -1,0 +1,22 @@
+{
+  "Product Name": "MSI Venture Pro 16 Ai A1veg 003vn",
+  "Manufacturer": "msi",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": null,
+  "CPU generation": null,
+  "CPU Speed (GHz)": 0.9,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "2048 x 1280",
+  "Refresh Rate (Hz)": 120,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 1.9,
+  "Battery": "4 cell, 55.2Whr",
+  "Price (VND)": 35990000,
+  "url": "https://cellphones.com.vn/laptop-msi-venture-pro-16-ai-a1veg-003vn.html",
+  "saved_path": "data/cellphones/raw_htmls\\msi_34.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_34_specs.html"
+}

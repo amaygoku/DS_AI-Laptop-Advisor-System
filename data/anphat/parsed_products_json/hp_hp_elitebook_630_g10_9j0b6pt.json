@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "HP",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i7",
+  "CPU generation": "1355U",
+  "CPU Speed (GHz)": 5.0,
+  "RAM (GB)": 8.0,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 13.3,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.22,
+  "Battery": "3-cell, 42 Wh",
+  "Product Name": "HP Elitebook 630 G10 9j0b6pt",
+  "Price (VND)": 26790000,
+  "url": "https://www.anphatpc.com.vn/laptop-hp-elitebook-630-g10-9j0b6pt.html",
+  "saved_path": "data/anphat/raw_htmls\\hp_111.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\hp_111_specs.html"
+}

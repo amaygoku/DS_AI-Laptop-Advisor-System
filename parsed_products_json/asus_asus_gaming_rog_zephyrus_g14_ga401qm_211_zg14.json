@@ -1,0 +1,22 @@
+{
+  "Product Name": "ASUS Gaming Rog Zephyrus G14 Ga401qm 211 Zg14",
+  "Manufacturer": "asus",
+  "CPU manufacturer": null,
+  "CPU brand modifier": "Ryzen 9",
+  "CPU generation": null,
+  "CPU Speed (GHz)": null,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": null,
+  "Refresh Rate (Hz)": 120,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 6.0,
+  "Battery": "4-cell, 76 WHrs",
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/laptop-asus-gaming-rog-zephyrus-g14-ga401qm-211-zg14.html",
+  "saved_path": "data/cellphones/raw_htmls\\asus_130.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_130_specs.html"
+}

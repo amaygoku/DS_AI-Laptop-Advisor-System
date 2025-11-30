@@ -1,0 +1,22 @@
+{
+  "Product Name": "ACER Gaming Nitro V 15 Propanel Anv15 52 59rr",
+  "Manufacturer": "acer",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": null,
+  "CPU generation": null,
+  "CPU Speed (GHz)": 3.6,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 2048,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 180,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.1,
+  "Battery": "76Wh 4-cell Li-ion battery, 135W 5.5PHY Adapter",
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/laptop-acer-gaming-nitro-v-15-propanel-anv15-52-59rr.html",
+  "saved_path": "data/cellphones/raw_htmls\\acer_81.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_81_specs.html"
+}

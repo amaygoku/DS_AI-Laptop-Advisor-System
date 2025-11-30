@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Acer",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i5",
+  "CPU generation": "1334U",
+  "CPU Speed (GHz)": 4.6,
+  "RAM (GB)": 16.0,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 4800,
+  "Storage (GB)": 2048,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.7,
+  "Battery": "58Whr 3-cell 65W PD Type-C Adapter",
+  "Product Name": "ACER Aspire Lite 16 Gen 2 Al16 52p 572a Nx.j2ssv.004",
+  "Price (VND)": 16990000,
+  "url": "https://www.anphatpc.com.vn/laptop-acer-aspire-lite-16-gen-2-al16-52p-572a-nx.j2ssv.004.html",
+  "saved_path": "data/anphat/raw_htmls\\acer_37.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\acer_37_specs.html"
+}

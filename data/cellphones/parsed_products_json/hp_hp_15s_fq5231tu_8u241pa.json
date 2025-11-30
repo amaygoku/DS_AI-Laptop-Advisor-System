@@ -1,0 +1,22 @@
+{
+  "Product Name": "HP 15s Fq5231tu 8u241pa",
+  "Manufacturer": "hp",
+  "CPU manufacturer": null,
+  "CPU brand modifier": "I3",
+  "CPU generation": null,
+  "CPU Speed (GHz)": 1.2,
+  "RAM (GB)": 8,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 256,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1080 x 1920",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 2.0,
+  "Battery": "3 cell",
+  "Price (VND)": 11990000,
+  "url": "https://cellphones.com.vn/laptop-hp-15s-fq5231tu-8u241pa.html",
+  "saved_path": "data/cellphones/raw_htmls\\hp_34.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_34_specs.html"
+}

@@ -1,0 +1,22 @@
+{
+  "Product Name": "ACER Gaming Predator Helios Neo Phn16 72 78l4",
+  "Manufacturer": "acer",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I7",
+  "CPU generation": "71",
+  "CPU Speed (GHz)": 3.9,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "2560 x 1600",
+  "Refresh Rate (Hz)": 240,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.8,
+  "Battery": "90Whr 4-cell 230W 5.5Phy Adapter",
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/laptop-acer-gaming-predator-helios-neo-phn16-72-78l4.html",
+  "saved_path": "data/cellphones/raw_htmls\\acer_76.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_76_specs.html"
+}

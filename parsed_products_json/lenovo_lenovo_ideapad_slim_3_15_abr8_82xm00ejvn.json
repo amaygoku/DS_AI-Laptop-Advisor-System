@@ -1,0 +1,22 @@
+{
+  "Product Name": "LENOVO Ideapad Slim 3 15 Abr8 82xm00ejvn",
+  "Manufacturer": "lenovo",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": "Ryzen 5",
+  "CPU generation": "7",
+  "CPU Speed (GHz)": 4.3,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "AMD",
+  "Weight (kg)": 1.62,
+  "Battery": "47Wh",
+  "Price (VND)": 14390000,
+  "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-3-15-abr8-82xm00ejvn.html",
+  "saved_path": "data/cellphones/raw_htmls\\lenovo_87.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_87_specs.html"
+}

@@ -1,0 +1,22 @@
+{
+  "Product Name": "DELL Vostro 3530 2h1tpi7",
+  "Manufacturer": "dell",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I7",
+  "CPU generation": "71",
+  "CPU Speed (GHz)": 1.2,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 2666,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 120,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.66,
+  "Battery": "41Wh , 3Cell",
+  "Price (VND)": 20990000,
+  "url": "https://cellphones.com.vn/laptop-dell-vostro-3530-2h1tpi7.html",
+  "saved_path": "data/cellphones/raw_htmls\\dell_7.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_7_specs.html"
+}

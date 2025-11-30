@@ -1,0 +1,22 @@
+{
+  "Product Name": "MACBOOK Pro 2020 13 Inch Touch Bar M1 512gb",
+  "Manufacturer": "macbook",
+  "CPU manufacturer": null,
+  "CPU brand modifier": null,
+  "CPU generation": null,
+  "CPU Speed (GHz)": null,
+  "RAM (GB)": 8,
+  "RAM Type": null,
+  "Bus (MHz)": null,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 13.3,
+  "Screen Resolution": "2560 x 1600",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": null,
+  "Weight (kg)": 1.4,
+  "Battery": "58.2-watt-hour lithium-polymer, 61W USB-C Power Adapter",
+  "Price (VND)": 41990000,
+  "url": "https://cellphones.com.vn/macbook-pro-2020-13-inch-touch-bar-m1-512gb.html",
+  "saved_path": "data/cellphones/raw_htmls\\macbook_54.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\macbook_54_specs.html"
+}

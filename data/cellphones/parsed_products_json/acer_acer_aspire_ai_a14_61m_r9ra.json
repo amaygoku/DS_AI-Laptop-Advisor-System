@@ -1,0 +1,22 @@
+{
+  "Product Name": "ACER Aspire Ai A14 61m R9ra",
+  "Manufacturer": "acer",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": null,
+  "CPU generation": "3",
+  "CPU Speed (GHz)": 3.4,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 8533,
+  "Storage (GB)": 2048,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": 120,
+  "GPU manufacturer": "AMD",
+  "Weight (kg)": 1.25,
+  "Battery": "65Wh 4-cell Li-ion battery, 65W TypeC adapter",
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/laptop-acer-aspire-ai-a14-61m-r9ra.html",
+  "saved_path": "data/cellphones/raw_htmls\\acer_36.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_36_specs.html"
+}

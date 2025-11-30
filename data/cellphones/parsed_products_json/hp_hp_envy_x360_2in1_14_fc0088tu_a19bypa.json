@@ -1,0 +1,22 @@
+{
+  "Product Name": "HP Envy X360 2in1 14 Fc0088tu A19bypa",
+  "Manufacturer": "hp",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": null,
+  "CPU generation": null,
+  "CPU Speed (GHz)": 4.8,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 6400,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "2880 x 1800",
+  "Refresh Rate (Hz)": 120,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.39,
+  "Battery": "Li-ion polymer 3 lõi, 59 Wh",
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/laptop-hp-envy-x360-2in1-14-fc0088tu-a19bypa.html",
+  "saved_path": "data/cellphones/raw_htmls\\hp_41.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_41_specs.html"
+}

@@ -143,7 +143,7 @@ class Fpt(BaseCrawler):
                     seen.add(u)
                     dedup.append(u)
             self.log(f'Found {len(dedup)} product links')
-            return dedup
+        return dedup
 
     def _requests_parse_links(self, url: str) -> List[str]:
         """Fallback: parse link bằng requests nếu Selenium không render được."""

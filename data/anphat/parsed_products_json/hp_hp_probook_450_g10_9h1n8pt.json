@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "HP",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i5",
+  "CPU generation": "1335U",
+  "CPU Speed (GHz)": 4.6,
+  "RAM (GB)": 16.0,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 1.79,
+  "Battery": "3-cell, 51 Wh",
+  "Product Name": "HP Probook 450 G10 9h1n8pt",
+  "Price (VND)": 26390000,
+  "url": "https://www.anphatpc.com.vn/laptop-hp-probook-450-g10-9h1n8pt.html",
+  "saved_path": "data/anphat/raw_htmls\\hp_109.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\hp_109_specs.html"
+}

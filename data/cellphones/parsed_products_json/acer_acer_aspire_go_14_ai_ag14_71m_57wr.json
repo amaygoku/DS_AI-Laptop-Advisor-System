@@ -1,0 +1,22 @@
+{
+  "Product Name": "ACER Aspire Go 14 Ai Ag14 71m 57wr",
+  "Manufacturer": "acer",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": null,
+  "CPU generation": null,
+  "CPU Speed (GHz)": 3.6,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 2048,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.5,
+  "Battery": "Pin Li-ion 3 cell 55 Wh Bộ chuyển đổi AC USB Type-C 65 W PD",
+  "Price (VND)": 18990000,
+  "url": "https://cellphones.com.vn/laptop-acer-aspire-go-14-ai-ag14-71m-57wr.html",
+  "saved_path": "data/cellphones/raw_htmls\\acer_30.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_30_specs.html"
+}

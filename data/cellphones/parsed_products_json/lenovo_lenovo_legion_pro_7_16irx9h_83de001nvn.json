@@ -1,0 +1,22 @@
+{
+  "Product Name": "LENOVO Legion Pro 7 16irx9h 83de001nvn",
+  "Manufacturer": "lenovo",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I9",
+  "CPU generation": "91",
+  "CPU Speed (GHz)": 5.8,
+  "RAM (GB)": 32,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "2560 x 1600",
+  "Refresh Rate (Hz)": 240,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.62,
+  "Battery": "99.9Wh",
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/laptop-lenovo-legion-pro-7-16irx9h-83de001nvn.html",
+  "saved_path": "data/cellphones/raw_htmls\\lenovo_134.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_134_specs.html"
+}

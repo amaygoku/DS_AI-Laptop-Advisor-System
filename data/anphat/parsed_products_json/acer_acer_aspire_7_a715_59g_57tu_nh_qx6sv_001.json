@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Acer",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i5",
+  "CPU generation": null,
+  "CPU Speed (GHz)": 4.4,
+  "RAM (GB)": 16.0,
+  "RAM Type": null,
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 144,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 1.99,
+  "Battery": "54.8Wh 3-cell",
+  "Product Name": "ACER Aspire 7 A715 59g 57tu Nh.qx6sv.001",
+  "Price (VND)": 22490000,
+  "url": "https://www.anphatpc.com.vn/laptop-acer-aspire-7-a715-59g-57tu-nh.qx6sv.001.html",
+  "saved_path": "data/anphat/raw_htmls\\acer_23.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\acer_23_specs.html"
+}

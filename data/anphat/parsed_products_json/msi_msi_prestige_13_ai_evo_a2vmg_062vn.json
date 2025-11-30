@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "MSI",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 9",
+  "CPU generation": "288V",
+  "CPU Speed (GHz)": 5.1,
+  "RAM (GB)": 32.0,
+  "RAM Type": "LPDDR5X",
+  "Bus (MHz)": 8533,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 13.3,
+  "Screen Resolution": "2880 x 1800",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 0.99,
+  "Battery": "4Cell 75WHrs",
+  "Product Name": "MSI Prestige 13 Ai Evo A2vmg 062vn",
+  "Price (VND)": 44990000,
+  "url": "https://www.anphatpc.com.vn/laptop-msi-prestige-13-ai-evo-a2vmg-062vn.html",
+  "saved_path": "data/anphat/raw_htmls\\msi_53.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\msi_53_specs.html"
+}

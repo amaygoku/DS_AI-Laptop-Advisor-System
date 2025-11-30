@@ -1,0 +1,22 @@
+{
+  "Product Name": "MACBOOK Pro 14 Inch M5 10 Cpu 10 Gpu 24gb 512gb Nano",
+  "Manufacturer": "macbook",
+  "CPU manufacturer": null,
+  "CPU brand modifier": null,
+  "CPU generation": null,
+  "CPU Speed (GHz)": null,
+  "RAM (GB)": 24,
+  "RAM Type": null,
+  "Bus (MHz)": null,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.2,
+  "Screen Resolution": "3024 x 1964",
+  "Refresh Rate (Hz)": 120,
+  "GPU manufacturer": null,
+  "Weight (kg)": 1.55,
+  "Battery": "Thời gian xem video trực tuyến lên đến 24 giờ Thời gian duyệt web trên mạng không dây lên đến 16 giờ Pin Li-Po 72.4 watt-giờ",
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/macbook-pro-14-inch-m5-10-cpu-10-gpu-24gb-512gb-nano.html",
+  "saved_path": "data/cellphones/raw_htmls\\macbook_29.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\macbook_29_specs.html"
+}

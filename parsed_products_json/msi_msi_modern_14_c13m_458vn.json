@@ -1,0 +1,22 @@
+{
+  "Product Name": "MSI Modern 14 C13m 458vn",
+  "Manufacturer": "msi",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I5",
+  "CPU generation": "51",
+  "CPU Speed (GHz)": 1.3,
+  "RAM (GB)": 8,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.4,
+  "Battery": "3 cell, 39.3Whr",
+  "Price (VND)": 17990000,
+  "url": "https://cellphones.com.vn/laptop-msi-modern-14-c13m-458vn.html",
+  "saved_path": "data/cellphones/raw_htmls\\msi_32.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_32_specs.html"
+}

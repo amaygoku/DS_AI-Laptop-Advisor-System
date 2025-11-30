@@ -1,0 +1,22 @@
+{
+  "Product Name": "ASUS Expertbook P5 P5405csa Nz0451w",
+  "Manufacturer": "asus",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": null,
+  "CPU generation": null,
+  "CPU Speed (GHz)": 1.6,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": null,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "2560 x 1600",
+  "Refresh Rate (Hz)": 144,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.27,
+  "Battery": "63WHrs, 3S1P, 3-cell Li-ion",
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/laptop-asus-expertbook-p5-p5405csa-nz0451w.html",
+  "saved_path": "data/cellphones/raw_htmls\\asus_121.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_121_specs.html"
+}

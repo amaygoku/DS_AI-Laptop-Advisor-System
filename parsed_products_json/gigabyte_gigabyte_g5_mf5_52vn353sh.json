@@ -1,0 +1,22 @@
+{
+  "Product Name": "GIGABYTE G5 Mf5 52vn353sh",
+  "Manufacturer": "gigabyte",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I5",
+  "CPU generation": "51",
+  "CPU Speed (GHz)": 2.6,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 4800,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 144,
+  "GPU manufacturer": null,
+  "Weight (kg)": 2.0,
+  "Battery": "54 Wh, Pin liền",
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/laptop-gigabyte-g5-mf5-52vn353sh.html",
+  "saved_path": "data/cellphones/raw_htmls\\gigabyte_14.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\gigabyte_14_specs.html"
+}

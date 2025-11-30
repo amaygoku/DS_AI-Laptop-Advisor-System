@@ -1,0 +1,22 @@
+{
+  "Product Name": "LENOVO Ideapad Flex 5 14abr8 82xx00fwvn",
+  "Manufacturer": "lenovo",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": "Ryzen 7",
+  "CPU generation": "5",
+  "CPU Speed (GHz)": 4.5,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 4266,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "AMD",
+  "Weight (kg)": 1.55,
+  "Battery": "52.5Wh (65W Round Tip (3-pin))",
+  "Price (VND)": 18990000,
+  "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-flex-5-14abr8-82xx00fwvn.html",
+  "saved_path": "data/cellphones/raw_htmls\\lenovo_55.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_55_specs.html"
+}

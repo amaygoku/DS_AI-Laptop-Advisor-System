@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Dell",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i7",
+  "CPU generation": null,
+  "CPU Speed (GHz)": null,
+  "RAM (GB)": 16.0,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 4800,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": null,
+  "Battery": "6-cell 100Wh",
+  "Product Name": "DELL Mobile Precision Workstation 5680 71023332",
+  "Price (VND)": 85990000,
+  "url": "https://www.anphatpc.com.vn/laptop-dell-mobile-precision-workstation-5680-71023332.html",
+  "saved_path": "data/anphat/raw_htmls\\dell_48.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\dell_48_specs.html"
+}

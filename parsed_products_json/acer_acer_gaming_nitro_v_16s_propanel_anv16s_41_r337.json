@@ -1,0 +1,22 @@
+{
+  "Product Name": "ACER Gaming Nitro V 16s Propanel Anv16s 41 R337",
+  "Manufacturer": "acer",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": "Ryzen 7",
+  "CPU generation": "2",
+  "CPU Speed (GHz)": 3.8,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 4096,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": 180,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.1,
+  "Battery": "76Wh 4-cell Li-ion battery, 135W 5.5PHY Adapter",
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/laptop-acer-gaming-nitro-v-16s-propanel-anv16s-41-r337.html",
+  "saved_path": "data/cellphones/raw_htmls\\acer_86.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_86_specs.html"
+}

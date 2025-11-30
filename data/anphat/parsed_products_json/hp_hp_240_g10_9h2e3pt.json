@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "HP",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i5",
+  "CPU generation": "1335U",
+  "CPU Speed (GHz)": 4.6,
+  "RAM (GB)": 8.0,
+  "RAM Type": null,
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.47,
+  "Battery": "3-cell, 41 Wh Li-ion",
+  "Product Name": "HP 240 G10 9h2e3pt",
+  "Price (VND)": 18790000,
+  "url": "https://www.anphatpc.com.vn/laptop-hp-240-g10-9h2e3pt.html",
+  "saved_path": "data/anphat/raw_htmls\\hp_112.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\hp_112_specs.html"
+}

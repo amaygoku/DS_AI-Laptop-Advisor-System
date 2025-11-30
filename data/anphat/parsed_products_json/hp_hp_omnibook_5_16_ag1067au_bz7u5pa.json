@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "HP",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": null,
+  "CPU generation": null,
+  "CPU Speed (GHz)": 5.0,
+  "RAM (GB)": 16.0,
+  "RAM Type": null,
+  "Bus (MHz)": 7500,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "AMD",
+  "Weight (kg)": 1.79,
+  "Battery": "3-cell, 59 Wh",
+  "Product Name": "HP Omnibook 5 16 Ag1067au Bz7u5pa",
+  "Price (VND)": 28990000,
+  "url": "https://www.anphatpc.com.vn/laptop-hp-omnibook-5-16-ag1067au-bz7u5pa.html",
+  "saved_path": "data/anphat/raw_htmls\\hp_50.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\hp_50_specs.html"
+}

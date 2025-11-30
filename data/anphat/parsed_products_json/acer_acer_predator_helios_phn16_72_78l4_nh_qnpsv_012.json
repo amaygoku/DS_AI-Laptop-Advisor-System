@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Acer",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i7",
+  "CPU generation": null,
+  "CPU Speed (GHz)": 5.5,
+  "RAM (GB)": 16.0,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "2560 x 1600",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.8,
+  "Battery": "90WHrs, 4-cell Li-ion",
+  "Product Name": "ACER Predator Helios Phn16 72 78l4 Nh.qnpsv.012",
+  "Price (VND)": 43990000,
+  "url": "https://www.anphatpc.com.vn/laptop-acer-predator-helios-phn16-72-78l4-nh.qnpsv.012.html",
+  "saved_path": "data/anphat/raw_htmls\\acer_106.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\acer_106_specs.html"
+}

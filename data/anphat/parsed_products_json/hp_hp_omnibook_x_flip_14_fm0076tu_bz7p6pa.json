@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "HP",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 7",
+  "CPU generation": "258V",
+  "CPU Speed (GHz)": 4.8,
+  "RAM (GB)": 32.0,
+  "RAM Type": null,
+  "Bus (MHz)": 8533,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.38,
+  "Battery": "3-cell, 59 Wh",
+  "Product Name": "HP Omnibook X Flip 14 Fm0076tu Bz7p6pa",
+  "Price (VND)": 37990000,
+  "url": "https://www.anphatpc.com.vn/laptop-hp-omnibook-x-flip-14-fm0076tu-bz7p6pa.html",
+  "saved_path": "data/anphat/raw_htmls\\hp_26.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\hp_26_specs.html"
+}

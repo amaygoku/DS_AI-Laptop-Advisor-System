@@ -1,0 +1,22 @@
+{
+  "Product Name": "LENOVO Loq 15arp9 83jc00hxvn",
+  "Manufacturer": "lenovo",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": "Ryzen 5",
+  "CPU generation": "7",
+  "CPU Speed (GHz)": 4.2,
+  "RAM (GB)": 12,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 4800,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 144,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.38,
+  "Battery": "60Wh (Đầu mỏng 170W (3 chân))",
+  "Price (VND)": 22990000,
+  "url": "https://cellphones.com.vn/laptop-lenovo-loq-15arp9-83jc00hxvn.html",
+  "saved_path": "data/cellphones/raw_htmls\\lenovo_69.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_69_specs.html"
+}

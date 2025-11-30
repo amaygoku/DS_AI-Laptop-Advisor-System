@@ -1,0 +1,22 @@
+{
+  "Product Name": "HP Elitebook 820 G3",
+  "Manufacturer": "hp",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I5",
+  "CPU generation": "62",
+  "CPU Speed (GHz)": 2.4,
+  "RAM (GB)": 8,
+  "RAM Type": "DDR3",
+  "Bus (MHz)": 2133,
+  "Storage (GB)": 256,
+  "Screen Size (inch)": 12.5,
+  "Screen Resolution": "1366 x 768",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.28,
+  "Battery": null,
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/laptop-hp-elitebook-820-g3.html",
+  "saved_path": "data/cellphones/raw_htmls\\hp_44.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_44_specs.html"
+}

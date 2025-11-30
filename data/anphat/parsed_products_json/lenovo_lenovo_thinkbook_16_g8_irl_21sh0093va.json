@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Lenovo",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": null,
+  "CPU generation": "210H",
+  "CPU Speed (GHz)": 4.8,
+  "RAM (GB)": 16.0,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": null,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.7,
+  "Battery": "45Wh",
+  "Product Name": "LENOVO Thinkbook 16 G8 Irl 21sh0093va",
+  "Price (VND)": 20990000,
+  "url": "https://www.anphatpc.com.vn/laptop-lenovo-thinkbook-16-g8-irl-21sh0093va.html",
+  "saved_path": "data/anphat/raw_htmls\\lenovo_12.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\lenovo_12_specs.html"
+}

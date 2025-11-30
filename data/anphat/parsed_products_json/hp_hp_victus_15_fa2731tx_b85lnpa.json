@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "HP",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i5",
+  "CPU generation": null,
+  "CPU Speed (GHz)": 4.6,
+  "RAM (GB)": 16.0,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 144,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.29,
+  "Battery": "3-cell, 52.5 Wh",
+  "Product Name": "HP Victus 15 Fa2731tx B85lnpa",
+  "Price (VND)": 23990000,
+  "url": "https://www.anphatpc.com.vn/laptop-hp-victus-15-fa2731tx-b85lnpa.html",
+  "saved_path": "data/anphat/raw_htmls\\hp_7.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\hp_7_specs.html"
+}

@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Lenovo",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": null,
+  "CPU generation": "240H",
+  "CPU Speed (GHz)": 5.2,
+  "RAM (GB)": 16.0,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": null,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.34,
+  "Battery": "3 cell, 48WH",
+  "Product Name": "LENOVO Thinkpad E14 Gen 7 21t90021va",
+  "Price (VND)": 24999000,
+  "url": "https://www.anphatpc.com.vn/laptop-lenovo-thinkpad-e14-gen-7-21t90021va.html",
+  "saved_path": "data/anphat/raw_htmls\\lenovo_42.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\lenovo_42_specs.html"
+}

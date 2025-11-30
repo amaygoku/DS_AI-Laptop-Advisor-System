@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "HP",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 7",
+  "CPU generation": "255H",
+  "CPU Speed (GHz)": 5.1,
+  "RAM (GB)": 16.0,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.4,
+  "Battery": "3-cell 56Wh",
+  "Product Name": "HP Elitebook 6 G1i Bq9n4pt",
+  "Price (VND)": 33990000,
+  "url": "https://www.anphatpc.com.vn/laptop-hp-elitebook-6-g1i-bq9n4pt.html",
+  "saved_path": "data/anphat/raw_htmls\\hp_3.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\hp_3_specs.html"
+}

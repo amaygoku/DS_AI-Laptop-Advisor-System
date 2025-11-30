@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "HP",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 7",
+  "CPU generation": "155H",
+  "CPU Speed (GHz)": 4.8,
+  "RAM (GB)": 16.0,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": null,
+  "Battery": "3-cell, 56 Wh Li-ion",
+  "Product Name": "HP Probook 460 G11 A74c2pt",
+  "Price (VND)": 28990000,
+  "url": "https://www.anphatpc.com.vn/laptop-hp-probook-460-g11-a74c2pt.html",
+  "saved_path": "data/anphat/raw_htmls\\hp_135.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\hp_135_specs.html"
+}

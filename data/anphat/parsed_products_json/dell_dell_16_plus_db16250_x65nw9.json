@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Dell",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": null,
+  "CPU generation": "288V",
+  "CPU Speed (GHz)": 5.1,
+  "RAM (GB)": 32.0,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": null,
+  "Storage (GB)": 2048,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": null,
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.87,
+  "Battery": "4cell 64Whr",
+  "Product Name": "DELL 16 Plus Db16250 X65nw9",
+  "Price (VND)": 49990000,
+  "url": "https://www.anphatpc.com.vn/laptop-dell-16-plus-db16250-x65nw9.html",
+  "saved_path": "data/anphat/raw_htmls\\dell_24.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\dell_24_specs.html"
+}

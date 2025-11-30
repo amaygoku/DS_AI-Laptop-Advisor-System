@@ -1,0 +1,22 @@
+{
+  "Product Name": "ASUS Vivobook Pro M3401qa Km006w",
+  "Manufacturer": "asus",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": "Ryzen 5",
+  "CPU generation": "5",
+  "CPU Speed (GHz)": null,
+  "RAM (GB)": 8,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "2880 x 1800",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "AMD",
+  "Weight (kg)": 1.4,
+  "Battery": "3-cell Li-ion, 63 Wh",
+  "Price (VND)": 17800000,
+  "url": "https://cellphones.com.vn/laptop-asus-vivobook-pro-m3401qa-km006w.html",
+  "saved_path": "data/cellphones/raw_htmls\\asus_101.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_101_specs.html"
+}

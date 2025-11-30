@@ -1,0 +1,22 @@
+{
+  "Product Name": "MACBOOK Air 13 M3 24gb 512gb 2024 Sac 35w",
+  "Manufacturer": "macbook",
+  "CPU manufacturer": null,
+  "CPU brand modifier": null,
+  "CPU generation": null,
+  "CPU Speed (GHz)": null,
+  "RAM (GB)": 24,
+  "RAM Type": null,
+  "Bus (MHz)": null,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 13.6,
+  "Screen Resolution": null,
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": null,
+  "Weight (kg)": null,
+  "Battery": null,
+  "Price (VND)": 37990000,
+  "url": "https://cellphones.com.vn/macbook-air-13-m3-24gb-512gb-2024-sac-35w.html",
+  "saved_path": "data/cellphones/raw_htmls\\macbook_47.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\macbook_47_specs.html"
+}

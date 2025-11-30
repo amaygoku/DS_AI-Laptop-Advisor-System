@@ -1,0 +1,22 @@
+{
+  "Product Name": "HP 245 G10 B8pf8at",
+  "Manufacturer": "hp",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": "Ryzen 5",
+  "CPU generation": "7",
+  "CPU Speed (GHz)": 4.5,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 256,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "AMD",
+  "Weight (kg)": 1.36,
+  "Battery": "HP Long Life 3-cell, 41 Wh Li-ion",
+  "Price (VND)": 15590000,
+  "url": "https://cellphones.com.vn/laptop-hp-245-g10-b8pf8at.html",
+  "saved_path": "data/cellphones/raw_htmls\\hp_2.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_2_specs.html"
+}

@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "HP",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": "Ryzen 5",
+  "CPU generation": "7535U",
+  "CPU Speed (GHz)": 4.55,
+  "RAM (GB)": 16.0,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 4800,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "AMD",
+  "Weight (kg)": 1.74,
+  "Battery": "3-cell, 56 Wh",
+  "Product Name": "HP Probook 465 G11 A8xg2pt",
+  "Price (VND)": 23990000,
+  "url": "https://www.anphatpc.com.vn/laptop-hp-probook-465-g11-a8xg2pt.html",
+  "saved_path": "data/anphat/raw_htmls\\hp_101.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\hp_101_specs.html"
+}

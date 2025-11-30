@@ -1,0 +1,22 @@
+{
+  "Product Name": "HP Victus 16 S0136ax 9q984pa",
+  "Manufacturer": "hp",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": "Ryzen 5",
+  "CPU generation": "7",
+  "CPU Speed (GHz)": 0.0,
+  "RAM (GB)": 32,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 16.1,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 144,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.31,
+  "Battery": "4 cell, 70 Wh Li-ion polime Bộ chuyển đổi nguồn điện AC thông minh 200 W Hỗ trợ sạc pin nhanh: khoảng 50% trong 30 phút Thời lượng pin Lên đến 7 tiếng 45 phút",
+  "Price (VND)": 28990000,
+  "url": "https://cellphones.com.vn/laptop-hp-victus-16-s0136ax-9q984pa.html",
+  "saved_path": "data/cellphones/raw_htmls\\hp_32.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_32_specs.html"
+}

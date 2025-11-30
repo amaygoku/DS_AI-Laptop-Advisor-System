@@ -1,0 +1,22 @@
+{
+  "Product Name": "HP Victus 16 R0376tx Ay8z2pa",
+  "Manufacturer": "hp",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I7",
+  "CPU generation": "71",
+  "CPU Speed (GHz)": 5.0,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 4800,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 16.1,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 165,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.31,
+  "Battery": "4-cell, 70 Wh Li-ion polymer Bộ đổi nguồn AC thông minh 200 W Hỗ trợ sạc pin nhanh: khoảng 50% trong 30 phút",
+  "Price (VND)": 32690000,
+  "url": "https://cellphones.com.vn/laptop-hp-victus-16-r0376tx-ay8z2pa.html",
+  "saved_path": "data/cellphones/raw_htmls\\hp_27.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_27_specs.html"
+}

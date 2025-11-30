@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Lenovo",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i5",
+  "CPU generation": "1235U",
+  "CPU Speed (GHz)": 4.4,
+  "RAM (GB)": 8.0,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": null,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.65,
+  "Battery": "3 Cell, 52.5Wh",
+  "Product Name": "LENOVO Thinkpad T16 G1 21bv00ekva",
+  "Price (VND)": 28290000,
+  "url": "https://www.anphatpc.com.vn/laptop-lenovo-thinkpad-t16-g1-21bv00ekva.html",
+  "saved_path": "data/anphat/raw_htmls\\lenovo_233.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\lenovo_233_specs.html"
+}

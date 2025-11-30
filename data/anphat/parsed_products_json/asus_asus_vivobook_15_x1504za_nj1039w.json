@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Asus",
+  "CPU manufacturer": null,
+  "CPU brand modifier": null,
+  "CPU generation": "1255U",
+  "CPU Speed (GHz)": 4.4,
+  "RAM (GB)": 8.0,
+  "RAM Type": null,
+  "Bus (MHz)": null,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.7,
+  "Battery": "3-cell, 42WHrs",
+  "Product Name": "ASUS Vivobook 15 X1504za Nj1039w",
+  "Price (VND)": 17690000,
+  "url": "https://www.anphatpc.com.vn/laptop-asus-vivobook-15-x1504za-nj1039w.html",
+  "saved_path": "data/anphat/raw_htmls\\asus_113.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\asus_113_specs.html"
+}

@@ -1,0 +1,22 @@
+{
+  "Product Name": "ACER Gaming Nitro V 15 Propanel Anv15 41 R7cr",
+  "Manufacturer": "acer",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": "Ryzen 5",
+  "CPU generation": "7",
+  "CPU Speed (GHz)": 3.3,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 4800,
+  "Storage (GB)": 4096,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 180,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.1,
+  "Battery": "57Whr 4-cell Li-ion Battery, 135W AC Adapter",
+  "Price (VND)": 26990000,
+  "url": "https://cellphones.com.vn/laptop-acer-gaming-nitro-v-15-propanel-anv15-41-r7cr.html",
+  "saved_path": "data/cellphones/raw_htmls\\acer_7.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_7_specs.html"
+}

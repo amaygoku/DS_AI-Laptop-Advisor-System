@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Asus",
+  "CPU manufacturer": null,
+  "CPU brand modifier": null,
+  "CPU generation": null,
+  "CPU Speed (GHz)": null,
+  "RAM (GB)": 8.0,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": null,
+  "Screen Size (inch)": null,
+  "Screen Resolution": null,
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": null,
+  "Weight (kg)": 1.69,
+  "Battery": "3 Cell 42WHr",
+  "Product Name": "ASUS Expertbook B1 B1502cva Nj0148w",
+  "Price (VND)": 19990000,
+  "url": "https://www.anphatpc.com.vn/laptop-asus-expertbook-b1-b1502cva-nj0148w.html",
+  "saved_path": "data/anphat/raw_htmls\\asus_147.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\asus_147_specs.html"
+}

@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Asus",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i3",
+  "CPU generation": "1315U",
+  "CPU Speed (GHz)": 4.5,
+  "RAM (GB)": 8.0,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.4,
+  "Battery": "42WHrs, 3S1P, 3-cell Li-ion",
+  "Product Name": "ASUS Vivobook X1404va Nk394w",
+  "Price (VND)": 12460000,
+  "url": "https://www.anphatpc.com.vn/laptop-asus-vivobook-x1404va-nk394w.html",
+  "saved_path": "data/anphat/raw_htmls\\asus_74.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\asus_74_specs.html"
+}

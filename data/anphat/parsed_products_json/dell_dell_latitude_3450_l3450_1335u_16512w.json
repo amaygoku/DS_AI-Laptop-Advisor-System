@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Dell",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i5",
+  "CPU generation": "1335U",
+  "CPU Speed (GHz)": null,
+  "RAM (GB)": 16.0,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.5,
+  "Battery": "3Cell 42WHrs",
+  "Product Name": "DELL Latitude 3450 L3450 1335u 16512w",
+  "Price (VND)": 22990000,
+  "url": "https://www.anphatpc.com.vn/laptop-dell-latitude-3450-l3450-1335u-16512w.html",
+  "saved_path": "data/anphat/raw_htmls\\dell_36.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\dell_36_specs.html"
+}

@@ -1,0 +1,22 @@
+{
+  "Product Name": "ACER Aspire 5 A514 56p 55k5",
+  "Manufacturer": "acer",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I5",
+  "CPU generation": "51",
+  "CPU Speed (GHz)": 1.3,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 6400,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1200 x 1920",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.5,
+  "Battery": "3 cell 50 Wh , Pin liền",
+  "Price (VND)": 16990000,
+  "url": "https://cellphones.com.vn/laptop-acer-aspire-5-a514-56p-55k5.html",
+  "saved_path": "data/cellphones/raw_htmls\\acer_87.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_87_specs.html"
+}

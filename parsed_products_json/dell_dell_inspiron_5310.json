@@ -1,0 +1,22 @@
+{
+  "Product Name": "DELL Inspiron 5310",
+  "Manufacturer": "dell",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I3",
+  "CPU generation": "11",
+  "CPU Speed (GHz)": 2.0,
+  "RAM (GB)": 8,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 4267,
+  "Storage (GB)": 256,
+  "Screen Size (inch)": 13.3,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.28,
+  "Battery": "54 Wh 4 celll",
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/laptop-dell-inspiron-5310.html",
+  "saved_path": "data/cellphones/raw_htmls\\dell_28.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_28_specs.html"
+}

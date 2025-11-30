@@ -1,0 +1,22 @@
+{
+  "Product Name": "LENOVO Ideapad Slim 3 14irh10 83k00009vn",
+  "Manufacturer": "lenovo",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I7",
+  "CPU generation": "71",
+  "CPU Speed (GHz)": 4.9,
+  "RAM (GB)": 24,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 4800,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.43,
+  "Battery": "60Wh (Đầu tròn 65W (3 chân)",
+  "Price (VND)": 20990000,
+  "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-3-14irh10-83k00009vn.html",
+  "saved_path": "data/cellphones/raw_htmls\\lenovo_30.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_30_specs.html"
+}

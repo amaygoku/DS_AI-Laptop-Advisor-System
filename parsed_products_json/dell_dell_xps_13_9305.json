@@ -1,0 +1,22 @@
+{
+  "Product Name": "DELL Xps 13 9305",
+  "Manufacturer": "dell",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I5",
+  "CPU generation": "11",
+  "CPU Speed (GHz)": null,
+  "RAM (GB)": 8,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 4266,
+  "Storage (GB)": 256,
+  "Screen Size (inch)": 13.3,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.29,
+  "Battery": "7 giờ sử dụng liên tục với Microsoft Word",
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/laptop-dell-xps-13-9305.html",
+  "saved_path": "data/cellphones/raw_htmls\\dell_47.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_47_specs.html"
+}

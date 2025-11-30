@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Lenovo",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i7",
+  "CPU generation": null,
+  "CPU Speed (GHz)": 4.7,
+  "RAM (GB)": 16.0,
+  "RAM Type": null,
+  "Bus (MHz)": null,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.47,
+  "Battery": "3 Cell, 50WH",
+  "Product Name": "LENOVO Thinkpad T14 Gen 2 20w1s5vd00",
+  "Price (VND)": 25990000,
+  "url": "https://www.anphatpc.com.vn/laptop-lenovo-thinkpad-t14-gen-2-20w1s5vd00.html",
+  "saved_path": "data/anphat/raw_htmls\\lenovo_171.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\lenovo_171_specs.html"
+}

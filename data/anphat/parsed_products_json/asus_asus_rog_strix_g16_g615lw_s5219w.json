@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Asus",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 9",
+  "CPU generation": "275HX",
+  "CPU Speed (GHz)": 5.4,
+  "RAM (GB)": 16.0,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "2560 x 1600",
+  "Refresh Rate (Hz)": 240,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.65,
+  "Battery": "4-cell, 90WHrs",
+  "Product Name": "ASUS Rog Strix G16 G615lw S5219w",
+  "Price (VND)": 73690000,
+  "url": "https://www.anphatpc.com.vn/laptop-asus-rog-strix-g16-g615lw-s5219w.html",
+  "saved_path": "data/anphat/raw_htmls\\asus_50.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\asus_50_specs.html"
+}

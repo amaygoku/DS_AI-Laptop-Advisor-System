@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "HP",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": "Ryzen 7",
+  "CPU generation": "8840HS",
+  "CPU Speed (GHz)": 5.1,
+  "RAM (GB)": 16.0,
+  "RAM Type": "LPDDR5",
+  "Bus (MHz)": 6400,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "2880 x 1800",
+  "Refresh Rate (Hz)": 120,
+  "GPU manufacturer": "AMD",
+  "Weight (kg)": null,
+  "Battery": "3-cell, 59 Wh",
+  "Product Name": "HP Envy X360 14 Fa0095au Ay8u5pa",
+  "Price (VND)": 35990000,
+  "url": "https://www.anphatpc.com.vn/laptop-hp-envy-x360-14-fa0095au-ay8u5pa.html",
+  "saved_path": "data/anphat/raw_htmls\\hp_80.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\hp_80_specs.html"
+}

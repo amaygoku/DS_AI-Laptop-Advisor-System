@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Asus",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i3",
+  "CPU generation": "1315U",
+  "CPU Speed (GHz)": 4.5,
+  "RAM (GB)": 8.0,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.4,
+  "Battery": "3 cell 42 Wh , Pin liền",
+  "Product Name": "ASUS Vivobook X1404va Eb509w",
+  "Price (VND)": 12190000,
+  "url": "https://www.anphatpc.com.vn/laptop-asus-vivobook-x1404va-eb509w.html",
+  "saved_path": "data/anphat/raw_htmls\\asus_11.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\asus_11_specs.html"
+}

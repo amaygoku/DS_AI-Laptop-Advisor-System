@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Acer",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i5",
+  "CPU generation": null,
+  "CPU Speed (GHz)": 4.4,
+  "RAM (GB)": 16.0,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 4800,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.79,
+  "Battery": "58Wh 3-cell Li-ion battery Adapter 90W_5.5PHY",
+  "Product Name": "ACER Aspire Lite 15 Al15 71p 517d Nx.j7ksv.001",
+  "Price (VND)": 15490000,
+  "url": "https://www.anphatpc.com.vn/laptop-acer-aspire-lite-15-al15-71p-517d-nx.j7ksv.001.html",
+  "saved_path": "data/anphat/raw_htmls\\acer_5.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\acer_5_specs.html"
+}

@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Dell",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 5",
+  "CPU generation": "135U",
+  "CPU Speed (GHz)": null,
+  "RAM (GB)": 16.0,
+  "RAM Type": "LPDDR5",
+  "Bus (MHz)": 6400,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 13.3,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.15,
+  "Battery": "3Cell 54WHrs",
+  "Product Name": "DELL Latitude 7350 L7350 135u 16512w",
+  "Price (VND)": 38990000,
+  "url": "https://www.anphatpc.com.vn/laptop-dell-latitude-7350-l7350-135u-16512w.html",
+  "saved_path": "data/anphat/raw_htmls\\dell_45.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\dell_45_specs.html"
+}

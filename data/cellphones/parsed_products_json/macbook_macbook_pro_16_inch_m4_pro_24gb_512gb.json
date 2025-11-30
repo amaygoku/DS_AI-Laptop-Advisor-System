@@ -1,0 +1,22 @@
+{
+  "Product Name": "MACBOOK Pro 16 Inch M4 Pro 24gb 512gb",
+  "Manufacturer": "macbook",
+  "CPU manufacturer": null,
+  "CPU brand modifier": null,
+  "CPU generation": null,
+  "CPU Speed (GHz)": null,
+  "RAM (GB)": 24,
+  "RAM Type": null,
+  "Bus (MHz)": null,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 16.2,
+  "Screen Resolution": "3456 x 2234",
+  "Refresh Rate (Hz)": 120,
+  "GPU manufacturer": null,
+  "Weight (kg)": 2.14,
+  "Battery": "Pin Li-Po 100 watt-giờ Thời gian xem video trực tuyến lên đến 24 giờ Thời gian duyệt web trên mạng không dây lên đến 17 giờ",
+  "Price (VND)": 66990000,
+  "url": "https://cellphones.com.vn/macbook-pro-16-inch-m4-pro-24gb-512gb.html",
+  "saved_path": "data/cellphones/raw_htmls\\macbook_19.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\macbook_19_specs.html"
+}

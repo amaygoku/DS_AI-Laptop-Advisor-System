@@ -1,0 +1,22 @@
+{
+  "Product Name": "DELL Inspiron 14 5440 D0f3w",
+  "Manufacturer": "dell",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I5",
+  "CPU generation": "51",
+  "CPU Speed (GHz)": 4.6,
+  "RAM (GB)": 24,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 4400,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.69,
+  "Battery": "3 cell 41 Wh",
+  "Price (VND)": 18990000,
+  "url": "https://cellphones.com.vn/laptop-dell-inspiron-14-5440-d0f3w.html",
+  "saved_path": "data/cellphones/raw_htmls\\dell_0.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_0_specs.html"
+}

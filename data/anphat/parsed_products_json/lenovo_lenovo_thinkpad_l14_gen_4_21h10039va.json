@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Lenovo",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i5",
+  "CPU generation": "1340P",
+  "CPU Speed (GHz)": 4.6,
+  "RAM (GB)": 8.0,
+  "RAM Type": null,
+  "Bus (MHz)": null,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.4,
+  "Battery": "3 cell /46.5Wh",
+  "Product Name": "LENOVO Thinkpad L14 Gen 4 21h10039va",
+  "Price (VND)": 22990000,
+  "url": "https://www.anphatpc.com.vn/laptop-lenovo-thinkpad-l14-gen-4-21h10039va.html",
+  "saved_path": "data/anphat/raw_htmls\\lenovo_145.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\lenovo_145_specs.html"
+}

@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Asus",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i5",
+  "CPU generation": null,
+  "CPU Speed (GHz)": 4.6,
+  "RAM (GB)": 16.0,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.6,
+  "Battery": "42WHrs, 3S1P, 3-cell Li-ion",
+  "Product Name": "ASUS Vivobook 14 X1405va Ly623w",
+  "Price (VND)": 16190000,
+  "url": "https://www.anphatpc.com.vn/laptop-asus-vivobook-14-x1405va-ly623w.html",
+  "saved_path": "data/anphat/raw_htmls\\asus_35.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\asus_35_specs.html"
+}

@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "HP",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": null,
+  "CPU generation": "240H",
+  "CPU Speed (GHz)": 5.2,
+  "RAM (GB)": 32.0,
+  "RAM Type": null,
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.91,
+  "Battery": "4-cell, 70 Wh",
+  "Product Name": "HP Omnibook 7 Ai 16 Az0043tu C2cx3pa",
+  "Price (VND)": 31990000,
+  "url": "https://www.anphatpc.com.vn/laptop-hp-omnibook-7-ai-16-az0043tu-c2cx3pa.html",
+  "saved_path": "data/anphat/raw_htmls\\hp_27.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\hp_27_specs.html"
+}

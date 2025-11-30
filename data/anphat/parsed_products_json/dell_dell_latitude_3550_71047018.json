@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Dell",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i5",
+  "CPU generation": "1335U",
+  "CPU Speed (GHz)": 4.6,
+  "RAM (GB)": 16.0,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": null,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.81,
+  "Battery": "3 Cell, 42 Wh",
+  "Product Name": "DELL Latitude 3550 71047018",
+  "Price (VND)": 23990000,
+  "url": "https://www.anphatpc.com.vn/laptop-dell-latitude-3550-71047018.html",
+  "saved_path": "data/anphat/raw_htmls\\dell_50.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\dell_50_specs.html"
+}

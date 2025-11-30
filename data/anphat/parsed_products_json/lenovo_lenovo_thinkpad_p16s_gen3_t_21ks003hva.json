@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Lenovo",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 7",
+  "CPU generation": "155H",
+  "CPU Speed (GHz)": 4.8,
+  "RAM (GB)": 16.0,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 1.82,
+  "Battery": "57Wh",
+  "Product Name": "LENOVO Thinkpad P16s Gen3 T 21ks003hva",
+  "Price (VND)": 44990000,
+  "url": "https://www.anphatpc.com.vn/laptop-lenovo-thinkpad-p16s-gen3-t-21ks003hva.html",
+  "saved_path": "data/anphat/raw_htmls\\lenovo_120.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\lenovo_120_specs.html"
+}

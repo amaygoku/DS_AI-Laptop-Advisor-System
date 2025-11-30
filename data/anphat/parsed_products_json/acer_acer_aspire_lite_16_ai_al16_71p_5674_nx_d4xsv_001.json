@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Acer",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 5",
+  "CPU generation": "125H",
+  "CPU Speed (GHz)": 4.5,
+  "RAM (GB)": 8.0,
+  "RAM Type": null,
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.6,
+  "Battery": "58Wh 3-cell Li-ion battery 90W AC adapter",
+  "Product Name": "ACER Aspire Lite 16 Ai Al16 71p 5674 Nx.d4xsv.001",
+  "Price (VND)": 18990000,
+  "url": "https://www.anphatpc.com.vn/laptop-acer-aspire-lite-16-ai-al16-71p-5674-nx.d4xsv.001.html",
+  "saved_path": "data/anphat/raw_htmls\\acer_42.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\acer_42_specs.html"
+}

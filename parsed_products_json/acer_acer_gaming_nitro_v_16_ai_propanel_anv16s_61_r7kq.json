@@ -1,0 +1,22 @@
+{
+  "Product Name": "ACER Gaming Nitro V 16 Ai Propanel Anv16s 61 R7kq",
+  "Manufacturer": "acer",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": null,
+  "CPU generation": "3",
+  "CPU Speed (GHz)": 2.0,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": null,
+  "Storage (GB)": 4096,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": 180,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.1,
+  "Battery": "76Wh 4-cell Li-ion battery, 135W 5.5PHY Adapter",
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/laptop-acer-gaming-nitro-v-16-ai-propanel-anv16s-61-r7kq.html",
+  "saved_path": "data/cellphones/raw_htmls\\acer_71.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_71_specs.html"
+}

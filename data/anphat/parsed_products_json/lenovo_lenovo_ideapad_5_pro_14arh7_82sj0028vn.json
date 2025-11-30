@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Lenovo",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": "Ryzen 7",
+  "CPU generation": "6800HS",
+  "CPU Speed (GHz)": 4.7,
+  "RAM (GB)": 16.0,
+  "RAM Type": null,
+  "Bus (MHz)": 6400,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "2880 x 1800",
+  "Refresh Rate (Hz)": 90,
+  "GPU manufacturer": "AMD",
+  "Weight (kg)": 1.49,
+  "Battery": "3 cell /56.5Wh",
+  "Product Name": "LENOVO Ideapad 5 Pro 14arh7 82sj0028vn",
+  "Price (VND)": 24990000,
+  "url": "https://www.anphatpc.com.vn/laptop-lenovo-ideapad-5-pro-14arh7-82sj0028vn.html",
+  "saved_path": "data/anphat/raw_htmls\\lenovo_232.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\lenovo_232_specs.html"
+}

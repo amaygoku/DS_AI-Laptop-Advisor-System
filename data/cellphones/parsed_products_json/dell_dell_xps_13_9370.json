@@ -1,0 +1,22 @@
+{
+  "Product Name": "DELL Xps 13 9370",
+  "Manufacturer": "dell",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I7",
+  "CPU generation": "85",
+  "CPU Speed (GHz)": 4.0,
+  "RAM (GB)": 8,
+  "RAM Type": "DDR3",
+  "Bus (MHz)": 1866,
+  "Storage (GB)": 256,
+  "Screen Size (inch)": 13.3,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.21,
+  "Battery": "4-cell Li-ion",
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/laptop-dell-xps-13-9370.html",
+  "saved_path": "data/cellphones/raw_htmls\\dell_76.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_76_specs.html"
+}

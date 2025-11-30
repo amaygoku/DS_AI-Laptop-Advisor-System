@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Acer",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": null,
+  "CPU generation": null,
+  "CPU Speed (GHz)": 4.8,
+  "RAM (GB)": 16.0,
+  "RAM Type": null,
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": 180,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.18,
+  "Battery": "76Wh 4-cell Li-ion battery 230W AC Adapter",
+  "Product Name": "ACER Gaming Nitro 16 Ai Propanel An16s 61 R5f4 Nh.qxfsv.001",
+  "Price (VND)": 44990000,
+  "url": "https://www.anphatpc.com.vn/laptop-acer-gaming-nitro-16-ai-propanel-an16s-61-r5f4-nh.qxfsv.001.html",
+  "saved_path": "data/anphat/raw_htmls\\acer_7.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\acer_7_specs.html"
+}

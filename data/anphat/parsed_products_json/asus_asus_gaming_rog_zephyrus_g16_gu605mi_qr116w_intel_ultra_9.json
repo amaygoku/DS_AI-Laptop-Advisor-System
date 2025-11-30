@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Asus",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": null,
+  "CPU generation": "185H",
+  "CPU Speed (GHz)": null,
+  "RAM (GB)": 16.0,
+  "RAM Type": "LPDDR5X",
+  "Bus (MHz)": null,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "2560 x 1600",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 1.85,
+  "Battery": "4-cell, 90WHrs",
+  "Product Name": "ASUS Gaming Rog Zephyrus G16 Gu605mi Qr116w INTEL Ultra 9",
+  "Price (VND)": 79900000,
+  "url": "https://www.anphatpc.com.vn/laptop-asus-gaming-rog-zephyrus-g16-gu605mi-qr116w-intel-ultra-9.html",
+  "saved_path": "data/anphat/raw_htmls\\asus_126.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\asus_126_specs.html"
+}

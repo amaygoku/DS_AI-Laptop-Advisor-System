@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Acer",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 9",
+  "CPU generation": "275HX",
+  "CPU Speed (GHz)": 5.4,
+  "RAM (GB)": 192.0,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": null,
+  "Storage (GB)": 6144,
+  "Screen Size (inch)": 18.0,
+  "Screen Resolution": "3840 x 2400",
+  "Refresh Rate (Hz)": 120,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 3.5,
+  "Battery": "99.98Wh 4-cell Li-ion battery",
+  "Product Name": "ACER Predator Helios 18 Ai Ph18 73 98aq",
+  "Price (VND)": 149990000,
+  "url": "https://www.anphatpc.com.vn/laptop-acer-predator-helios-18-ai-ph18-73-98aq.html",
+  "saved_path": "data/anphat/raw_htmls\\acer_53.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\acer_53_specs.html"
+}

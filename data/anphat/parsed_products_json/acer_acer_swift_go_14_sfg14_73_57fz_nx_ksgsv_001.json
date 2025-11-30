@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Acer",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 5",
+  "CPU generation": "125H",
+  "CPU Speed (GHz)": 4.5,
+  "RAM (GB)": null,
+  "RAM Type": null,
+  "Bus (MHz)": null,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "2880 x 1800",
+  "Refresh Rate (Hz)": 90,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.32,
+  "Battery": "65 Whr 4-cell Adapter: 100W Type-C adapter",
+  "Product Name": "ACER Swift Go 14 Sfg14 73 57fz_nx.ksgsv.001",
+  "Price (VND)": 24490000,
+  "url": "https://www.anphatpc.com.vn/laptop-acer-swift-go-14-sfg14-73-57fz_nx.ksgsv.001.html",
+  "saved_path": "data/anphat/raw_htmls\\acer_51.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\acer_51_specs.html"
+}

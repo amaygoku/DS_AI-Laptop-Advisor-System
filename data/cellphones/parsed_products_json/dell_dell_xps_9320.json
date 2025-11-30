@@ -1,0 +1,22 @@
+{
+  "Product Name": "DELL Xps 9320",
+  "Manufacturer": "dell",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I7",
+  "CPU generation": "12",
+  "CPU Speed (GHz)": 4.7,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 13.4,
+  "Screen Resolution": null,
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.26,
+  "Battery": "3-cell, 55 Wh",
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/laptop-dell-xps-9320.html",
+  "saved_path": "data/cellphones/raw_htmls\\dell_29.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_29_specs.html"
+}

@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Acer",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i3",
+  "CPU generation": null,
+  "CPU Speed (GHz)": 3.8,
+  "RAM (GB)": 8.0,
+  "RAM Type": null,
+  "Bus (MHz)": 4800,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.75,
+  "Battery": "3 cell 51WHrs",
+  "Product Name": "Aspire Go 15 Ag15 31p 32u6 Nx.krpsv.002 Cor I3 N305 8gb 512gb INTEL Uhd Graphics 15.6inch Fhd Win 11 Bac",
+  "Price (VND)": 9990000,
+  "url": "https://www.anphatpc.com.vn/laptop-aspire-go-15-ag15-31p-32u6-nx.krpsv.002-cor-i3-n305-8gb-512gb-intel-uhd-graphics-15.6inch-fhd-win-11-bac.html",
+  "saved_path": "data/anphat/raw_htmls\\acer_78.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\acer_78_specs.html"
+}

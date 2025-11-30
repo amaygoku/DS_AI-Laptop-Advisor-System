@@ -1,0 +1,22 @@
+{
+  "Product Name": "MACBOOK Pro 14 Inch M3 2023 8gb 512gb",
+  "Manufacturer": "macbook",
+  "CPU manufacturer": null,
+  "CPU brand modifier": null,
+  "CPU generation": null,
+  "CPU Speed (GHz)": null,
+  "RAM (GB)": 8,
+  "RAM Type": null,
+  "Bus (MHz)": null,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.2,
+  "Screen Resolution": "3024 x 1964",
+  "Refresh Rate (Hz)": 120,
+  "GPU manufacturer": null,
+  "Weight (kg)": 55.0,
+  "Battery": "70Wh",
+  "Price (VND)": 39990000,
+  "url": "https://cellphones.com.vn/macbook-pro-14-inch-m3-2023-8gb-512gb.html",
+  "saved_path": "data/cellphones/raw_htmls\\macbook_57.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\macbook_57_specs.html"
+}

@@ -1,0 +1,22 @@
+{
+  "Product Name": "DELL 15 Dc15250 3g7t0",
+  "Manufacturer": "dell",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I7",
+  "CPU generation": "13",
+  "CPU Speed (GHz)": 5.0,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": null,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 120,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.9,
+  "Battery": "3 cell, 41Wh",
+  "Price (VND)": 20990000,
+  "url": "https://cellphones.com.vn/laptop-dell-15-dc15250-3g7t0.html",
+  "saved_path": "data/cellphones/raw_htmls\\dell_26.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_26_specs.html"
+}

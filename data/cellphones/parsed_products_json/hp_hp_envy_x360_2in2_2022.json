@@ -1,0 +1,22 @@
+{
+  "Product Name": "HP Envy X360 2in2 2022",
+  "Manufacturer": "hp",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": null,
+  "CPU generation": "5",
+  "CPU Speed (GHz)": 4.0,
+  "RAM (GB)": 8,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 256,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": null,
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "AMD",
+  "Weight (kg)": 1.77,
+  "Battery": null,
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/laptop-hp-envy-x360-2in2-2022.html",
+  "saved_path": "data/cellphones/raw_htmls\\hp_54.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_54_specs.html"
+}

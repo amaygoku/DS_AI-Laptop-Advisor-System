@@ -1,0 +1,22 @@
+{
+  "Product Name": "ACER Gaming Aspire 7 A715 59g 78wg",
+  "Manufacturer": "acer",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I7",
+  "CPU generation": "71",
+  "CPU Speed (GHz)": 3.6,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 4096,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 144,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.07,
+  "Battery": "54.8Wh 4-cell Li-ion, 150W adapter",
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/laptop-acer-gaming-aspire-7-a715-59g-78wg.html",
+  "saved_path": "data/cellphones/raw_htmls\\acer_69.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_69_specs.html"
+}

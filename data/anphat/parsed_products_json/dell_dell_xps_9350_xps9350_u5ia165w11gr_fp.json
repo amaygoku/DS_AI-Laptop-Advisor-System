@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Dell",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 5",
+  "CPU generation": "226V",
+  "CPU Speed (GHz)": 4.5,
+  "RAM (GB)": 16.0,
+  "RAM Type": "LPDDR5X",
+  "Bus (MHz)": 8533,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 13.4,
+  "Screen Resolution": "2560 x 1600",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.21,
+  "Battery": "3Cell 55WHrs",
+  "Product Name": "DELL Xps 9350 Xps9350 U5ia165w11gr Fp",
+  "Price (VND)": 59990000,
+  "url": "https://www.anphatpc.com.vn/laptop-dell-xps-9350-xps9350-u5ia165w11gr-fp.html",
+  "saved_path": "data/anphat/raw_htmls\\dell_21.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\dell_21_specs.html"
+}

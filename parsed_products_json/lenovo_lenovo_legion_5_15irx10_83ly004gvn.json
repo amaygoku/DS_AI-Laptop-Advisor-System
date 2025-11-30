@@ -1,0 +1,22 @@
+{
+  "Product Name": "LENOVO Legion 5 15irx10 83ly004gvn",
+  "Manufacturer": "lenovo",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I7",
+  "CPU generation": "71",
+  "CPU Speed (GHz)": 5.5,
+  "RAM (GB)": 24,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 4800,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 15.1,
+  "Screen Resolution": "2560 x 1600",
+  "Refresh Rate (Hz)": 165,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 1.9,
+  "Battery": "80Wh, 245W Slim Tip (3-pin)",
+  "Price (VND)": 51490000,
+  "url": "https://cellphones.com.vn/laptop-lenovo-legion-5-15irx10-83ly004gvn.html",
+  "saved_path": "data/cellphones/raw_htmls\\lenovo_52.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_52_specs.html"
+}

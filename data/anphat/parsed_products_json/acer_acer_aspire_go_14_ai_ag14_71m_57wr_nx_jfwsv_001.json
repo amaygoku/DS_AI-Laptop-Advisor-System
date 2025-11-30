@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Acer",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 5",
+  "CPU generation": "125H",
+  "CPU Speed (GHz)": 4.5,
+  "RAM (GB)": 16.0,
+  "RAM Type": null,
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.5,
+  "Battery": "55 Wh 3-cell Li-ion battery USB Type-C 65 W PD AC adapter",
+  "Product Name": "ACER Aspire Go 14 Ai Ag14 71m 57wr Nx.jfwsv.001",
+  "Price (VND)": 18790000,
+  "url": "https://www.anphatpc.com.vn/laptop-acer-aspire-go-14-ai-ag14-71m-57wr-nx.jfwsv.001.html",
+  "saved_path": "data/anphat/raw_htmls\\acer_39.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\acer_39_specs.html"
+}

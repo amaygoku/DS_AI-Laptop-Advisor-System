@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Asus",
+  "CPU manufacturer": null,
+  "CPU brand modifier": null,
+  "CPU generation": null,
+  "CPU Speed (GHz)": 2.0,
+  "RAM (GB)": 32.0,
+  "RAM Type": "LPDDR5X",
+  "Bus (MHz)": null,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "2880 x 1800",
+  "Refresh Rate (Hz)": 120,
+  "GPU manufacturer": "AMD",
+  "Weight (kg)": 1.2,
+  "Battery": "75 WHrs, 4-cell",
+  "Product Name": "ASUS Zenbook 14 Um3406ka Pp555ws",
+  "Price (VND)": 31990000,
+  "url": "https://www.anphatpc.com.vn/laptop-asus-zenbook-14-um3406ka-pp555ws.html",
+  "saved_path": "data/anphat/raw_htmls\\asus_111.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\asus_111_specs.html"
+}

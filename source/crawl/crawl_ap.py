@@ -1,247 +1,264 @@
-import os
-import sys
-sys.path.append(os.getcwd())  # NOQA
-
+import pandas as pd
+import polars as pl
 import json
-import time
-import traceback
+import os
 import re
-import requests
-
-from urllib.parse import urlparse, urljoin
-from bs4 import BeautifulSoup as bs
+from bs4 import BeautifulSoup
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-from source.crawl.base_crawler import BaseCrawler
+# --- 1. Định nghĩa các trường thông tin cần thiết ---
+REQUIRED_FEATURES = [
+    "Manufacturer", "CPU manufacturer", "CPU brand modifier", "CPU generation",
+    "CPU Speed (GHz)", "RAM (GB)", "RAM Type", "Bus (MHz)", "Storage (GB)",
+    "Screen Size (inch)", "Screen Resolution", "Refresh Rate (Hz)",
+    "GPU manufacturer", "Weight (kg)", "Battery", "Price (VND)"
+]
 
+# --- 2. Hàm Trích xuất Thông số Kỹ thuật (Sử dụng 2 tham số) ---
 
-class Anphat(BaseCrawler):
+def extract_anphat_features(html_content: str, manufacturer: str) -> dict:
+    """
+    Sử dụng BeautifulSoup và Regex để trích xuất và chuẩn hóa 16 đặc trưng
+    từ HTML thô của trang An Phát PC.
+    """
+    soup = BeautifulSoup(html_content, 'html.parser')
+    
+    # Khởi tạo dict kết quả và gán Manufacturer
+    product = {feature: None for feature in REQUIRED_FEATURES}
+    product['Manufacturer'] = manufacturer.capitalize()
+    
+    # Khai báo các biến lưu thông tin thô
+    cpu = ram = storage = screen = battery = weight = vga = None
 
-    MAX_PAGES = 10
-    BASE = "https://www.anphatpc.com.vn"
+    # --- 2.1 Trích xuất Thông số Thô từ Khối "pro-info-summary" ---
+    specs_from_html = [span.get_text(strip=True) for span in soup.select('div.pro-info-summary span.item')]
+    
+    try:
+        # CPU Name: Thường là item đầu tiên
+        cpu_text = specs_from_html[0].replace("CPU: ", "")
+        cpu = cpu_text.replace("-", " ").replace("™", "").replace("®", "").replace("  ", " ").lower()
 
-    # Các từ khoá URL trang danh mục/collection để loại
-    CATEGORY_KEYWORDS = (
-        'gaming-laptop', 'may-tinh-xach-tay-laptop', 'laptop-theo-hang',
-        'laptop-rtx-40-series', 'laptop-rtx-50-series', 'laptop-ai',
-        'hoc-tap-van-phong', 'doanh-nhan', 'doanh-nghiep', 'sinh-vien'
-    )
+        for item in specs_from_html[1:]:
+            if "RAM:" in item:
+                ram = item.replace("RAM:", "").replace("-", " ").lower()
+            elif "Ổ cứng:" in item:
+                storage = item.replace("Ổ cứng:", "").lower()
+            elif "Màn hình:" in item:
+                screen = item.replace("Màn hình:", "").lower()
+            elif "Pin:" in item:
+                battery = item.replace("Pin:", "").lower().replace("whrs", "wh").replace("whr", "wh")
+            elif "Cân nặng:" in item:
+                weight = item.replace("Cân nặng:", "").lower()
+            elif "VGA:" in item:
+                vga = item.replace("VGA:", "").lower()
+                
+    except IndexError:
+        pass
+    
+    # --- 2.2 Trích xuất Giá (Price) ---
+    price = None
+    try: 
+        # Giá gốc (đã gạch) nằm trong thẻ <del class='font-500'>
+        price_del = soup.find('del', class_='font-500')
+        if price_del:
+            price_text = price_del.get_text(strip = True).replace('.','').replace(' đ','')
+            price = int(re.search(r'\d+', price_text).group(0))
+    except Exception:
+        # Nếu không có giá gốc, Price (VND) sẽ là None (hoặc bạn có thể thêm logic lấy giá hiện tại)
+        pass 
+        
+    product['Price (VND)'] = price
+    
+    # --- 2.3 Áp dụng Regex và Chuẩn hóa các đặc trưng còn lại ---
 
-    def __init__(self):
-        # Không còn connect DB
-        self.anphat_config = self.load_config('anphat.json')
-
-        # Session nhẹ có UA
-        self.session = requests.Session()
-        self.session.headers.update({
-            "User-Agent": "Mozilla/5.0 (compatible; AnphatCrawler-NoDB/1.0)"
-        })
-
-    # ------------------------------- Utils -------------------------------
-
-    @staticmethod
-    def _dedup_preserve_order(items):
-        seen = set()
-        out = []
-        for x in items:
-            if x not in seen:
-                seen.add(x)
-                out.append(x)
-        return out
-
-    def _normalize_same_domain_html_url(self, href: str) -> str | None:
-        """Chuẩn hoá URL, chỉ nhận .html cùng domain, không query/fragment."""
-        if not href:
-            return None
-        href = href.strip()
-        if href.startswith('#') or href.startswith('javascript:'):
-            return None
-        url = urljoin(self.BASE, href)
-        p = urlparse(url)
-        if p.netloc != urlparse(self.BASE).netloc:
-            return None
-        if not p.path.endswith('.html'):
-            return None
-        if p.query or p.fragment:
-            return None
-        path_l = p.path.lower()
-        if any(kw in path_l for kw in self.CATEGORY_KEYWORDS):
-            return None
-        if any(b in path_l for b in ('/tin-', '/news', '/blog', '/khuyen-mai', '/phu-kien-', '/linh-kien-')):
-            return None
-        return f'{p.scheme}://{p.netloc}{p.path}'
-
-    # ------------------ Parse a category page → product URLs ------------------
-
-    def __parse_category_page(self, url: str) -> dict:
-        """
-        Quét tất cả <a>, lọc theo pattern URL CHI TIẾT sản phẩm:
-            /ten-san-pham_dm1234.html
-            /ten-san-pham_sp1234.html
-            /ten-san-pham_dp1234.html
-            /ten-san-pham-p1234.html
-        """
-        urls = []
-        try:
-            resp = self.session.get(url, timeout=15)
-            resp.raise_for_status()
-
-            # Trang danh mục rỗng
-            if 'Sản phẩm đang được cập nhật' in resp.text:
-                return {'status': 'error', 'message': f'Error: {url} is not available', 'data': []}
-
-            soup = bs(resp.text, 'html.parser')
-
-            product_detail_re = re.compile(r"/[^/]+(?:_(?:dm|sp|dp)\d+|-p\d+)\.html$", re.I)
-
-            for a in soup.find_all('a', href=True):
-                norm = self._normalize_same_domain_html_url(a['href'])
-                if not norm:
-                    continue
-                # chỉ nhận URL trông như chi tiết sản phẩm
-                if not product_detail_re.search(urlparse(norm).path.lower()):
-                    continue
-                urls.append(norm)
-
-            urls = self._dedup_preserve_order(urls)
-            return {
-                'status': 'success',
-                'message': f'Get product urls of {url} successfully',
-                'data': urls
-            }
-
-        except Exception as e:
-            self.log(f"Error: {str(e)}", color='red')
-            return {'status': 'error', 'message': f'Error: {str(e)}', 'data': []}
-
-    # ------------------ Iterate pages for a manufacturer ------------------
-
-    def _get_product_urls(self, manufacturer: str) -> list:
-        """
-        Lấy toàn bộ URL chi tiết sản phẩm của 1 hãng (tối đa MAX_PAGES).
-        """
-        urls = []
-        url = self.anphat_config[manufacturer]
-        self.log(f"==>> {manufacturer.upper()} url: {url}")
-
-        # Danh sách trang phân trang
-        url_list_pages = [f'{url}?page={i}' for i in range(1, self.MAX_PAGES + 1)]
-
-        with ThreadPoolExecutor(max_workers=5) as executor:
-            futures = [executor.submit(self.__parse_category_page, u) for u in url_list_pages]
-
-            for future in as_completed(futures):
-                result = future.result()
-                if result['status'] == 'success':
-                    self.log(f'==> {result["message"]}: {len(result["data"])} products', color='green')
-                    urls.extend(result['data'])
-                else:
-                    self.log(f'==> {result["message"]}', color='red')
-
-        urls = self._dedup_preserve_order(urls)
-        self.log('==>> Total products: {}'.format(len(urls)))
-        return urls
-
-    # ------------------ Public: get all links for all manufacturers ------------------
-
-    def get_all_product_links(self):
-        """
-        Lấy URL sản phẩm của tất cả hãng trong config và lưu JSON.
-        """
-        save_dir = 'data/anphat'
-        os.makedirs(save_dir, exist_ok=True)
-
-        anphat_product_links = {}
-        for manufacturer in self.anphat_config:
-            self.log(f'========>> Getting product urls of {manufacturer.upper()}', color='yellow')
-            urls = self._get_product_urls(manufacturer)
-            anphat_product_links[manufacturer] = urls
-
-        out_path = os.path.join(save_dir, 'anphat_product_links.json')
-        with open(out_path, 'w', encoding='utf-8') as f:
-            json.dump(anphat_product_links, f, indent=4, ensure_ascii=False)
-
-        self.log(f'========>> Saved links: {out_path}', color='green')
-        self.log('========>> Done!', color='green')
-
-    def __fetch_html(self, url: str) -> dict:
-        try:
-            r = self.session.get(url, timeout=15)
-            if r.status_code == 200:
-                return {'status': 'success', 'message': f'Get {url} successfully', 'data': r.text}
+    if cpu:
+        # Logic CPU (Manufacturer, Brand Modifier, Generation, Speed)
+        if "intel" in cpu:
+            product['CPU manufacturer'] = "Intel"
+            cbm_match = re.search(r'i([3579])', cpu)
+            if cbm_match: product['CPU brand modifier'] = int(cbm_match.group(1))
+            
+            cg_match = re.search(r'i[3579]-?(\d{2})\d{2}[a-z]', cpu)
+            if cg_match: product['CPU generation'] = int(cg_match.group(1))
             else:
-                return {'status': 'error', 'message': f'Error: {url} is not available (status {r.status_code})', 'data': []}
-        except Exception as e:
-            return {'status': 'error', 'message': f'Error: {str(e)}', 'data': []}
+                cg_match = re.search(r'\s(\d{4,5})[a-z]{1,2}', cpu)
+                if cg_match: product['CPU generation'] = int(cg_match.group(1)[:2])
+        
+        elif "ryzen" in cpu or "amd" in cpu:
+            product['CPU manufacturer'] = "AMD"
+            cbm_match = re.search(r'ryzen\s+([3579])', cpu)
+            if cbm_match: product['CPU brand modifier'] = int(cbm_match.group(1))
+            
+            cg_match = re.search(r'(\d)\d{3}[a-z]{1,2}', cpu)
+            if cg_match: product['CPU generation'] = int(cg_match.group(1))
+        
+        cs_match = re.search(r'to\s+(\d+(\.\d+)?)\s*ghz', cpu)
+        if cs_match: product['CPU Speed (GHz)'] = float(cs_match.group(1))
+        else:
+            cs_match = re.search(r'(\d+(\.\d+)?)\s*ghz', cpu)
+            if cs_match: product['CPU Speed (GHz)'] = float(cs_match.group(1))
 
-    def crawl_raw_htmls(self):
+    # RAM (GB), RAM Type, Bus (MHz)
+    if ram:
+        ram_match = re.search(r'(\d+)\s*gb', ram)
+        if ram_match: product['RAM (GB)'] = int(ram_match.group(1))
+        
+        ram_types = ["ddr4", "lpddr4", "lpddr4x", "ddr5", "lpddr5", "lpddr5x"]
+        for r_type in ram_types:
+            if r_type in ram: product['RAM Type'] = r_type.upper(); break
+        
+        bus_match = re.search(r'(\d{4})', ram)
+        if bus_match: product['Bus (MHz)'] = int(bus_match.group(1))
 
-        links_path = 'data/anphat/anphat_product_links.json'
-        if not os.path.exists(links_path):
-            self.log(f'Links file not found: {links_path}. Hãy chạy get_all_product_links() trước.', color='red')
-            return
+    # Storage (GB)
+    if storage:
+        storage_match = re.search(r'(\d+)\s*(gb|tb)', storage)
+        if storage_match:
+            storage_value = int(storage_match.group(1))
+            unit = storage_match.group(2)
+            if unit == "tb": product['Storage (GB)'] = storage_value * 1024 
+            else: product['Storage (GB)'] = storage_value
 
-        with open(links_path, 'r', encoding='utf-8') as f:
-            anphat_product_links = json.load(f)
+    # Screen Size (inch), Resolution, Refresh Rate (Hz)
+    if screen:
+        ss_match = re.search(r'(\d+(\.\d+)?)', screen)
+        if ss_match:
+            screen_size = float(ss_match.group(1))
+            if 10 < screen_size < 50: product['Screen Size (inch)'] = screen_size
+        
+        sr_match = re.search(r'(\d+)\s*x\s*(\d+)', screen)
+        if sr_match: product['Screen Resolution'] = f"{sr_match.group(1)}x{sr_match.group(2)}"
+            
+        rr_match = re.search(r'(\d+)\s*hz', screen)
+        if rr_match: product['Refresh Rate (Hz)'] = int(rr_match.group(1))
+        elif screen: product['Refresh Rate (Hz)'] = 60 
 
-        save_dir = 'data/anphat/raw_htmls'
-        os.makedirs(save_dir, exist_ok=True)
+    # GPU manufacturer
+    if vga:
+        gpu_manufacturers = ['NVIDIA', 'AMD', 'Intel', 'GeForce']
+        for g_man in gpu_manufacturers:
+            if g_man.lower() in vga:
+                product['GPU manufacturer'] = "Nvidia" if g_man == "GeForce" else g_man
+                break
+        if not product['GPU manufacturer'] and product['CPU manufacturer'] == "Intel":
+             product['GPU manufacturer'] = "Intel" 
 
-        manifest = []  # list of dict {manufacturer, url, saved_path}
+    # Weight (kg)
+    if weight:
+        w_match_kg = re.search(r'(\d+(\.\d+)?)\s*kg', weight)
+        w_match_g = re.search(r'(\d+(\.\d+)?)\s*g', weight)
+        if w_match_kg: product['Weight (kg)'] = float(w_match_kg.group(1))
+        elif w_match_g: product['Weight (kg)'] = float(w_match_g.group(1)) / 1000
 
-        # Tải theo từng hãng để dễ theo dõi log
-        for manufacturer in anphat_product_links:
-            urls = anphat_product_links[manufacturer]
-            self.log(f'========>> Getting raw htmls of {manufacturer.upper()} (total {len(urls)})', color='yellow')
+    # Battery (Wh)
+    if battery:
+        b_match = re.search(r'(\d+(\.\d+)?)\s*wh', battery)
+        if b_match: product['Battery'] = float(b_match.group(1))
+        elif 'cell' in battery: product['Battery'] = None 
 
-            with ThreadPoolExecutor(max_workers=20) as executor:
-                futures = {executor.submit(self.__fetch_html, url): url for url in urls}
+    return product
 
-                for idx, future in enumerate(as_completed(list(futures.keys()))):
-                    url = futures[future]
-                    result = future.result()
-                    total = len(futures)
+# --- 3. Hàm Quản lý Đọc File và Xử lý Đa luồng (Đã sửa lỗi) ---
 
-                    if result['status'] == 'success':
-                        self.log(f'==>{idx+1:>4}/{total:<4} {result["message"]}', color='green')
+def process_anphat_manifest(manifest_path: str, raw_html_dir: str) -> list:
+    """
+    Đọc manifest, xử lý lỗi KeyError và gọi hàm trích xuất.
+    Sử dụng khóa 'saved_path' và 'manufacturer' từ manifest của bạn.
+    """
+    try:
+        with open(manifest_path, 'r', encoding='utf-8') as f:
+            manifest_data = json.load(f)
+    except FileNotFoundError:
+        print(f"DEBUG ERROR: Không tìm thấy Manifest tại: {manifest_path}")
+        return []
+    except json.JSONDecodeError:
+        print("DEBUG ERROR: Lỗi đọc file JSON manifest (File bị rỗng hoặc hỏng).")
+        return []
+    
+    # Nếu Manifest là Dict (format cũ), chuyển nó thành List
+    if isinstance(manifest_data, dict):
+        all_records = []
+        for manufacturer, records in manifest_data.items():
+            for record in records:
+                record['manufacturer'] = manufacturer
+                all_records.append(record)
+        manifest_data = all_records
+    
+    results = []
+    
+    with ThreadPoolExecutor(max_workers=os.cpu_count()) as executor:
+        futures = []
+        
+        for record in manifest_data:
+            try:
+                # SỬ DỤNG KHÓA ĐƯỢC LƯU TRONG CRAWL_AP.PY
+                manufacturer = record['manufacturer']
+                # Lấy đường dẫn file đã lưu (là saved_path)
+                raw_html_path = record['saved_path'] 
+            except KeyError as e:
+                print(f"DEBUG ERROR: Lỗi KeyError {e} trong Manifest. Bỏ qua bản ghi.")
+                continue
 
-                        # Tạo tên file gọn
-                        filename = f'{manufacturer}_{idx+1}.html'
-                        save_path = os.path.join(save_dir, filename)
+            # Xử lý đường dẫn: Manifest của bạn lưu đường dẫn đầy đủ, 
+            # nhưng ta cần đảm bảo nó trỏ đúng nếu đường dẫn tương đối bị thay đổi
+            # Nếu saved_path là đường dẫn tuyệt đối (VD: D:\...) thì không cần os.path.join
+            if not os.path.isabs(raw_html_path):
+                # Nếu saved_path là tương đối (VD: data/anphat/raw_htmls/...), ta dùng nó trực tiếp
+                full_path = raw_html_path 
+            else:
+                 # Nếu saved_path là tuyệt đối, ta dùng nó trực tiếp
+                full_path = raw_html_path
+            
+            if os.path.exists(full_path):
+                # FIX LỖI: Gọi hàm extract_anphat_features với chỉ 2 tham số
+                futures.append(executor.submit(
+                    _read_and_extract_anphat, full_path, manufacturer
+                ))
 
-                        with open(save_path, 'w', encoding='utf-8') as f:
-                            f.write(result['data'])
+        for future in as_completed(futures):
+            result = future.result()
+            if result:
+                results.append(result)
+            
+    return results
 
-                        manifest.append({
-                            "manufacturer": manufacturer,
-                            "url": url,
-                            "saved_path": save_path
-                        })
+def _read_and_extract_anphat(file_path, manufacturer):
+    """ Hàm đọc file và gọi hàm trích xuất """
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            html_content = f.read()
+            
+        # SỬA LỖI: Chỉ truyền 2 tham số: html_content và manufacturer
+        # An Phát PC không cần file HTML specs riêng, trang chính chứa tất cả.
+        return extract_anphat_features(html_content, manufacturer) 
+        
+    except Exception as e:
+        print(f"Error reading or parsing {file_path}: {e}")
+        return None
 
-                    else:
-                        self.log(f'==>{idx+1:>4}/{total:<4} {result["message"]}', color='red')
+# --- 4. Hướng dẫn sử dụng trong __main__ ---
 
-                    # nương tay tránh bị rate-limit
-                    if (idx + 1) % 20 == 0:
-                        time.sleep(0.2)
-
-        # Lưu manifest
-        manifest_path = 'data/anphat/raw_htmls_manifest.json'
-        with open(manifest_path, 'w', encoding='utf-8') as f:
-            json.dump(manifest, f, indent=2, ensure_ascii=False)
-
-        self.log(f'HTML saved. Manifest: {manifest_path}', color='green')
-
-
-
-    def parse_specs(self):
-
-        self.log('parse_specs() is not implemented yet (no DB version).', color='yellow')
-
-
-if __name__ == "__main__":
-    anphat = Anphat()
-    anphat.get_all_product_links()
-    anphat.crawl_raw_htmls()
-
-    anphat.parse_specs()
+if __name__ == '__main__':
+    # 1. Cấu hình đúng đường dẫn (từ thư mục gốc dự án)
+    MANIFEST_FILE = 'data/anphat/raw_htmls_manifest.json' 
+    # RAW_HTML_DIR không cần thiết vì saved_path đã là đường dẫn đầy đủ (hoặc tương đối)
+    # OUTPUT_CSV phải là nơi bạn muốn lưu file CSV
+    OUTPUT_CSV = 'data/anphat/anphat_processed_features.csv'
+    
+    print("--- BẮT ĐẦU TRÍCH XUẤT ĐẶC TRƯNG AN PHÁT PC ---")
+    
+    final_data = process_anphat_manifest(
+        manifest_path=MANIFEST_FILE, 
+        raw_html_dir='.' # Truyền thư mục gốc (hoặc bất kỳ ký tự nào, vì logic sửa đã bỏ qua nó)
+    )
+    
+    if final_data:
+        # Tạo thư mục data/anphat nếu chưa có
+        os.makedirs(os.path.dirname(OUTPUT_CSV), exist_ok=True)
+        
+        df = pl.DataFrame(final_data)
+        df.write_csv(OUTPUT_CSV)
+        
+        print(f"\n✅ HOÀN THÀNH. Đã xử lý {len(df)} sản phẩm và lưu vào {OUTPUT_CSV}")
+    else:
+        print("❌ KHÔNG CÓ DỮ LIỆU ĐỂ XỬ LÝ. KIỂM TRA LẠI FILE MANIFEST VÀ CẤU TRÚC FOLDER.")

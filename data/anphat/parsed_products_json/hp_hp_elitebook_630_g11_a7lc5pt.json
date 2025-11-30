@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "HP",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 7",
+  "CPU generation": "155U",
+  "CPU Speed (GHz)": 4.8,
+  "RAM (GB)": 16.0,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 13.3,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": null,
+  "Battery": "3-cell, 56 Wh",
+  "Product Name": "HP Elitebook 630 G11 A7lc5pt",
+  "Price (VND)": 29990000,
+  "url": "https://www.anphatpc.com.vn/laptop-hp-elitebook-630-g11-a7lc5pt.html",
+  "saved_path": "data/anphat/raw_htmls\\hp_120.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\hp_120_specs.html"
+}

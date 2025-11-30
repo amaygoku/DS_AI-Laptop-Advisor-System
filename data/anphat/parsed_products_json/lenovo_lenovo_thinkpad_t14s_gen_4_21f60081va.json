@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Lenovo",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i5",
+  "CPU generation": "1335U",
+  "CPU Speed (GHz)": 4.6,
+  "RAM (GB)": 16.0,
+  "RAM Type": null,
+  "Bus (MHz)": 4800,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "2240 x 1400",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.25,
+  "Battery": "3 cell /57Wh",
+  "Product Name": "LENOVO Thinkpad T14s Gen 4 21f60081va",
+  "Price (VND)": 29690000,
+  "url": "https://www.anphatpc.com.vn/laptop-lenovo-thinkpad-t14s-gen-4-21f60081va.html",
+  "saved_path": "data/anphat/raw_htmls\\lenovo_151.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\lenovo_151_specs.html"
+}

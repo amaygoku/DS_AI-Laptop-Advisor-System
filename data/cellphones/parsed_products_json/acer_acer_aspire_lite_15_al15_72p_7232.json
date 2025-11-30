@@ -1,0 +1,22 @@
+{
+  "Product Name": "ACER Aspire Lite 15 Al15 72p 7232",
+  "Manufacturer": "acer",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I7",
+  "CPU generation": "71",
+  "CPU Speed (GHz)": 3.6,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 4800,
+  "Storage (GB)": 2048,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.79,
+  "Battery": "58Wh 3-cell Li-ion battery 90W AC adapter",
+  "Price (VND)": 16990000,
+  "url": "https://cellphones.com.vn/laptop-acer-aspire-lite-15-al15-72p-7232.html",
+  "saved_path": "data/cellphones/raw_htmls\\acer_25.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_25_specs.html"
+}

@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Asus",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 7",
+  "CPU generation": "255HX",
+  "CPU Speed (GHz)": 5.2,
+  "RAM (GB)": 32.0,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "2560 x 1600",
+  "Refresh Rate (Hz)": 240,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.65,
+  "Battery": "4-cell, 90WHrs",
+  "Product Name": "ASUS Rog Strix G16 G615lr S5238w",
+  "Price (VND)": 57920000,
+  "url": "https://www.anphatpc.com.vn/laptop-asus-rog-strix-g16-g615lr-s5238w.html",
+  "saved_path": "data/anphat/raw_htmls\\asus_118.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\asus_118_specs.html"
+}

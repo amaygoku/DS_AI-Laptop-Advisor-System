@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Asus",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 9",
+  "CPU generation": "285H",
+  "CPU Speed (GHz)": 5.4,
+  "RAM (GB)": 32.0,
+  "RAM Type": null,
+  "Bus (MHz)": null,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "2880 x 1800",
+  "Refresh Rate (Hz)": 120,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.28,
+  "Battery": "4-cell 75WHrs",
+  "Product Name": "ASUS Zenbook 14 Ux3405ca Pz204ws",
+  "Price (VND)": 38990000,
+  "url": "https://www.anphatpc.com.vn/laptop-asus-zenbook-14-ux3405ca-pz204ws.html",
+  "saved_path": "data/anphat/raw_htmls\\asus_21.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\asus_21_specs.html"
+}

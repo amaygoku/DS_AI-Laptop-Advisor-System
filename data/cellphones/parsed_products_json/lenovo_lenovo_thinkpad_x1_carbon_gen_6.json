@@ -1,0 +1,22 @@
+{
+  "Product Name": "LENOVO Thinkpad X1 Carbon Gen 6",
+  "Manufacturer": "lenovo",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I7",
+  "CPU generation": "85",
+  "CPU Speed (GHz)": 1.8,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR3",
+  "Bus (MHz)": 2133,
+  "Storage (GB)": 256,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.13,
+  "Battery": "57WHr Li-ion",
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/laptop-lenovo-thinkpad-x1-carbon-gen-6.html",
+  "saved_path": "data/cellphones/raw_htmls\\lenovo_101.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_101_specs.html"
+}

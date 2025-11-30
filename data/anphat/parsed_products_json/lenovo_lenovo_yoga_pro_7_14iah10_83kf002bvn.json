@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Lenovo",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 9",
+  "CPU generation": "285H",
+  "CPU Speed (GHz)": 5.4,
+  "RAM (GB)": 32.0,
+  "RAM Type": null,
+  "Bus (MHz)": 8533,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 14.5,
+  "Screen Resolution": "3000 x 1876",
+  "Refresh Rate (Hz)": 120,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.54,
+  "Battery": "84Wh",
+  "Product Name": "LENOVO Yoga Pro 7 14iah10 83kf002bvn",
+  "Price (VND)": 39590000,
+  "url": "https://www.anphatpc.com.vn/laptop-lenovo-yoga-pro-7-14iah10-83kf002bvn.html",
+  "saved_path": "data/anphat/raw_htmls\\lenovo_64.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\lenovo_64_specs.html"
+}

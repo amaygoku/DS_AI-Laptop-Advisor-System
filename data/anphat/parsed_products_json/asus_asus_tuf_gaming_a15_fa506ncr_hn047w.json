@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Asus",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": "Ryzen 7",
+  "CPU generation": "7435HS",
+  "CPU Speed (GHz)": 4.5,
+  "RAM (GB)": 16.0,
+  "RAM Type": null,
+  "Bus (MHz)": 4800,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 144,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.3,
+  "Battery": "3-cell 48WHrs",
+  "Product Name": "ASUS Tuf Gaming A15 Fa506ncr Hn047w",
+  "Price (VND)": 23490000,
+  "url": "https://www.anphatpc.com.vn/laptop-asus-tuf-gaming-a15-fa506ncr-hn047w.html",
+  "saved_path": "data/anphat/raw_htmls\\asus_136.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\asus_136_specs.html"
+}

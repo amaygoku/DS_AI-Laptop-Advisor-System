@@ -1,0 +1,22 @@
+{
+  "Product Name": "DELL Latitude E5440",
+  "Manufacturer": "dell",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I5",
+  "CPU generation": "43",
+  "CPU Speed (GHz)": null,
+  "RAM (GB)": 4,
+  "RAM Type": null,
+  "Bus (MHz)": null,
+  "Storage (GB)": 500,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1366 x 768",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.95,
+  "Battery": null,
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/laptop-dell-latitude-e5440.html",
+  "saved_path": "data/cellphones/raw_htmls\\dell_35.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_35_specs.html"
+}

@@ -1,0 +1,22 @@
+{
+  "Product Name": "LENOVO Yoga Slim 7 14imh9 83cv00ajvn",
+  "Manufacturer": "lenovo",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": null,
+  "CPU generation": null,
+  "CPU Speed (GHz)": 4.8,
+  "RAM (GB)": 32,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 7467,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.39,
+  "Battery": "65Wh (65W USB-C Slim (Wall-mount))",
+  "Price (VND)": 29490000,
+  "url": "https://cellphones.com.vn/laptop-lenovo-yoga-slim-7-14imh9-83cv00ajvn.html",
+  "saved_path": "data/cellphones/raw_htmls\\lenovo_35.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_35_specs.html"
+}

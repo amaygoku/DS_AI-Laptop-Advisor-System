@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "MSI",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i5",
+  "CPU generation": null,
+  "CPU Speed (GHz)": 4.6,
+  "RAM (GB)": 8.0,
+  "RAM Type": null,
+  "Bus (MHz)": 5200,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 144,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.25,
+  "Battery": "3cell 53.5Whr",
+  "Product Name": "MSI Katana 15 B13udxk 2412vn",
+  "Price (VND)": 23990000,
+  "url": "https://www.anphatpc.com.vn/laptop-msi-katana-15-b13udxk-2412vn.html",
+  "saved_path": "data/anphat/raw_htmls\\msi_22.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\msi_22_specs.html"
+}

@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "MSI",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i7",
+  "CPU generation": null,
+  "CPU Speed (GHz)": 5.5,
+  "RAM (GB)": 16.0,
+  "RAM Type": null,
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "2560 x 1600",
+  "Refresh Rate (Hz)": 240,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.3,
+  "Battery": "4 cell, 65Whr",
+  "Product Name": "MSI Sword 16 Hx B14vfkg 045vn",
+  "Price (VND)": 39990000,
+  "url": "https://www.anphatpc.com.vn/laptop-msi-sword-16-hx-b14vfkg-045vn.html",
+  "saved_path": "data/anphat/raw_htmls\\msi_8.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\msi_8_specs.html"
+}

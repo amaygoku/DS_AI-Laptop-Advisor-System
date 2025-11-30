@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Lenovo",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 5",
+  "CPU generation": "225H",
+  "CPU Speed (GHz)": 4.9,
+  "RAM (GB)": 8.0,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": null,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.76,
+  "Battery": "52.5Wh",
+  "Product Name": "LENOVO Thinkpad T16 Gen 4 21qe0000va",
+  "Price (VND)": 31500000,
+  "url": "https://www.anphatpc.com.vn/laptop-lenovo-thinkpad-t16-gen-4-21qe0000va.html",
+  "saved_path": "data/anphat/raw_htmls\\lenovo_51.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\lenovo_51_specs.html"
+}

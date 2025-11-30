@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Acer",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i5",
+  "CPU generation": null,
+  "CPU Speed (GHz)": 4.6,
+  "RAM (GB)": 16.0,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 144,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 1.78,
+  "Battery": "50 Wh",
+  "Product Name": "ACER Gaming Aspire 5 A515 58gm 53cm Nx.kw1sv.003",
+  "Price (VND)": 22990000,
+  "url": "https://www.anphatpc.com.vn/laptop-acer-gaming-aspire-5-a515-58gm-53cm-nx.kw1sv.003.html",
+  "saved_path": "data/anphat/raw_htmls\\acer_30.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\acer_30_specs.html"
+}

@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Lenovo",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 7",
+  "CPU generation": "258V",
+  "CPU Speed (GHz)": 4.8,
+  "RAM (GB)": 32.0,
+  "RAM Type": null,
+  "Bus (MHz)": null,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.21,
+  "Battery": "55Wh",
+  "Product Name": "LENOVO Thinkpad X9 14 Gen 1 21qa006kvn",
+  "Price (VND)": 52999000,
+  "url": "https://www.anphatpc.com.vn/laptop-lenovo-thinkpad-x9-14-gen-1-21qa006kvn.html",
+  "saved_path": "data/anphat/raw_htmls\\lenovo_109.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\lenovo_109_specs.html"
+}

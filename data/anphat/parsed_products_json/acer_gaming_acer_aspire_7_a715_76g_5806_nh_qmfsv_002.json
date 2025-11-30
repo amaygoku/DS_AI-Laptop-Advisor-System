@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Acer",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i5",
+  "CPU generation": null,
+  "CPU Speed (GHz)": 4.4,
+  "RAM (GB)": 16.0,
+  "RAM Type": null,
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 144,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.1,
+  "Battery": "3-cell, 50Wh",
+  "Product Name": "Gaming ACER Aspire 7 A715 76g 5806 Nh.qmfsv.002",
+  "Price (VND)": 22990000,
+  "url": "https://www.anphatpc.com.vn/laptop-gaming-acer-aspire-7-a715-76g-5806-nh.qmfsv.002.html",
+  "saved_path": "data/anphat/raw_htmls\\acer_35.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\acer_35_specs.html"
+}

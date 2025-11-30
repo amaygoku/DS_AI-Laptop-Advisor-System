@@ -1,0 +1,22 @@
+{
+  "Product Name": "DELL Insprion 3501",
+  "Manufacturer": "dell",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I3",
+  "CPU generation": "31",
+  "CPU Speed (GHz)": 4.1,
+  "RAM (GB)": 4,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 2666,
+  "Storage (GB)": 256,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": null,
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.91,
+  "Battery": "3Cell 42Whrs",
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/laptop-dell-insprion-3501.html",
+  "saved_path": "data/cellphones/raw_htmls\\dell_74.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_74_specs.html"
+}

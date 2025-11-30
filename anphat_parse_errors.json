@@ -1,0 +1,68 @@
+[
+  {
+    "index": 0,
+    "error": "expected string or bytes-like object, got 'int'",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://www.anphatpc.com.vn/laptop-hp-victus-15-fb3115ax-bx9c9pa.html",
+      "saved_path": "data/anphat/raw_htmls\\hp_0.html",
+      "detail_specs_html_path": "data/anphat/detail_htmls\\hp_0_specs.html",
+      "price": 26990000
+    }
+  },
+  {
+    "index": 1,
+    "error": "expected string or bytes-like object, got 'int'",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://www.anphatpc.com.vn/laptop-hp-elitebook-6-g1i-bq9n4pt.html",
+      "saved_path": "data/anphat/raw_htmls\\hp_3.html",
+      "detail_specs_html_path": "data/anphat/detail_htmls\\hp_3_specs.html",
+      "price": 33990000
+    }
+  },
+  {
+    "index": 2,
+    "error": "expected string or bytes-like object, got 'int'",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://www.anphatpc.com.vn/laptop-hp-hp-15-fd0306tu-a2nl7pa.html",
+      "saved_path": "data/anphat/raw_htmls\\hp_2.html",
+      "detail_specs_html_path": "data/anphat/detail_htmls\\hp_2_specs.html",
+      "price": 13990000
+    }
+  },
+  {
+    "index": 3,
+    "error": "expected string or bytes-like object, got 'int'",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://www.anphatpc.com.vn/laptop-hp-250r-g9-b93h2at.html",
+      "saved_path": "data/anphat/raw_htmls\\hp_1.html",
+      "detail_specs_html_path": "data/anphat/detail_htmls\\hp_1_specs.html",
+      "price": 17900000
+    }
+  },
+  {
+    "index": 4,
+    "error": "expected string or bytes-like object, got 'int'",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://www.anphatpc.com.vn/laptop-hp-elitebook-6-g1i-bq9m9pt.html",
+      "saved_path": "data/anphat/raw_htmls\\hp_4.html",
+      "detail_specs_html_path": "data/anphat/detail_htmls\\hp_4_specs.html",
+      "price": 28990000
+    }
+  },
+  {
+    "index": 5,
+    "error": "expected string or bytes-like object, got 'int'",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://www.anphatpc.com.vn/laptop-hp-elitebook-640-g10-bh3e3pt.html",
+      "saved_path": "data/anphat/raw_htmls\\hp_6.html",
+      "detail_specs_html_path": "data/anphat/detail_htmls\\hp_6_specs.html",
+      "price": 23990000
+    }
+  }
+]

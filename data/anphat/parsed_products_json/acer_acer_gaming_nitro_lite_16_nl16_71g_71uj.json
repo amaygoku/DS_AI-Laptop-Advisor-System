@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Acer",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i7",
+  "CPU generation": null,
+  "CPU Speed (GHz)": 4.9,
+  "RAM (GB)": 8.0,
+  "RAM Type": null,
+  "Bus (MHz)": 4800,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": 165,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 1.95,
+  "Battery": "53Wh 3-cell Li-ion battery 100W TypeC adapter",
+  "Product Name": "ACER Gaming Nitro Lite 16 Nl16 71g 71uj",
+  "Price (VND)": 23999000,
+  "url": "https://www.anphatpc.com.vn/laptop-acer-gaming-nitro-lite-16-nl16-71g-71uj.html",
+  "saved_path": "data/anphat/raw_htmls\\acer_24.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\acer_24_specs.html"
+}

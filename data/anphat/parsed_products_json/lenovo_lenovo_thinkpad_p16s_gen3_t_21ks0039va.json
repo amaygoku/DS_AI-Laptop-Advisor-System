@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Lenovo",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 5",
+  "CPU generation": "125H",
+  "CPU Speed (GHz)": 4.5,
+  "RAM (GB)": 16.0,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 1.82,
+  "Battery": "75Wh",
+  "Product Name": "LENOVO Thinkpad P16s Gen3 T 21ks0039va",
+  "Price (VND)": 38750000,
+  "url": "https://www.anphatpc.com.vn/laptop-lenovo-thinkpad-p16s-gen3-t-21ks0039va.html",
+  "saved_path": "data/anphat/raw_htmls\\lenovo_197.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\lenovo_197_specs.html"
+}

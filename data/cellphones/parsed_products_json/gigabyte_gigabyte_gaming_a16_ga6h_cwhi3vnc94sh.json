@@ -1,0 +1,22 @@
+{
+  "Product Name": "GIGABYTE Gaming A16 Ga6h Cwhi3vnc94sh",
+  "Manufacturer": "gigabyte",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I7",
+  "CPU generation": "71",
+  "CPU Speed (GHz)": 4.9,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5200,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "2560 x 1600",
+  "Refresh Rate (Hz)": 165,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.268,
+  "Battery": "4 Cell Int (76.1Wh)",
+  "Price (VND)": 42590000,
+  "url": "https://cellphones.com.vn/laptop-gigabyte-gaming-a16-ga6h-cwhi3vnc94sh.html",
+  "saved_path": "data/cellphones/raw_htmls\\gigabyte_5.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\gigabyte_5_specs.html"
+}

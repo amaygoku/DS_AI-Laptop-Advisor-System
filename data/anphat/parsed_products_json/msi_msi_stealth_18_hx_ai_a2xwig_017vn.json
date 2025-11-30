@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "MSI",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 9",
+  "CPU generation": "275HX",
+  "CPU Speed (GHz)": 4.6,
+  "RAM (GB)": 32.0,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 6400,
+  "Storage (GB)": 2048,
+  "Screen Size (inch)": 18.0,
+  "Screen Resolution": null,
+  "Refresh Rate (Hz)": 120,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.89,
+  "Battery": "4-Cell, 99.99 Whr",
+  "Product Name": "MSI Stealth 18 Hx Ai A2xwig 017vn",
+  "Price (VND)": 109999000,
+  "url": "https://www.anphatpc.com.vn/laptop-msi-stealth-18-hx-ai-a2xwig-017vn.html",
+  "saved_path": "data/anphat/raw_htmls\\msi_49.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\msi_49_specs.html"
+}

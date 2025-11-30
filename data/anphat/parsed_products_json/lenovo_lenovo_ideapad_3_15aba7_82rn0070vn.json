@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Lenovo",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": "Ryzen 5",
+  "CPU generation": "5625U",
+  "CPU Speed (GHz)": 4.3,
+  "RAM (GB)": 8.0,
+  "RAM Type": null,
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "AMD",
+  "Weight (kg)": 1.63,
+  "Battery": "3 Cell, 45Wh",
+  "Product Name": "LENOVO Ideapad 3 15aba7 82rn0070vn",
+  "Price (VND)": 15490000,
+  "url": "https://www.anphatpc.com.vn/laptop-lenovo-ideapad-3-15aba7-82rn0070vn.html",
+  "saved_path": "data/anphat/raw_htmls\\lenovo_230.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\lenovo_230_specs.html"
+}

@@ -1,0 +1,22 @@
+{
+  "Product Name": "LENOVO Ideapad Slim 5 14irh10 83hr0001vn",
+  "Manufacturer": "lenovo",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I5",
+  "CPU generation": "51",
+  "CPU Speed (GHz)": 4.6,
+  "RAM (GB)": 32,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.39,
+  "Battery": "60Wh (65W USB-C Slim (Gắn tường))",
+  "Price (VND)": 23490000,
+  "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-5-14irh10-83hr0001vn.html",
+  "saved_path": "data/cellphones/raw_htmls\\lenovo_88.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_88_specs.html"
+}

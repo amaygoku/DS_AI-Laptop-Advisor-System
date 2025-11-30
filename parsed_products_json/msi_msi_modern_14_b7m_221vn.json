@@ -1,0 +1,22 @@
+{
+  "Product Name": "MSI Modern 14 B7m 221vn",
+  "Manufacturer": "msi",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": "Ryzen 7",
+  "CPU generation": "7",
+  "CPU Speed (GHz)": 2.0,
+  "RAM (GB)": 8,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "AMD",
+  "Weight (kg)": 1.4,
+  "Battery": "39.3Wh",
+  "Price (VND)": null,
+  "url": "https://cellphones.com.vn/laptop-msi-modern-14-b7m-221vn.html",
+  "saved_path": "data/cellphones/raw_htmls\\msi_61.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_61_specs.html"
+}

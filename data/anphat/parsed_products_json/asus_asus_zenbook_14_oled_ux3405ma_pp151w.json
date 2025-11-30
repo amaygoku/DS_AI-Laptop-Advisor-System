@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Asus",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 5",
+  "CPU generation": "125H",
+  "CPU Speed (GHz)": 4.5,
+  "RAM (GB)": 16.0,
+  "RAM Type": null,
+  "Bus (MHz)": null,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "2880 x 1800",
+  "Refresh Rate (Hz)": 120,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.2,
+  "Battery": "4-cell 75WHrs",
+  "Product Name": "ASUS Zenbook 14 Oled Ux3405ma Pp151w",
+  "Price (VND)": 29990000,
+  "url": "https://www.anphatpc.com.vn/laptop-asus-zenbook-14-oled-ux3405ma-pp151w.html",
+  "saved_path": "data/anphat/raw_htmls\\asus_145.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\asus_145_specs.html"
+}

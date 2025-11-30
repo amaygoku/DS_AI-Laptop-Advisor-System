@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Acer",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i9",
+  "CPU generation": null,
+  "CPU Speed (GHz)": 5.8,
+  "RAM (GB)": 16.0,
+  "RAM Type": null,
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "2560 x 1600",
+  "Refresh Rate (Hz)": 240,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.8,
+  "Battery": "4-cell, 90 Wh",
+  "Product Name": "ACER Predator Helios Neo 16 Phn16 72 950p Nh.qnmsv.001",
+  "Price (VND)": 59999000,
+  "url": "https://www.anphatpc.com.vn/laptop-acer-predator-helios-neo-16-phn16-72-950p-nh.qnmsv.001.html",
+  "saved_path": "data/anphat/raw_htmls\\acer_83.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\acer_83_specs.html"
+}

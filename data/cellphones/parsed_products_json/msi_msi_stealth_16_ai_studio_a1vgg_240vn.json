@@ -1,0 +1,22 @@
+{
+  "Product Name": "MSI Stealth 16 Ai Studio A1vgg 240vn",
+  "Manufacturer": "msi",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": null,
+  "CPU generation": "71",
+  "CPU Speed (GHz)": 3.8,
+  "RAM (GB)": 32,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 2048,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "2560x1600",
+  "Refresh Rate (Hz)": 240,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 1.99,
+  "Battery": "4-Cell 99.9 Battery (Whr)",
+  "Price (VND)": 64990000,
+  "url": "https://cellphones.com.vn/laptop-msi-stealth-16-ai-studio-a1vgg-240vn.html",
+  "saved_path": "data/cellphones/raw_htmls\\msi_65.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_65_specs.html"
+}

@@ -1,0 +1,22 @@
+{
+  "Product Name": "LENOVO V15 G4 Iru 83cc0041vn",
+  "Manufacturer": "lenovo",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "I5",
+  "CPU generation": "51",
+  "CPU Speed (GHz)": 4.6,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.65,
+  "Battery": "38Wh, 65W USB-C (3-pin)",
+  "Price (VND)": 14790000,
+  "url": "https://cellphones.com.vn/laptop-lenovo-v15-g4-iru-83cc0041vn.html",
+  "saved_path": "data/cellphones/raw_htmls\\lenovo_16.html",
+  "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_16_specs.html"
+}

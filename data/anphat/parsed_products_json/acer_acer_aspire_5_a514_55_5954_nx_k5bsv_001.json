@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "Acer",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core i5",
+  "CPU generation": "1235U",
+  "CPU Speed (GHz)": 4.4,
+  "RAM (GB)": 8.0,
+  "RAM Type": null,
+  "Bus (MHz)": null,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920 x 1080",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.4,
+  "Battery": "3cell, 50Wh",
+  "Product Name": "ACER Aspire 5 A514 55 5954 Nx.k5bsv.001",
+  "Price (VND)": 18990000,
+  "url": "https://www.anphatpc.com.vn/laptop-acer-aspire-5-a514-55-5954-nx.k5bsv.001.html",
+  "saved_path": "data/anphat/raw_htmls\\acer_74.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\acer_74_specs.html"
+}

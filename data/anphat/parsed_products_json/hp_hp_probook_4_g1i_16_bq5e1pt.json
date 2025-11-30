@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "HP",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core Ultra 7",
+  "CPU generation": "255U",
+  "CPU Speed (GHz)": 5.2,
+  "RAM (GB)": 16.0,
+  "RAM Type": null,
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "1920 x 1200",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.74,
+  "Battery": "3-cell, 56 Wh",
+  "Product Name": "HP Probook 4 G1i 16 Bq5e1pt",
+  "Price (VND)": 33990000,
+  "url": "https://www.anphatpc.com.vn/laptop-hp-probook-4-g1i-16-bq5e1pt.html",
+  "saved_path": "data/anphat/raw_htmls\\hp_34.html",
+  "detail_specs_html_path": "data/anphat/detail_htmls\\hp_34_specs.html"
+}
