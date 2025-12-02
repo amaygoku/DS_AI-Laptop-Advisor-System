@@ -1,9 +1,9 @@
 {
   "Product Name": "ASUS Gaming Rog Zephyrus G14 Ga401qm 211 Zg14",
   "Manufacturer": "asus",
-  "CPU manufacturer": null,
-  "CPU brand modifier": "Ryzen 9",
-  "CPU generation": null,
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": "Ryzen9",
+  "CPU generation": "5900",
   "CPU Speed (GHz)": null,
   "RAM (GB)": 16,
   "RAM Type": "DDR4",

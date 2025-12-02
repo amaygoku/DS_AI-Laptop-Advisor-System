@@ -1,9 +1,9 @@
 {
   "Product Name": "DELL Inspiron 7559",
   "Manufacturer": "dell",
-  "CPU manufacturer": null,
-  "CPU brand modifier": "I7",
-  "CPU generation": null,
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core I7",
+  "CPU generation": "6700",
   "CPU Speed (GHz)": null,
   "RAM (GB)": 8,
   "RAM Type": "DDR3",

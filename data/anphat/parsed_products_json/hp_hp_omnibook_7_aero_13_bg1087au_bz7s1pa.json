@@ -1,8 +1,8 @@
 {
   "Manufacturer": "HP",
   "CPU manufacturer": "AMD",
-  "CPU brand modifier": null,
-  "CPU generation": null,
+  "CPU brand modifier": "Ryzen AI 5",
+  "CPU generation": "340",
   "CPU Speed (GHz)": 4.8,
   "RAM (GB)": 16.0,
   "RAM Type": "LPDDR5X",

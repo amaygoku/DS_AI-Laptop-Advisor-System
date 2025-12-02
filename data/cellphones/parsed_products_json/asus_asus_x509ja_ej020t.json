@@ -1,9 +1,9 @@
 {
   "Product Name": "ASUS X509ja Ej020t",
   "Manufacturer": "asus",
-  "CPU manufacturer": null,
-  "CPU brand modifier": "I5",
-  "CPU generation": null,
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core I5",
+  "CPU generation": "1035",
   "CPU Speed (GHz)": null,
   "RAM (GB)": 4,
   "RAM Type": "DDR4",

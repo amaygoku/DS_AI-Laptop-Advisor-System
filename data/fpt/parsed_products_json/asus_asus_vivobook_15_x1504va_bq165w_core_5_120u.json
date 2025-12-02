@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "asus",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core 5",
+  "CPU generation": "120",
+  "CPU Speed (GHz)": 5.0,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920x1080",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.7,
+  "Battery": "42 WHrs 45 W",
+  "Product Name": "ASUS Vivobook 15 X1504va Bq165w Core 5 120u",
+  "Price (VND)": 18990000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/asus-vivobook-15-x1504va-bq165w-core-5-120u",
+  "saved_path": "data/fpt/raw_htmls\\asus_22.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\asus_22_specs.html"
+}

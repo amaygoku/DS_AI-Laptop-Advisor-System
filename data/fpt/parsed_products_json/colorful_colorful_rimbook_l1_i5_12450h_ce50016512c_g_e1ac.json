@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "colorful",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core I5",
+  "CPU generation": "12450",
+  "CPU Speed (GHz)": 4.4,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920x1080",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.78,
+  "Battery": "3 Cell 50 W",
+  "Product Name": "Colorful Rimbook L1 I5 12450h Ce50016512c G E1ac",
+  "Price (VND)": 14290000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/colorful-rimbook-l1-i5-12450h-ce50016512c-g-e1ac",
+  "saved_path": "data/fpt/raw_htmls\\colorful_2.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\colorful_2_specs.html"
+}

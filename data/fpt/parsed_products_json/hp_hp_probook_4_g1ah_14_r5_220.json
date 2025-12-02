@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "hp",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": "Ryzen 5",
+  "CPU generation": null,
+  "CPU Speed (GHz)": 4.9,
+  "RAM (GB)": 16,
+  "RAM Type": "LPDDR5",
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920x1200",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "AMD",
+  "Weight (kg)": 1.4,
+  "Battery": "3 Cell 65 W",
+  "Product Name": "HP Probook 4 G1ah 14 R5 220",
+  "Price (VND)": 19190000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/hp-probook-4-g1ah-14-r5-220",
+  "saved_path": "data/fpt/raw_htmls\\hp_19.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\hp_19_specs.html"
+}

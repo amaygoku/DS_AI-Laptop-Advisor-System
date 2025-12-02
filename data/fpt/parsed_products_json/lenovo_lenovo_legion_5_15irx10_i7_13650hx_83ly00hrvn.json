@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "lenovo",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core I7",
+  "CPU generation": "13650",
+  "CPU Speed (GHz)": 4.9,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": null,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.3,
+  "Screen Resolution": "1920x1200",
+  "Refresh Rate (Hz)": 165,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 2.1,
+  "Battery": "80 Wh 245 W",
+  "Product Name": "LENOVO Legion 5 15irx10 I7 13650hx 83ly00hrvn",
+  "Price (VND)": 36990000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/lenovo-legion-5-15irx10-i7-13650hx-83ly00hrvn",
+  "saved_path": "data/fpt/raw_htmls\\lenovo_20.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\lenovo_20_specs.html"
+}

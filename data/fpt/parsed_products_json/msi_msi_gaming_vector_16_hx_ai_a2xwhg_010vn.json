@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "msi",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Ultra 7",
+  "CPU generation": "255",
+  "CPU Speed (GHz)": 5.2,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 6400,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "2560x1600",
+  "Refresh Rate (Hz)": 240,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.7,
+  "Battery": "90 WHrs 330 W",
+  "Product Name": "MSI Gaming Vector 16 Hx Ai A2xwhg 010vn",
+  "Price (VND)": 53890000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/msi-gaming-vector-16-hx-ai-a2xwhg-010vn",
+  "saved_path": "data/fpt/raw_htmls\\msi_23.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\msi_23_specs.html"
+}

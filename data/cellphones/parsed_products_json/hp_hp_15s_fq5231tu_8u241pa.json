@@ -1,9 +1,9 @@
 {
   "Product Name": "HP 15s Fq5231tu 8u241pa",
   "Manufacturer": "hp",
-  "CPU manufacturer": null,
-  "CPU brand modifier": "I3",
-  "CPU generation": null,
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core I3",
+  "CPU generation": "1215",
   "CPU Speed (GHz)": 1.2,
   "RAM (GB)": 8,
   "RAM Type": "DDR4",

@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "msi",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core I7",
+  "CPU generation": "13620",
+  "CPU Speed (GHz)": 4.9,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920x1200",
+  "Refresh Rate (Hz)": 144,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 1.86,
+  "Battery": "52.4 Wh 120 W",
+  "Product Name": "MSI Gaming Thin15 B13uc 2044vn I7 13620h",
+  "Price (VND)": 21090000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/msi-gaming-thin15-b13uc-2044vn-i7-13620h",
+  "saved_path": "data/fpt/raw_htmls\\msi_12.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\msi_12_specs.html"
+}

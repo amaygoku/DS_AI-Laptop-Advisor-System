@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "dell",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core I5",
+  "CPU generation": "1334",
+  "CPU Speed (GHz)": 3.4,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 2666,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920x1080",
+  "Refresh Rate (Hz)": 120,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.66,
+  "Battery": "3 Cell",
+  "Product Name": "DELL 15 Dc15250 I5 1334u Cph99",
+  "Price (VND)": 19590000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/dell-15-dc15250-i5-1334u-cph99",
+  "saved_path": "data/fpt/raw_htmls\\dell_11.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\dell_11_specs.html"
+}

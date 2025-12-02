@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "msi",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core I7",
+  "CPU generation": "14650",
+  "CPU Speed (GHz)": 5.2,
+  "RAM (GB)": 32,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "2560x1440",
+  "Refresh Rate (Hz)": 165,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 2.4,
+  "Battery": "75 Wh 240 W",
+  "Product Name": "MSI Gaming Katana 15 Hx B14wfk 267vn I7 14650hx",
+  "Price (VND)": 40190000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/msi-gaming-katana-15-hx-b14wfk-267vn-i7-14650hx",
+  "saved_path": "data/fpt/raw_htmls\\msi_17.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\msi_17_specs.html"
+}

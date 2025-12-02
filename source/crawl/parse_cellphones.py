@@ -18,7 +18,7 @@ CSV_FIELDS = [
     "Product Name","Manufacturer","CPU manufacturer","CPU brand modifier","CPU generation",
     "CPU Speed (GHz)","RAM (GB)","RAM Type","Bus (MHz)","Storage (GB)",
     "Screen Size (inch)","Screen Resolution","Refresh Rate (Hz)","GPU manufacturer",
-    "Weight (kg)","Battery","Price (VND)"
+    "Weight (kg)","Battery","Price (VND)", "url","saved_path","detail_specs_html_path"
 ]
 
 # ---------- Helpers ----------
@@ -85,30 +85,108 @@ def parse_specs_html(detail_html: str) -> dict:
     return specs
 
 # ---------- Field parsers ----------
+import re
+
 def parse_cpu(cpu_raw: str):
+    # 1. Kiểm tra đầu vào
     if not cpu_raw: 
         return (None, None, None, None)
+    
     cpu = cpu_raw.lower()
-    cpu_manufacturer = "Intel" if "intel" in cpu else ("AMD" if "amd" in cpu else None)
+    cpu = cpu.replace("®", "").replace("™", "").replace("-", " ").replace("tm", "").strip()
 
-    # brand modifier
-    m = re.search(r"(i[3579]|ryzen\s*\d)", cpu, re.I)
-    brand_mod = m.group(1).title() if m else None
+    # 2. Hãng sản xuất (Manufacturer) - Bổ sung suy luận từ tên dòng sản phẩm (iX, Ryzen, M-series)
+    cpu_manufacturer = None
+
+    # Ưu tiên các từ khóa mạnh và đặc trưng
+    if re.search(r"\bintel\b|\bi[3579]\b|\bcore\s*(?:tm)?\s*(?:ultra)?\s*[u]?[3579]\b|\bceleron\b|\bpentium\b", cpu, re.I):
+        cpu_manufacturer = "Intel"
+    # Bắt AMD dựa trên Ryzen và Ryzen AI
+    elif re.search(r"\bamd\b|\bryzen\b|\bryzen\s*ai\s*(?:max|plus)?\b", cpu, re.I): 
+        cpu_manufacturer = "AMD"
+    elif re.search(r"\bapple\b|\bm\d\b", cpu, re.I):
+        cpu_manufacturer = "Apple"
+    elif re.search(r"\bqualcomm\b|\bsnapdragon\b|\borion\b|\bx\s*(?:elite|plus|\d)\b", cpu, re.I):
+        cpu_manufacturer = "Qualcomm"
+        
+    # 3. Dòng/Biến thể (Brand Modifier)
+    brand_mod = None
     
-    # generation: try to find 4-5 digit model like 13420H or 7530U
-    gen = None
-    m2 = re.search(r"([0-9]{3,5})", cpu.replace("-", ""))
-    if m2:
-        num = m2.group(1)
-        if cpu_manufacturer == "Intel" and len(num) >= 4:
-            gen = num[:2]  # e.g., 13420 -> 13
-        elif cpu_manufacturer == "AMD":
-            gen = num[0]   # e.g., 7530 -> 7
+    # Regex bắt tất cả các dòng sản phẩm quan trọng:
+    # 1. Core Ultra X (ví dụ: Core Ultra 7) HOẶC Core X (ví dụ: Core 5)
+    # 2. Ryzen AI X (ví dụ: Ryzen AI 9, Ryzen AI 300) HOẶC Ryzen X
+    # 3. iX, M-series, X Elite/Plus, Celeron/Pentium
+    m = re.search(
+        r"(core\s*(?:ultra)?\s*[u]?[3579]|i[3579]|ryzen\s*ai\s*(?:max|plus|\d+)|ryzen\s*\d|ryzen\s*r*\d|ryzen\s*ai\s*\d|m\d\s*(?:pro|max|ultra)?|snapdragon\s*x\s*(?:elite|plus|\d)?|celeron|pentium)",
+        cpu, 
+        re.I
+    )
+    
+    if m:
+        brand_mod_raw = m.group(1).replace(" ", "")
+        
+        # Xử lý đặc biệt cho Intel để lấy đúng tên dòng
+        if re.match(r"i\d", brand_mod_raw.lower()):
+            # Core i5, Core i7
+            brand_mod = "Core " + brand_mod_raw.upper()
             
-    # speed (GHz)
-    m3 = re.search(r"(\d+(?:\.\d+)?)\s*ghz", cpu, re.I)
-    speed = float(m3.group(1)) if m3 else None
+        elif re.match(r"coreultra\d", brand_mod_raw.lower()):
+            # Core Ultra 5, 7, 9 (Ví dụ: COREULTRA7)
+            brand_mod = "Core Ultra " + brand_mod_raw[-1]
+            
+        elif re.match(r"core\d", brand_mod_raw.lower()):
+            # Core 3, 5, 7 (Ví dụ: CORE5)
+            brand_mod = "Core " + brand_mod_raw[-1]
+            
+        elif re.match(r"ryzenai\d+", brand_mod_raw.lower()):
+            # Ryzen AI 9, Ryzen AI 300 (Ví dụ: RYZENAI9)
+            brand_mod = "Ryzen AI " + brand_mod_raw[-1]
+        elif re.match(r"snapdragonx(elite|plus|\d+)?", brand_mod_raw.lower()):
+            # Snapdragon X Elite/Plus/5 (Ví dụ: SNAPDRAGONXELITE)
+            suffix = brand_mod_raw[12:]  # Lấy phần sau "snapdragonx"
+            if suffix:
+                brand_mod = "Snapdragon X " + suffix.capitalize()
+            else:
+                brand_mod = "Snapdragon X"
+        elif re.match(r"m\d(pro|max|ultra)?", brand_mod_raw.lower()):
+            # M1, M2 Pro, M3 Max (Ví dụ: M2PRO)
+            suffix = brand_mod_raw[2:]  # Lấy phần sau "mX"
+            if suffix:
+                brand_mod = "M" + brand_mod_raw[1] + " " + suffix.capitalize()
+            else:
+                brand_mod = "M" + brand_mod_raw[1]
+            
+        else:
+            # RYZEN7, CELERON, PENTIUM, XPLUS, M3MAX, v.v.
+            brand_mod = brand_mod_raw.capitalize()
     
+    # 4. Thế hệ (Generation)
+    gen = None
+    
+    # A. Xử lý Apple (M1, M2, M3...)
+    if cpu_manufacturer == "Apple":
+        m_apple = re.search(r"m(\d)", cpu)
+        gen = m_apple.group(1) if m_apple else None
+    
+    # B. Xử lý Intel/AMD (Mô hình số 3-5 chữ số)
+    # B. Xử lý Intel/AMD (Mô hình số 3-5 chữ số)
+    elif cpu_manufacturer == "Intel" or cpu_manufacturer == "AMD":
+    
+        clean_cpu = re.sub(r'[^a-z0-9]', ' ', cpu) 
+        
+        # Bắt toàn bộ chuỗi số 3-5 chữ số (ví dụ: 13600, 7840)
+        m2 = re.search(r"(\d{3,5})", clean_cpu) 
+        
+        if m2:
+            # Lấy toàn bộ chuỗi số
+            gen = m2.group(1) 
+                
+    # 5. Tốc độ (Speed - GHz)
+    speed = None
+    m3 = re.search(r"(\d+(?:\.\d+)?)\s*ghz", cpu, re.I)
+    if m3:
+        speed = float(m3.group(1))
+        
     return cpu_manufacturer, brand_mod, gen, speed
 
 # 🌟 HÀM ĐƯỢC SỬA: Khắc phục dấu gạch ngang và đơn vị Bus (MT/s, MHz)
@@ -122,13 +200,22 @@ def parse_ram(ram_raw: str, ram_type_raw: str):
     ram_type = None
     bus = None
     if ram_type_raw:
-        # 🌟 KHẮC PHỤC DẤU GẠCH NGANG
+        # 🌟 KHẮC PHỤC DẤU GẠCH NGANG và chuẩn hóa chuỗi
         normalized_raw = ram_type_raw.replace('-', ' ') 
 
-        # 1. Bắt Loại RAM (DDRx)
-        m = re.search(r"(ddr\d)", normalized_raw, re.I)
-        if m:
-            ram_type = m.group(1).upper()
+        # 1. Tìm kiếm tổng quát: Bắt LPDDRxX, LPDDRx, DDRxX, DDRx (Tối ưu)
+        # lp?ddr: Bắt LPDDR hoặc DDR
+        # \d: Bắt số thế hệ
+        # X?: Bắt hậu tố X (tùy chọn)
+        m_type = re.search(r"\b(lp?ddr\dX?)\b", normalized_raw, re.I)
+        if not m_type:
+            # 1b. Bắt riêng lẻ: Bắt LPDDR hoặc DDR nếu không có số thế hệ
+            m_type = re.search(r"\b(ddr\d?[a-z]?)\b", normalized_raw, re.I)
+        if m_type:
+            # Lấy chuỗi khớp và chuẩn hóa thành chữ hoa (ví dụ: DDR4X)
+            ram_type = m_type.group(1).upper()
+            
+        # Không cần khối 'if not m_type' thứ hai vì regex đã bao hàm hết
             
         # 2. Bắt Bus Speed: Bắt Bus + đơn vị (mhz|mt/s)
         m2 = re.search(r"(\d{3,4})\s*(mhz|mt/s)", normalized_raw, re.I)
@@ -188,6 +275,10 @@ def parse_gpu(raw: str):
         return "Intel"
     if "amd" in r or "radeon" in r:
         return "AMD"
+    if "apple" in r or "m series" in r:
+        return "Apple"
+    if "qualcomm" in r or "adreno" in r:
+        return "Qualcomm"
     return None
 
 def parse_weight(raw: str):
@@ -240,6 +331,9 @@ def normalize_specs(product_name, price_raw, specs_html, manifest):
     cpu_raw = " ".join(s for s in [cpu_main, cpu_speed_extra] if s)
 
     cpu_manufacturer, cpu_brand, cpu_gen, cpu_speed = parse_cpu(cpu_raw)
+    if cpu_manufacturer is None:
+        if "apple" in product_name.lower() or "macbook" in product_name.lower():
+            cpu_manufacturer = "Apple"
 
     # ---------- RAM ----------
     ram_raw = norm_map.get("dung lượng ram") or norm_map.get("ram")
@@ -345,6 +439,9 @@ def normalize_specs(product_name, price_raw, specs_html, manifest):
                 break
 
     gpu_manu = parse_gpu(gpu_raw)
+    if gpu_manu is None:
+        if "apple" in product_name.lower() or "macbook" in product_name.lower():
+            gpu_manu = "Apple"
 
     # ---------- Weight ----------
     weight_raw = (

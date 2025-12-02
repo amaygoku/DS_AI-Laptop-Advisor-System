@@ -1,7 +1,7 @@
 {
   "Product Name": "Apple MACBOOK Air 15 M4 10cpu 10gpu 16gb 512gb 2025 Sac 70w",
   "Manufacturer": "macbook",
-  "CPU manufacturer": null,
+  "CPU manufacturer": "Apple",
   "CPU brand modifier": null,
   "CPU generation": null,
   "CPU Speed (GHz)": null,
@@ -12,7 +12,7 @@
   "Screen Size (inch)": 15.3,
   "Screen Resolution": "2880 x 1864",
   "Refresh Rate (Hz)": null,
-  "GPU manufacturer": null,
+  "GPU manufacturer": "Apple",
   "Weight (kg)": 1.51,
   "Battery": "Thời gian xem video trực tuyến lên đến 18 giờ Thời gian duyệt web trên mạng không dây lên đến 15 giờ Pin Li-Po 66.5 watt‑giờ tích hợp",
   "Price (VND)": 37990000,

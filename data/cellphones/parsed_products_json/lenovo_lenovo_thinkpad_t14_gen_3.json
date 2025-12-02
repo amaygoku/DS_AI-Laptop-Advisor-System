@@ -1,9 +1,9 @@
 {
   "Product Name": "LENOVO Thinkpad T14 Gen 3",
   "Manufacturer": "lenovo",
-  "CPU manufacturer": null,
-  "CPU brand modifier": "I7",
-  "CPU generation": null,
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core I7",
+  "CPU generation": "1260",
   "CPU Speed (GHz)": 3.4,
   "RAM (GB)": 16,
   "RAM Type": "DDR4",

@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "asus",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core I3",
+  "CPU generation": "305",
+  "CPU Speed (GHz)": 3.8,
+  "RAM (GB)": 8,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": null,
+  "Storage (GB)": 256,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920x1080",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.63,
+  "Battery": "42 WHrs 45 W",
+  "Product Name": "ASUS Vivobook Go 15 E1504ga Bq1141w I3 N305",
+  "Price (VND)": 9990000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/asus-vivobook-go-15-e1504ga-bq1141w-i3-n305",
+  "saved_path": "data/fpt/raw_htmls\\asus_2.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\asus_2_specs.html"
+}

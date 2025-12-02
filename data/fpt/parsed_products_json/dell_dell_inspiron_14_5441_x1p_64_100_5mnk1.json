@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "dell",
+  "CPU manufacturer": "Qualcomm",
+  "CPU brand modifier": "Oryon",
+  "CPU generation": "1",
+  "CPU Speed (GHz)": 3.4,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": null,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920x1200",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": null,
+  "Weight (kg)": 1.53,
+  "Battery": "3 Cell",
+  "Product Name": "DELL Inspiron 14 5441 X1p 64 100 5mnk1",
+  "Price (VND)": 29390000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/dell-inspiron-14-5441-x1p-64-100-5mnk1",
+  "saved_path": "data/fpt/raw_htmls\\dell_13.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\dell_13_specs.html"
+}

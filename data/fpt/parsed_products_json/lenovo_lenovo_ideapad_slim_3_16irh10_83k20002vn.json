@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "lenovo",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core I5",
+  "CPU generation": "13420",
+  "CPU Speed (GHz)": 3.4,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 4800,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "1920x1200",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.73,
+  "Battery": "60 Wh 65 W",
+  "Product Name": "LENOVO Ideapad Slim 3 16irh10 83k20002vn",
+  "Price (VND)": 16990000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/lenovo-ideapad-slim-3-16irh10-83k20002vn",
+  "saved_path": "data/fpt/raw_htmls\\lenovo_8.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\lenovo_8_specs.html"
+}

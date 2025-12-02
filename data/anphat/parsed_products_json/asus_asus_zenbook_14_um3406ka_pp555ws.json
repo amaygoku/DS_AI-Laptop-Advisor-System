@@ -1,8 +1,8 @@
 {
   "Manufacturer": "Asus",
-  "CPU manufacturer": null,
-  "CPU brand modifier": null,
-  "CPU generation": null,
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": "RYZEN AI 7",
+  "CPU generation": "350",
   "CPU Speed (GHz)": 2.0,
   "RAM (GB)": 32.0,
   "RAM Type": "LPDDR5X",

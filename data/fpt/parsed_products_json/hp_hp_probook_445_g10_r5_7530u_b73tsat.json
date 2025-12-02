@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "hp",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": "Ryzen 5",
+  "CPU generation": "7530",
+  "CPU Speed (GHz)": 4.5,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920x1080",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "AMD",
+  "Weight (kg)": 1.38,
+  "Battery": "3 Cell 65 W",
+  "Product Name": "HP Probook 445 G10 R5 7530u B73tsat",
+  "Price (VND)": 18590000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/hp-probook-445-g10-r5-7530u-b73tsat",
+  "saved_path": "data/fpt/raw_htmls\\hp_4.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\hp_4_specs.html"
+}

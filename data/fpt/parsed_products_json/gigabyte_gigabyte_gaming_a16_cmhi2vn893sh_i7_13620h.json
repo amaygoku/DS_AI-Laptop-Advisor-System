@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "gigabyte",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core I7",
+  "CPU generation": "13620",
+  "CPU Speed (GHz)": 4.9,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "1920x1200",
+  "Refresh Rate (Hz)": 165,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.2,
+  "Battery": "76 Wh 150 W",
+  "Product Name": "GIGABYTE Gaming A16 Cmhi2vn893sh I7 13620h",
+  "Price (VND)": 26790000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/gigabyte-gaming-a16-cmhi2vn893sh-i7-13620h",
+  "saved_path": "data/fpt/raw_htmls\\gigabyte_5.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\gigabyte_5_specs.html"
+}

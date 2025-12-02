@@ -1,8 +1,8 @@
 {
   "Manufacturer": "Asus",
   "CPU manufacturer": "Intel",
-  "CPU brand modifier": null,
-  "CPU generation": "275HX",
+  "CPU brand modifier": "Ultra 9",
+  "CPU generation": "275",
   "CPU Speed (GHz)": 5.4,
   "RAM (GB)": 32.0,
   "RAM Type": "DDR5",

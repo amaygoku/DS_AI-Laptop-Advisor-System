@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "macbook",
+  "CPU manufacturer": "Apple",
+  "CPU brand modifier": "M2",
+  "CPU generation": "8",
+  "CPU Speed (GHz)": null,
+  "RAM (GB)": 8,
+  "RAM Type": null,
+  "Bus (MHz)": null,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.3,
+  "Screen Resolution": "2960x1848",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Apple",
+  "Weight (kg)": 1.51,
+  "Battery": "18 Giờ",
+  "Product Name": "MACBOOK Air M2 2023 15 Inch",
+  "Price (VND)": 32890000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/macbook-air-m2-2023-15-inch",
+  "saved_path": "data/fpt/raw_htmls\\macbook_11.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\macbook_11_specs.html"
+}

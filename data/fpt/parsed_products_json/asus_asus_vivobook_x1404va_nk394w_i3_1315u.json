@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "asus",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core I3",
+  "CPU generation": "1315",
+  "CPU Speed (GHz)": 4.5,
+  "RAM (GB)": 8,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920x1080",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.4,
+  "Battery": "42 WHrs 45 W",
+  "Product Name": "ASUS Vivobook X1404va Nk394w I3 1315u",
+  "Price (VND)": 13490000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/asus-vivobook-x1404va-nk394w-i3-1315u",
+  "saved_path": "data/fpt/raw_htmls\\asus_9.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\asus_9_specs.html"
+}

@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "hp",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": "Ryzen 7",
+  "CPU generation": "7445",
+  "CPU Speed (GHz)": 5.1,
+  "RAM (GB)": 16,
+  "RAM Type": "LPDDR5",
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920x1080",
+  "Refresh Rate (Hz)": 144,
+  "GPU manufacturer": "AMD",
+  "Weight (kg)": 2.29,
+  "Battery": "52.5 Wh 120 W",
+  "Product Name": "HP Gaming Victus 15 Fb3116ax R7 7445hs Bx8u4pa",
+  "Price (VND)": 25990000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/hp-gaming-victus-15-fb3116ax-r7-7445hs-bx8u4pa",
+  "saved_path": "data/fpt/raw_htmls\\hp_13.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\hp_13_specs.html"
+}

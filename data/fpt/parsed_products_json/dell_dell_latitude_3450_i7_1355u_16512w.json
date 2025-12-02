@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "dell",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core I7",
+  "CPU generation": "1355",
+  "CPU Speed (GHz)": 4.6,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920x1080",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.5,
+  "Battery": "3 Cell 65 W",
+  "Product Name": "DELL Latitude 3450 I7 1355u 16512w",
+  "Price (VND)": 25990000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/dell-latitude-3450-i7-1355u-16512w",
+  "saved_path": "data/fpt/raw_htmls\\dell_9.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\dell_9_specs.html"
+}

@@ -1,0 +1,5359 @@
+[
+  {
+    "index": 0,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-245-g10-b8pf8at.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_2.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_2_specs.html",
+      "price": "15.590.000đ"
+    }
+  },
+  {
+    "index": 1,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-victus-15-fa2731tx-b85lnpa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_4.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_4_specs.html",
+      "price": "24.045.000đ"
+    }
+  },
+  {
+    "index": 2,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-14-ep0112tu-8c5l1pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_1.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_1_specs.html",
+      "price": "19.590.000đ"
+    }
+  },
+  {
+    "index": 3,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-15-fc0086au-a6vv9pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_0.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_0_specs.html",
+      "price": "15.190.000đ"
+    }
+  },
+  {
+    "index": 4,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-victus-15-fb3116ax-bx8u4pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_3.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_3_specs.html",
+      "price": "25.990.000đ"
+    }
+  },
+  {
+    "index": 5,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-pavilion-15-eg3095tu-8c5l6pa-16gb.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_5.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_5_specs.html",
+      "price": "19.990.000đ"
+    }
+  },
+  {
+    "index": 6,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-245-g10-bg5u8pt.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_9.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_9_specs.html",
+      "price": "19.990.000đ"
+    }
+  },
+  {
+    "index": 7,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-pavilion-15-eg3094tu-8c5l5pa-16gb.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_7.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_7_specs.html",
+      "price": "19.990.000đ"
+    }
+  },
+  {
+    "index": 8,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-14-ep0220tu-b73vwpa-16gb.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_8.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_8_specs.html",
+      "price": "13.490.000đ"
+    }
+  },
+  {
+    "index": 9,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-15-fd0305tu-a2nl6pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_6.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_6_specs.html",
+      "price": "12.490.000đ"
+    }
+  },
+  {
+    "index": 10,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-15-fd0306tu-a2nl7pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_13.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_13_specs.html",
+      "price": "12.490.000đ"
+    }
+  },
+  {
+    "index": 12,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-14-ep0220tu-b73vwpa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_11.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_11_specs.html",
+      "price": "13.490.000đ"
+    }
+  },
+  {
+    "index": 13,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-pavilion-15-eg3112tu-8u6l9pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_12.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_12_specs.html",
+      "price": "25.290.000đ"
+    }
+  },
+  {
+    "index": 14,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-14-dq2055wm-39k15ua.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_14.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_14_specs.html",
+      "price": "13.990.000đ"
+    }
+  },
+  {
+    "index": 15,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-15-fd0237tu.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_16.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_16_specs.html",
+      "price": "18.390.000đ"
+    }
+  },
+  {
+    "index": 16,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-250-g9-ag2k7at.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_18.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_18_specs.html",
+      "price": "19.190.000đ"
+    }
+  },
+  {
+    "index": 18,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-victus-16-s0143ax-9q990pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_15.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_15_specs.html",
+      "price": "31.490.000đ"
+    }
+  },
+  {
+    "index": 20,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-15-fd0083tu-8d736pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_24.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_24_specs.html",
+      "price": "22.490.000đ"
+    }
+  },
+  {
+    "index": 21,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-pavilion-15-eg3093tu-8c5l4pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_23.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_23_specs.html",
+      "price": "21.290.000đ"
+    }
+  },
+  {
+    "index": 22,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-240-g9-ag2j7at.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_21.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_21_specs.html",
+      "price": "19.790.000đ"
+    }
+  },
+  {
+    "index": 23,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-15-fd1063tu-9z2y1pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_20.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_20_specs.html",
+      "price": "20.990.000đ"
+    }
+  },
+  {
+    "index": 24,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-pavilion-15-eg3111tu-8u6l8pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_22.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_22_specs.html",
+      "price": "21.290.000đ"
+    }
+  },
+  {
+    "index": 25,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-gaming-omen-16-am0129tx-bx9d1pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_26.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_26_specs.html",
+      "price": "48.890.000đ"
+    }
+  },
+  {
+    "index": 26,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-gaming-omen-16-am0176tx-bx9d3pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_25.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_25_specs.html",
+      "price": "43.890.000đ"
+    }
+  },
+  {
+    "index": 27,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-victus-16-r0376tx-ay8z2pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_27.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_27_specs.html",
+      "price": "32.690.000đ"
+    }
+  },
+  {
+    "index": 28,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-victus-16-r0374tx-ay8y7pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_29.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_29_specs.html",
+      "price": "30.990.000đ"
+    }
+  },
+  {
+    "index": 29,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-pavilion-x360-14-ek2017tu-9z2v5pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_28.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_28_specs.html",
+      "price": "24.990.000đ"
+    }
+  },
+  {
+    "index": 30,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-gaming-victus-16-s0173ax-a9lg9pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_30.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_30_specs.html",
+      "price": "27.390.000đ"
+    }
+  },
+  {
+    "index": 31,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-15-fd0235tu-9q970pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_31.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_31_specs.html",
+      "price": "19.190.000đ"
+    }
+  },
+  {
+    "index": 32,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-victus-15-fa1139tx-8y6w3pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_33.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_33_specs.html",
+      "price": "24.590.000đ"
+    }
+  },
+  {
+    "index": 33,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-15s-fq5231tu-8u241pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_34.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_34_specs.html",
+      "price": "11.990.000đ"
+    }
+  },
+  {
+    "index": 34,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-victus-16-s0136ax-9q984pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_32.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_32_specs.html",
+      "price": "28.990.000đ"
+    }
+  },
+  {
+    "index": 35,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-elitebook-840-g3.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_35.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_35_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 36,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-victus-16-d0293tx-5z9r4pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_37.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_37_specs.html",
+      "price": "27.890.000đ"
+    }
+  },
+  {
+    "index": 37,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-elitebook-840-g8.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_36.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_36_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 38,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-probook-450-g9.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_39.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_39_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 39,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-pavilion-15-eg2037tx-6k783pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_38.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_38_specs.html",
+      "price": "16.300.000đ"
+    }
+  },
+  {
+    "index": 40,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-probook-440-g9.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_40.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_40_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 42,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-probook-450-g3.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_42.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_42_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 43,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-probook-6570b.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_43.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_43_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 45,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-gaming-victus-16-e1104ax-7c0s9pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_45.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_45_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 46,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-elitebook-845-g9.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_46.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_46_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 47,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-elitebook-840-g9.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_47.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_47_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 50,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-elitebook-840-g6.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_50.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_50_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 51,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-probook-6560b.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_51.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_51_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 52,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-gaming-victus-15-fa018tx-7c0x0pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_52.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_52_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 53,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-elitebook-640-g9.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_53.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_53_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 54,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-pavilion-15-eg2062tx-7c0w7pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_55.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_55_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 55,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-envy-x360-2in2-2022.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_54.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_54_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 57,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-pavilion-15-eg2087tu-7c0q9pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_58.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_58_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 58,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-pavilion-15-eg2085tu-7c0q7pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_56.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_56_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 59,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-15s-du1040tx-8re77pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_60.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_60_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 60,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-gaming-victus-16-d1191tx-7c0s5pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_59.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_59_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 61,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-240-g8-518v8pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_61.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_61_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 62,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-pavilion-15-eg1040tu-5z9v3pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_62.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_62_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 63,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-340s-g7-36a43pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_63.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_63_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 65,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-gaming-victus-16-e1102ax-7c139pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_65.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_65_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 66,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-envy-16-h0205tx-7c0t2pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_66.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_66_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 67,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-pavilion-x360-14-ek2024tu-9z2v6pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_67.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_67_specs.html",
+      "price": "24.990.000đ"
+    }
+  },
+  {
+    "index": 68,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-14-ep1011tu-9z2w3pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_68.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_68_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 70,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-gaming-victus-15-fa0110tx-7c0r3pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_70.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_70_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 71,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-gaming-victus-16-e1105ax-7c0t0pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_71.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_71_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 72,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-pavilion-15-eg2065tx-7c0q3pa-i5-1235u-8gb-256gb.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_72.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_72_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 73,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-240-g8-46j53pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_73.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_73_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 74,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-15s-fq1107tu.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_75.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_75_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 75,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-probook-450-g2.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_74.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_74_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 76,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-probook-4540s.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_76.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_76_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 77,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-pavilion-x360-14-dy0076tu-46l93pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_77.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_77_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 78,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-pavilion-15-eg0509tu-46m08pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_78.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_78_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 79,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-15s-du3591tu.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_80.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_80_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 80,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-15s-fq1111tu-193r0pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_79.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_79_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 81,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-340s-g7-224l0pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_81.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_81_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 82,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-gaming-victus-16-d1187tx-7c0s4pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_82.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_82_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 83,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-240-g9-6l1x3pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_83.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_83_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 84,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-omen-16-wf1139tx-a2ns1pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_84.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_84_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 85,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-gaming-victus-16-d1193tx-7c138pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_85.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_85_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 86,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-gaming-victus-16-e0170ax-4r0u7pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_86.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_86_specs.html",
+      "price": "24.990.000đ"
+    }
+  },
+  {
+    "index": 87,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "hp",
+      "url": "https://cellphones.com.vn/laptop-hp-gaming-victus-15-fb1022ax-94f19pa.html",
+      "saved_path": "data/cellphones/raw_htmls\\hp_87.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\hp_87_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 88,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-loq-15irx10-83je00pevn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_4.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_4_specs.html",
+      "price": "33.990.000đ"
+    }
+  },
+  {
+    "index": 89,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-loq-15iax9e-83lk0079vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_3.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_3_specs.html",
+      "price": "22.090.000đ"
+    }
+  },
+  {
+    "index": 90,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-loq-15arp9-83jc00m3vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_2.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_2_specs.html",
+      "price": "24.490.000đ"
+    }
+  },
+  {
+    "index": 91,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-3-15abr8-82xm00mdvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_1.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_1_specs.html",
+      "price": "14.290.000đ"
+    }
+  },
+  {
+    "index": 92,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-3-14irh10-83k00008vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_0.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_0_specs.html",
+      "price": "16.990.000đ"
+    }
+  },
+  {
+    "index": 93,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-thinkpad-e14-gen-7-21t90021va.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_5.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_5_specs.html",
+      "price": "24.890.000đ"
+    }
+  },
+  {
+    "index": 95,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-loq-15ahp10-83jg0047vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_9.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_9_specs.html",
+      "price": "32.490.000đ"
+    }
+  },
+  {
+    "index": 96,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-legion-7-16iax10-83ky001vvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_6.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_6_specs.html",
+      "price": "70.990.000đ"
+    }
+  },
+  {
+    "index": 97,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-3-16irh10-83k20002vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_7.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_7_specs.html",
+      "price": "16.990.000đ"
+    }
+  },
+  {
+    "index": 98,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-legion-5-15irx10-83ly00hrvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_10.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_10_specs.html",
+      "price": "36.990.000đ"
+    }
+  },
+  {
+    "index": 99,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-loq-15arp9-83jc00lvvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_11.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_11_specs.html",
+      "price": "23.490.000đ"
+    }
+  },
+  {
+    "index": 100,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-thinkpad-l16-gen-2-21sa000fva.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_12.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_12_specs.html",
+      "price": "24.090.000đ"
+    }
+  },
+  {
+    "index": 101,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-5-14akp10-83hx001jvn-ryzen-ai-7.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_13.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_13_specs.html",
+      "price": "27.990.000đ"
+    }
+  },
+  {
+    "index": 103,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-thinkpad-e14-gen-7-21t90022va.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_15.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_15_specs.html",
+      "price": "25.990.000đ"
+    }
+  },
+  {
+    "index": 104,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-v15-g4-iru-83cc0041vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_16.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_16_specs.html",
+      "price": "14.790.000đ"
+    }
+  },
+  {
+    "index": 105,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-3-15irh10-83k1000gvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_17.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_17_specs.html",
+      "price": "17.990.000đ"
+    }
+  },
+  {
+    "index": 108,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-thinkpad-l16-gen-2-21sa000gva.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_20.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_20_specs.html",
+      "price": "25.190.000đ"
+    }
+  },
+  {
+    "index": 109,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-thinkpad-e16-gen-3-21sr002nvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_21.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_21_specs.html",
+      "price": "25.390.000đ"
+    }
+  },
+  {
+    "index": 110,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-v14-g4-iru-83a000fnvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_23.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_23_specs.html",
+      "price": "14.590.000đ"
+    }
+  },
+  {
+    "index": 111,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-legion-pro-5-16iax10-83f3002gvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_25.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_25_specs.html",
+      "price": "59.990.000đ"
+    }
+  },
+  {
+    "index": 114,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-3-14arp10-83k6000avn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_26.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_26_specs.html",
+      "price": "15.990.000đ"
+    }
+  },
+  {
+    "index": 115,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-v14-g3-iap-82ts00ayvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_27.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_27_specs.html",
+      "price": "13.990.000đ"
+    }
+  },
+  {
+    "index": 116,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-thinkbook-14-g8-irl-21sg007rvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_29.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_29_specs.html",
+      "price": "22.990.000đ"
+    }
+  },
+  {
+    "index": 117,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-3-14irh10-83k00009vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_30.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_30_specs.html",
+      "price": "20.990.000đ"
+    }
+  },
+  {
+    "index": 118,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-3-15irh10-83k1000jvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_28.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_28_specs.html",
+      "price": "19.990.000đ"
+    }
+  },
+  {
+    "index": 119,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-legion-5-15irx10-83ly00hwvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_31.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_31_specs.html",
+      "price": "43.990.000đ"
+    }
+  },
+  {
+    "index": 120,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-thinkbook-16-g8-irl-21sh0093va.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_32.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_32_specs.html",
+      "price": "20.690.000đ"
+    }
+  },
+  {
+    "index": 122,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-thinkpad-e16-gen-3-21sr002gva.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_34.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_34_specs.html",
+      "price": "24.190.000đ"
+    }
+  },
+  {
+    "index": 124,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-thinkbook-16-g8-irl-21sh0094va.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_36.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_36_specs.html",
+      "price": "21.190.000đ"
+    }
+  },
+  {
+    "index": 125,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-3-14irh10-83k0000avn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_37.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_37_specs.html",
+      "price": "17.990.000đ"
+    }
+  },
+  {
+    "index": 126,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-thinkbook-14-g8-irl-21sg007tvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_38.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_38_specs.html",
+      "price": "24.290.000đ"
+    }
+  },
+  {
+    "index": 128,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-3-15abr8-82xm00mcvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_41.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_41_specs.html",
+      "price": "16.190.000đ"
+    }
+  },
+  {
+    "index": 130,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-legion-5-15ahp10-83m00030vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_42.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_42_specs.html",
+      "price": "43.990.000đ"
+    }
+  },
+  {
+    "index": 131,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-ideadpad-slim-3-14irh10-83k00007vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_43.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_43_specs.html",
+      "price": "19.990.000đ"
+    }
+  },
+  {
+    "index": 133,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-3-15irh10-83k1002nvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_48.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_48_specs.html",
+      "price": "21.490.000đ"
+    }
+  },
+  {
+    "index": 135,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-thinkbook-16-g8-irl-21sh0099vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_47.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_47_specs.html",
+      "price": "24.890.000đ"
+    }
+  },
+  {
+    "index": 136,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-3-14irh10-83k0000bvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_46.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_46_specs.html",
+      "price": "19.490.000đ"
+    }
+  },
+  {
+    "index": 137,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-thinkpad-e14-gen-7-21sx002yvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_49.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_49_specs.html",
+      "price": "29.690.000đ"
+    }
+  },
+  {
+    "index": 138,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-legion-5-15irx10-83ly00hqvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_53.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_53_specs.html",
+      "price": "39.990.000đ"
+    }
+  },
+  {
+    "index": 139,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-legion-5-15irx10-83ly004gvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_52.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_52_specs.html",
+      "price": "51.490.000đ"
+    }
+  },
+  {
+    "index": 140,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-thinkbook-14-g8-irl-21sg007svn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_50.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_50_specs.html",
+      "price": "21.990.000đ"
+    }
+  },
+  {
+    "index": 141,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-v15-g4-iru-83a100pmvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_51.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_51_specs.html",
+      "price": "15.990.000đ"
+    }
+  },
+  {
+    "index": 144,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-3-16irh10-83k20001vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_57.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_57_specs.html",
+      "price": "19.990.000đ"
+    }
+  },
+  {
+    "index": 145,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-3-15irh10-83k1002pvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_56.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_56_specs.html",
+      "price": "20.490.000đ"
+    }
+  },
+  {
+    "index": 147,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-legion-5-15iax10-83f0003cvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_59.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_59_specs.html",
+      "price": "49.190.000đ"
+    }
+  },
+  {
+    "index": 152,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-legion-5-15iax10-83f0003bvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_64.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_64_specs.html",
+      "price": "54.990.000đ"
+    }
+  },
+  {
+    "index": 153,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-legion-pro-5-16iax10-83f3003vvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_65.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_65_specs.html",
+      "price": "53.990.000đ"
+    }
+  },
+  {
+    "index": 154,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-loq-15irx9-83dv012lvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_67.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_67_specs.html",
+      "price": "25.490.000đ"
+    }
+  },
+  {
+    "index": 155,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-v15-g5-irl-83hf00byvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_66.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_66_specs.html",
+      "price": "16.390.000đ"
+    }
+  },
+  {
+    "index": 156,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-loq-essential-15irx11-83sc003rvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_68.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_68_specs.html",
+      "price": "28.490.000đ"
+    }
+  },
+  {
+    "index": 157,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-loq-15arp9-83jc00hxvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_69.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_69_specs.html",
+      "price": "22.990.000đ"
+    }
+  },
+  {
+    "index": 159,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-thinkpad-e14-gen-7-21t90025vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_72.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_72_specs.html",
+      "price": "26.190.000đ"
+    }
+  },
+  {
+    "index": 160,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-thinkpad-e14-gen-7-21sx0031vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_73.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_73_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 161,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-loq-15arp9-83jc00hyvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_71.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_71_specs.html",
+      "price": "24.490.000đ"
+    }
+  },
+  {
+    "index": 162,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-thinkpad-e16-gen-3-21sr002kva.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_74.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_74_specs.html",
+      "price": "25.190.000đ"
+    }
+  },
+  {
+    "index": 163,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-loq-15iax9-83gs001rvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_75.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_75_specs.html",
+      "price": "23.990.000đ"
+    }
+  },
+  {
+    "index": 164,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-5-14irh10r-83j0006cvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_77.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_77_specs.html",
+      "price": "24.590.000đ"
+    }
+  },
+  {
+    "index": 167,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-loq-15irx9-83dv01alvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_80.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_80_specs.html",
+      "price": "29.990.000đ"
+    }
+  },
+  {
+    "index": 170,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-thinkbook-16-g8-irl.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_81.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_81_specs.html",
+      "price": "21.490.000đ"
+    }
+  },
+  {
+    "index": 171,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-v14-g4-iru-83a00012vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_83.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_83_specs.html",
+      "price": "19.990.000đ"
+    }
+  },
+  {
+    "index": 172,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-5-14irh10r-83j0006evn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_84.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_84_specs.html",
+      "price": "21.490.000đ"
+    }
+  },
+  {
+    "index": 173,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-5-14akp10-83hx001kvn-ryzen-ai-5.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_85.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_85_specs.html",
+      "price": "23.090.000đ"
+    }
+  },
+  {
+    "index": 175,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-3-15-abr8-82xm00ejvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_87.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_87_specs.html",
+      "price": "14.390.000đ"
+    }
+  },
+  {
+    "index": 176,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-5-14irh10-83hr0001vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_88.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_88_specs.html",
+      "price": "23.490.000đ"
+    }
+  },
+  {
+    "index": 177,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-legion-5-15irx10-83ly00a7vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_89.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_89_specs.html",
+      "price": "40.990.000đ"
+    }
+  },
+  {
+    "index": 180,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-3-16irh10-83k20004vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_93.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_93_specs.html",
+      "price": "20.990.000đ"
+    }
+  },
+  {
+    "index": 182,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-legion-5-15ahp10-83m0002xvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_94.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_94_specs.html",
+      "price": "39.490.000đ"
+    }
+  },
+  {
+    "index": 185,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-loq-15arp9-83jc007hvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_95.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_95_specs.html",
+      "price": "23.490.000đ"
+    }
+  },
+  {
+    "index": 186,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-loq-15arp9-83jc007jvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_97.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_97_specs.html",
+      "price": "24.490.000đ"
+    }
+  },
+  {
+    "index": 187,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-loq-15iax9-83gs000jvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_102.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_102_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 189,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-thinkpad-e14-21eb0063vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_100.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_100_specs.html",
+      "price": "21.700.000đ"
+    }
+  },
+  {
+    "index": 191,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-thinkpad-t14-gen-2.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_106.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_106_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 196,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-yoga-6-13alc6-82nd00bdvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_108.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_108_specs.html",
+      "price": "16.800.000đ"
+    }
+  },
+  {
+    "index": 197,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-thinkpad-t14-gen-3.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_111.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_111_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 198,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-thinkpad-e16-gen-1-21jn006gvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_110.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_110_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 199,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-thinkpad-t480.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_109.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_109_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 201,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-yoga-pro-7-14irh8-82y70050vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_114.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_114_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 203,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-thinkbook-14-g2-are.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_117.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_117_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 207,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-legion-slim-5-16irh8-82ya008hvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_119.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_119_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 209,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-thinkpad-p51.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_121.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_121_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 211,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-thinkpad-p50.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_125.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_125_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 212,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-thinkpad-t470s.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_123.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_123_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 213,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-thinkpad-t460s.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_126.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_126_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 214,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-thinkpad-t14.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_128.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_128_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 215,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-5-light-14abr8-82xs0007vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_124.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_124_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 216,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-5-15iil05-81yk004wvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_129.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_129_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 217,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-5-14itl05-82fg0129vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_130.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_130_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 219,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-loq-15irx9-83dv0092vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_133.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_133_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 220,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-gaming-legion-5-15imh05-82au00g9vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_131.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_131_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 221,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-legion-pro-7-16irx9h-83de001nvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_134.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_134_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 222,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-gaming-legion-pro-7-16irx9h-83de001mvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_132.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_132_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 224,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-thinkpad-e15-20rds0du00.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_138.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_138_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 225,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-legion-slim-5-16irh8-82ya00btvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_135.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_135_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 226,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-3-15iau7-82rk015avn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_139.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_139_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 227,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-legion-slim-5-16aph8-82y9002yvn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_140.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_140_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 228,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lenovo",
+      "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-5-light-14abr8-82xs0006vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\lenovo_141.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_141_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 230,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-inspiron-15-3530-j9xfd.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_1.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_1_specs.html",
+      "price": "16.990.000đ"
+    }
+  },
+  {
+    "index": 231,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-15-dc15255-dc5r5802w1.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_4.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_4_specs.html",
+      "price": "16.990.000đ"
+    }
+  },
+  {
+    "index": 232,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-inspiron-14-5440-d0f3w.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_0.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_0_specs.html",
+      "price": "18.990.000đ"
+    }
+  },
+  {
+    "index": 233,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-15-dc15250-79n4m.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_2.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_2_specs.html",
+      "price": "14.490.000đ"
+    }
+  },
+  {
+    "index": 234,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-vostro-3530-2h1tpi5-16gb.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_3.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_3_specs.html",
+      "price": "18.990.000đ"
+    }
+  },
+  {
+    "index": 235,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-15-dc15250-71073959.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_5.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_5_specs.html",
+      "price": "21.990.000đ"
+    }
+  },
+  {
+    "index": 236,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-vostro-3520-f0v0vi3.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_8.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_8_specs.html",
+      "price": "11.990.000đ"
+    }
+  },
+  {
+    "index": 237,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-latitude-3450-l3450-1335u-16512w-umc.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_6.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_6_specs.html",
+      "price": "19.590.000đ"
+    }
+  },
+  {
+    "index": 238,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-vostro-3530-2h1tpi7.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_7.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_7_specs.html",
+      "price": "20.990.000đ"
+    }
+  },
+  {
+    "index": 239,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-15-dc15250-h02df.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_9.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_9_specs.html",
+      "price": "16.990.000đ"
+    }
+  },
+  {
+    "index": 240,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-vostro-3530-2h1tpi3.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_10.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_10_specs.html",
+      "price": "12.990.000đ"
+    }
+  },
+  {
+    "index": 241,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-inspiron-14-5440-n4i5211w1.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_12.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_12_specs.html",
+      "price": "23.690.000đ"
+    }
+  },
+  {
+    "index": 242,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-inspiron-14-5440-ndy5v1.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_13.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_13_specs.html",
+      "price": "20.990.000đ"
+    }
+  },
+  {
+    "index": 243,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-15-dc15250-i5u165w11slu.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_11.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_11_specs.html",
+      "price": "19.190.000đ"
+    }
+  },
+  {
+    "index": 244,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-15-dc15255-x9ym41.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_14.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_14_specs.html",
+      "price": "19.490.000đ"
+    }
+  },
+  {
+    "index": 245,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-inspiron-15-3520-jym17.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_17.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_17_specs.html",
+      "price": "12.290.000đ"
+    }
+  },
+  {
+    "index": 246,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-inspiron-14-5440-n5440-c7u165w11ibd2.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_15.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_15_specs.html",
+      "price": "29.990.000đ"
+    }
+  },
+  {
+    "index": 249,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-inspiron-15-3520-5124blk-gj8w7.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_19.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_19_specs.html",
+      "price": "15.490.000đ"
+    }
+  },
+  {
+    "index": 250,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-inspiron-15-3520-i3520-7896blk-pus.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_20.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_20_specs.html",
+      "price": "20.490.000đ"
+    }
+  },
+  {
+    "index": 251,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-inspiron-15-3520-6r6nk.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_22.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_22_specs.html",
+      "price": "14.490.000đ"
+    }
+  },
+  {
+    "index": 252,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-latitude-3540-71038100.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_21.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_21_specs.html",
+      "price": "18.990.000đ"
+    }
+  },
+  {
+    "index": 253,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-inspiron-15-3520-n3520-i5u165w11slu.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_23.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_23_specs.html",
+      "price": "16.990.000đ"
+    }
+  },
+  {
+    "index": 254,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-latitude-7400.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_24.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_24_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 255,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-vostro-3520-f0v0v256.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_25.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_25_specs.html",
+      "price": "13.990.000đ"
+    }
+  },
+  {
+    "index": 257,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-15-dc15250-3g7t0.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_26.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_26_specs.html",
+      "price": "20.990.000đ"
+    }
+  },
+  {
+    "index": 258,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-inspiron-15-3530-p16wd2.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_27.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_27_specs.html",
+      "price": "19.190.000đ"
+    }
+  },
+  {
+    "index": 261,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-latitude-3420.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_33.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_33_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 262,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-inspiron-16-5620-n6i7110w1.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_32.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_32_specs.html",
+      "price": "25.290.000đ"
+    }
+  },
+  {
+    "index": 263,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-inspiron-14-5440-n4i7204w1.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_31.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_31_specs.html",
+      "price": "26.490.000đ"
+    }
+  },
+  {
+    "index": 264,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-latitude-e7470.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_34.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_34_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 267,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-inspiron-5425.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_36.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_36_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 268,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-latitude-7480.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_37.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_37_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 270,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-xps-15-9520.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_42.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_42_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 271,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-xps-13-9350.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_41.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_41_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 272,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-xps-14-9440-71054773.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_40.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_40_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 273,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-latitude-5480.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_43.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_43_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 277,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-xps-15-9570.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_46.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_46_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 278,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-xps-9510.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_48.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_48_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 279,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-latitude-e7250.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_50.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_50_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 280,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-inspiron-7425.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_49.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_49_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 281,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-xps-9500.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_52.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_52_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 283,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-alienware-m16.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_51.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_51_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 284,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-vostro-5568.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_54.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_54_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 286,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-latitude-5520.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_57.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_57_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 287,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-latitude-5420.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_58.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_58_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 288,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-inspiron-7559.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_56.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_56_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 289,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-alienware-m15-r7.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_59.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_59_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 291,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-inspiron-5515-r1505s.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_61.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_61_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 292,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-xps-15-7590.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_62.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_62_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 293,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-latitude-e5520.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_64.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_64_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 295,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-latitude-e7270.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_63.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_63_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 296,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-g7-15-7500.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_66.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_66_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 297,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-vostro-5468.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_67.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_67_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 298,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-latitude-3520-71012298.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_68.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_68_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 299,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-inspiron-14-7420-1yt85.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_72.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_72_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 301,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-vostro-15-3530-80gg9.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_73.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_73_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 302,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-inspiron-15-3520-n3520-i5u085w11slu.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_69.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_69_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 303,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-vostro-3530-2h1tpi5.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_70.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_70_specs.html",
+      "price": "16.990.000đ"
+    }
+  },
+  {
+    "index": 304,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-insprion-3501.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_74.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_74_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 306,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-inspiron-15-3520-n3520-i5u165w11blu.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_77.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_77_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 308,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-latitude-e6420.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_78.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_78_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 309,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-vostro-3578.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_79.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_79_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 310,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "dell",
+      "url": "https://cellphones.com.vn/laptop-dell-inspiron-15-3530-71043885.html",
+      "saved_path": "data/cellphones/raw_htmls\\dell_80.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\dell_80_specs.html",
+      "price": "19.290.000đ"
+    }
+  },
+  {
+    "index": 312,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-tuf-gaming-f16-fx607vj-rl034w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_0.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_0_specs.html",
+      "price": "24.490.000đ"
+    }
+  },
+  {
+    "index": 313,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-16x-k3605vc-rp431w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_2.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_2_specs.html",
+      "price": "22.090.000đ"
+    }
+  },
+  {
+    "index": 314,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-gaming-v16-v3607vm-rp044w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_3.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_3_specs.html",
+      "price": "37.990.000đ"
+    }
+  },
+  {
+    "index": 317,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-gaming-v16-v3607vu-rp343w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_6.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_6_specs.html",
+      "price": "25.490.000đ"
+    }
+  },
+  {
+    "index": 318,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-go-15-e1504ga-bq1141w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_7.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_7_specs.html",
+      "price": "10.190.000đ"
+    }
+  },
+  {
+    "index": 320,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-tuf-gaming-a15-fa506ncg-hn184w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_10.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_10_specs.html",
+      "price": "22.490.000đ"
+    }
+  },
+  {
+    "index": 321,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-15-oled-a1505va-ma505w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_12.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_12_specs.html",
+      "price": "19.690.000đ"
+    }
+  },
+  {
+    "index": 322,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-tuf-gaming-f16-fx608jhr-rv037w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_11.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_11_specs.html",
+      "price": "38.990.000đ"
+    }
+  },
+  {
+    "index": 323,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-s14-s3407va-ly046w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_9.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_9_specs.html",
+      "price": "18.990.000đ"
+    }
+  },
+  {
+    "index": 324,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-tuf-gaming-f16-fx607vu-rl045w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_13.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_13_specs.html",
+      "price": "28.490.000đ"
+    }
+  },
+  {
+    "index": 326,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-14-x1405va-ly623w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_16.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_16_specs.html",
+      "price": "16.490.000đ"
+    }
+  },
+  {
+    "index": 327,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-16x-k3605vc-rp491w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_15.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_15_specs.html",
+      "price": "22.990.000đ"
+    }
+  },
+  {
+    "index": 328,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-s-14-flip-tp3402va-lz632w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_18.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_18_specs.html",
+      "price": "20.990.000đ"
+    }
+  },
+  {
+    "index": 329,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-15-x1502va-bq885w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_17.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_17_specs.html",
+      "price": "15.990.000đ"
+    }
+  },
+  {
+    "index": 330,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-rog-strix-g16-g615jmr-s5155w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_19.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_19_specs.html",
+      "price": "46.990.000đ"
+    }
+  },
+  {
+    "index": 331,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-14-x1404va-nk394w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_20.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_20_specs.html",
+      "price": "12.690.000đ"
+    }
+  },
+  {
+    "index": 333,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-15-x1502va-bq886w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_24.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_24_specs.html",
+      "price": "17.990.000đ"
+    }
+  },
+  {
+    "index": 335,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-15-oled-a1505va-l1688w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_22.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_22_specs.html",
+      "price": "20.990.000đ"
+    }
+  },
+  {
+    "index": 338,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-15-x1504va-bq2076w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_28.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_28_specs.html",
+      "price": "15.990.000đ"
+    }
+  },
+  {
+    "index": 340,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-15-x1504va-bq165w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_30.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_30_specs.html",
+      "price": "16.990.000đ"
+    }
+  },
+  {
+    "index": 344,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-rog-strix-g18-g815lm-s9088w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_29.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_29_specs.html",
+      "price": "52.090.000đ"
+    }
+  },
+  {
+    "index": 346,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-rog-strix-g18-g815lp-s9102w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_35.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_35_specs.html",
+      "price": "56.990.000đ"
+    }
+  },
+  {
+    "index": 347,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-s14-s3407va-ly053w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_38.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_38_specs.html",
+      "price": "20.990.000đ"
+    }
+  },
+  {
+    "index": 348,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-gaming-v16-v3607vu-rp216w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_36.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_36_specs.html",
+      "price": "27.490.000đ"
+    }
+  },
+  {
+    "index": 350,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-15-x1504va-nj1969w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_39.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_39_specs.html",
+      "price": "15.990.000đ"
+    }
+  },
+  {
+    "index": 351,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-tuf-gaming-f15-fx507zc4-hn095w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_40.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_40_specs.html",
+      "price": "24.990.000đ"
+    }
+  },
+  {
+    "index": 353,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-s16-s3607va-rp056w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_41.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_41_specs.html",
+      "price": "20.490.000đ"
+    }
+  },
+  {
+    "index": 355,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-gaming-v16-v3607vh-rp024w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_44.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_44_specs.html",
+      "price": "28.990.000đ"
+    }
+  },
+  {
+    "index": 356,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-tuf-gaming-f16-fx608jmr-rv048w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_45.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_45_specs.html",
+      "price": "40.990.000đ"
+    }
+  },
+  {
+    "index": 357,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-gaming-v16-v3607vh-rp025w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_48.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_48_specs.html",
+      "price": "30.430.000đ"
+    }
+  },
+  {
+    "index": 360,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-s14-s3407ca-ly095ws.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_49.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_49_specs.html",
+      "price": "22.990.000đ"
+    }
+  },
+  {
+    "index": 361,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-rog-strix-g16-g615jhr-s5069w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_53.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_53_specs.html",
+      "price": "44.170.000đ"
+    }
+  },
+  {
+    "index": 363,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-tuf-gaming-f16-fx608jh-rv039w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_52.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_52_specs.html",
+      "price": "33.370.000đ"
+    }
+  },
+  {
+    "index": 364,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-s14-s3407va-ly146w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_51.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_51_specs.html",
+      "price": "19.490.000đ"
+    }
+  },
+  {
+    "index": 367,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-s14-m3407ka-sf032ws-ryzen-ai-7.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_57.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_57_specs.html",
+      "price": "25.990.000đ"
+    }
+  },
+  {
+    "index": 369,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-s14-m3407ka-sf034ws-ryzen-ai-5.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_58.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_58_specs.html",
+      "price": "22.990.000đ"
+    }
+  },
+  {
+    "index": 372,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-s14-s3407ca-ly096ws.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_62.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_62_specs.html",
+      "price": "25.990.000đ"
+    }
+  },
+  {
+    "index": 373,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-rog-strix-g16-g615jpr-s5107w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_63.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_63_specs.html",
+      "price": "51.090.000đ"
+    }
+  },
+  {
+    "index": 374,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-rog-strix-g16-g615lr-s5289w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_61.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_61_specs.html",
+      "price": "57.990.000đ"
+    }
+  },
+  {
+    "index": 377,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-14-a1407ca-ly008ws.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_64.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_64_specs.html",
+      "price": "22.490.000đ"
+    }
+  },
+  {
+    "index": 379,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-tuf-gaming-f16-fx608jpr-rv044w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_68.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_68_specs.html",
+      "price": "45.190.000đ"
+    }
+  },
+  {
+    "index": 382,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-s16-s3607ca-sh082ws.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_70.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_70_specs.html",
+      "price": "23.990.000đ"
+    }
+  },
+  {
+    "index": 383,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-s16-s3607ca-sh083ws.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_71.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_71_specs.html",
+      "price": "26.990.000đ"
+    }
+  },
+  {
+    "index": 384,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-tuf-gaming-f15-fx507zc4-hn074w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_73.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_73_specs.html",
+      "price": "25.990.000đ"
+    }
+  },
+  {
+    "index": 385,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-15-oled-a1505va-ma468w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_76.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_76_specs.html",
+      "price": "20.990.000đ"
+    }
+  },
+  {
+    "index": 387,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-rog-strix-g16-g614ju-n3135w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_75.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_75_specs.html",
+      "price": "33.990.000đ"
+    }
+  },
+  {
+    "index": 389,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-15-oled-a1505va-ma469w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_78.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_78_specs.html",
+      "price": "24.990.000đ"
+    }
+  },
+  {
+    "index": 391,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-rog-strix-g16-g614ju-n3480w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_80.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_80_specs.html",
+      "price": "37.990.000đ"
+    }
+  },
+  {
+    "index": 392,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-16-m1607ka-mb091ws-ryzen-ai-7.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_81.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_81_specs.html",
+      "price": "22.990.000đ"
+    }
+  },
+  {
+    "index": 393,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-gaming-vivobook-k3605zf-rp634w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_82.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_82_specs.html",
+      "price": "20.990.000đ"
+    }
+  },
+  {
+    "index": 395,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-tuf-gaming-f15-fx506hf-hn078w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_84.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_84_specs.html",
+      "price": "20.990.000đ"
+    }
+  },
+  {
+    "index": 396,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-gaming-vivobook-k3605zu-rp296w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_85.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_85_specs.html",
+      "price": "28.490.000đ"
+    }
+  },
+  {
+    "index": 398,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-14-oled-a1405va-km257w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_87.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_87_specs.html",
+      "price": "20.990.000đ"
+    }
+  },
+  {
+    "index": 399,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-expertbook-b1402cba-nk2669w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_88.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_88_specs.html",
+      "price": "19.990.000đ"
+    }
+  },
+  {
+    "index": 400,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-15-x1504za-nj517w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_89.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_89_specs.html",
+      "price": "16.490.000đ"
+    }
+  },
+  {
+    "index": 401,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-15-oled-a1505va-l1201w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_92.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_92_specs.html",
+      "price": "24.990.000đ"
+    }
+  },
+  {
+    "index": 402,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-tuf-gaming-f15-fx507vv-lp304w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_90.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_90_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 403,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-14-oled-a1405za-km264w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_91.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_91_specs.html",
+      "price": "17.990.000đ"
+    }
+  },
+  {
+    "index": 404,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-tuf-gaming-a15-fa507nu-lp140w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_94.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_94_specs.html",
+      "price": "25.990.000đ"
+    }
+  },
+  {
+    "index": 405,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-15-x1504za-nj1039w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_93.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_93_specs.html",
+      "price": "17.990.000đ"
+    }
+  },
+  {
+    "index": 406,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-rog-strix-g16-g614jv-n4156w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_97.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_97_specs.html",
+      "price": "40.990.000đ"
+    }
+  },
+  {
+    "index": 408,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-tuf-gaming-a15-fa506nf-hn005w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_95.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_95_specs.html",
+      "price": "19.990.000đ"
+    }
+  },
+  {
+    "index": 409,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-pro-m3401qa-km025w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_99.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_99_specs.html",
+      "price": "18.600.000đ"
+    }
+  },
+  {
+    "index": 411,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-pro-m3401qa-km006w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_101.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_101_specs.html",
+      "price": "17.800.000đ"
+    }
+  },
+  {
+    "index": 412,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-expertbook-p1-p1503cva-i5se16-63ws.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_100.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_100_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 413,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-expertbook-p1-p1403cva-i5se16-63ws.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_102.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_102_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 414,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-rog-strix-g18-g814jvr-n6089w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_104.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_104_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 415,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-gaming-rog-strix-g531gt-al030t.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_103.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_103_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 416,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-expertbook-p1-p1503cva-i7se16-63ws.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_106.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_106_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 417,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-14-x1404va-nk125w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_105.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_105_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 419,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-tuf-gaming-a15-fa507uv-lp090w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_108.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_108_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 420,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-expertbook-b1-b1502cva-nj0175w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_109.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_109_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 421,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-expertbook-b1402cva-nk0177w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_112.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_112_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 422,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-expertbook-b1-b1502cva-nj0149w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_111.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_111_specs.html",
+      "price": "12.490.000đ"
+    }
+  },
+  {
+    "index": 423,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-expertbook-b1-b1402cva-nk0176w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_110.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_110_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 424,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-rog-strix-scar-18-g834jyr-r6199.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_114.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_114_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 426,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-tuf-gaming-fx516pm-hn023t.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_115.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_115_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 427,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-expertbook-b1-b1502cva-nj0148w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_117.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_117_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 428,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-gaming-fx505dy-al175t.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_116.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_116_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 429,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-expertbook-b5-b5602cva-l20164w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_118.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_118_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 430,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-rog-strix-g16-g614ji-n4125w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_119.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_119_specs.html",
+      "price": "46.990.000đ"
+    }
+  },
+  {
+    "index": 432,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-expertbook-p1-p1403cva-i7se16-63ws.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_122.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_122_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 433,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-rog-strix-g18-g814jv-n6077w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_123.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_123_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 435,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-expertbook-b5-b5402cva-ki0123w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_124.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_124_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 436,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-expertbook-b5-b5402cva-ki0229w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_125.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_125_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 437,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-vivobook-15x-oled-m3504ya-l1268w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_126.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_126_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 438,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-rog-strix-g16-g614jv-n3514w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_127.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_127_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 439,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-x509ja-ej020t.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_128.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_128_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 441,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-gaming-rog-zephyrus-g14-ga401qm-211-zg14.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_130.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_130_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 442,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-tuf-gaming-f15-fx507vu-lp197w-16gb.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_131.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_131_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 443,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-x409ja-ek015t.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_132.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_132_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 444,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-expertbook-b1-b1402cva-nk0062w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_133.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_133_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 445,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-rog-strix-g18-g814jir-n6108w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_134.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_134_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 447,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-gaming-rog-strix-scar-18-g834jyr-r6011w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_136.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_136_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 449,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-expertbook-b1-b1502cva-nj0050w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_138.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_138_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 450,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-rog-strix-scar-16-g634jyr-ra132w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_139.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_139_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 451,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-rog-strix-scar-18-g834jzr-r6160.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_140.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_140_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 454,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "asus",
+      "url": "https://cellphones.com.vn/laptop-asus-rog-strix-g16-g614ju-n3506w.html",
+      "saved_path": "data/cellphones/raw_htmls\\asus_143.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\asus_143_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 455,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-aspire-lite-16-gen-2-al16-52p-572a.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_1.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_1_specs.html",
+      "price": "14.790.000đ"
+    }
+  },
+  {
+    "index": 456,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-gaming-nitro-lite-16-nl16-71g-71uj.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_4.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_4_specs.html",
+      "price": "23.990.000đ"
+    }
+  },
+  {
+    "index": 457,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-gaming-acer-nitro-v-anv15-51-57b2.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_3.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_3_specs.html",
+      "price": "26.990.000đ"
+    }
+  },
+  {
+    "index": 458,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-gaming-acer-nitro-v-anv15-41-r7ap.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_2.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_2_specs.html",
+      "price": "22.990.000đ"
+    }
+  },
+  {
+    "index": 459,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-gaming-aspire-7-a715-59g-57tu.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_0.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_0_specs.html",
+      "price": "20.490.000đ"
+    }
+  },
+  {
+    "index": 460,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-aspire-go-15-ag15-51p-3151.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_6.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_6_specs.html",
+      "price": "10.990.000đ"
+    }
+  },
+  {
+    "index": 461,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-gaming-acer-nitro-v-anv15-51-72vs.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_8.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_8_specs.html",
+      "price": "25.990.000đ"
+    }
+  },
+  {
+    "index": 462,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-gaming-nitro-lite-16-nl16-71g-56wq.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_9.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_9_specs.html",
+      "price": "21.990.000đ"
+    }
+  },
+  {
+    "index": 463,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-nitro-v-anv15-41-r2up.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_5.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_5_specs.html",
+      "price": "18.690.000đ"
+    }
+  },
+  {
+    "index": 464,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-gaming-nitro-v-15-propanel-anv15-41-r7cr.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_7.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_7_specs.html",
+      "price": "26.990.000đ"
+    }
+  },
+  {
+    "index": 465,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-aspire-lite-14-al14-71m-52gq.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_10.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_10_specs.html",
+      "price": "15.990.000đ"
+    }
+  },
+  {
+    "index": 466,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-gaming-acer-nitro-v-15-propanel-anv15-51-73bt.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_12.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_12_specs.html",
+      "price": "27.990.000đ"
+    }
+  },
+  {
+    "index": 467,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-gaming-nitro-v-15-propanel-anv15-41-r9m1.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_11.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_11_specs.html",
+      "price": "21.990.000đ"
+    }
+  },
+  {
+    "index": 468,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-aspire-3-a315-58-53s6.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_14.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_14_specs.html",
+      "price": "15.990.000đ"
+    }
+  },
+  {
+    "index": 469,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-aspire-lite-gen-2-al14-52m-32kv.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_13.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_13_specs.html",
+      "price": "9.990.000đ"
+    }
+  },
+  {
+    "index": 470,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-aspire-lite-15-al15-41p-r3u5.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_15.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_15_specs.html",
+      "price": "12.990.000đ"
+    }
+  },
+  {
+    "index": 471,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-aspire-lite-16-al16-51p-72s2.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_17.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_17_specs.html",
+      "price": "16.990.000đ"
+    }
+  },
+  {
+    "index": 472,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-aspire-lite-15-al15-42p-r08m.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_16.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_16_specs.html",
+      "price": "15.490.000đ"
+    }
+  },
+  {
+    "index": 474,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-gaming-aspire-7-a715-59g-73lb.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_18.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_18_specs.html",
+      "price": "23.990.000đ"
+    }
+  },
+  {
+    "index": 475,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-gaming-nitro-v-15-propanel-anv15-41-r0fe.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_22.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_22_specs.html",
+      "price": "25.990.000đ"
+    }
+  },
+  {
+    "index": 476,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-aspire-lite-al16-51p-55n7.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_21.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_21_specs.html",
+      "price": "14.990.000đ"
+    }
+  },
+  {
+    "index": 477,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-nitro-v-15-propanel-anv15-51-73uu.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_20.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_20_specs.html",
+      "price": "27.990.000đ"
+    }
+  },
+  {
+    "index": 478,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-gaming-predator-helios-neo-16-ai-phn16-73-757w.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_23.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_23_specs.html",
+      "price": "54.990.000đ"
+    }
+  },
+  {
+    "index": 479,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-gaming-nitro-v-15-propanel-anv15-52-59aa.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_24.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_24_specs.html",
+      "price": "28.990.000đ"
+    }
+  },
+  {
+    "index": 480,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-aspire-lite-15-al15-72p-581v.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_27.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_27_specs.html",
+      "price": "15.990.000đ"
+    }
+  },
+  {
+    "index": 481,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-aspire-lite-15-al15-72p-7232.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_25.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_25_specs.html",
+      "price": "16.990.000đ"
+    }
+  },
+  {
+    "index": 482,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-gaming-nitro-v-15-propanel-anv15-41-r0y4.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_26.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_26_specs.html",
+      "price": "26.990.000đ"
+    }
+  },
+  {
+    "index": 483,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-gaming-nitro-v-15-propanel-anv15-52-72bm.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_28.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_28_specs.html",
+      "price": "30.990.000đ"
+    }
+  },
+  {
+    "index": 484,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-swift-lite-14-ai-sfl14-51m-56hs.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_29.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_29_specs.html",
+      "price": "19.990.000đ"
+    }
+  },
+  {
+    "index": 485,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-swift-lite-14-ai-sfl14-51m-78xz.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_32.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_32_specs.html",
+      "price": "22.990.000đ"
+    }
+  },
+  {
+    "index": 486,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-aspire-go-14-ai-ag14-71m-57wr.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_30.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_30_specs.html",
+      "price": "18.990.000đ"
+    }
+  },
+  {
+    "index": 488,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-gaming-nitro-v-16-ai-propanel-anv16s-61-r9zv.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_34.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_34_specs.html",
+      "price": "44.990.000đ"
+    }
+  },
+  {
+    "index": 491,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-gaming-predator-helios-16-ai-ph16-73-950c.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_35.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_35_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 495,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-gaming-nitro-16-ai-propanel-an16s-61-r5f4.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_42.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_42_specs.html",
+      "price": "42.990.000đ"
+    }
+  },
+  {
+    "index": 496,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-gaming-predator-helios-16-ai-ph16-73-93hd.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_41.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_41_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 499,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-aspire-go-15-ag15-72p-776j.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_44.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_44_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 501,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-gaming-nitro-v-16-ai-propanel-anv16s-61-r0b8.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_47.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_47_specs.html",
+      "price": "34.990.000đ"
+    }
+  },
+  {
+    "index": 503,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-aspire-go-14-ag14-72p-563l.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_48.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_48_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 504,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-aspire-lite-15-al15-42p-r8e6.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_49.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_49_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 505,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-gaming-acer-nitro-5-tiger-an515-58-52sp.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_50.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_50_specs.html",
+      "price": "27.990.000đ"
+    }
+  },
+  {
+    "index": 506,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-gaming-aspire-7-a715-76-53pj.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_51.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_51_specs.html",
+      "price": "16.990.000đ"
+    }
+  },
+  {
+    "index": 508,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-gaming-aspire-5-a515-58gm-53pz.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_53.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_53_specs.html",
+      "price": "20.490.000đ"
+    }
+  },
+  {
+    "index": 509,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-aspire-7-a715-76g-5806.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_54.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_54_specs.html",
+      "price": "22.990.000đ"
+    }
+  },
+  {
+    "index": 510,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-gaming-acer-nitro-v-anv15-51-55ca.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_56.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_56_specs.html",
+      "price": "27.990.000đ"
+    }
+  },
+  {
+    "index": 511,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-gaming-acer-nitro-v-anv15-51-58an.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_55.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_55_specs.html",
+      "price": "21.490.000đ"
+    }
+  },
+  {
+    "index": 512,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-gaming-acer-nitro-5-eagle-an515-57-54mv.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_57.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_57_specs.html",
+      "price": "26.490.000đ"
+    }
+  },
+  {
+    "index": 515,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-gaming-aspire-7-a715-76g-73fm.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_58.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_58_specs.html",
+      "price": "23.990.000đ"
+    }
+  },
+  {
+    "index": 516,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-gaming-acer-nitro-5-an515-58-52sp-43910.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_60.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_60_specs.html",
+      "price": "27.990.000đ"
+    }
+  },
+  {
+    "index": 517,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-aspire-3-a315-58-529v-nx-addsv-00n.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_62.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_62_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 518,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-gaming-acer-nitro-v-anv16-41-r6na.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_65.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_65_specs.html",
+      "price": "34.990.000đ"
+    }
+  },
+  {
+    "index": 519,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-aspire-7-a715-76g-55t6.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_64.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_64_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 520,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-gaming-acer-nitro-v-anv16-41-r7en.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_63.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_63_specs.html",
+      "price": "28.790.000đ"
+    }
+  },
+  {
+    "index": 521,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-gaming-acer-nitro-v-anv16-41-r36y.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_66.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_66_specs.html",
+      "price": "31.990.000đ"
+    }
+  },
+  {
+    "index": 522,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-gaming-nitro-16-ai-propanel-an16s-61-r193.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_67.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_67_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 523,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-gaming-nitro-v-16-ai-propanel-anv16s-61-r7kq.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_71.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_71_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 524,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-gaming-aspire-7-a715-59g-78wg.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_69.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_69_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 526,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-aspire-go-15-ag15-72p-54gy.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_70.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_70_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 527,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-gaming-acer-nitro-5-an515-55-5923.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_72.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_72_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 528,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-aspire-lite-16-gen-2-al16-52p-76du.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_75.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_75_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 529,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-gaming-predator-helios-neo-phn16-72-78l4.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_76.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_76_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 530,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-aspire-3-a315-44p-r9w8.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_74.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_74_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 531,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-gaming-acer-nitro-5-an515-45-r6ev-nhqbmsv-006.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_73.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_73_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 532,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-gaming-nitro-v-16-ai-propanel-anv16s-71-75lr.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_78.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_78_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 533,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-aspire-go-15-ag15-72p-35x9.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_77.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_77_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 534,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-gaming-acer-nitro-v-anv16-41-r6zy.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_79.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_79_specs.html",
+      "price": "27.490.000đ"
+    }
+  },
+  {
+    "index": 535,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-gaming-nitro-v-15-propanel-anv15-52-59rr.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_81.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_81_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 536,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-nitro-v-16-propanel-anv16-41-r36y.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_80.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_80_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 537,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-gaming-aspire-5-a515-58gm-598j.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_83.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_83_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 538,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-gaming-aspire-7-a715-76-728x.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_82.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_82_specs.html",
+      "price": "19.990.000đ"
+    }
+  },
+  {
+    "index": 540,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-gaming-nitro-v-15-anv15-41-r732.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_84.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_84_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 541,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-gaming-nitro-v-16s-propanel-anv16s-41-r337.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_86.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_86_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 543,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "acer",
+      "url": "https://cellphones.com.vn/laptop-acer-gaming-aspire-7-a715-59g-55md.html",
+      "saved_path": "data/cellphones/raw_htmls\\acer_88.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\acer_88_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 546,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-katana-15-b13vfk-676vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_1.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_1_specs.html",
+      "price": "30.990.000đ"
+    }
+  },
+  {
+    "index": 547,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-katana-15-b13udxk-2270vn-16gb.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_0.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_0_specs.html",
+      "price": "22.990.000đ"
+    }
+  },
+  {
+    "index": 548,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-modern-14-c12mo-660vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_4.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_4_specs.html",
+      "price": "15.990.000đ"
+    }
+  },
+  {
+    "index": 549,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-gaming-katana-a15-ai-b8ve-402vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_2.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_2_specs.html",
+      "price": "28.990.000đ"
+    }
+  },
+  {
+    "index": 550,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-katana-15-hx-b14wek-286vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_3.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_3_specs.html",
+      "price": "33.690.000đ"
+    }
+  },
+  {
+    "index": 551,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-modern-14-f13mg-240vncp.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_8.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_8_specs.html",
+      "price": "14.590.000đ"
+    }
+  },
+  {
+    "index": 552,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-gaming-thin-15-b13uc-3247vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_5.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_5_specs.html",
+      "price": "19.590.000đ"
+    }
+  },
+  {
+    "index": 553,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-katana-15-b13vek-2256vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_7.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_7_specs.html",
+      "price": "26.990.000đ"
+    }
+  },
+  {
+    "index": 554,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-stealth-a16-ai-a3xwfg-018vn-ryzen-ai-9.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_6.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_6_specs.html",
+      "price": "63.690.000đ"
+    }
+  },
+  {
+    "index": 555,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-gaming-thin-15-b13uc-2081vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_9.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_9_specs.html",
+      "price": "20.990.000đ"
+    }
+  },
+  {
+    "index": 557,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-cyborg-15-a13uc-2082vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_11.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_11_specs.html",
+      "price": "20.990.000đ"
+    }
+  },
+  {
+    "index": 558,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-modern-14-f13mg-466vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_10.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_10_specs.html",
+      "price": "15.990.000đ"
+    }
+  },
+  {
+    "index": 559,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-gaming-thin-15-b13ve-2824vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_13.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_13_specs.html",
+      "price": "22.990.000đ"
+    }
+  },
+  {
+    "index": 560,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-katana-15-b13udxk-2411vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_14.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_14_specs.html",
+      "price": "24.490.000đ"
+    }
+  },
+  {
+    "index": 561,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-katana-15-b13udxk-2269vn-16gb.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_17.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_17_specs.html",
+      "price": "24.990.000đ"
+    }
+  },
+  {
+    "index": 562,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-cyborg-15-b2rwekg-402vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_16.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_16_specs.html",
+      "price": "27.690.000đ"
+    }
+  },
+  {
+    "index": 563,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-katana-15-b13udxk-2213vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_18.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_18_specs.html",
+      "price": "23.490.000đ"
+    }
+  },
+  {
+    "index": 564,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-katana-15-hx-b14wek-027vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_15.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_15_specs.html",
+      "price": "37.690.000đ"
+    }
+  },
+  {
+    "index": 565,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-gaming-thin-15-b13uc-1411vn-24gb.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_19.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_19_specs.html",
+      "price": "20.990.000đ"
+    }
+  },
+  {
+    "index": 566,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-cyborg-14-a13udx-099vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_20.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_20_specs.html",
+      "price": "25.390.000đ"
+    }
+  },
+  {
+    "index": 567,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-modern-14-c12m-241vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_21.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_21_specs.html",
+      "price": "19.990.000đ"
+    }
+  },
+  {
+    "index": 568,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-venture-14-ai-a1mg-005vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_23.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_23_specs.html",
+      "price": "24.490.000đ"
+    }
+  },
+  {
+    "index": 569,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-katana-15-hx-b14wek-295vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_22.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_22_specs.html",
+      "price": "37.690.000đ"
+    }
+  },
+  {
+    "index": 570,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-katana-15-hx-b14wfk-294vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_24.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_24_specs.html",
+      "price": "40.190.000đ"
+    }
+  },
+  {
+    "index": 571,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-prestige-14-ai-studio-c1udxg-058vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_25.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_25_specs.html",
+      "price": "30.990.000đ"
+    }
+  },
+  {
+    "index": 572,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-katana-15-hx-b14wgk-022vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_26.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_26_specs.html",
+      "price": "48.090.000đ"
+    }
+  },
+  {
+    "index": 573,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-vector-16-hx-ai-a2xwhg-010vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_29.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_29_specs.html",
+      "price": "54.990.000đ"
+    }
+  },
+  {
+    "index": 575,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-sword-16-hx-b14vfkg-045vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_28.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_28_specs.html",
+      "price": "38.990.000đ"
+    }
+  },
+  {
+    "index": 577,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-venture-a16-ai-a3hmg-017vn-ryzen-ai-7.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_31.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_31_specs.html",
+      "price": "29.990.000đ"
+    }
+  },
+  {
+    "index": 578,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-venture-pro-16-ai-a1veg-003vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_34.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_34_specs.html",
+      "price": "35.990.000đ"
+    }
+  },
+  {
+    "index": 579,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-katana-15-hx-b14wfk-025vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_35.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_35_specs.html",
+      "price": "38.190.000đ"
+    }
+  },
+  {
+    "index": 580,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-modern-14-c13m-458vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_32.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_32_specs.html",
+      "price": "17.990.000đ"
+    }
+  },
+  {
+    "index": 581,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-crosshair-16-hx-d2xwfkg-070vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_33.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_33_specs.html",
+      "price": "46.990.000đ"
+    }
+  },
+  {
+    "index": 582,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-sword-16-hx-b14vekg-459vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_36.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_36_specs.html",
+      "price": "35.990.000đ"
+    }
+  },
+  {
+    "index": 583,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-sword-16-hx-b14vekg-856vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_37.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_37_specs.html",
+      "price": "35.990.000đ"
+    }
+  },
+  {
+    "index": 585,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-crosshair-16-hx-d2xwfkg-036vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_40.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_40_specs.html",
+      "price": "44.990.000đ"
+    }
+  },
+  {
+    "index": 587,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-raider-18-hx-ai-a2xwig-033vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_41.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_41_specs.html",
+      "price": "129.990.000đ"
+    }
+  },
+  {
+    "index": 588,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-gaming-thin-15-b12uc-1416vn-16gb.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_42.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_42_specs.html",
+      "price": "19.490.000đ"
+    }
+  },
+  {
+    "index": 589,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-katana-15-b13vfk-2099vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_43.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_43_specs.html",
+      "price": "32.990.000đ"
+    }
+  },
+  {
+    "index": 590,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-katana-15-hx-b14wfk-267vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_44.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_44_specs.html",
+      "price": "40.190.000đ"
+    }
+  },
+  {
+    "index": 592,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-gaming-gf63-thin-11uc-1228vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_47.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_47_specs.html",
+      "price": "20.990.000đ"
+    }
+  },
+  {
+    "index": 594,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-modern-14-b11mou-1033vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_50.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_50_specs.html",
+      "price": "21.990.000đ"
+    }
+  },
+  {
+    "index": 595,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-prestige-14-ai-studio-c1veg-056vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_49.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_49_specs.html",
+      "price": "36.990.000đ"
+    }
+  },
+  {
+    "index": 596,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-katana-15-b13vek-2256vn-32gb.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_48.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_48_specs.html",
+      "price": "26.990.000đ"
+    }
+  },
+  {
+    "index": 597,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-crosshair-16-hx-d2xwfkg-078vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_51.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_51_specs.html",
+      "price": "46.990.000đ"
+    }
+  },
+  {
+    "index": 598,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-modern-14-b11mou-1065vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_52.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_52_specs.html",
+      "price": "16.100.000đ"
+    }
+  },
+  {
+    "index": 599,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-gaming-gf63-thin-11uc-1230vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_55.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_55_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 600,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-modern-14-b11mou-1030vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_53.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_53_specs.html",
+      "price": "14.990.000đ"
+    }
+  },
+  {
+    "index": 601,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-prestige-13-evo-a13m-081vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_54.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_54_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 602,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-modern-15-h-c2rmg-287vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_56.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_56_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 603,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-modern-15-h-ai-c2hmg-220vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_57.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_57_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 605,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-cyborg-15-a12udx-621vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_58.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_58_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 606,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-katana-15-b13udxk-2269vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_60.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_60_specs.html",
+      "price": "25.990.000đ"
+    }
+  },
+  {
+    "index": 607,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-modern-14-b7m-221vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_61.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_61_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 608,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-cyborg-15-a12uc-621vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_62.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_62_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 609,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-cyborg-15-a13uc-861vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_64.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_64_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 610,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-stealth-16-ai-studio-a1vgg-240vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_65.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_65_specs.html",
+      "price": "64.990.000đ"
+    }
+  },
+  {
+    "index": 611,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-katana-gf66-12udk-814vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_63.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_63_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 612,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-cyborg-15-a13uc-2088vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_66.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_66_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 613,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "msi",
+      "url": "https://cellphones.com.vn/laptop-msi-cyborg-15-b13wekg-676vn.html",
+      "saved_path": "data/cellphones/raw_htmls\\msi_67.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\msi_67_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 617,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "lg",
+      "url": "https://cellphones.com.vn/laptop-lg-gram-book-15u50t-g-av56a5.html",
+      "saved_path": "data/cellphones/raw_htmls\\lg_0.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\lg_0_specs.html",
+      "price": "16.990.000đ"
+    }
+  },
+  {
+    "index": 696,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "gigabyte",
+      "url": "https://cellphones.com.vn/laptop-gigabyte-gaming-a16-ga6h-cthi3vn893sh.html",
+      "saved_path": "data/cellphones/raw_htmls\\gigabyte_4.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\gigabyte_4_specs.html",
+      "price": "30.990.000đ"
+    }
+  },
+  {
+    "index": 697,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "gigabyte",
+      "url": "https://cellphones.com.vn/laptop-gigabyte-g6-mf-h2ph853kh.html",
+      "saved_path": "data/cellphones/raw_htmls\\gigabyte_0.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\gigabyte_0_specs.html",
+      "price": "25.190.000đ"
+    }
+  },
+  {
+    "index": 698,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "gigabyte",
+      "url": "https://cellphones.com.vn/laptop-gigabyte-gaming-a16-ga6h-cmhi2vn893sh.html",
+      "saved_path": "data/cellphones/raw_htmls\\gigabyte_3.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\gigabyte_3_specs.html",
+      "price": "27.290.000đ"
+    }
+  },
+  {
+    "index": 699,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "gigabyte",
+      "url": "https://cellphones.com.vn/laptop-gigabyte-aero-x16-eg61h-x161vh93vnc64ah-ryzen-ai-7.html",
+      "saved_path": "data/cellphones/raw_htmls\\gigabyte_2.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\gigabyte_2_specs.html",
+      "price": "39.690.000đ"
+    }
+  },
+  {
+    "index": 700,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "gigabyte",
+      "url": "https://cellphones.com.vn/laptop-gigabyte-gaming-a16-ga6h-cmhh2vn893sh.html",
+      "saved_path": "data/cellphones/raw_htmls\\gigabyte_1.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\gigabyte_1_specs.html",
+      "price": "24.990.000đ"
+    }
+  },
+  {
+    "index": 701,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "gigabyte",
+      "url": "https://cellphones.com.vn/laptop-gigabyte-gaming-a16-ga6h-cthh3vn893sh.html",
+      "saved_path": "data/cellphones/raw_htmls\\gigabyte_7.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\gigabyte_7_specs.html",
+      "price": "30.590.000đ"
+    }
+  },
+  {
+    "index": 702,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "gigabyte",
+      "url": "https://cellphones.com.vn/laptop-gigabyte-gaming-a16-ga6h-cvhi3vnc94sh.html",
+      "saved_path": "data/cellphones/raw_htmls\\gigabyte_6.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\gigabyte_6_specs.html",
+      "price": "36.490.000đ"
+    }
+  },
+  {
+    "index": 703,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "gigabyte",
+      "url": "https://cellphones.com.vn/laptop-gigabyte-aorus-master-16-am6h-byhc5vne64sh.html",
+      "saved_path": "data/cellphones/raw_htmls\\gigabyte_9.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\gigabyte_9_specs.html",
+      "price": "96.590.000đ"
+    }
+  },
+  {
+    "index": 704,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "gigabyte",
+      "url": "https://cellphones.com.vn/laptop-gigabyte-aorus-16x-9rx6lasgddjixdvn010.html",
+      "saved_path": "data/cellphones/raw_htmls\\gigabyte_8.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\gigabyte_8_specs.html",
+      "price": "45.990.000đ"
+    }
+  },
+  {
+    "index": 705,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "gigabyte",
+      "url": "https://cellphones.com.vn/laptop-gigabyte-gaming-a16-ga6h-cwhi3vnc94sh.html",
+      "saved_path": "data/cellphones/raw_htmls\\gigabyte_5.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\gigabyte_5_specs.html",
+      "price": "42.590.000đ"
+    }
+  },
+  {
+    "index": 706,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "gigabyte",
+      "url": "https://cellphones.com.vn/laptop-gigabyte-g6-kf-9rc56kf0hjjanivn000.html",
+      "saved_path": "data/cellphones/raw_htmls\\gigabyte_11.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\gigabyte_11_specs.html",
+      "price": "30.990.000đ"
+    }
+  },
+  {
+    "index": 707,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "gigabyte",
+      "url": "https://cellphones.com.vn/laptop-gigabyte-aero-x16-eg61h-x161vh93vnc94dh-ryzen-ai-7.html",
+      "saved_path": "data/cellphones/raw_htmls\\gigabyte_10.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\gigabyte_10_specs.html",
+      "price": "38.690.000đ"
+    }
+  },
+  {
+    "index": 708,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "gigabyte",
+      "url": "https://cellphones.com.vn/laptop-gigabyte-g6-kf-73vn854kh.html",
+      "saved_path": "data/cellphones/raw_htmls\\gigabyte_12.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\gigabyte_12_specs.html",
+      "price": "28.290.000đ"
+    }
+  },
+  {
+    "index": 709,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "gigabyte",
+      "url": "https://cellphones.com.vn/laptop-gigabyte-g5-md-51s1123sh.html",
+      "saved_path": "data/cellphones/raw_htmls\\gigabyte_13.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\gigabyte_13_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 710,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "gigabyte",
+      "url": "https://cellphones.com.vn/laptop-gigabyte-g5-mf5-52vn353sh.html",
+      "saved_path": "data/cellphones/raw_htmls\\gigabyte_14.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\gigabyte_14_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 711,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "gigabyte",
+      "url": "https://cellphones.com.vn/laptop-gigabyte-g5-ke-52vn263sh.html",
+      "saved_path": "data/cellphones/raw_htmls\\gigabyte_15.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\gigabyte_15_specs.html",
+      "price": null
+    }
+  },
+  {
+    "index": 712,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "gigabyte",
+      "url": "https://cellphones.com.vn/laptop-gigabyte-g5-kf5-53vn383sh.html",
+      "saved_path": "data/cellphones/raw_htmls\\gigabyte_16.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\gigabyte_16_specs.html",
+      "price": "26.290.000đ"
+    }
+  },
+  {
+    "index": 713,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "gigabyte",
+      "url": "https://cellphones.com.vn/laptop-gigabyte-gaming-a16-ga6h-cvhi3vn893sh.html",
+      "saved_path": "data/cellphones/raw_htmls\\gigabyte_17.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\gigabyte_17_specs.html",
+      "price": "34.590.000đ"
+    }
+  },
+  {
+    "index": 714,
+    "error": "no such group",
+    "manifest": {
+      "manufacturer": "gigabyte",
+      "url": "https://cellphones.com.vn/laptop-gigabyte-g5-mf5-9rc55mf5feid91vn0d0.html",
+      "saved_path": "data/cellphones/raw_htmls\\gigabyte_18.html",
+      "detail_specs_html_path": "data/cellphones/detail_htmls\\gigabyte_18_specs.html",
+      "price": null
+    }
+  }
+]

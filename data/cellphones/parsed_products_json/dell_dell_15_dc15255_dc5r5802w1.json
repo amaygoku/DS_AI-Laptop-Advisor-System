@@ -1,9 +1,9 @@
 {
   "Product Name": "DELL 15 Dc15255 Dc5r5802w1",
   "Manufacturer": "dell",
-  "CPU manufacturer": null,
-  "CPU brand modifier": "Ryzen 5",
-  "CPU generation": null,
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": "Ryzen5",
+  "CPU generation": "7530",
   "CPU Speed (GHz)": 2.0,
   "RAM (GB)": 16,
   "RAM Type": "DDR4",

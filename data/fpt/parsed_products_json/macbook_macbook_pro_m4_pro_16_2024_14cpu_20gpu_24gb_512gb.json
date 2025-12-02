@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "macbook",
+  "CPU manufacturer": "Apple",
+  "CPU brand modifier": "M4 Pro",
+  "CPU generation": "14",
+  "CPU Speed (GHz)": null,
+  "RAM (GB)": 24,
+  "RAM Type": null,
+  "Bus (MHz)": null,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 16.2,
+  "Screen Resolution": "3456x2234",
+  "Refresh Rate (Hz)": 120,
+  "GPU manufacturer": "Apple",
+  "Weight (kg)": 2.14,
+  "Battery": "22 Giờ",
+  "Product Name": "MACBOOK Pro M4 Pro 16 2024 14cpu 20gpu 24gb 512gb",
+  "Price (VND)": 66990000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/macbook-pro-m4-pro-16-2024-14cpu-20gpu-24gb-512gb",
+  "saved_path": "data/fpt/raw_htmls\\macbook_8.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\macbook_8_specs.html"
+}

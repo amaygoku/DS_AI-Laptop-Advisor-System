@@ -1,8 +1,8 @@
 {
   "Manufacturer": "HP",
   "CPU manufacturer": "Intel",
-  "CPU brand modifier": null,
-  "CPU generation": "120U",
+  "CPU brand modifier": "Core 5",
+  "CPU generation": "120",
   "CPU Speed (GHz)": 5.0,
   "RAM (GB)": 16.0,
   "RAM Type": "DDR4",

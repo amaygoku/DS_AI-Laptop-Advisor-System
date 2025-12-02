@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "acer",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": "Ryzen 5",
+  "CPU generation": "6600",
+  "CPU Speed (GHz)": 3.3,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": null,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920x1080",
+  "Refresh Rate (Hz)": 165,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.1,
+  "Battery": null,
+  "Product Name": "ACER Nitro V Gaming Anv15 41 R2up R5 6600h",
+  "Price (VND)": 18990000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/acer-nitro-v-gaming-anv15-41-r2up-r5-6600h",
+  "saved_path": "data/fpt/raw_htmls\\acer_7.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\acer_7_specs.html"
+}

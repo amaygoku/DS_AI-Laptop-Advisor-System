@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "lenovo",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core I3",
+  "CPU generation": "1315",
+  "CPU Speed (GHz)": 4.5,
+  "RAM (GB)": 8,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920x1080",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.43,
+  "Battery": "38 Wh 65 W",
+  "Product Name": "LENOVO V14 G4 Iru I3 1315u 83a000s4vn",
+  "Price (VND)": 11590000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/lenovo-v14-g4-iru-i3-1315u-83a000s4vn",
+  "saved_path": "data/fpt/raw_htmls\\lenovo_0.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\lenovo_0_specs.html"
+}

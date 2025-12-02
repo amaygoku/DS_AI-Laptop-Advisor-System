@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "msi",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Ultra 7",
+  "CPU generation": "255",
+  "CPU Speed (GHz)": 5.1,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920x1080",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.9,
+  "Battery": "39.3 Whr 90 W",
+  "Product Name": "MSI Modern 15 H Ai C2hmg 220vn Ultra 7 255h",
+  "Price (VND)": 22490000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/msi-modern-15-h-ai-c2hmg-220vn-ultra-7-255h",
+  "saved_path": "data/fpt/raw_htmls\\msi_4.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\msi_4_specs.html"
+}

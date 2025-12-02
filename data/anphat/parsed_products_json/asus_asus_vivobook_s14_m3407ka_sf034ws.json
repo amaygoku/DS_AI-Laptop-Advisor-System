@@ -1,8 +1,8 @@
 {
   "Manufacturer": "Asus",
   "CPU manufacturer": "AMD",
-  "CPU brand modifier": null,
-  "CPU generation": null,
+  "CPU brand modifier": "Ryzen AI 5",
+  "CPU generation": "330",
   "CPU Speed (GHz)": null,
   "RAM (GB)": 16.0,
   "RAM Type": "DDR5",

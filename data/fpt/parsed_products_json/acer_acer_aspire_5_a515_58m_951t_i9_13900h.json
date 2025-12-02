@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "acer",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core I9",
+  "CPU generation": "13900",
+  "CPU Speed (GHz)": 5.4,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920x1080",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.7,
+  "Battery": null,
+  "Product Name": "ACER Aspire 5 A515 58m 951t I9 13900h",
+  "Price (VND)": 23590000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/acer-aspire-5-a515-58m-951t-i9-13900h",
+  "saved_path": "data/fpt/raw_htmls\\acer_15.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\acer_15_specs.html"
+}

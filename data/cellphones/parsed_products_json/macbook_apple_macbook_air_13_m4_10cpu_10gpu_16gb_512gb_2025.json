@@ -1,7 +1,7 @@
 {
   "Product Name": "Apple MACBOOK Air 13 M4 10cpu 10gpu 16gb 512gb 2025",
   "Manufacturer": "macbook",
-  "CPU manufacturer": null,
+  "CPU manufacturer": "Apple",
   "CPU brand modifier": null,
   "CPU generation": null,
   "CPU Speed (GHz)": null,
@@ -12,7 +12,7 @@
   "Screen Size (inch)": 13.6,
   "Screen Resolution": "2560 x 1664",
   "Refresh Rate (Hz)": null,
-  "GPU manufacturer": null,
+  "GPU manufacturer": "Apple",
   "Weight (kg)": 1.24,
   "Battery": "Thời gian xem video trực tuyến lên đến 18 giờ Thời gian duyệt web trên mạng không dây lên đến 15 giờ Pin Li-Po 53.8 watt‑giờ tích hợp",
   "Price (VND)": 31990000,

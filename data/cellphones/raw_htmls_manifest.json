@@ -1597,13 +1597,6 @@
   },
   {
     "manufacturer": "lenovo",
-    "url": "https://cellphones.com.vn/laptop-lenovo-loq-15iax9.html",
-    "saved_path": "data/cellphones/raw_htmls\\lenovo_136.html",
-    "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_136_specs.html",
-    "price": null
-  },
-  {
-    "manufacturer": "lenovo",
     "url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-5-light-14abr8-82xs0006vn.html",
     "saved_path": "data/cellphones/raw_htmls\\lenovo_141.html",
     "detail_specs_html_path": "data/cellphones/detail_htmls\\lenovo_141_specs.html",
@@ -4877,13 +4870,6 @@
     "saved_path": "data/cellphones/raw_htmls\\macbook_75.html",
     "detail_specs_html_path": "data/cellphones/detail_htmls\\macbook_75_specs.html",
     "price": "92.990.000đ"
-  },
-  {
-    "manufacturer": "macbook",
-    "url": "https://cellphones.com.vn/macbook-pro-m4-pro-14-inch-12cpu-16gpu-48gb-512gb-2024.html",
-    "saved_path": "data/cellphones/raw_htmls\\macbook_76.html",
-    "detail_specs_html_path": "data/cellphones/detail_htmls\\macbook_76_specs.html",
-    "price": null
   },
   {
     "manufacturer": "gigabyte",

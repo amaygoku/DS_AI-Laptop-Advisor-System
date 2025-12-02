@@ -1,8 +1,8 @@
 {
   "Manufacturer": "Asus",
   "CPU manufacturer": "Intel",
-  "CPU brand modifier": null,
-  "CPU generation": "210H",
+  "CPU brand modifier": "Core 5",
+  "CPU generation": "210",
   "CPU Speed (GHz)": 4.8,
   "RAM (GB)": 16.0,
   "RAM Type": "DDR5",

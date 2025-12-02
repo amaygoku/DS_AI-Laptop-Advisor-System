@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "msi",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core I5",
+  "CPU generation": "13420",
+  "CPU Speed (GHz)": 4.6,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920x1080",
+  "Refresh Rate (Hz)": 144,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.86,
+  "Battery": "52 Whr 120 W",
+  "Product Name": "MSI Gaming Thin 15 B13uc 3247vn I5 13420h",
+  "Price (VND)": 20590000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/msi-gaming-thin-15-b13uc-3247vn-i5-13420h",
+  "saved_path": "data/fpt/raw_htmls\\msi_1.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\msi_1_specs.html"
+}

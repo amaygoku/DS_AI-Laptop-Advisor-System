@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "hp",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core 5",
+  "CPU generation": "120",
+  "CPU Speed (GHz)": 5.0,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": null,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920x1080",
+  "Refresh Rate (Hz)": null,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.53,
+  "Battery": "3 Cell 65 W",
+  "Product Name": "HP 250r G10 Core 5 120u C3sh7at",
+  "Price (VND)": 18590000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/hp-250r-g10-core-5-120u-c3sh7at",
+  "saved_path": "data/fpt/raw_htmls\\hp_16.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\hp_16_specs.html"
+}

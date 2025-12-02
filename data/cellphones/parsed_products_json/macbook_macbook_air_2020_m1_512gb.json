@@ -1,7 +1,7 @@
 {
   "Product Name": "MACBOOK Air 2020 M1 512gb",
   "Manufacturer": "macbook",
-  "CPU manufacturer": null,
+  "CPU manufacturer": "Apple",
   "CPU brand modifier": null,
   "CPU generation": null,
   "CPU Speed (GHz)": null,
@@ -12,7 +12,7 @@
   "Screen Size (inch)": 13.3,
   "Screen Resolution": "2560 x 1600",
   "Refresh Rate (Hz)": null,
-  "GPU manufacturer": null,
+  "GPU manufacturer": "Apple",
   "Weight (kg)": 1.29,
   "Battery": "49.9-watt-hour lithium-polymer, củ sạc công suất 30W",
   "Price (VND)": null,

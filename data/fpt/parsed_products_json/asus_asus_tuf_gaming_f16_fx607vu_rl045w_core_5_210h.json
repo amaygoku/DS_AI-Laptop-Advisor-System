@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "asus",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core 5",
+  "CPU generation": "210",
+  "CPU Speed (GHz)": 4.8,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 16.0,
+  "Screen Resolution": "1920x1200",
+  "Refresh Rate (Hz)": 144,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 2.2,
+  "Battery": "56 WHrs 240 W",
+  "Product Name": "ASUS Tuf Gaming F16 Fx607vu Rl045w Core 5 210h",
+  "Price (VND)": 28990000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/asus-tuf-gaming-f16-fx607vu-rl045w-core-5-210h",
+  "saved_path": "data/fpt/raw_htmls\\asus_5.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\asus_5_specs.html"
+}

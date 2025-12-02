@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "dell",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core I5",
+  "CPU generation": "1334",
+  "CPU Speed (GHz)": 4.6,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 2666,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920x1080",
+  "Refresh Rate (Hz)": 120,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.66,
+  "Battery": "3 Cell 65 W",
+  "Product Name": "DELL Inspiron 15 3530 I5 1334un5i5530w1",
+  "Price (VND)": 19590000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/dell-inspiron-15-3530-i5-1334un5i5530w1",
+  "saved_path": "data/fpt/raw_htmls\\dell_6.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\dell_6_specs.html"
+}

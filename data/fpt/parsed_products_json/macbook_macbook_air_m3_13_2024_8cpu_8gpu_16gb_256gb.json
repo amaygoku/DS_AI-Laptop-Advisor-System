@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "macbook",
+  "CPU manufacturer": "Apple",
+  "CPU brand modifier": "M3",
+  "CPU generation": "8",
+  "CPU Speed (GHz)": null,
+  "RAM (GB)": 16,
+  "RAM Type": "LPDDR4",
+  "Bus (MHz)": null,
+  "Storage (GB)": 256,
+  "Screen Size (inch)": 13.6,
+  "Screen Resolution": "2560x1644",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": null,
+  "Weight (kg)": 1.24,
+  "Battery": null,
+  "Product Name": "MACBOOK Air M3 13 2024 8cpu 8gpu 16gb 256gb",
+  "Price (VND)": 27990000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/macbook-air-m3-13-2024-8cpu-8gpu-16gb-256gb",
+  "saved_path": "data/fpt/raw_htmls\\macbook_17.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\macbook_17_specs.html"
+}

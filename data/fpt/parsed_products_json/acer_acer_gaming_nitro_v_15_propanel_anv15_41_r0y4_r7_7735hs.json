@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "acer",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": "Ryzen 7",
+  "CPU generation": "7735",
+  "CPU Speed (GHz)": 4.75,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": null,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920x1080",
+  "Refresh Rate (Hz)": 180,
+  "GPU manufacturer": "AMD",
+  "Weight (kg)": 2.1,
+  "Battery": "57 Wh 135 W",
+  "Product Name": "ACER Gaming Nitro V 15 Propanel Anv15 41 R0y4 R7 7735hs",
+  "Price (VND)": 28990000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/acer-gaming-nitro-v-15-propanel-anv15-41-r0y4-r7-7735hs",
+  "saved_path": "data/fpt/raw_htmls\\acer_21.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\acer_21_specs.html"
+}

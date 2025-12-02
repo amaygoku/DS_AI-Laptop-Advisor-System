@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "lenovo",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core I7",
+  "CPU generation": "13650",
+  "CPU Speed (GHz)": 4.9,
+  "RAM (GB)": 32,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 4800,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920x1080",
+  "Refresh Rate (Hz)": 144,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.4,
+  "Battery": "60 Wh 180 W",
+  "Product Name": "LENOVO Gaming Loq 15irx10 I7 13650hx 83je00pevn",
+  "Price (VND)": 34990000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/lenovo-gaming-loq-15irx10-i7-13650hx-83je00pevn",
+  "saved_path": "data/fpt/raw_htmls\\lenovo_4.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\lenovo_4_specs.html"
+}

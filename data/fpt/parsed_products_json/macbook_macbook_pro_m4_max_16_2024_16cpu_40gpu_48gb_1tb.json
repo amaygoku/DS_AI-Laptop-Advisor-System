@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "macbook",
+  "CPU manufacturer": "Apple",
+  "CPU brand modifier": "M4 Max",
+  "CPU generation": "16",
+  "CPU Speed (GHz)": null,
+  "RAM (GB)": 48,
+  "RAM Type": null,
+  "Bus (MHz)": null,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 16.2,
+  "Screen Resolution": "3456x2234",
+  "Refresh Rate (Hz)": 120,
+  "GPU manufacturer": "Apple",
+  "Weight (kg)": 2.14,
+  "Battery": "22 Giờ",
+  "Product Name": "MACBOOK Pro M4 Max 16 2024 16cpu 40gpu 48gb 1tb",
+  "Price (VND)": 103690000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/macbook-pro-m4-max-16-2024-16cpu-40gpu-48gb-1tb",
+  "saved_path": "data/fpt/raw_htmls\\macbook_18.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\macbook_18_specs.html"
+}

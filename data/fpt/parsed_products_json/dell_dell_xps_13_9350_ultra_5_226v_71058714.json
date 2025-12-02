@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "dell",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core 5",
+  "CPU generation": "226",
+  "CPU Speed (GHz)": 2.1,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": null,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 13.4,
+  "Screen Resolution": "2560x1600",
+  "Refresh Rate (Hz)": 120,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.19,
+  "Battery": null,
+  "Product Name": "DELL Xps 13 9350 Ultra 5 226v 71058714",
+  "Price (VND)": 60990000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/dell-xps-13-9350-ultra-5-226v-71058714",
+  "saved_path": "data/fpt/raw_htmls\\dell_22.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\dell_22_specs.html"
+}

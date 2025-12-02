@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "dell",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core I7",
+  "CPU generation": "1355",
+  "CPU Speed (GHz)": 5.0,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": null,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920x1200",
+  "Refresh Rate (Hz)": 120,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.67,
+  "Battery": "4 Cell",
+  "Product Name": "DELL Inspiron 15 N3530 I7 1355u N5i7305w1",
+  "Price (VND)": 21990000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/dell-inspiron-15-n3530-i7-1355u-n5i7305w1",
+  "saved_path": "data/fpt/raw_htmls\\dell_15.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\dell_15_specs.html"
+}

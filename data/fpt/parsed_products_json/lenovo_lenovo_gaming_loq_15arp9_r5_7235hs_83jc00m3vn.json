@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "lenovo",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": "Ryzen 5",
+  "CPU generation": "7235",
+  "CPU Speed (GHz)": 4.2,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 4800,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920x1080",
+  "Refresh Rate (Hz)": 144,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.38,
+  "Battery": "60 Wh 170 W",
+  "Product Name": "LENOVO Gaming Loq 15arp9 R5 7235hs 83jc00m3vn",
+  "Price (VND)": 24490000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/lenovo-gaming-loq-15arp9-r5-7235hs-83jc00m3vn",
+  "saved_path": "data/fpt/raw_htmls\\lenovo_12.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\lenovo_12_specs.html"
+}

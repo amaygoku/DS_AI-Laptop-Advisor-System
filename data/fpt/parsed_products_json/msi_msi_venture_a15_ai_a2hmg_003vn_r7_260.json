@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "msi",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": "Ryzen 7",
+  "CPU generation": "260",
+  "CPU Speed (GHz)": 5.1,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920x1080",
+  "Refresh Rate (Hz)": 144,
+  "GPU manufacturer": "AMD",
+  "Weight (kg)": 1.9,
+  "Battery": "55.2 WHrs 90 W",
+  "Product Name": "MSI Venture A15 Ai A2hmg 003vn R7 260",
+  "Price (VND)": 22490000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/msi-venture-a15-ai-a2hmg-003vn-r7-260",
+  "saved_path": "data/fpt/raw_htmls\\msi_0.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\msi_0_specs.html"
+}

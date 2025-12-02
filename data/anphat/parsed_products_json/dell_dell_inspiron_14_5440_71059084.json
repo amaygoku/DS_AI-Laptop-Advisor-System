@@ -1,8 +1,8 @@
 {
   "Manufacturer": "Dell",
   "CPU manufacturer": "Intel",
-  "CPU brand modifier": null,
-  "CPU generation": "150U",
+  "CPU brand modifier": "Core 7",
+  "CPU generation": "150",
   "CPU Speed (GHz)": 5.4,
   "RAM (GB)": 16.0,
   "RAM Type": "DDR5",

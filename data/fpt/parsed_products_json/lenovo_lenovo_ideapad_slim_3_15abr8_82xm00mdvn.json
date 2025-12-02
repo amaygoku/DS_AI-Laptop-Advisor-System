@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "lenovo",
+  "CPU manufacturer": "AMD",
+  "CPU brand modifier": "Ryzen 5",
+  "CPU generation": "5625",
+  "CPU Speed (GHz)": 4.3,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 3200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920x1080",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "AMD",
+  "Weight (kg)": 1.62,
+  "Battery": null,
+  "Product Name": "LENOVO Ideapad Slim 3 15abr8 82xm00mdvn",
+  "Price (VND)": 14490000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/lenovo-ideapad-slim-3-15abr8-82xm00mdvn",
+  "saved_path": "data/fpt/raw_htmls\\lenovo_9.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\lenovo_9_specs.html"
+}

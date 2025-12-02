@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "lenovo",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core I5",
+  "CPU generation": "13420",
+  "CPU Speed (GHz)": 3.4,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 4800,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.1,
+  "Screen Resolution": "2560x1600",
+  "Refresh Rate (Hz)": 165,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.49,
+  "Battery": "60 Wh 65 W",
+  "Product Name": "LENOVO Ideapad Slim 3 15irh10 I5 13420h 83k1002pvn",
+  "Price (VND)": 20490000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/lenovo-ideapad-slim-3-15irh10-i5-13420h-83k1002pvn",
+  "saved_path": "data/fpt/raw_htmls\\lenovo_2.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\lenovo_2_specs.html"
+}

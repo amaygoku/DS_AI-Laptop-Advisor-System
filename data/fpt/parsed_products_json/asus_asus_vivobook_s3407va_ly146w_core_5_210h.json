@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "asus",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core 5",
+  "CPU generation": "210",
+  "CPU Speed (GHz)": 4.8,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 4800,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 14.0,
+  "Screen Resolution": "1920x1200",
+  "Refresh Rate (Hz)": 60,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.4,
+  "Battery": "70 Whr 65 W",
+  "Product Name": "ASUS Vivobook S3407va Ly146w Core 5 210h",
+  "Price (VND)": 20990000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/asus-vivobook-s3407va-ly146w-core-5-210h",
+  "saved_path": "data/fpt/raw_htmls\\asus_14.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\asus_14_specs.html"
+}

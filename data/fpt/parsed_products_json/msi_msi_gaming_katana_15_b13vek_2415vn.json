@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "msi",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core I5",
+  "CPU generation": "13420",
+  "CPU Speed (GHz)": 4.6,
+  "RAM (GB)": 24,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5200,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920x1080",
+  "Refresh Rate (Hz)": 144,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 2.25,
+  "Battery": "53.5 Wh 200 W",
+  "Product Name": "MSI Gaming Katana 15 B13vek 2415vn",
+  "Price (VND)": 25090000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/msi-gaming-katana-15-b13vek-2415vn",
+  "saved_path": "data/fpt/raw_htmls\\msi_5.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\msi_5_specs.html"
+}

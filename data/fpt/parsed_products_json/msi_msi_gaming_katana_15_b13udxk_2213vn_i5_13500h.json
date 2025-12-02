@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "msi",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core I5",
+  "CPU generation": "13500",
+  "CPU Speed (GHz)": 4.7,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR5",
+  "Bus (MHz)": 5600,
+  "Storage (GB)": 1024,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920x1080",
+  "Refresh Rate (Hz)": 144,
+  "GPU manufacturer": "NVIDIA",
+  "Weight (kg)": 2.3,
+  "Battery": "53.5 Whr 180 W",
+  "Product Name": "MSI Gaming Katana 15 B13udxk 2213vn I5 13500h",
+  "Price (VND)": 23490000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/msi-gaming-katana-15-b13udxk-2213vn-i5-13500h",
+  "saved_path": "data/fpt/raw_htmls\\msi_6.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\msi_6_specs.html"
+}

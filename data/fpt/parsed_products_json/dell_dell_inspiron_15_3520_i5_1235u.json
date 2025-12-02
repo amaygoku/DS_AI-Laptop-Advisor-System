@@ -1,0 +1,22 @@
+{
+  "Manufacturer": "dell",
+  "CPU manufacturer": "Intel",
+  "CPU brand modifier": "Core I5",
+  "CPU generation": "1235",
+  "CPU Speed (GHz)": 4.4,
+  "RAM (GB)": 16,
+  "RAM Type": "DDR4",
+  "Bus (MHz)": 2666,
+  "Storage (GB)": 512,
+  "Screen Size (inch)": 15.6,
+  "Screen Resolution": "1920x1080",
+  "Refresh Rate (Hz)": 120,
+  "GPU manufacturer": "Intel",
+  "Weight (kg)": 1.9,
+  "Battery": "3 Cell 41 W",
+  "Product Name": "DELL Inspiron 15 3520 I5 1235u",
+  "Price (VND)": 16690000,
+  "url": "https://www.fptshop.com.vn/may-tinh-xach-tay/dell-inspiron-15-3520-i5-1235u",
+  "saved_path": "data/fpt/raw_htmls\\dell_4.html",
+  "detail_specs_html_path": "data/fpt/detail_htmls\\dell_4_specs.html"
+}
