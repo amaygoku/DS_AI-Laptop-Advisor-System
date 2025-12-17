@@ -34,59 +34,10 @@ HP 15 Fd0235tu 9q970pa,hp,Intel,Core I5,1334.0,4.6,16.0,DDR4,3200.0,512.0,15.6,1
 HP Victus 15 Fa1139tx 8y6w3pa,hp,Intel,Core I5,12450.0,4.4,16.0,DDR4,3200.0,512.0,15.6,1920 x 1080,144.0,NVIDIA,2.22,3 Cell Int (52.5Wh),24590000.0,data/cellphones/detail_htmls\hp_33_specs.html
 HP 15s Fq5231tu 8u241pa,hp,Intel,Core I3,1215.0,1.2,8.0,DDR4,3200.0,256.0,15.6,1080 x 1920,,Intel,2.0,3 cell,11990000.0,data/cellphones/detail_htmls\hp_34_specs.html
 HP Victus 16 S0136ax 9q984pa,hp,AMD,Ryzen5,7640.0,0.0,32.0,DDR5,5600.0,512.0,16.1,1920 x 1080,144.0,NVIDIA,2.31,"4 cell, 70 Wh Li-ion polime Bộ chuyển đổi nguồn điện AC thông minh 200 W Hỗ trợ sạc pin nhanh: khoảng 50% trong 30 phút Thời lượng pin Lên đến 7 tiếng 45 phút",28990000.0,data/cellphones/detail_htmls\hp_32_specs.html
-HP Elitebook 840 G3,hp,Intel,Core I5,6300.0,2.4,8.0,DDR4,2133.0,256.0,14.0,1920 x 1080,,Intel,1.6,6-cell Lithium ion,,data/cellphones/detail_htmls\hp_35_specs.html
 HP Victus 16 D0293tx 5z9r4pa,hp,Intel,Core I5,11400.0,2.7,8.0,DDR4,3200.0,512.0,16.1,1920 x 1080,,NVIDIA,2.25,"4-cell, 70 Whrs",27890000.0,data/cellphones/detail_htmls\hp_37_specs.html
-HP Elitebook 840 G8,hp,Intel,Core I7,1165.0,,16.0,DDR4,,512.0,14.0,1920 x 1080,,Intel,1.33,53 Wh Lithium-Polymer,,data/cellphones/detail_htmls\hp_36_specs.html
-HP Probook 450 G9,hp,Intel,Core I5,1235.0,,8.0,DDR4,3200.0,512.0,15.6,1920 x 1080,60.0,Intel,1.74,"3-cell Li-ion, 51 Wh",,data/cellphones/detail_htmls\hp_39_specs.html
 HP Pavilion 15 Eg2037tx 6k783pa,hp,Intel,Core I5,1235.0,,8.0,DDR4,3200.0,256.0,15.6,1920 x 1080,,NVIDIA,1.74,"3-cell, 41 Wh Li-ion",16300000.0,data/cellphones/detail_htmls\hp_38_specs.html
-HP Probook 440 G9,hp,Intel,Core I5,1235.0,,8.0,DDR4,3200.0,512.0,14.0,1920 x 1080,,Intel,1.38,"51 Wh, 65 W",,data/cellphones/detail_htmls\hp_40_specs.html
-HP Envy X360 2in1 14 Fc0088tu A19bypa,hp,Intel,Core Ultra 7,155.0,4.8,16.0,LPDDR5,6400.0,1024.0,14.0,2880 x 1800,120.0,Intel,1.39,"Li-ion polymer 3 lõi, 59 Wh",,data/cellphones/detail_htmls\hp_41_specs.html
-HP Probook 450 G3,hp,Intel,Core I5,6200.0,2.3,4.0,DDR3,1600.0,500.0,15.6,1366 x 768,,Intel,2.11,44 WHr Li-ion 4-cell,,data/cellphones/detail_htmls\hp_42_specs.html
-HP Probook 6570b,hp,Intel,Core I3,3110.0,2.4,4.0,DDR3,1600.0,320.0,15.6,1366 x 768,,Intel,2.51,6-cells 55 Wh,,data/cellphones/detail_htmls\hp_43_specs.html
-HP Elitebook 820 G3,hp,Intel,Core I5,6200.0,2.4,8.0,DDR3L,2133.0,256.0,12.5,1366 x 768,,Intel,1.28,,,data/cellphones/detail_htmls\hp_44_specs.html
-HP Gaming Victus 16 E1104ax 7c0s9pa,hp,AMD,Ryzen7,6800.0,3.2,8.0,DDR5,4800.0,512.0,16.1,1920 x 1080,144.0,NVIDIA,2.4,70Wh,,data/cellphones/detail_htmls\hp_45_specs.html
-HP Elitebook 845 G9,hp,AMD,Ryzen5,6600.0,,16.0,DDR5,4800.0,256.0,14.0,1920 x 1200,,AMD,1.4,51Whr 3 cell,,data/cellphones/detail_htmls\hp_46_specs.html
-HP Elitebook 840 G9,hp,Intel,Core I7,1260.0,2.1,16.0,DDR5,,512.0,14.0,1920 x 1200,60.0,Intel,1.36,51 Wh 3-cell Li-ion,,data/cellphones/detail_htmls\hp_47_specs.html
-HP Envy X360 13 Bf0092tu 76v59pa,hp,Intel,Core I7,1250.0,4.7,8.0,LPDDR4X,4266.0,512.0,13.3,2880 x 1800,,Intel,1.34,"66 Wh Li-ion, 4-cell",,data/cellphones/detail_htmls\hp_49_specs.html
-HP Elitebook 8460p,hp,Intel,Core I5,2520.0,2.5,8.0,,,250.0,14.0,1366 x 768,,Intel,,,,data/cellphones/detail_htmls\hp_48_specs.html
-HP Elitebook 840 G6,hp,Intel,Core I5,8365.0,1.6,8.0,DDR4,2660.0,256.0,14.0,1920 x 1080,,Intel,1.4,,,data/cellphones/detail_htmls\hp_50_specs.html
-HP Probook 6560b,hp,Intel,Core I5,2520.0,2.5,8.0,DDR3,1333.0,120.0,15.6,1366 x 768,,Intel,2.5,6-cell Li-ion,,data/cellphones/detail_htmls\hp_51_specs.html
-HP Gaming Victus 15 Fa018tx 7c0x0pa,hp,Intel,Core I7,12700.0,4.7,16.0,DDR4,3200.0,512.0,15.6,1920 x 1080,144.0,NVIDIA,2.29,"4-cell, 70 Wh",,data/cellphones/detail_htmls\hp_52_specs.html
-HP Elitebook 640 G9,hp,Intel,Core I7,1255.0,2.1,16.0,DDR4,,512.0,14.0,1920 x 1080,,Intel,1.38,,,data/cellphones/detail_htmls\hp_53_specs.html
-HP Pavilion 15 Eg2062tx 7c0w7pa,hp,Intel,Core I5,1235.0,,8.0,DDR4,3200.0,512.0,15.6,1920 x 1080,,NVIDIA,1.75,3 Cell 41WHrs,,data/cellphones/detail_htmls\hp_55_specs.html
-HP Envy X360 2in2 2022,hp,AMD,Ryzen5,5625.0,4.0,8.0,DDR4,3200.0,256.0,15.6,,,AMD,1.77,,,data/cellphones/detail_htmls\hp_54_specs.html
-HP 15 Ay071tu X3b53pa,hp,Intel,Pentium,3710.0,,4.0,DDR3L,,500.0,15.6,1366 x 768,,Intel,2.19,4-cell Li-ion,,data/cellphones/detail_htmls\hp_57_specs.html
-HP Pavilion 15 Eg2087tu 7c0q9pa,hp,Intel,Core I3,1215.0,,8.0,DDR4,3200.0,256.0,15.6,1920 x 1080,,Intel,1.75,3Cell 41WHrs,,data/cellphones/detail_htmls\hp_58_specs.html
-HP Pavilion 15 Eg2085tu 7c0q7pa,hp,Intel,Core I5,1240.0,,8.0,DDR4,3200.0,256.0,15.6,1920 x 1080,,Intel,1.75,3Cell 41WHrs,,data/cellphones/detail_htmls\hp_56_specs.html
-HP 15s Du1040tx 8re77pa,hp,Intel,Core I7,10510.0,,8.0,DDR4,2666.0,512.0,15.6,1366 x 768,,NVIDIA,1.74,"3-cell, 41 Wh Li-ion",,data/cellphones/detail_htmls\hp_60_specs.html
-HP Gaming Victus 16 D1191tx 7c0s5pa,hp,Intel,Core I5,12500.0,3.3,16.0,DDR5,4800.0,512.0,16.1,1920 x 1080,144.0,NVIDIA,2.4,70Wh,,data/cellphones/detail_htmls\hp_59_specs.html
-HP 240 G8 518v8pa,hp,Intel,Core I5,1135.0,,8.0,DDR4,3200.0,512.0,14.0,1920 x 1080,60.0,Intel,1.426,3 Cell Int (41.04Wh),,data/cellphones/detail_htmls\hp_61_specs.html
-HP Pavilion 15 Eg1040tu 5z9v3pa,hp,Intel,Core I5,1155.0,,8.0,DDR4,,256.0,15.6,1920 x 1080,,Intel,1.74,3 Cell (41Wh),,data/cellphones/detail_htmls\hp_62_specs.html
-HP 340s G7 36a43pa,hp,Intel,Core I5,1035.0,,8.0,DDR4,3200.0,256.0,14.0,1920 x 1080,,Intel,1.351,3 Cell (41.04Wh),,data/cellphones/detail_htmls\hp_63_specs.html
-HP Dragonfly G4 A9vd6pt,hp,Intel,Core I7,1365.0,,32.0,LPDDR5,4800.0,1024.0,13.5,1920 x 1280,,Intel,1.229,6 Cell Int (68.4Wh),,data/cellphones/detail_htmls\hp_64_specs.html
-HP Gaming Victus 16 E1102ax 7c139pa,hp,AMD,Ryzen7,6800.0,3.2,16.0,DDR5,4800.0,512.0,16.1,1920 x 1080,144.0,NVIDIA,2.4,70Wh,,data/cellphones/detail_htmls\hp_65_specs.html
-HP Envy 16 H0205tx 7c0t2pa,hp,Intel,Core I9,12900.0,2.5,32.0,DDR5,4800.0,512.0,16.0,3840 x 2400,,NVIDIA,2.3,"6 cell 83 Wh , Pin liền",,data/cellphones/detail_htmls\hp_66_specs.html
 HP Pavilion X360 14 Ek2024tu 9z2v6pa,hp,Intel,Core 5,120.0,1.4,16.0,DDR4,3200.0,512.0,14.0,1920 x 1080,60.0,Intel,1.51,"3-cell, 43Wh, công suất bộ sạc 65 W",24990000.0,data/cellphones/detail_htmls\hp_67_specs.html
-HP 14 Ep1011tu 9z2w3pa,hp,Intel,Core 5,120.0,5.0,16.0,DDR4,3200.0,512.0,14.0,1920 x 1080,,Intel,1.398,3 Cell Int (41.04Wh),,data/cellphones/detail_htmls\hp_68_specs.html
-HP Spectre X360 14 Eu0050tu A19blpa,hp,Intel,Core Ultra 7,155.0,80.0,32.0,LPDDR5,7467.0,1024.0,14.0,2880 x 1800,120.0,Intel,1.465,4 Cell Int (68Wh) 65W (USB-C),,data/cellphones/detail_htmls\hp_69_specs.html
-HP Gaming Victus 15 Fa0110tx 7c0r3pa,hp,Intel,Core I7,12700.0,4.7,8.0,DDR4,3200.0,512.0,15.6,1920 x 1080,144.0,NVIDIA,2.29,"4-cell, 70Wh Li-ion polymer",,data/cellphones/detail_htmls\hp_70_specs.html
-HP Gaming Victus 16 E1105ax 7c0t0pa,hp,AMD,Ryzen5,6600.0,4.5,16.0,DDR5,4800.0,512.0,16.1,1920 x 1080,144.0,NVIDIA,2.4,"4-cell, 70Wh Li-ion polymer",,data/cellphones/detail_htmls\hp_71_specs.html
-HP Pavilion 15 Eg2065tx 7c0q3pa I5 1235u 8gb 256gb,hp,Intel,Core I5,1235.0,1.3,8.0,DDR4,3200.0,256.0,15.6,1080 x 1920,60.0,NVIDIA,1.7,3 cell 41 Wh,,data/cellphones/detail_htmls\hp_72_specs.html
-HP 240 G8 46j53pa,hp,Intel,Core I3,1005.0,,8.0,DDR4,,512.0,14.0,1366 x 768,,Intel,1.47,3 Cell 65 W,,data/cellphones/detail_htmls\hp_73_specs.html
-HP 15s Fq1107tu,hp,Intel,Core I3,1005.0,,4.0,DDR4,,256.0,15.6,1366 x 768,,Intel,1.7,3 cell,,data/cellphones/detail_htmls\hp_75_specs.html
-HP Probook 450 G2,hp,Intel,Core I5,5200.0,2.2,4.0,DDR3,1600.0,500.0,15.6,1366 x 768,,Intel,,4-cell Li-Ion,,data/cellphones/detail_htmls\hp_74_specs.html
-HP Probook 4540s,hp,Intel,Core I5,2400.0,2.5,4.0,DDR3,1333.0,500.0,15.6,1366 x 768,,Intel,2.47,"6-cells, 47 Wh (Li-Ion)",,data/cellphones/detail_htmls\hp_76_specs.html
-HP Pavilion X360 14 Dy0076tu 46l93pa,hp,Intel,Core I7,1165.0,,8.0,DDR4,3200.0,512.0,14.0,1920 x 1080,,Intel,1.52,3 Cell Int (43.3Wh),,data/cellphones/detail_htmls\hp_77_specs.html
-HP Pavilion 15 Eg0509tu 46m08pa,hp,Intel,Core I3,1125.0,,4.0,DDR4,,512.0,15.6,1920 x 1080,,Intel,1.662,3 Cell 45 W,,data/cellphones/detail_htmls\hp_78_specs.html
-HP 15s Du3591tu,hp,Intel,Core I5,1135.0,,8.0,DDR4,,512.0,15.6,1366 x 768,,Intel,1.75,"3-cell Li-ion, 41 Wh",,data/cellphones/detail_htmls\hp_80_specs.html
-HP 15s Fq1111tu 193r0pa,hp,Intel,Core I3,1005.0,,4.0,DDR4,,256.0,15.6,1920 x 1080,60.0,Intel,1.69,3-cell Li-ion,,data/cellphones/detail_htmls\hp_79_specs.html
-HP 340s G7 224l0pa,hp,Intel,Core I3,1005.0,,4.0,DDR4,,512.0,14.0,1366 x 768,,Intel,1.337,3 Cell (41.04Wh),,data/cellphones/detail_htmls\hp_81_specs.html
-HP Gaming Victus 16 D1187tx 7c0s4pa,hp,Intel,Core I7,12700.0,4.7,8.0,DDR5,4800.0,512.0,16.1,1920 x 1080,144.0,NVIDIA,2.46,"4-cell, 70Wh Li-ion polymer",,data/cellphones/detail_htmls\hp_82_specs.html
-HP 240 G9 6l1x3pa,hp,Intel,Core I3,1215.0,1.2,8.0,DDR4,3200.0,,14.0,1080 x 1920,60.0,Intel,1.5,3 cell 80 Wh,,data/cellphones/detail_htmls\hp_83_specs.html
-HP Omen 16 Wf1139tx A2ns1pa,hp,Intel,Core I7,14700.0,5.0,32.0,DDR5,5600.0,1024.0,16.1,2560 x 1440,240.0,NVIDIA,2.39,"6-cell, 83 Wh Li-ion polymer Bộ đổi nguồn AC thông minh 280 W Hỗ trợ sạc pin nhanh: khoảng 50% trong 30 phút",,data/cellphones/detail_htmls\hp_84_specs.html
-HP Gaming Victus 16 D1193tx 7c138pa,hp,Intel,Core I5,12500.0,3.3,8.0,DDR5,4800.0,512.0,16.1,1920 x 1080,144.0,NVIDIA,2.4,70Wh,,data/cellphones/detail_htmls\hp_85_specs.html
 HP Gaming Victus 16 E0170ax 4r0u7pa,hp,AMD,Ryzen7,5800.0,,8.0,DDR4,3200.0,512.0,16.1,1920 x 1080,144.0,NVIDIA,2.46,"4-cell Li-ion, 70 Wh",24990000.0,data/cellphones/detail_htmls\hp_86_specs.html
-HP Gaming Victus 15 Fb1022ax 94f19pa,hp,AMD,Ryzen5,7535.0,4.5,16.0,DDR5,4800.0,512.0,15.6,1920 x 1080,,NVIDIA,2.29,"52.5 Wh, 3 Cell",,data/cellphones/detail_htmls\hp_87_specs.html
 LENOVO Loq 15irx10 83je00pevn,lenovo,Intel,Core I7,13650.0,4.9,16.0,DDR5,4800.0,1024.0,15.6,1920 x 1080,144.0,NVIDIA,2.4,"60Wh, 170W Slim Tip (3-pin)",33990000.0,data/cellphones/detail_htmls\lenovo_4_specs.html
 LENOVO Loq 15iax9e 83lk0079vn,lenovo,Intel,Core I5,12450.0,4.4,16.0,DDR5,4800.0,1024.0,15.6,1920 x 1080,144.0,NVIDIA,1.77,57Wh 135W Slim Tip (3-pin),22090000.0,data/cellphones/detail_htmls\lenovo_3_specs.html
 LENOVO Loq 15arp9 83jc00m3vn,lenovo,AMD,Ryzen5,7235.0,4.2,16.0,DDR5,4800.0,1024.0,15.6,1920 x 1080,144.0,NVIDIA,2.38,"60Wh, 170W Slim Tip (3-pin)",24490000.0,data/cellphones/detail_htmls\lenovo_2_specs.html
@@ -159,7 +110,6 @@ LENOVO Loq Essential 15irx11 83sc003rvn,lenovo,Intel,Core I5,13450.0,4.6,16.0,DD
 LENOVO Loq 15arp9 83jc00hxvn,lenovo,AMD,Ryzen5,7235.0,4.2,12.0,DDR5,4800.0,1024.0,15.6,1920 x 1080,144.0,NVIDIA,2.38,60Wh (Đầu mỏng 170W (3 chân)),22990000.0,data/cellphones/detail_htmls\lenovo_69_specs.html
 LENOVO Ideapad Flex 5 14abr8 82xx00dlvn,lenovo,AMD,Ryzen7,7730.0,4.5,16.0,LPDDR5X,8448.0,1024.0,14.0,1920 x 1200,60.0,AMD,1.55,52.5Wh,18990000.0,data/cellphones/detail_htmls\lenovo_70_specs.html
 LENOVO Thinkpad E14 Gen 7 21t90025vn,lenovo,Intel,Core 7,240.0,5.2,16.0,DDR5,5600.0,512.0,14.0,1920 x 1200,60.0,Intel,1.34,"48Wh, 65W USB-C (3-pin)",26190000.0,data/cellphones/detail_htmls\lenovo_72_specs.html
-LENOVO Thinkpad E14 Gen 7 21sx0031vn,lenovo,Intel,Core Ultra 7,255.0,5.1,32.0,DDR5,5600.0,1024.0,14.0,1920 x 1200,60.0,Intel,1.34,"48Wh, 65W USB-C (3-pin)",,data/cellphones/detail_htmls\lenovo_73_specs.html
 LENOVO Loq 15arp9 83jc00hyvn,lenovo,AMD,Ryzen5,7235.0,4.2,24.0,DDR5,4800.0,1024.0,15.6,1920 x 1080,144.0,NVIDIA,2.38,60Wh (Đầu mỏng 170W (3 chân)),24490000.0,data/cellphones/detail_htmls\lenovo_71_specs.html
 LENOVO Thinkpad E16 Gen 3 21sr002kva,lenovo,Intel,Core Ultra 5,225.0,4.8,16.0,DDR5,5600.0,1024.0,16.0,1920 x 1200,60.0,Intel,1.63,"48Wh, 65W USB-C (3-pin)",25190000.0,data/cellphones/detail_htmls\lenovo_74_specs.html
 LENOVO Loq 15iax9 83gs001rvn,lenovo,Intel,Core I5,12450.0,4.4,12.0,DDR5,4800.0,1024.0,15.6,1920 x 1080,144.0,NVIDIA,2.38,60Wh,23990000.0,data/cellphones/detail_htmls\lenovo_75_specs.html
@@ -182,53 +132,13 @@ LENOVO Ideapad Flex 5 14abr8 82xx00dmvn,lenovo,AMD,Ryzen5,7430.0,4.3,16.0,LPDDR5
 LENOVO Ideapad Slim 3 16irh10 83k20004vn,lenovo,Intel,Core I7,13620.0,4.9,24.0,DDR5,4800.0,1024.0,16.0,1920 x 1200,60.0,Intel,1.73,60Wh Đầu tròn 65W (3 chân),20990000.0,data/cellphones/detail_htmls\lenovo_93_specs.html
 LENOVO Yoga 7 2 In 1 14ill10 83jq0094vn,lenovo,Intel,Core Ultra 7,258.0,4.8,32.0,LPDDR5X,8533.0,1024.0,14.0,2880 x 1800,120.0,Intel,1.38,70Wh 65W USB-C (3-pin),39990000.0,data/cellphones/detail_htmls\lenovo_92_specs.html
 LENOVO Legion 5 15ahp10 83m0002xvn,lenovo,AMD,Ryzen7,260.0,5.1,24.0,DDR5,5600.0,1024.0,15.1,2560 x 1600,165.0,NVIDIA,1.9,"80Wh, 245W Slim Tip (3-pin)",39490000.0,data/cellphones/detail_htmls\lenovo_94_specs.html
-LENOVO Thinkpad X1 Carbon Gen 9,lenovo,Intel,Core I7,1165.0,4.7,32.0,LPDDR4X,4266.0,2048.0,14.0,1920 x 1200,,Intel,1.13,57Whr (MM18),,data/cellphones/detail_htmls\lenovo_96_specs.html
-LENOVO Thinkpad X1 Carbon Gen 10,lenovo,Intel,Core I7,1260.0,2.1,16.0,LPDDR5,5200.0,2048.0,14.0,1920 x 1200,60.0,Intel,1.12,57 Wh,,data/cellphones/detail_htmls\lenovo_98_specs.html
 LENOVO Loq 15arp9 83jc007hvn,lenovo,AMD,Ryzen5,7235.0,4.2,12.0,DDR5,4800.0,1024.0,15.6,1920 x 1080,144.0,NVIDIA,2.38,60Wh,23490000.0,data/cellphones/detail_htmls\lenovo_95_specs.html
 LENOVO Loq 15arp9 83jc007jvn,lenovo,AMD,Ryzen5,7235.0,4.2,24.0,DDR5,4800.0,1024.0,15.6,1920 x 1080,144.0,NVIDIA,2.38,60Wh,24490000.0,data/cellphones/detail_htmls\lenovo_97_specs.html
-LENOVO Loq 15iax9 83gs000jvn,lenovo,Intel,Core I5,12450.0,4.4,16.0,DDR5,4800.0,1024.0,15.6,1920 x 1080,144.0,NVIDIA,2.38,60Wh,,data/cellphones/detail_htmls\lenovo_102_specs.html
-LENOVO Thinkpad X1 Carbon Gen 8,lenovo,Intel,Core I7,10610.0,1.8,16.0,LPDDR3,2133.0,512.0,14.0,1920 x 1080,60.0,Intel,1.09,51WHr Li-ion,,data/cellphones/detail_htmls\lenovo_99_specs.html
 LENOVO Thinkpad E14 21eb0063vn,lenovo,AMD,Ryzen7,5825.0,4.5,8.0,DDR4,3200.0,1024.0,14.0,1920 x 1080,,AMD,1.64,45Wh,21700000.0,data/cellphones/detail_htmls\lenovo_100_specs.html
-LENOVO Thinkpad X1 Carbon Gen 6,lenovo,Intel,Core I7,8550.0,1.8,16.0,LPDDR3,2133.0,256.0,14.0,1920 x 1080,60.0,Intel,1.13,57WHr Li-ion,,data/cellphones/detail_htmls\lenovo_101_specs.html
-LENOVO Thinkpad T14 Gen 2,lenovo,Intel,Core I7,1165.0,2.8,32.0,DDR4,3200.0,2048.0,14.0,1920 x 1080,,Intel,1.47,,,data/cellphones/detail_htmls\lenovo_106_specs.html
-LENOVO Thinkpad X1 Carbon Gen 7,lenovo,Intel,Core I7,8565.0,1.8,16.0,LPDDR3,2133.0,256.0,14.0,1920 x 1080,60.0,Intel,1.09,51WHr Li-Polymer,,data/cellphones/detail_htmls\lenovo_104_specs.html
-LENOVO Thinkpad X1 Carbon Gen 5,lenovo,Intel,Core I5,6300.0,2.4,8.0,LPDDR3,1866.0,256.0,14.0,1920 x 1080,60.0,Intel,1.13,57WHr Li-Polymer,,data/cellphones/detail_htmls\lenovo_103_specs.html
 LENOVO Ideapad Slim 3 14iah8 83eq0009vn,lenovo,Intel,Core I5,12450.0,4.4,16.0,LPDDR5,4800.0,1024.0,14.0,1920 x 1080,,Intel,1.37,47Wh,16490000.0,data/cellphones/detail_htmls\lenovo_105_specs.html
 LENOVO Legion Slim 5 16irh8 82ya00buvn,lenovo,Intel,Core I7,13700.0,2.4,16.0,,5200.0,1024.0,16.0,2560 x 1600,165.0,NVIDIA,2.4,80Wh,43990000.0,data/cellphones/detail_htmls\lenovo_107_specs.html
 LENOVO Ideapad Yoga 6 13alc6 82nd00bdvn,lenovo,AMD,Ryzen7,5700.0,1.8,8.0,DDR4,3200.0,512.0,13.3,1920 x 1080,,AMD,1.31,"4Cell, 60Wh",16800000.0,data/cellphones/detail_htmls\lenovo_108_specs.html
-LENOVO Thinkpad T14 Gen 3,lenovo,Intel,Core I7,1260.0,3.4,16.0,DDR4,3200.0,2048.0,14.0,1920 x 1200,,Intel,1.35,57Wh,,data/cellphones/detail_htmls\lenovo_111_specs.html
-LENOVO Thinkpad E16 Gen 1 21jn006gvn,lenovo,Intel,Core I7,1355.0,5.0,16.0,DDR4,3200.0,1024.0,16.0,1920 x 1200,,Intel,1.81,47Wh,,data/cellphones/detail_htmls\lenovo_110_specs.html
-LENOVO Thinkpad T480,lenovo,Intel,Core I7,8650.0,,32.0,DDR4,2400.0,1024.0,14.0,1920 x 1080,,Intel,1.58,Lên đến 30.3 giờ,,data/cellphones/detail_htmls\lenovo_109_specs.html
-LENOVO Ideapad Slim 3 15irh8 83em003evn,lenovo,Intel,Core I7,13620.0,4.9,16.0,LPDDR5,4800.0,1024.0,15.6,1920 x 1080,60.0,Intel,1.62,47Wh,,data/cellphones/detail_htmls\lenovo_112_specs.html
-LENOVO Yoga Pro 7 14irh8 82y70050vn,lenovo,Intel,Core I7,13700.0,2.4,16.0,DDR5,5200.0,1024.0,14.5,3072 x 1920,120.0,NVIDIA,1.49,73Wh,,data/cellphones/detail_htmls\lenovo_114_specs.html
-LENOVO Ideapad 1 15amn7 82vg0022vn,lenovo,AMD,Ryzen5,7520.0,4.3,8.0,LPDDR5,5500.0,1024.0,15.6,1920 x 1080,,AMD,1.58,42Wh,,data/cellphones/detail_htmls\lenovo_113_specs.html
-LENOVO Thinkbook 14 G2 Are,lenovo,AMD,Ryzen7,4700.0,2.0,8.0,DDR4,3200.0,512.0,14.0,1920 x 1080,60.0,AMD,,45W Lithium polyme,,data/cellphones/detail_htmls\lenovo_117_specs.html
 LENOVO Ideapad Slim 5 16imh9 83dc001svn,lenovo,Intel,Core Ultra 7,155.0,4.8,32.0,LPDDR5X,7467.0,1024.0,16.0,2048 x 1280,120.0,Intel,1.82,57Wh,26990000.0,data/cellphones/detail_htmls\lenovo_115_specs.html
-LENOVO Ideapad Slim 5 16imh9 83dc001rvn,lenovo,Intel,Core Ultra 5,125.0,4.5,16.0,LPDDR5X,7467.0,1024.0,16.0,2048 x 1280,120.0,Intel,1.82,57Wh,,data/cellphones/detail_htmls\lenovo_116_specs.html
-LENOVO Yoga Slim 7 Carbon 13iap7 82u90044vn,lenovo,Intel,Core I5,1240.0,4.4,16.0,LPDDR5,4800.0,1024.0,13.3,2560 x 1600,,Intel,0.968,50Wh,,data/cellphones/detail_htmls\lenovo_118_specs.html
-LENOVO Legion Slim 5 16irh8 82ya008hvn,lenovo,Intel,Core I7,13700.0,5.0,16.0,DDR5,5200.0,1024.0,16.0,2560 x 1600,165.0,NVIDIA,2.4,80Wh,,data/cellphones/detail_htmls\lenovo_119_specs.html
-LENOVO Ideapad Slim 5 14imh9 83da001yvn,lenovo,Intel,Core Ultra 7,155.0,4.8,32.0,LPDDR5X,7467.0,1024.0,14.0,1920 x 1200,60.0,Intel,1.48,57Wh,,data/cellphones/detail_htmls\lenovo_120_specs.html
-LENOVO Thinkpad P51,lenovo,Intel,Core I7,7820.0,2.9,64.0,DDR4,2400.0,1024.0,15.6,3840 x 2160,,NVIDIA,2.5,6Cell - 90Wh,,data/cellphones/detail_htmls\lenovo_121_specs.html
-LENOVO 100e Gen 2 Celeron,lenovo,Intel,Celeron,4020.0,1.1,4.0,LPDDR4,2400.0,64.0,11.6,1366 x 768,60.0,Intel,1.21,3 Cell,,data/cellphones/detail_htmls\lenovo_122_specs.html
-LENOVO Thinkpad P50,lenovo,Intel,Core I7,6700.0,2.8,64.0,DDR4,2133.0,256.0,15.6,3840 x 2160,,NVIDIA,2.5,Li - Polymer 6 cell,,data/cellphones/detail_htmls\lenovo_125_specs.html
-LENOVO Thinkpad T470s,lenovo,Intel,Core I7,7600.0,2.8,24.0,DDR4,2400.0,1024.0,14.0,1920 x 1080,,Intel,1.3,57Wh,,data/cellphones/detail_htmls\lenovo_123_specs.html
-LENOVO Thinkpad T460s,lenovo,Intel,Core I7,6600.0,2.6,24.0,DDR4,2133.0,256.0,14.0,1920 x 1080,,Intel,1.3,,,data/cellphones/detail_htmls\lenovo_126_specs.html
-LENOVO Thinkpad T14,lenovo,Intel,Core I5,10310.0,1.7,8.0,DDR4,2666.0,256.0,14.0,1920 x 1080,60.0,Intel,1.46,50WHr Li-ion,,data/cellphones/detail_htmls\lenovo_128_specs.html
-LENOVO Ideapad Slim 5 Light 14abr8 82xs0007vn,lenovo,AMD,Ryzen7,7730.0,4.5,8.0,DDR4,3200.0,512.0,14.0,1920 x 1080,,AMD,1.17,47Wh,,data/cellphones/detail_htmls\lenovo_124_specs.html
-LENOVO Ideapad 5 15iil05 81yk004wvn,lenovo,Intel,Core I5,1035.0,,8.0,DDR4,3200.0,256.0,15.6,1920 x 1080,60.0,Intel,1.7,3-cell 45 Wh Li-ion,,data/cellphones/detail_htmls\lenovo_129_specs.html
-LENOVO Ideapad 5 14itl05 82fg0129vn,lenovo,Intel,Core I5,1135.0,,8.0,DDR4,3200.0,512.0,15.6,1920 x 1080,60.0,Intel,1.66,3 Cell Lithium polymer 45 W,,data/cellphones/detail_htmls\lenovo_130_specs.html
-LENOVO Ideapad Slim 3 15iah8 83er000bvn,lenovo,Intel,Core I5,12450.0,4.4,8.0,LPDDR5,4800.0,512.0,15.6,1920 x 1080,,Intel,1.62,3 cell 47Wh,,data/cellphones/detail_htmls\lenovo_127_specs.html
-LENOVO Loq 15irx9 83dv0092vn,lenovo,Intel,Core I7,13650.0,4.9,16.0,DDR5,4800.0,1024.0,15.6,1920 x 1080,144.0,NVIDIA,2.38,60Wh,,data/cellphones/detail_htmls\lenovo_133_specs.html
-LENOVO Gaming Legion 5 15imh05 82au00g9vn,lenovo,Intel,Core I7,10750.0,2.6,16.0,DDR4,3200.0,512.0,15.6,1920 x 1080,,NVIDIA,2.3,4 cell 60 Wh,,data/cellphones/detail_htmls\lenovo_131_specs.html
-LENOVO Legion Pro 7 16irx9h 83de001nvn,lenovo,Intel,Core I9,14900.0,5.8,32.0,DDR5,5600.0,1024.0,16.0,2560 x 1600,240.0,NVIDIA,2.62,99.9Wh,,data/cellphones/detail_htmls\lenovo_134_specs.html
-LENOVO Gaming Legion Pro 7 16irx9h 83de001mvn,lenovo,Intel,Core I9,14900.0,5.8,32.0,DDR5,5600.0,1024.0,16.0,2560 x 1600,240.0,NVIDIA,2.62,99.9Wh,,data/cellphones/detail_htmls\lenovo_132_specs.html
-LENOVO Thinkpad X1 Carbon7 20r1s01n00,lenovo,Intel,Core I7,10510.0,1.8,8.0,LPDDR3,2133.0,256.0,14.0,2560 x 1440,,Intel,1.08,4 cell 51Wh,,data/cellphones/detail_htmls\lenovo_137_specs.html
-LENOVO Thinkpad E15 20rds0du00,lenovo,Intel,Core I7,10510.0,1.8,8.0,DDR4,2666.0,512.0,15.6,1920 x 1080,,AMD,1.8,"3Cell, 45Wh",,data/cellphones/detail_htmls\lenovo_138_specs.html
-LENOVO Legion Slim 5 16irh8 82ya00btvn,lenovo,Intel,Core I5,13500.0,4.7,8.0,DDR5,5200.0,1024.0,16.0,2560 x 1600,165.0,NVIDIA,2.4,80Wh,,data/cellphones/detail_htmls\lenovo_135_specs.html
-LENOVO Ideapad 3 15iau7 82rk015avn,lenovo,Intel,Core I3,1215.0,4.4,16.0,DDR4,3200.0,1024.0,15.6,1920 x 1080,,Intel,1.63,45Wh,,data/cellphones/detail_htmls\lenovo_139_specs.html
-LENOVO Legion Slim 5 16aph8 82y9002yvn,lenovo,AMD,Ryzen7,7840.0,5.1,16.0,DDR5,5600.0,1024.0,16.0,2560 x 1600,165.0,NVIDIA,2.4,80Wh,,data/cellphones/detail_htmls\lenovo_140_specs.html
-LENOVO Ideapad Slim 5 Light 14abr8 82xs0006vn,lenovo,AMD,Ryzen5,7530.0,4.5,8.0,DDR4,3200.0,512.0,14.0,1920 x 1080,,AMD,1.17,47Wh,,data/cellphones/detail_htmls\lenovo_141_specs.html
-LENOVO Ideapad Slim 5 16iah8 83bg001xvn,lenovo,Intel,Core I5,12450.0,4.4,16.0,LPDDR5,4800.0,1024.0,16.0,1920 x 1200,,Intel,1.89,56.6Wh,,data/cellphones/detail_htmls\lenovo_142_specs.html
 DELL Inspiron 15 3530 J9xfd,dell,Intel,Core I5,1334.0,,16.0,DDR4,3200.0,1024.0,15.6,1920 x 1080,60.0,Intel,1.62,"3 cell, 41Wh",16990000.0,data/cellphones/detail_htmls\dell_1_specs.html
 DELL 15 Dc15255 Dc5r5802w1,dell,AMD,Ryzen5,7530.0,2.0,16.0,DDR4,3200.0,1024.0,15.6,1920 x 1080,120.0,AMD,1.63,"3-Cell Battery, 41WHr",16990000.0,data/cellphones/detail_htmls\dell_4_specs.html
 DELL Inspiron 14 5440 D0f3w,dell,Intel,Core I5,1334.0,4.6,24.0,DDR5,4400.0,1024.0,14.0,1920 x 1080,60.0,Intel,1.69,3 cell 41 Wh,18990000.0,data/cellphones/detail_htmls\dell_0_specs.html
@@ -253,62 +163,12 @@ DELL Inspiron 15 3520 I3520 7896blk Pus,dell,Intel,Core I7,1255.0,70.0,16.0,DDR4
 DELL Inspiron 15 3520 6r6nk,dell,Intel,Core I5,1235.0,1.3,8.0,DDR4,,1024.0,15.6,1920 x 1080,120.0,Intel,1.66,"3-cell, 41 Wh lithium-polymer",14490000.0,data/cellphones/detail_htmls\dell_22_specs.html
 DELL Latitude 3540 71038100,dell,Intel,Core I5,1235.0,4.4,16.0,DDR4,3200.0,1024.0,15.6,1920 x 1080,60.0,Intel,1.81,"3 cell, 42 Wh, có khả năng sạc nhanh",18990000.0,data/cellphones/detail_htmls\dell_21_specs.html
 DELL Inspiron 15 3520 N3520 I5u165w11slu,dell,Intel,Core I5,1235.0,4.4,16.0,DDR4,3200.0,512.0,15.6,1920 x 1080,120.0,Intel,1.9,"Pin liền, 3-Cell Battery, 41WHrC32",16990000.0,data/cellphones/detail_htmls\dell_23_specs.html
-DELL Latitude 7400,dell,Intel,Core I5,8365.0,1.6,8.0,DDR4,,256.0,14.0,1920 x 1080,,Intel,1.36,4-Cell: 60 Wh,,data/cellphones/detail_htmls\dell_24_specs.html
 DELL Vostro 3520 F0v0v256,dell,Intel,Core I5,1235.0,1.3,8.0,DDR4,,256.0,15.6,1920 x 1080,60.0,Intel,1.9,,13990000.0,data/cellphones/detail_htmls\dell_25_specs.html
-DELL Inspiron 5310,dell,Intel,Core I3,1125.0,2.0,8.0,LPDDR4X,4267.0,256.0,13.3,1920 x 1200,60.0,Intel,1.28,54 Wh 4 celll,,data/cellphones/detail_htmls\dell_28_specs.html
 DELL 15 Dc15250 3g7t0,dell,Intel,Core I7,1355.0,5.0,16.0,DDR4,,1024.0,15.6,1920 x 1080,120.0,Intel,1.9,"3 cell, 41Wh",20990000.0,data/cellphones/detail_htmls\dell_26_specs.html
 DELL Inspiron 15 3530 P16wd2,dell,Intel,Core I5,1334.0,4.6,16.0,DDR4,2666.0,0.0,15.6,1920 x 1080,120.0,Intel,1.67,3 Cell Int (41Wh),19190000.0,data/cellphones/detail_htmls\dell_27_specs.html
-DELL Xps 9320,dell,Intel,Core I7,1260.0,4.7,16.0,LPDDR5,5200.0,512.0,13.4,,60.0,Intel,1.26,"3-cell, 55 Wh",,data/cellphones/detail_htmls\dell_29_specs.html
-DELL Xps 9315,dell,Intel,Core I7,1265.0,,16.0,LPDDR5,5200.0,512.0,13.4,1920 x 1200,,Intel,1.17,,,data/cellphones/detail_htmls\dell_30_specs.html
-DELL Latitude 3420,dell,Intel,Core I5,1135.0,2.4,8.0,DDR4,3200.0,256.0,14.0,1366 x 768,,Intel,1.5,3 cell 41 Wh,,data/cellphones/detail_htmls\dell_33_specs.html
 DELL Inspiron 16 5620 N6i7110w1,dell,Intel,Core I7,1255.0,,8.0,DDR4,3200.0,512.0,16.0,1920 x 1200,60.0,Intel,1.91,"4-cell Li-ion, 54 WHr",25290000.0,data/cellphones/detail_htmls\dell_32_specs.html
 DELL Inspiron 14 5440 N4i7204w1,dell,Intel,Core 7,150.0,,16.0,DDR5,,512.0,14.0,1920 x 1200,60.0,Intel,1.67,"Li-ion 4-Cell Battery, 54WHr",26490000.0,data/cellphones/detail_htmls\dell_31_specs.html
-DELL Latitude E7470,dell,Intel,Core I5,6300.0,2.4,8.0,DDR4,2133.0,256.0,14.0,1920 x 1080,,Intel,1.42,4 cell 52Whr,,data/cellphones/detail_htmls\dell_34_specs.html
-DELL Latitude E5440,dell,Intel,Core I5,4300.0,,4.0,,,500.0,14.0,1366 x 768,,Intel,1.95,,,data/cellphones/detail_htmls\dell_35_specs.html
-DELL Latitude 5400,dell,Intel,Core I5,8365.0,1.6,8.0,,,256.0,14.0,1920 x 1080,,Intel,1.6,3 cell,,data/cellphones/detail_htmls\dell_38_specs.html
-DELL Inspiron 5425,dell,AMD,,5625.0,,16.0,DDR4,3200.0,512.0,14.0,1920 x 1200,60.0,AMD,1.54,,,data/cellphones/detail_htmls\dell_36_specs.html
-DELL Latitude 7480,dell,Intel,Core I5,7300.0,2.6,8.0,DDR4,2133.0,256.0,14.1,1920 x 1080,,Intel,1.5,"4-cell, 60 Wh Li-ion",,data/cellphones/detail_htmls\dell_37_specs.html
-DELL Latitude E5430,dell,Intel,Core I5,3320.0,2.6,4.0,,,120.0,14.0,1366 x 768,,Intel,1.18,6 cell,,data/cellphones/detail_htmls\dell_39_specs.html
-DELL Xps 15 9520,dell,Intel,Core I9,12900.0,3.8,16.0,DDR5,4800.0,512.0,15.6,3456 x 2160,60.0,NVIDIA,1.96,6 Cell,,data/cellphones/detail_htmls\dell_42_specs.html
-DELL Xps 13 9350,dell,Intel,Core I7,6500.0,3.1,8.0,DDR3,1600.0,256.0,13.3,3200 x 1800,,Intel,1.27,4-cell Li-Ion,,data/cellphones/detail_htmls\dell_41_specs.html
-DELL Xps 14 9440 71054773,dell,Intel,Core Ultra 7,155.0,4.8,64.0,DDR5,7467.0,1024.0,14.5,3200 x 2000,48.0,NVIDIA,1.8,"6-Cell, 69.5Whr",,data/cellphones/detail_htmls\dell_40_specs.html
-DELL Latitude 5480,dell,Intel,Core I5,6200.0,2.3,8.0,DDR4,,256.0,14.0,1366 x 768,,Intel,0.01,,,data/cellphones/detail_htmls\dell_43_specs.html
-DELL Latitude 7280,dell,Intel,Core I5,6200.0,,8.0,,,240.0,12.5,1920 x 1080,,Intel,1.18,,,data/cellphones/detail_htmls\dell_45_specs.html
-DELL Latitude E7450,dell,Intel,Core I3,5010.0,,4.0,DDR3L,1600.0,120.0,14.0,1366 x 768,60.0,Intel,1.55,3 cell,,data/cellphones/detail_htmls\dell_44_specs.html
-DELL Xps 13 9305,dell,Intel,Core I5,1135.0,,8.0,LPDDR4X,4266.0,256.0,13.3,1920 x 1080,60.0,Intel,1.29,7 giờ sử dụng liên tục với Microsoft Word,,data/cellphones/detail_htmls\dell_47_specs.html
-DELL Xps 15 9570,dell,Intel,Core I7,8750.0,2.2,16.0,DDR4,2666.0,256.0,15.6,1920 x 1080,,NVIDIA,1.8,97Whr,,data/cellphones/detail_htmls\dell_46_specs.html
-DELL Xps 9510,dell,Intel,Core I7,11800.0,,16.0,DDR4,3200.0,1024.0,15.6,3456 x 2160,60.0,NVIDIA,2.04,86 WHr,,data/cellphones/detail_htmls\dell_48_specs.html
-DELL Latitude E7250,dell,Intel,Core I5,5300.0,2.3,8.0,DDR3,,256.0,12.5,,,Intel,1.27,,,data/cellphones/detail_htmls\dell_50_specs.html
-DELL Inspiron 7425,dell,AMD,Ryzen5,5625.0,2.3,8.0,DDR4,3200.0,512.0,14.0,1920 x 1200,60.0,AMD,1.6,54WHr 4-Cell,,data/cellphones/detail_htmls\dell_49_specs.html
-DELL Xps 9500,dell,Intel,Core I5,10300.0,4.0,8.0,DDR4,2933.0,256.0,15.0,1920 x 1200,60.0,Intel,1.83,56 WHr Li-ion,,data/cellphones/detail_htmls\dell_52_specs.html
-Alienware X14 R1,dell,Intel,Core I7,12700.0,4.7,16.0,LPDDR5,4800.0,512.0,14.0,1920 x 1080,144.0,NVIDIA,1.84,"6-cell, 80.5Wh",,data/cellphones/detail_htmls\dell_53_specs.html
-DELL Alienware M16,dell,Intel,Core I7,13650.0,90.0,16.0,DDR5,4800.0,512.0,16.0,2560 x 1600,165.0,NVIDIA,3.25,"6 Cell, 86 Wh",,data/cellphones/detail_htmls\dell_51_specs.html
-DELL Vostro 5568,dell,Intel,Core I5,7200.0,,4.0,DDR4,2400.0,1024.0,15.6,1366 x 768,,NVIDIA,1.98,3-cell Li-ion,,data/cellphones/detail_htmls\dell_54_specs.html
-DELL Xps 13 9300,dell,Intel,Core I5,1035.0,,8.0,LPDDR4X,3733.0,256.0,13.0,1920 x 1200,60.0,Intel,1.3,51WHr,,data/cellphones/detail_htmls\dell_55_specs.html
-DELL Latitude 5520,dell,Intel,Core I5,1145.0,4.4,8.0,DDR4,3200.0,256.0,15.6,1920 x 1080,,Intel,1.59,63Whr 4 cell,,data/cellphones/detail_htmls\dell_57_specs.html
-DELL Latitude 5420,dell,Intel,Core I5,1135.0,4.2,8.0,DDR4,3200.0,256.0,14.0,1920 x 1080,,Intel,1.37,"4 Cell, 63.3 Whr",,data/cellphones/detail_htmls\dell_58_specs.html
-DELL Inspiron 7559,dell,Intel,Core I7,6700.0,,8.0,DDR3,1600.0,1024.0,15.6,1920 x 1080,,NVIDIA,2.5,,,data/cellphones/detail_htmls\dell_56_specs.html
-DELL Alienware M15 R7,dell,Intel,Core I7,12700.0,2.1,16.0,DDR5,4800.0,512.0,15.6,1920 x 1080,165.0,NVIDIA,2.69,,,data/cellphones/detail_htmls\dell_59_specs.html
-DELL Latitude E5570,dell,Intel,Core I7,6820.0,,16.0,,,512.0,15.6,1920 x 1080,,AMD,,,,data/cellphones/detail_htmls\dell_60_specs.html
-DELL Inspiron 5515 R1505s,dell,AMD,Ryzen5,5500.0,,8.0,DDR4,3200.0,512.0,15.6,1920 x 1080,60.0,AMD,1.75,4 Cell Lithium polymer 65 W,,data/cellphones/detail_htmls\dell_61_specs.html
-DELL Xps 15 7590,dell,Intel,Core I5,9300.0,4.0,8.0,DDR4,2666.0,256.0,15.0,1920 x 1080,60.0,Intel,1.8,57 WHr Li-ion,,data/cellphones/detail_htmls\dell_62_specs.html
-DELL Latitude E5520,dell,Intel,Core I7,2620.0,,8.0,DDR3,,320.0,14.1,,,Intel,,,,data/cellphones/detail_htmls\dell_64_specs.html
-DELL Inspiron N7490 N4i5106w,dell,Intel,Core I5,10210.0,,8.0,LPDDR3,,512.0,14.0,1920 x 1200,,Intel,1.32,65 W,,data/cellphones/detail_htmls\dell_65_specs.html
-DELL Latitude E7270,dell,Intel,Core I5,6300.0,,8.0,DDR4,,256.0,12.5,1366 x 768,,Intel,1.26,,,data/cellphones/detail_htmls\dell_63_specs.html
-DELL G7 15 7500,dell,Intel,Core I7,10750.0,,8.0,DDR4,,512.0,15.6,1920 x 1080,,NVIDIA,2.56,Lithium-ion 6 Cell,,data/cellphones/detail_htmls\dell_66_specs.html
-DELL Vostro 5468,dell,Intel,Core I5,7200.0,,4.0,DDR4,2400.0,1024.0,14.0,1366 x 768,,NVIDIA,1.66,3-cell Li-ion,,data/cellphones/detail_htmls\dell_67_specs.html
-DELL Latitude 3520 71012298,dell,Intel,Core I7,1165.0,,8.0,DDR4,3200.0,512.0,15.6,1920 x 1080,60.0,Intel,1.79,3 cell,,data/cellphones/detail_htmls\dell_68_specs.html
-DELL Inspiron 14 7420 1yt85,dell,Intel,Core I7,1255.0,1.7,16.0,DDR4,,512.0,14.0,1920 x 1200,,NVIDIA,1.6,"4 cell 54 Wh , Pin liền",,data/cellphones/detail_htmls\dell_72_specs.html
-DELL Vostro 5470,dell,Intel,Core I5,4200.0,,4.0,DDR3L,1600.0,500.0,14.0,1366 x 768,,NVIDIA,1.53,3-cell Li-ion,,data/cellphones/detail_htmls\dell_71_specs.html
-DELL Vostro 15 3530 80gg9,dell,Intel,Core I5,1335.0,1.3,8.0,DDR4,3200.0,512.0,15.6,1920 x 1080,120.0,Intel,1.6,3 cell 41 Wh,,data/cellphones/detail_htmls\dell_73_specs.html
-DELL Inspiron 15 3520 N3520 I5u085w11slu,dell,Intel,Core I5,1235.0,4.4,16.0,DDR4,2666.0,512.0,15.6,1920 x 1080,120.0,Intel,1.9,"Pin liền, 3-Cell Battery, 41WHr",,data/cellphones/detail_htmls\dell_69_specs.html
 DELL Vostro 3530 2h1tpi5,dell,Intel,Core I5,1334.0,0.9,8.0,DDR4,2666.0,1024.0,15.6,1920 x 1080,120.0,Intel,1.66,"41Wh , 3Cell",16990000.0,data/cellphones/detail_htmls\dell_70_specs.html
-DELL Insprion 3501,dell,Intel,Core I3,1125.0,4.1,4.0,DDR4,2666.0,256.0,15.6,,,Intel,1.91,3Cell 42Whrs,,data/cellphones/detail_htmls\dell_74_specs.html
-DELL Inspiron 14 5430 20dy31,dell,Intel,Core I7,1360.0,2.2,16.0,LPDDR5,4800.0,1024.0,14.0,1920 x 1200,,Intel,1.6,4 cell 54 Wh,,data/cellphones/detail_htmls\dell_75_specs.html
-DELL Inspiron 15 3520 N3520 I5u165w11blu,dell,Intel,Core I5,1235.0,4.4,16.0,DDR4,2666.0,512.0,15.6,1920 x 1080,120.0,Intel,1.9,"3-Cell Battery, 41WHr",,data/cellphones/detail_htmls\dell_77_specs.html
-DELL Xps 13 9370,dell,Intel,Core I7,8550.0,4.0,8.0,DDR3L,1866.0,256.0,13.3,1920 x 1080,60.0,Intel,1.21,4-cell Li-ion,,data/cellphones/detail_htmls\dell_76_specs.html
-DELL Latitude E6420,dell,Intel,Core I5,2520.0,2.5,4.0,DDR3,,512.0,14.0,,,Intel,2.09,,,data/cellphones/detail_htmls\dell_78_specs.html
-DELL Vostro 3578,dell,Intel,Core I5,8250.0,,4.0,DDR4,2400.0,1024.0,15.6,1920 x 1080,,AMD,2.2,4-cell Li-ion,,data/cellphones/detail_htmls\dell_79_specs.html
 DELL Inspiron 15 3530 71043885,dell,Intel,Core I5,1334.0,,16.0,DDR4,2660.0,512.0,15.6,1920 x 1080,120.0,Intel,1.66,Pin liền,19290000.0,data/cellphones/detail_htmls\dell_80_specs.html
 ASUS Vivobook Go 14 E1404fa Nk177w,asus,AMD,Ryzen5,7520.0,4.3,16.0,LPDDR5,,512.0,14.0,1920 x 1080,60.0,AMD,1.3,"42WHrs, 3S1P, Li-ion 3 cell",14490000.0,data/cellphones/detail_htmls\asus_1_specs.html
 ASUS Tuf Gaming F16 Fx607vj Rl034w,asus,Intel,Core 5,210.0,2.2,16.0,DDR4,3200.0,2048.0,16.0,1920 x 1200,144.0,NVIDIA,2.2,"56WHrs, 4S1P, 4-cell Li-ion",24490000.0,data/cellphones/detail_htmls\asus_0_specs.html
@@ -401,7 +261,6 @@ ASUS Vivobook 14 Oled A1405va Km257w,asus,Intel,Core I5,13500.0,2.6,16.0,DDR4,,5
 ASUS Expertbook B1402cba Nk2669w,asus,Intel,Core I5,1235.0,1.7,16.0,DDR4,,512.0,14.0,1920 x 1080,60.0,Intel,1.49,"42WHrs, 3S1P, 3-cell Li-ion",19990000.0,data/cellphones/detail_htmls\asus_88_specs.html
 ASUS Vivobook 15 X1504za Nj517w,asus,Intel,Core I5,1235.0,1.3,16.0,DDR4,,512.0,15.6,1920 x 1080,60.0,Intel,1.7,"42WHrs, 3S1P, 3-cell Li-ion",16490000.0,data/cellphones/detail_htmls\asus_89_specs.html
 ASUS Vivobook 15 Oled A1505va L1201w,asus,Intel,Core I9,13900.0,2.6,16.0,DDR4,,512.0,15.6,1920 x 1080,60.0,Intel,1.7,"50WHrs, 3S1P, 3-cell Li-ion",24990000.0,data/cellphones/detail_htmls\asus_92_specs.html
-ASUS Tuf Gaming F15 Fx507vv Lp304w,asus,Intel,Core I7,13620.0,2.4,32.0,DDR5,4800.0,1024.0,15.6,1920 x 1080,144.0,NVIDIA,2.2,"90WHrs, 4S1P, 4-cell Li-ion",,data/cellphones/detail_htmls\asus_90_specs.html
 ASUS Vivobook 14 Oled A1405za Km264w,asus,Intel,Core I5,12500.0,2.5,16.0,DDR4,,512.0,14.0,2880 x 1800,90.0,Intel,1.6,"50WHrs, 3S1P, 3-cell Li-ion",17990000.0,data/cellphones/detail_htmls\asus_91_specs.html
 ASUS Tuf Gaming A15 Fa507nu Lp140w,asus,AMD,Ryzen5,7535.0,4.5,16.0,DDR5,4800.0,2048.0,15.6,1920 x 1080,144.0,NVIDIA,2.2,"90WHrs, 4S1P, 4-cell Li-ion",25990000.0,data/cellphones/detail_htmls\asus_94_specs.html
 ASUS Vivobook 15 X1504za Nj1039w,asus,Intel,Core I7,1255.0,1.7,16.0,DDR4,,512.0,15.6,1920 x 1080,60.0,Intel,1.7,"42WHrs, 3S1P, 3-cell Li-ion",17990000.0,data/cellphones/detail_htmls\asus_93_specs.html
@@ -411,49 +270,8 @@ ASUS Tuf Gaming A15 Fa506nf Hn005w,asus,AMD,Ryzen5,7535.0,3.3,8.0,DDR5,4800.0,51
 ASUS Vivobook Pro M3401qa Km025w,asus,AMD,Ryzen7,5800.0,,8.0,DDR4,3200.0,512.0,14.0,2880 x 1800,90.0,AMD,1.45,3 Cells 63WHrs,18600000.0,data/cellphones/detail_htmls\asus_99_specs.html
 ASUS Zenbook Duo Ux8406ma Pz307w,asus,Intel,Core Ultra 7,155.0,1.4,16.0,LPDDR5X,,512.0,14.0,2880 x 1800,120.0,Intel,1.65,"75WHrs, 4S1P, 4-cell Li-ion",49990000.0,data/cellphones/detail_htmls\asus_98_specs.html
 ASUS Vivobook Pro M3401qa Km006w,asus,AMD,Ryzen5,5600.0,,8.0,DDR4,3200.0,512.0,14.0,2880 x 1800,,AMD,1.4,"3-cell Li-ion, 63 Wh",17800000.0,data/cellphones/detail_htmls\asus_101_specs.html
-ASUS Expertbook P1 P1503cva I5se16 63ws,asus,Intel,Core I5,13500.0,2.6,16.0,DDR5,,512.0,15.6,1920 x 1080,60.0,Intel,1.65,"63WHrs, 3S1P, 3-cell Li-ion",,data/cellphones/detail_htmls\asus_100_specs.html
-ASUS Expertbook P1 P1403cva I5se16 63ws,asus,Intel,Core I5,13500.0,2.6,16.0,DDR5,,512.0,14.0,1920 x 1080,60.0,Intel,1.45,"63WHrs, 3S1P, 3-cell Li-ion",,data/cellphones/detail_htmls\asus_102_specs.html
-ASUS Rog Strix G18 G814jvr N6089w,asus,Intel,Core I9,14900.0,2.2,32.0,DDR5,5600.0,1024.0,18.0,2560 x 1600,240.0,NVIDIA,3.0,"90WHrs, 4S1P, 4-cell Li-ion",,data/cellphones/detail_htmls\asus_104_specs.html
-ASUS Gaming Rog Strix G531gt Al030t,asus,Intel,Core I7,9750.0,2.6,8.0,DDR4,,1024.0,15.6,1920 x 1080,144.0,NVIDIA,2.4,3 Cell 48WHr,,data/cellphones/detail_htmls\asus_103_specs.html
-ASUS Expertbook P1 P1503cva I7se16 63ws,asus,Intel,Core I7,13700.0,2.4,16.0,DDR5,,512.0,15.6,1920 x 1080,60.0,Intel,1.65,"63WHrs, 3S1P, 3-cell Li-ion",,data/cellphones/detail_htmls\asus_106_specs.html
-ASUS Vivobook 14 X1404va Nk125w,asus,Intel,Core I5,1335.0,1.3,8.0,DDR4,3200.0,256.0,14.0,1920 x 1080,120.0,Intel,1.4,"42WHrs, 3-cell Li-ion",,data/cellphones/detail_htmls\asus_105_specs.html
-ASUS Gaming Rog Strix G512 Ihn281t,asus,Intel,Core I5,10300.0,,,,,512.0,15.6,1920 x 1080,144.0,NVIDIA,2.4,3 cell /48WHrs - 3S1P,,data/cellphones/detail_htmls\asus_107_specs.html
-ASUS Tuf Gaming A15 Fa507uv Lp090w,asus,AMD,Ryzen9,8945.0,4.0,16.0,DDR5,5600.0,2048.0,15.6,1920 x 1080,144.0,NVIDIA,2.2,"90WHrs, 4S1P, 4-cell Li-ion",,data/cellphones/detail_htmls\asus_108_specs.html
-ASUS Expertbook B1 B1502cva Nj0175w,asus,Intel,Core I5,1335.0,1.3,16.0,DDR4,,512.0,15.6,1920 x 1080,60.0,Intel,1.69,"42WHrs, 3S1P, 3-cell Li-ion",,data/cellphones/detail_htmls\asus_109_specs.html
-ASUS Expertbook B1402cva Nk0177w,asus,Intel,Core I7,1355.0,1.7,16.0,DDR4,,512.0,14.0,1920 x 1080,60.0,Intel,1.46,"42WHrs, 3S1P, 3-cell Li-ion",,data/cellphones/detail_htmls\asus_112_specs.html
 ASUS Expertbook B1 B1502cva Nj0149w,asus,Intel,Core I3,1315.0,1.2,8.0,DDR4,,512.0,15.6,1920 x 1080,60.0,Intel,1.69,"42WHrs, 3S1P, 3-cell Li-ion",12490000.0,data/cellphones/detail_htmls\asus_111_specs.html
-ASUS Expertbook B1 B1402cva Nk0176w,asus,Intel,Core I5,1335.0,1.3,16.0,DDR4,,512.0,14.0,1920 x 1080,60.0,Intel,1.46,"42WHrs, 3S1P, 3-cell Li-ion",,data/cellphones/detail_htmls\asus_110_specs.html
-ASUS Rog Strix Scar 18 G834jyr R6199,asus,Intel,Core I9,14900.0,2.2,64.0,DDR5,5600.0,2048.0,18.0,2560 x 1600,240.0,NVIDIA,3.1,"90WHrs, 4S1P, 4-cell Li-ion",,data/cellphones/detail_htmls\asus_114_specs.html
-ASUS Vivobook S 14 Oled S5406ma Pp161w,asus,Intel,Core Ultra 5,125.0,1.2,16.0,LPDDR5X,,1024.0,14.0,2880 x 1800,120.0,Intel,1.3,"75WHrs, 4S1P, 4-cell Li-ion",,data/cellphones/detail_htmls\asus_113_specs.html
-ASUS Tuf Gaming Fx516pm Hn023t,asus,Intel,Core I7,11370.0,,16.0,DDR4,,512.0,15.6,1920 x 1080,144.0,NVIDIA,2.0,"4-cell Li-ion, 76 Wh",,data/cellphones/detail_htmls\asus_115_specs.html
-ASUS Expertbook B1 B1502cva Nj0148w,asus,Intel,Core I7,1355.0,1.7,8.0,DDR4,,512.0,15.6,1920 x 1080,60.0,Intel,1.69,"42WHrs, 3S1P, 3-cell Li-ion",,data/cellphones/detail_htmls\asus_117_specs.html
-ASUS Gaming Fx505dy Al175t,asus,AMD,Ryzen5,3550.0,2.1,8.0,DDR4,2666.0,1024.0,15.6,1920 x 1080,120.0,AMD,2.2,3 Cell 48WHr,,data/cellphones/detail_htmls\asus_116_specs.html
-ASUS Expertbook B5 B5602cva L20164w,asus,Intel,Core I5,1340.0,1.9,16.0,DDR5,,512.0,16.0,3840 x 2400,60.0,Intel,1.53,"84WHrs, 4S1P, 4-cell Li-ion",,data/cellphones/detail_htmls\asus_118_specs.html
 ASUS Rog Strix G16 G614ji N4125w,asus,Intel,Core I7,13650.0,2.6,16.0,DDR5,4800.0,2048.0,16.0,2560 x 1600,240.0,NVIDIA,2.5,"90WHrs, 4S1P, 4-cell Li-ion",46990000.0,data/cellphones/detail_htmls\asus_119_specs.html
-ASUS Expertbook P5 P5405csa Nz0451w,asus,Intel,Core Ultra 5,226.0,1.6,16.0,LPDDR5X,,1024.0,14.0,2560 x 1600,144.0,Intel,1.27,"63WHrs, 3S1P, 3-cell Li-ion",,data/cellphones/detail_htmls\asus_121_specs.html
-ASUS Expertbook P1 P1403cva I7se16 63ws,asus,Intel,Core I7,13700.0,2.4,16.0,DDR5,,512.0,14.0,1920 x 1080,60.0,Intel,1.45,"63WHrs, 3S1P, 3-cell Li-ion",,data/cellphones/detail_htmls\asus_122_specs.html
-ASUS Rog Strix G18 G814jv N6077w,asus,Intel,Core I7,13650.0,2.6,32.0,DDR5,4800.0,1024.0,18.0,2560 x 1600,240.0,NVIDIA,3.0,"90WHrs, 4S1P, 4-cell Li-ion Sạc lại từ 0-50% trong 30 phút",,data/cellphones/detail_htmls\asus_123_specs.html
-ASUS Vivobook S 14 Oled S5406ma Pp219ws,asus,Intel,Core Ultra 5,125.0,1.2,16.0,LPDDR5X,,512.0,14.0,2880 x 1800,60.0,Intel,1.3,"75WHrs, 4S1P, 4-cell Li-ion",,data/cellphones/detail_htmls\asus_120_specs.html
-ASUS Expertbook B5 B5402cva Ki0123w,asus,Intel,Core I5,1340.0,1.9,16.0,DDR5,,512.0,14.0,1920 x 1080,60.0,Intel,1.29,"63WHrs, 3S1P, 3-cell Li-ion",,data/cellphones/detail_htmls\asus_124_specs.html
-ASUS Expertbook B5 B5402cva Ki0229w,asus,Intel,Core I7,1360.0,2.2,16.0,DDR5,,512.0,14.0,1920 x 1080,60.0,Intel,1.29,"63WHrs, 3S1P, 3-cell Li-ion",,data/cellphones/detail_htmls\asus_125_specs.html
-ASUS Vivobook 15x Oled M3504ya L1268w,asus,AMD,Ryzen5,7530.0,4.3,16.0,DDR4,,512.0,15.6,1920 x 1080,60.0,AMD,1.7,"50WHrs, 3S1P, 3-cell Li-ion",,data/cellphones/detail_htmls\asus_126_specs.html
-ASUS Rog Strix G16 G614jv N3514w,asus,Intel,Core I7,13650.0,2.6,16.0,DDR5,4800.0,1024.0,16.0,1920 x 1200,165.0,NVIDIA,2.5,"90WHrs, 4S1P, 4-cell Li-ion (Sạc lại từ 0-50% trong 30 phút)",,data/cellphones/detail_htmls\asus_127_specs.html
-ASUS X509ja Ej020t,asus,Intel,Core I5,1035.0,,4.0,DDR4,,1024.0,15.6,1920 x 1080,60.0,Intel,1.9,2 Cell,,data/cellphones/detail_htmls\asus_128_specs.html
-ASUS Zenbook Ux425ea Bm069t,asus,Intel,Core I5,1135.0,,8.0,LPDDR4X,,512.0,14.0,1920 x 1080,60.0,Intel,1.17,4-cell Li-ion,,data/cellphones/detail_htmls\asus_129_specs.html
-ASUS Gaming Rog Zephyrus G14 Ga401qm 211 Zg14,asus,AMD,Ryzen9,5900.0,,16.0,DDR4,3200.0,1024.0,14.0,,120.0,NVIDIA,6.0,"4-cell, 76 WHrs",,data/cellphones/detail_htmls\asus_130_specs.html
-ASUS Tuf Gaming F15 Fx507vu Lp197w 16gb,asus,Intel,Core I7,13620.0,2.4,16.0,DDR5,4800.0,2048.0,15.6,1920 x 1080,144.0,NVIDIA,2.2,"90WHrs, 4S1P, 4-cell Li-ion",,data/cellphones/detail_htmls\asus_131_specs.html
-ASUS X409ja Ek015t,asus,Intel,Core I3,1005.0,,4.0,DDR4,2666.0,512.0,14.0,1920 x 1080,60.0,Intel,1.5,2-cell Li-ion,,data/cellphones/detail_htmls\asus_132_specs.html
-ASUS Expertbook B1 B1402cva Nk0062w,asus,Intel,Core I5,1335.0,1.3,8.0,DDR4,,512.0,14.0,1920 x 1080,60.0,Intel,1.46,"42WHrs, 3S1P, 3-cell Li-ion",,data/cellphones/detail_htmls\asus_133_specs.html
-ASUS Rog Strix G18 G814jir N6108w,asus,Intel,Core I9,14900.0,2.2,32.0,DDR5,5600.0,1024.0,18.0,2560 x 1600,240.0,NVIDIA,3.0,"90WHrs, 4S1P, 4-cell Li-ion",,data/cellphones/detail_htmls\asus_134_specs.html
-ASUS Zenbook S 13 Oled Ux5304va Nq126w,asus,Intel,Core I7,1355.0,5.0,32.0,LPDDR5,,1024.0,13.3,2880 x 1800,60.0,Intel,1.0,63WHrs 4Cell,,data/cellphones/detail_htmls\asus_135_specs.html
-ASUS Gaming Rog Strix Scar 18 G834jyr R6011w,asus,Intel,Core I9,14900.0,,64.0,DDR5,5600.0,2048.0,18.0,2560 x 1600,240.0,NVIDIA,3.1,"90WHrs, 4S1P, 4-cell Li-ion",,data/cellphones/detail_htmls\asus_136_specs.html
-ASUS Gaming Rog Zephyrus G16 Gu605mv Qr196ws,asus,Intel,Core Ultra 9,185.0,2.3,32.0,LPDDR5X,,1024.0,16.0,2560 x 1600,240.0,NVIDIA,1.85,"90WHrs, 4S1P, 4-cell Li-ion",,data/cellphones/detail_htmls\asus_137_specs.html
-ASUS Expertbook B1 B1502cva Nj0050w,asus,Intel,Core I5,335.0,1.3,8.0,DDR4,,512.0,15.6,1920 x 1080,60.0,Intel,1.69,"42WHrs, 3S1P, 3-cell Li-ion",,data/cellphones/detail_htmls\asus_138_specs.html
-ASUS Rog Strix Scar 16 G634jyr Ra132w,asus,Intel,Core I9,14900.0,2.2,64.0,DDR5,5600.0,2048.0,16.0,2560 x 1600,240.0,NVIDIA,2.65,"90WHrs, 4S1P, 4-cell Li-ion Sạc lại từ 0-50% trong 30 phút",,data/cellphones/detail_htmls\asus_139_specs.html
-ASUS Rog Strix Scar 18 G834jzr R6160,asus,Intel,Core I9,14900.0,2.2,32.0,DDR5,5600.0,1024.0,18.0,2560 x 1600,240.0,NVIDIA,3.1,"90WHrs, 4S1P, 4-cell Li-ion",,data/cellphones/detail_htmls\asus_140_specs.html
-ASUS Rog Zephyrus G16 Ga605wi Qr152ws,asus,AMD,Ryzen AI 9,370.0,2.0,32.0,LPDDR5X,,1024.0,16.0,2560 x 1600,240.0,NVIDIA,1.85,"90WHrs, 4S1P, 4-cell Li-ion Sạc lại từ 0-50% trong 30 phút",,data/cellphones/detail_htmls\asus_141_specs.html
-ASUS Expertbook B9403cva Km0351x,asus,Intel,Core I7,1355.0,1.7,32.0,LPDDR5,,1024.0,14.0,2880 x 1800,90.0,Intel,0.99,"63WHrs, 3S1P, 3-cell Li-ion",,data/cellphones/detail_htmls\asus_142_specs.html
-ASUS Rog Strix G16 G614ju N3506w,asus,Intel,Core I5,13450.0,2.4,16.0,DDR5,4800.0,1024.0,16.0,1920 x 1200,165.0,NVIDIA,2.5,"90WHrs, 4S1P, 4-cell Li-ion Sạc lại từ 0-50% trong 30 phút",,data/cellphones/detail_htmls\asus_143_specs.html
 ACER Aspire Lite 16 Gen 2 Al16 52p 572a,acer,Intel,Core I5,1334.0,3.4,16.0,DDR5,4800.0,2048.0,16.0,1920 x 1200,60.0,Intel,1.7,58Whr 3-cell 65W PD Type-C Adapter,14790000.0,data/cellphones/detail_htmls\acer_1_specs.html
 ACER Gaming Nitro Lite 16 Nl16 71g 71uj,acer,Intel,Core I7,13620.0,3.6,16.0,DDR5,4800.0,2048.0,16.0,1920 x 1200,165.0,NVIDIA,1.95,53Wh 3-cell Li-ion battery 100W Type C adapter,23990000.0,data/cellphones/detail_htmls\acer_4_specs.html
 Gaming ACER Nitro V Anv15 51 57b2,acer,Intel,Core I5,13420.0,4.6,16.0,DDR5,5200.0,2048.0,15.6,1920 x 1080,144.0,NVIDIA,2.1,"4 Cell, 57 Whr",26990000.0,data/cellphones/detail_htmls\acer_3_specs.html
@@ -489,21 +307,8 @@ ACER Aspire Go 14 Ai Ag14 71m 57wr,acer,Intel,Core Ultra 5,125.0,3.6,16.0,DDR5,5
 ACER Swift 14 Ai Sf14 51 53p9,acer,Intel,Core Ultra 5,226.0,3.5,16.0,LPDDR5X,8533.0,1024.0,14.0,2880 x 1800,90.0,Intel,1.26,"Pin Li-ion 3 cell 65 Wh 3 pin USB Type-C 65 W PD PCR 50%, Bộ đổi nguồn AC TCO 9.0",34990000.0,data/cellphones/detail_htmls\acer_31_specs.html
 ACER Gaming Nitro V 16 Ai Propanel Anv16s 61 R9zv,acer,AMD,Ryzen AI 7,350.0,5.0,32.0,DDR5,5600.0,4096.0,16.0,2560 x 1600,180.0,NVIDIA,2.1,Pin Li-ion 4 cell 76Wh Bộ đổi nguồn AC 135W,44990000.0,data/cellphones/detail_htmls\acer_34_specs.html
 ACER Swift 14 Ai Sf14 51 75vp,acer,Intel,Core Ultra 7,258.0,3.7,32.0,LPDDR5X,8533.0,1024.0,14.0,2880 x 1800,90.0,Intel,1.26,"Pin Li-ion 3 cell 65 Wh 3 pin USB Type-C 65 W PD PCR 50%, Bộ đổi nguồn AC TCO 9.0",39990000.0,data/cellphones/detail_htmls\acer_33_specs.html
-ACER Aspire Ai A14 61m R9ra,acer,AMD,Ryzen AI 5,340.0,3.4,16.0,LPDDR5X,8533.0,2048.0,14.0,1920 x 1200,120.0,AMD,1.25,"65Wh 4-cell Li-ion battery, 65W TypeC adapter",,data/cellphones/detail_htmls\acer_36_specs.html
-ACER Gaming Predator Helios 16 Ai Ph16 73 950c,acer,Intel,Core Ultra 9,275.0,4.6,32.0,DDR5,6400.0,2048.0,16.0,2560 x 1600,240.0,NVIDIA,2.65,"90Wh 4-cell Li-ion battery, 330W AC Adapter",,data/cellphones/detail_htmls\acer_35_specs.html
-ACER Swift Edge 14 Ai Sfe14 51t 52kd,acer,Intel,Core Ultra 5,228.0,3.5,32.0,LPDDR5X,8533.0,2048.0,14.0,2880 x 1800,120.0,Intel,0.99,65Wh 3-cell Li-ion battery - Công nghệ sạc nhanh 100W TypeC adapter,,data/cellphones/detail_htmls\acer_37_specs.html
-ACER Predator Triton Neo 16 Ptn16 51 78jq,acer,Intel,Core Ultra 7,155.0,3.8,32.0,LPDDR5X,7467.0,2048.0,16.0,2560 x 1600,240.0,NVIDIA,2.4,"76Whr, 230W 5.5Phy Adapter",,data/cellphones/detail_htmls\acer_39_specs.html
-ACER Swift X Ai Oled Sfx14 72g 79uw,acer,Intel,Core Ultra 7,155.0,1.4,32.0,LPDDR5X,6400.0,1024.0,14.5,2880 x 1800,120.0,NVIDIA,1.5,"76 Whr 4-cell, Adapter: 100W Type-C adapter",,data/cellphones/detail_htmls\acer_38_specs.html
 ACER Gaming Nitro 16 Ai Propanel An16s 61 R5f4,acer,AMD,Ryzen AI 7,350.0,3.5,16.0,DDR5,5600.0,4096.0,16.0,1920 x 1200,180.0,NVIDIA,2.18,Pin Li-ion 4 cell 76Wh Bộ đổi nguồn AC 230W,42990000.0,data/cellphones/detail_htmls\acer_42_specs.html
-ACER Gaming Predator Helios 16 Ai Ph16 73 93hd,acer,Intel,Core Ultra 9,275.0,4.6,32.0,DDR5,6400.0,2048.0,16.0,2560 x 1600,240.0,NVIDIA,2.65,"90Wh 4-cell Li-ion battery, 330W AC Adapter",,data/cellphones/detail_htmls\acer_41_specs.html
-ACER Aspire 5 A515 58p 71ej,acer,Intel,Core I7,1355.0,3.7,16.0,LPDDR5,4800.0,1024.0,15.6,1920 x 1080,60.0,Intel,1.7,50 Wh 3-cell Li-ion battery,,data/cellphones/detail_htmls\acer_40_specs.html
-ACER Swift X Sfx14 71g 78sy,acer,Intel,Core I7,13700.0,3.7,32.0,LPDDR5,4800.0,1024.0,14.5,2880 x 1800,120.0,NVIDIA,1.5,76Wh Li-ion battery,,data/cellphones/detail_htmls\acer_43_specs.html
-ACER Aspire Go 15 Ag15 72p 776j,acer,Intel,Core 7,150.0,1.2,16.0,DDR4,3200.0,2048.0,15.6,1920 x 1080,60.0,Intel,1.53,"55Wh 3-cell Li-ion battery, 65W Type-C Adapter",,data/cellphones/detail_htmls\acer_44_specs.html
-ACER Swift X Ai Oled Sfx14 72g 708x,acer,Intel,Core Ultra 7,155.0,1.4,32.0,LPDDR5X,6400.0,1024.0,14.5,2880 x 1800,120.0,NVIDIA,1.5,"76 Whr 4-cell, Adapter: 100W Type-C adapter",,data/cellphones/detail_htmls\acer_46_specs.html
 ACER Gaming Nitro V 16 Ai Propanel Anv16s 61 R0b8,acer,AMD,Ryzen AI 5,340.0,4.8,16.0,DDR5,5600.0,4096.0,16.0,1920 x 1200,180.0,NVIDIA,2.1,Pin Li-ion 4 cell 76Wh Bộ đổi nguồn AC 135W,34990000.0,data/cellphones/detail_htmls\acer_47_specs.html
-ACER Swift X Ai Oled Sfx14 72g 77f9,acer,Intel,Core Ultra 7,155.0,1.4,32.0,LPDDR5X,6400.0,1024.0,14.5,2880 x 1800,120.0,NVIDIA,1.5,"76 Whr 4-cell, Adapter: 100W Type-C adapter",,data/cellphones/detail_htmls\acer_45_specs.html
-ACER Aspire Go 14 Ag14 72p 563l,acer,Intel,Core 5,120.0,3.8,16.0,DDR4,3200.0,2048.0,14.0,1920 x 1200,60.0,Intel,1.4,"55Wh 3-cell Li-ion battery, 65W Type-C Adapter",,data/cellphones/detail_htmls\acer_48_specs.html
-ACER Aspire Lite 15 Al15 42p R8e6,acer,AMD,Ryzen5,7430.0,2.3,16.0,DDR4,3200.0,2048.0,15.6,1920 x 1080,60.0,AMD,1.7,"58Wh 3-cell Li-ion battery, 65W Type-C Adapter",,data/cellphones/detail_htmls\acer_49_specs.html
 Gaming ACER Nitro 5 Tiger An515 58 52sp,acer,Intel,Core I5,12500.0,4.5,16.0,DDR4,3200.0,2048.0,15.6,1920 x 1080,144.0,NVIDIA,2.5,"4-cell, 57.5 Wh",27990000.0,data/cellphones/detail_htmls\acer_50_specs.html
 ACER Gaming Aspire 7 A715 76 53pj,acer,Intel,Core I5,12450.0,4.4,16.0,DDR4,3200.0,1024.0,15.6,1920 x 1080,60.0,Intel,2.1,"3-cell, 50Wh",16990000.0,data/cellphones/detail_htmls\acer_51_specs.html
 ACER Swift Go 14 Ai Sfg14 73 71zx,acer,Intel,Core Ultra 7,155.0,3.8,16.0,LPDDR5X,6400.0,512.0,14.0,2880 x 1800,120.0,Intel,1.3,"4 cell 65 Wh , Pin liền",26990000.0,data/cellphones/detail_htmls\acer_52_specs.html
@@ -516,35 +321,13 @@ ACER Aspire 3 A314 42p R3b3,acer,AMD,Ryzen7,5700.0,4.3,16.0,LPDDR4X,,1024.0,14.0
 ACER Aspire 3 Spin 14 A3sp14 31pt 387z,acer,Intel,Core I3,305.0,,8.0,LPDDR5,,512.0,14.0,1920 x 1200,60.0,Intel,1.5,40Wh Li-ion battery,14990000.0,data/cellphones/detail_htmls\acer_61_specs.html
 ACER Gaming Aspire 7 A715 76g 73fm,acer,Intel,Core I7,12650.0,,16.0,DDR4,3200.0,1024.0,15.6,1920 x 1080,144.0,NVIDIA,2.1,50 Wh 3-cell Li-ion battery,23990000.0,data/cellphones/detail_htmls\acer_58_specs.html
 Gaming ACER Nitro 5 An515 58 52sp 43910,acer,Intel,Core I5,12500.0,3.3,8.0,DDR4,3200.0,2048.0,15.6,1920 x 1080,144.0,NVIDIA,2.5,"4-cell, 57.5 Wh",27990000.0,data/cellphones/detail_htmls\acer_60_specs.html
-ACER Aspire 3 A315 58 529v Nx Addsv 00n,acer,Intel,Core I5,1135.0,2.4,8.0,DDR4,2400.0,2048.0,15.6,1920 x 1080,60.0,Intel,1.7,36.7Wh,,data/cellphones/detail_htmls\acer_62_specs.html
 Gaming ACER Nitro V Anv16 41 R6na,acer,AMD,Ryzen7,8845.0,3.8,16.0,DDR5,5600.0,2048.0,16.0,1920 x 1200,165.0,NVIDIA,2.5,57Whr 4-cell Adapter: 135W AC adapter,34990000.0,data/cellphones/detail_htmls\acer_65_specs.html
-ACER Aspire 7 A715 76g 55t6,acer,Intel,Core I5,12450.0,3.3,16.0,DDR4,3200.0,1024.0,15.6,1920 x 1080,144.0,NVIDIA,2.1,50 Wh Lithium-ion,,data/cellphones/detail_htmls\acer_64_specs.html
 Gaming ACER Nitro V Anv16 41 R7en,acer,AMD,Ryzen7,8845.0,3.8,16.0,DDR5,5600.0,4096.0,16.0,1920 x 1200,165.0,NVIDIA,2.5,57Whr 4-cell Adapter: 135W AC adapter,28790000.0,data/cellphones/detail_htmls\acer_63_specs.html
 Gaming ACER Nitro V Anv16 41 R36y,acer,AMD,Ryzen7,8845.0,3.8,16.0,DDR5,5600.0,2048.0,16.0,1920 x 1200,165.0,NVIDIA,2.5,57Whr 4-cell Adapter: 135W AC adapter,31990000.0,data/cellphones/detail_htmls\acer_66_specs.html
-ACER Gaming Nitro 16 Ai Propanel An16s 61 R193,acer,AMD,Ryzen ai 9,365.0,2.0,16.0,DDR5,5600.0,4096.0,16.0,2560 x 1600,180.0,NVIDIA,2.18,"76Wh 4-cell Li-ion battery, 230W 5.5PHY Adapter",,data/cellphones/detail_htmls\acer_67_specs.html
-ACER Gaming Nitro V 16 Ai Propanel Anv16s 61 R7kq,acer,AMD,Ryzen AI 5,340.0,2.0,16.0,DDR5,,4096.0,16.0,1920 x 1200,180.0,NVIDIA,2.1,"76Wh 4-cell Li-ion battery, 135W 5.5PHY Adapter",,data/cellphones/detail_htmls\acer_71_specs.html
-ACER Gaming Aspire 7 A715 59g 78wg,acer,Intel,Core I7,13620.0,3.6,16.0,DDR4,3200.0,4096.0,15.6,1920 x 1080,144.0,NVIDIA,2.07,"54.8Wh 4-cell Li-ion, 150W adapter",,data/cellphones/detail_htmls\acer_69_specs.html
-ACER Aspire 3 A315 42 R4xd,acer,AMD,Ryzen5,3500.0,2.1,8.0,,,512.0,15.6,,,Intel,1.7,2 cell,,data/cellphones/detail_htmls\acer_68_specs.html
-ACER Aspire Go 15 Ag15 72p 54gy,acer,Intel,Core 5,120.0,3.8,16.0,DDR4,3200.0,2048.0,15.6,1920 x 1080,60.0,Intel,1.53,"55Wh 3-cell Li-ion, 65W Type-C Adapter",,data/cellphones/detail_htmls\acer_70_specs.html
-Gaming ACER Nitro 5 An515 55 5923,acer,Intel,Core I5,10300.0,,8.0,DDR4,2933.0,512.0,15.6,1920 x 1080,144.0,NVIDIA,2.3,Lithium-ion,,data/cellphones/detail_htmls\acer_72_specs.html
-ACER Aspire Lite 16 Gen 2 Al16 52p 76du,acer,Intel,Core I7,1355.0,1.7,16.0,DDR5,4800.0,2048.0,16.0,1920 x 1200,60.0,Intel,1.7,"3-cell Li-ion, 58 Wh",,data/cellphones/detail_htmls\acer_75_specs.html
-ACER Gaming Predator Helios Neo Phn16 72 78l4,acer,Intel,Core I7,14700.0,3.9,16.0,DDR5,5600.0,1024.0,16.0,2560 x 1600,240.0,NVIDIA,2.8,90Whr 4-cell 230W 5.5Phy Adapter,,data/cellphones/detail_htmls\acer_76_specs.html
-ACER Aspire 3 A315 44p R9w8,acer,AMD,Ryzen7,5700.0,1.8,8.0,DDR4,3200.0,2048.0,15.6,1920 x 1080,60.0,AMD,1.7,50 Wh 3-cell Li-ion battery,,data/cellphones/detail_htmls\acer_74_specs.html
-Gaming ACER Nitro 5 An515 45 R6ev Nhqbmsv 006,acer,AMD,Ryzen5,5600.0,,16.0,DDR4,3200.0,512.0,15.6,1920 x 1080,144.0,NVIDIA,2.2,"4-cell Li-ion, 57 Wh",,data/cellphones/detail_htmls\acer_73_specs.html
-ACER Gaming Nitro V 16 Ai Propanel Anv16s 71 75lr,acer,Intel,Core 7,240.0,1.8,32.0,DDR5,5600.0,4096.0,16.0,2560 x 1600,180.0,NVIDIA,2.1,"76Wh 4-cell Li-ion battery, 135W_5.5PHY adapter",,data/cellphones/detail_htmls\acer_78_specs.html
-ACER Aspire Go 15 Ag15 72p 35x9,acer,Intel,Core I3,1305.0,3.3,8.0,DDR4,3200.0,2048.0,15.6,1920 x 1080,60.0,Intel,1.53,"55Wh 3-cell Li-ion, 65W Type-C Adapter",,data/cellphones/detail_htmls\acer_77_specs.html
 Gaming ACER Nitro V Anv16 41 R6zy,acer,AMD,Ryzen5,8645.0,4.3,16.0,DDR5,5600.0,4096.0,16.0,1920 x 1200,165.0,NVIDIA,2.5,57Whr 4-cell Adapter: 135W AC adapter,27490000.0,data/cellphones/detail_htmls\acer_79_specs.html
-ACER Gaming Nitro V 15 Propanel Anv15 52 59rr,acer,Intel,Core 5,210.0,3.6,16.0,DDR4,3200.0,2048.0,15.6,1920 x 1080,180.0,NVIDIA,2.1,"76Wh 4-cell Li-ion battery, 135W 5.5PHY Adapter",,data/cellphones/detail_htmls\acer_81_specs.html
-ACER Nitro V 16 Propanel Anv16 41 R36y,acer,AMD,Ryzen7,8845.0,3.8,16.0,DDR5,5600.0,2048.0,16.0,1920 x 1200,165.0,NVIDIA,2.5,57Whr 4-cell Adapter: 135W AC adapter,,data/cellphones/detail_htmls\acer_80_specs.html
-ACER Gaming Aspire 5 A515 58gm 598j,acer,Intel,Core I5,13420.0,4.6,16.0,DDR4,3200.0,2048.0,15.6,1920 x 1080,144.0,NVIDIA,1.78,50 Wh,,data/cellphones/detail_htmls\acer_83_specs.html
 ACER Gaming Aspire 7 A715 76 728x,acer,Intel,Core I7,12650.0,3.5,16.0,DDR4,,512.0,15.6,1920 x 1080,60.0,Intel,2.1,,19990000.0,data/cellphones/detail_htmls\acer_82_specs.html
 ACER Aspire 5 A515 58p 56rp,acer,Intel,Core I5,1335.0,3.4,16.0,LPDDR5,,2048.0,15.6,1920 x 1080,,Intel,1.7,50Wh Li-ion battery,16990000.0,data/cellphones/detail_htmls\acer_85_specs.html
-ACER Gaming Nitro V 15 Anv15 41 R732,acer,AMD,Ryzen5,6600.0,3.3,16.0,DDR5,4800.0,4096.0,15.6,1920 x 1080,165.0,NVIDIA,2.1,"57Whr 4-cell, 135W 5.5PHY Adapter",,data/cellphones/detail_htmls\acer_84_specs.html
-ACER Gaming Nitro V 16s Propanel Anv16s 41 R337,acer,AMD,Ryzen7,260.0,3.8,16.0,DDR5,5600.0,4096.0,16.0,1920 x 1200,180.0,NVIDIA,2.1,"76Wh 4-cell Li-ion battery, 135W 5.5PHY Adapter",,data/cellphones/detail_htmls\acer_86_specs.html
 ACER Aspire 5 A514 56p 55k5,acer,Intel,Core I5,1335.0,1.3,16.0,LPDDR5,6400.0,512.0,14.0,1200 x 1920,,Intel,1.5,"3 cell 50 Wh , Pin liền",16990000.0,data/cellphones/detail_htmls\acer_87_specs.html
-ACER Gaming Aspire 7 A715 59g 55md,acer,Intel,Core I5,13420.0,3.4,16.0,DDR4,3200.0,4096.0,15.6,1920 x 1080,144.0,NVIDIA,2.07,"54.8Wh 4-cell Li-ion, 150W adapter",,data/cellphones/detail_htmls\acer_88_specs.html
-ACER Swift Go 14 Ai Sfg14 75 5264,acer,Intel,Core Ultra 5,226.0,3.5,16.0,LPDDR5X,8533.0,2048.0,14.0,1920 x 1200,60.0,Intel,1.24,"65Wh 4-cell Li-ion battery, 100W TypeC adapter",,data/cellphones/detail_htmls\acer_89_specs.html
-ACER Swift Go 14 Sfg14 41 R251,acer,AMD,Ryzen5,7430.0,4.3,16.0,LPDDR4X,4800.0,1024.0,14.0,1920 x 1080,60.0,AMD,1.25,"50Wh Li-ion, 65W Type-C adapter",,data/cellphones/detail_htmls\acer_90_specs.html
 MSI Katana 15 B13vfk 676vn,msi,Intel,Core I7,13620.0,3.6,16.0,DDR5,5200.0,1024.0,15.6,1920 x 1080,144.0,NVIDIA,2.25,"3 cell, 53.5Whr",30990000.0,data/cellphones/detail_htmls\msi_1_specs.html
 MSI Katana 15 B13udxk 2270vn 16gb,msi,Intel,Core I5,13500.0,2.6,16.0,DDR5,5200.0,1024.0,15.6,1920 x 1080,144.0,NVIDIA,2.25,3-Cell,22990000.0,data/cellphones/detail_htmls\msi_0_specs.html
 MSI Modern 14 C12mo 660vn,msi,Intel,Core I5,1235.0,4.4,16.0,DDR4,3200.0,512.0,14.0,1920 x 1080,,Intel,1.4,39Wh,15990000.0,data/cellphones/detail_htmls\msi_4_specs.html
@@ -598,21 +381,9 @@ MSI Prestige 14 Ai Studio C1veg 056vn,msi,Intel,Core Ultra 7,155.0,4.8,32.0,DDR5
 MSI Katana 15 B13vek 2256vn 32gb,msi,Intel,Core I7,13620.0,,32.0,DDR5,5200.0,512.0,15.6,1920 x 1080,144.0,NVIDIA,2.25,"3-cell, 53.5WHr",26990000.0,data/cellphones/detail_htmls\msi_48_specs.html
 MSI Crosshair 16 Hx D2xwfkg 078vn,msi,Intel,Core Ultra 7,255.0,5.2,32.0,DDR5,5600.0,1024.0,16.0,2560 x 1600,240.0,NVIDIA,2.5,4 Cell int (240W),46990000.0,data/cellphones/detail_htmls\msi_51_specs.html
 MSI Modern 14 B11mou 1065vn,msi,Intel,Core I7,1195.0,2.9,8.0,DDR4,3200.0,512.0,14.0,1920 x 1080,60.0,Intel,1.3,"3 Cell, 39Whr",16100000.0,data/cellphones/detail_htmls\msi_52_specs.html
-MSI Gaming Gf63 Thin 11uc 1230vn,msi,Intel,Core I5,11400.0,,8.0,DDR4,3200.0,512.0,15.6,1920 x 1080,144.0,NVIDIA,1.86,3-Cell 52.4 (Whr),,data/cellphones/detail_htmls\msi_55_specs.html
 MSI Modern 14 B11mou 1030vn,msi,Intel,Core I3,1115.0,,8.0,DDR4,3200.0,256.0,14.0,1920 x 1080,,Intel,1.3,"3 cell , 39Whr",14990000.0,data/cellphones/detail_htmls\msi_53_specs.html
-MSI Prestige 13 Evo A13m 081vn,msi,Intel,Core I7,1360.0,5.0,16.0,DDR5,4800.0,1024.0,13.3,1920 x 1200,,Intel,0.99,75Wh 4 Cell,,data/cellphones/detail_htmls\msi_54_specs.html
-MSI Modern 15 H C2rmg 287vn,msi,Intel,Core 7,240.0,5.2,16.0,DDR4,3200.0,1024.0,15.6,1920 x 1080,60.0,Intel,1.946,3 Cell Int (39.3Wh),,data/cellphones/detail_htmls\msi_56_specs.html
-MSI Modern 15 H Ai C2hmg 220vn,msi,Intel,Core Ultra 7,255.0,5.1,16.0,DDR5,5600.0,512.0,15.6,1920 x 1080,60.0,Intel,1.946,3 Cell Int (39.3Wh),,data/cellphones/detail_htmls\msi_57_specs.html
-MSI Stealth A16 Ai A3xvgg 208vn,msi,AMD,Ryzen AI 9,370.0,,32.0,LPDDR5X,7500.0,2048.0,16.0,3840 x 2400,120.0,NVIDIA,2.1,"4-cell, 99.9WHr",,data/cellphones/detail_htmls\msi_59_specs.html
-MSI Cyborg 15 A12udx 621vn,msi,Intel,Core I5,12450.0,3.3,8.0,DDR5,4800.0,512.0,15.6,1920 x 1080,144.0,NVIDIA,1.98,"3 Cell, 53.5WHrs",,data/cellphones/detail_htmls\msi_58_specs.html
 MSI Katana 15 B13udxk 2269vn,msi,Intel,Core I7,13620.0,2.4,8.0,DDR5,5200.0,1024.0,15.6,1920 x 1080,144.0,NVIDIA,2.25,3-Cell,25990000.0,data/cellphones/detail_htmls\msi_60_specs.html
-MSI Modern 14 B7m 221vn,msi,AMD,Ryzen7,7730.0,2.0,8.0,DDR4,3200.0,512.0,14.0,1920 x 1080,60.0,AMD,1.4,39.3Wh,,data/cellphones/detail_htmls\msi_61_specs.html
-MSI Cyborg 15 A12uc 621vn,msi,Intel,Core I5,12450.0,4.4,8.0,DDR5,4800.0,512.0,15.6,1920 x 1080,144.0,NVIDIA,1.95,"3 cell, 53.5Whr",,data/cellphones/detail_htmls\msi_62_specs.html
-MSI Cyborg 15 A13uc 861vn,msi,Intel,Core I5,13420.0,,16.0,DDR5,,512.0,15.6,1920 x 1080,144.0,NVIDIA,1.98,"3 Cell, 53.5 Whr",,data/cellphones/detail_htmls\msi_64_specs.html
 MSI Stealth 16 Ai Studio A1vgg 240vn,msi,Intel,Core Ultra 7,155.0,3.8,32.0,DDR5,5600.0,2048.0,16.0,2560x1600,240.0,NVIDIA,1.99,4-Cell 99.9 Battery (Whr),64990000.0,data/cellphones/detail_htmls\msi_65_specs.html
-MSI Katana Gf66 12udk 814vn,msi,Intel,Core I7,12650.0,2.3,16.0,DDR4,3200.0,512.0,15.6,1920 x 1080,144.0,NVIDIA,2.25,"3 cell, 53.5Whr",,data/cellphones/detail_htmls\msi_63_specs.html
-MSI Cyborg 15 A13uc 2088vn,msi,Intel,Core I5,13420.0,4.6,16.0,DDR5,5600.0,4096.0,15.6,1920 x 1080,144.0,NVIDIA,1.98,3-Cell,,data/cellphones/detail_htmls\msi_66_specs.html
-MSI Cyborg 15 B13wekg 676vn,msi,Intel,Core I5,13420.0,4.6,16.0,DDR5,5600.0,4096.0,15.6,1920 x 1080,144.0,NVIDIA,2.1,4-Cell,,data/cellphones/detail_htmls\msi_67_specs.html
 Lg Gram 2024 14z90s G Ah75a5,lg,Intel,Coreultrau7,155.0,,16.0,LPDDR5X,6400.0,512.0,14.0,1920 x 1200,60.0,Intel,0.12,"72 Wh Li-Ion Phát lại video: 29,5 giờ JEITA 3.0 (Phát lại video) : 14 giờ JEITA 3.0 (Không hoạt động) : 31 giờ",41390000.0,data/cellphones/detail_htmls\lg_3_specs.html
 Lg Gram 2024 Pro 16z90sp K Ah75a5,lg,Intel,Core Ultra 7,155.0,,16.0,LPDDR5X,7467.0,512.0,16.0,2880 x 1800,120.0,Intel,1.19,"77 Wh Li-Ion (GM), 90Wh Li-Ion (PM)",51400000.0,data/cellphones/detail_htmls\lg_2_specs.html
 Lg Gram 2024 14z90s G Ah55a5,lg,Intel,Core Ultra 5,125.0,,16.0,LPDDR5X,6400.0,512.0,14.0,1920 x 1200,60.0,Intel,0.12,"72 Wh Li-Ion Phát lại video: 29,5 giờ JEITA 3.0 (Phát lại video) : 14 giờ JEITA 3.0 (Không hoạt động) : 31 giờ",36290000.0,data/cellphones/detail_htmls\lg_1_specs.html
@@ -642,17 +413,7 @@ MACBOOK Pro 16 Inch M4 Pro 24gb 512gb,macbook,Apple,M4 Pro,4.0,,24.0,,,512.0,16.
 MACBOOK Pro M4 Pro 14 Inch 12cpu 16gpu 24gb 512gb Nano,macbook,Apple,M4 Pro,4.0,,24.0,,,512.0,14.2,3024 x 1964,120.0,Apple,1.6,Pin Li-Po 72.4 watt-giờ Thời gian xem video trực tuyến lên đến 22 giờ Thời gian duyệt web trên mạng không dây lên đến 14 giờ,55660000.0,data/cellphones/detail_htmls\macbook_22_specs.html
 MACBOOK Pro 16 Inch M4 Pro 48gb 512gb,macbook,Apple,M4 Pro,4.0,,48.0,,,512.0,16.2,3456 x 2234,120.0,Apple,2.14,Pin Li-Po 100 watt-giờ Thời gian xem video trực tuyến lên đến 24 giờ Thời gian duyệt web trên mạng không dây lên đến 17 giờ,76790000.0,data/cellphones/detail_htmls\macbook_20_specs.html
 MACBOOK Pro M4 Pro 14 Inch 14cpu 20gpu 24gb 1tb Nano,macbook,Apple,M4 Pro,4.0,,24.0,,,1024.0,14.2,3024 x 1964,120.0,Apple,1.6,Pin Li-Po 72.4 watt-giờ Thời gian xem video trực tuyến lên đến 22 giờ Thời gian duyệt web trên mạng không dây lên đến 14 giờ,65460000.0,data/cellphones/detail_htmls\macbook_23_specs.html
-MACBOOK Air 15 Inch M4 10cpu 10gpu 24gb 256gb 2025 Sac 70w,macbook,Apple,,,,24.0,,,256.0,15.3,2880 x 1864,,Apple,1.51,Thời gian xem video trực tuyến lên đến 18 giờ Thời gian duyệt web trên mạng không dây lên đến 15 giờ Pin Li-Po 66.5 watt‑giờ tích hợp,,data/cellphones/detail_htmls\macbook_21_specs.html
-MACBOOK Pro 14 Inch M5 24gb 1tb,macbook,Apple,M5,5.0,,24.0,,,1024.0,14.2,3024 x 1964,120.0,Apple,1.55,Thời gian xem video trực tuyến lên đến 24 giờ Thời gian duyệt web trên mạng không dây lên đến 16 giờ Pin Li-Po 72.4 watt-giờ,,data/cellphones/detail_htmls\macbook_25_specs.html
-MACBOOK Pro 14 Inch M5 10 Cpu 10 Gpu 32gb 1tb Nano,macbook,Apple,M5,5.0,,32.0,,,1024.0,14.2,3024 x 1964,120.0,Apple,1.55,Thời gian xem video trực tuyến lên đến 24 giờ Thời gian duyệt web trên mạng không dây lên đến 16 giờ Pin Li-Po 72.4 watt-giờ,,data/cellphones/detail_htmls\macbook_28_specs.html
 MACBOOK Pro M4 Max 14 Inch 14cpu 32gpu 36gb 1tb Nano,macbook,Apple,M4 Max,4.0,,36.0,,,1024.0,14.2,3024 x 1964,120.0,Apple,1.62,Pin Li-Po 72.4 watt-giờ Thời gian xem video trực tuyến lên đến 18 giờ Thời gian duyệt web trên mạng không dây lên đến 13 giờ,85060000.0,data/cellphones/detail_htmls\macbook_24_specs.html
-MACBOOK Pro 14 Inch M5 10 Cpu 10 Gpu 24gb 512gb,macbook,Apple,M5,5.0,,24.0,,,512.0,14.2,3024 x 1964,120.0,Apple,1.55,Thời gian xem video trực tuyến lên đến 24 giờ Thời gian duyệt web trên mạng không dây lên đến 16 giờ Pin Li-Po 72.4 watt-giờ,,data/cellphones/detail_htmls\macbook_27_specs.html
-MACBOOK Pro 14 Inch M5 16gb 1tb,macbook,Apple,M5,5.0,,16.0,,,1024.0,14.2,3024 x 1964,120.0,Apple,1.55,Thời gian xem video trực tuyến lên đến 24 giờ Thời gian duyệt web trên mạng không dây lên đến 16 giờ Pin Li-Po 72.4 watt-giờ,,data/cellphones/detail_htmls\macbook_26_specs.html
-MACBOOK Pro 14 Inch M5 10 Cpu 10 Gpu 32gb 512gb Nano,macbook,Apple,M5,5.0,,32.0,,,512.0,14.2,3024 x 1964,120.0,Apple,1.55,Thời gian xem video trực tuyến lên đến 24 giờ Thời gian duyệt web trên mạng không dây lên đến 16 giờ Pin Li-Po 72.4 watt-giờ,,data/cellphones/detail_htmls\macbook_31_specs.html
-MACBOOK Pro 14 Inch M5 10 Cpu 10 Gpu 24gb 512gb Nano,macbook,Apple,M5,5.0,,24.0,,,512.0,14.2,3024 x 1964,120.0,Apple,1.55,Thời gian xem video trực tuyến lên đến 24 giờ Thời gian duyệt web trên mạng không dây lên đến 16 giờ Pin Li-Po 72.4 watt-giờ,,data/cellphones/detail_htmls\macbook_29_specs.html
-MACBOOK Pro 14 Inch M5 16gb 512gb,macbook,Apple,M5,5.0,,16.0,,,512.0,14.2,3024 x 1964,120.0,Apple,1.55,Thời gian xem video trực tuyến lên đến 24 giờ Thời gian duyệt web trên mạng không dây lên đến 16 giờ Pin Li-Po 72.4 watt-giờ,,data/cellphones/detail_htmls\macbook_33_specs.html
-MACBOOK Pro 14 Inch M5 10 Cpu 10 Gpu 16gb 512gb Nano,macbook,Apple,M5,5.0,,16.0,,,512.0,14.2,3024 x 1964,120.0,Apple,1.55,Thời gian xem video trực tuyến lên đến 24 giờ Thời gian duyệt web trên mạng không dây lên đến 16 giờ Pin Li-Po 72.4 watt-giờ,,data/cellphones/detail_htmls\macbook_30_specs.html
-MACBOOK Pro 14 Inch M5 10 Cpu 10 Gpu 32gb 512gb,macbook,Apple,M5,5.0,,32.0,,,512.0,14.2,3024 x 1964,120.0,Apple,1.55,Thời gian xem video trực tuyến lên đến 24 giờ Thời gian duyệt web trên mạng không dây lên đến 16 giờ Pin Li-Po 72.4 watt-giờ,,data/cellphones/detail_htmls\macbook_32_specs.html
 MACBOOK Pro M4 Pro 14 Inch 14cpu 20gpu 24gb 512gb Nano,macbook,Apple,M4 Pro,4.0,,24.0,,,512.0,14.2,3024 x 1964,120.0,Apple,1.6,Pin Li-Po 72.4 watt-giờ Thời gian xem video trực tuyến lên đến 22 giờ Thời gian duyệt web trên mạng không dây lên đến 14 giờ,60560000.0,data/cellphones/detail_htmls\macbook_34_specs.html
 MACBOOK Air M2 2022,macbook,Apple,M2,2.0,,8.0,,,256.0,13.6,2560 x 1664,,Apple,1.27,"52,6 Wh",24990000.0,data/cellphones/detail_htmls\macbook_36_specs.html
 MACBOOK Pro 14 Inch M3 Max 96gb 512gb Sac 96w,macbook,Apple,M3 Max,3.0,,96.0,,,512.0,14.2,3024 x 1964,120.0,Apple,1.55,"Pin Li-Po 72,4 watt-giờ",95990000.0,data/cellphones/detail_htmls\macbook_38_specs.html
@@ -661,7 +422,6 @@ MACBOOK Pro M4 14 Inch 10cpu 10gpu 24gb 512gb,macbook,Apple,M4,4.0,,24.0,,,512.0
 MACBOOK Air 2020 M1,macbook,Apple,,,,8.0,LPDDR4,,256.0,13.3,2560 x 1600,,Apple,1.29,"49.9-watt lithium-polymer, củ sạc công suất 30W",22990000.0,data/cellphones/detail_htmls\macbook_39_specs.html
 MACBOOK Air M2 2022 16gb 256gb 10gpu,macbook,Apple,M2,2.0,,16.0,,,256.0,13.6,2560 x 1664,,Apple,1.24,"52,6 Wh",27490000.0,data/cellphones/detail_htmls\macbook_41_specs.html
 MACBOOK Air M2 2022 16gb 512gb Sac 70w,macbook,Apple,M2,2.0,,16.0,,,512.0,13.6,2560 x 1664,,Apple,1.27,"52,6 Wh",29990000.0,data/cellphones/detail_htmls\macbook_40_specs.html
-MACBOOK Pro 16 Inch M3 Pro 36gb 512gb 2023,macbook,Apple,M3 Pro,3.0,,36.0,,,512.0,16.2,3024 x 1964,120.0,Apple,55.0,70Wh,,data/cellphones/detail_htmls\macbook_42_specs.html
 Apple MACBOOK Pro 14 M4 10 Cpu 10 Gpu 16gb 512gb 2024 Nano,macbook,Apple,M4,4.0,,16.0,,,512.0,14.2,3024 x 1964,120.0,Apple,1.55,Pin Li-Po 72.4 watt-giờ Thời gian xem video trực tuyến lên đến 24 giờ Thời gian duyệt web trên mạng không dây lên đến 16 giờ,43790000.0,data/cellphones/detail_htmls\macbook_43_specs.html
 MACBOOK Air M3 13 Inch 2024 16gb 256gb 10gpu,macbook,Apple,M3,3.0,,16.0,,,256.0,13.6,,,Apple,,,30490000.0,data/cellphones/detail_htmls\macbook_44_specs.html
 MACBOOK Pro M4 Max 16 Inch 14cpu 32gpu 36gb 1tb Nano,macbook,Apple,M4 Max,4.0,,36.0,,,1024.0,16.2,3456 x 2234,120.0,Apple,2.15,Pin Li-Po 100 watt-giờ Thời gian xem video trực tuyến lên đến 21 giờ Thời gian duyệt web trên mạng không dây lên đến 14 giờ,95160000.0,data/cellphones/detail_htmls\macbook_45_specs.html
@@ -672,27 +432,19 @@ MACBOOK Pro 14 Inch M4 10 Cpu 10 Gpu 16gb 512gb Sac 96w,macbook,Apple,M4,4.0,,16
 MACBOOK Air M3 13 Inch 2024 16gb 256gb,macbook,Apple,M3,3.0,,16.0,,,256.0,13.6,,,Apple,,,27990000.0,data/cellphones/detail_htmls\macbook_51_specs.html
 MACBOOK Pro 16 Inch M3 Pro 2023 36gb 1tb,macbook,Apple,M3 Pro,3.0,,36.0,,,1024.0,16.2,3024 x 1964,120.0,Apple,55.0,140Wh,79990000.0,data/cellphones/detail_htmls\macbook_50_specs.html
 MACBOOK Air 15 M3 24gb 512gb 2024 35w,macbook,Apple,M3,3.0,,24.0,,,512.0,15.3,,,Apple,,,42990000.0,data/cellphones/detail_htmls\macbook_52_specs.html
-Apple MACBOOK Pro 14 M4 Pro 14 Cpu 20 Gpu 48gb 1tb 2024,macbook,Apple,M4 Pro,4.0,,48.0,,,1024.0,14.2,3024 x 1964,120.0,Apple,1.6,Pin Li-Po 72.4 watt-giờ Thời gian xem video trực tuyến lên đến 22 giờ Thời gian duyệt web trên mạng không dây lên đến 14 giờ,,data/cellphones/detail_htmls\macbook_53_specs.html
 MACBOOK Pro 2020 13 Inch Touch Bar M1 512gb,macbook,Apple,,,,8.0,,,512.0,13.3,2560 x 1600,,Apple,1.4,"58.2-watt-hour lithium-polymer, 61W USB-C Power Adapter",41990000.0,data/cellphones/detail_htmls\macbook_54_specs.html
 MACBOOK Air M3 15 Inch 2024 16gb 256gb,macbook,Apple,M3,3.0,,16.0,,,256.0,15.3,,,Apple,,,32990000.0,data/cellphones/detail_htmls\macbook_55_specs.html
-MACBOOK Pro 14 M4 Pro 14 Cpu 20 Gpu 24gb 1tb 2024 Sac 96w,macbook,Apple,M4 Pro,4.0,,24.0,,,1024.0,14.2,3024 x 1964,120.0,Apple,1.6,Pin Li-Po 72.4 watt-giờ Thời gian xem video trực tuyến lên đến 22 giờ Thời gian duyệt web trên mạng không dây lên đến 14 giờ,,data/cellphones/detail_htmls\macbook_56_specs.html
 MACBOOK Pro 14 Inch M3 2023 8gb 512gb,macbook,Apple,M3,3.0,,8.0,,,512.0,14.2,3024 x 1964,120.0,Apple,55.0,70Wh,39990000.0,data/cellphones/detail_htmls\macbook_57_specs.html
 MACBOOK Pro 16 Inch M3 Max 2023 36gb 1tb,macbook,Apple,M3 Max,3.0,,36.0,,,1024.0,16.2,3024 x 1964,120.0,Apple,16.0,"Pin Li-Po 72,4 watt-giờ",89990000.0,data/cellphones/detail_htmls\macbook_58_specs.html
 MACBOOK Pro 16 Inch M2 Pro 2023,macbook,Apple,M2 Pro,2.0,,16.0,,,2048.0,16.0,3456 x 2234,120.0,Apple,2.1,70Wh Sạc 96W,65990000.0,data/cellphones/detail_htmls\macbook_59_specs.html
-MACBOOK Air 2020 M1 512gb,macbook,Apple,,,,8.0,,,512.0,13.3,2560 x 1600,,Apple,1.29,"49.9-watt-hour lithium-polymer, củ sạc công suất 30W",,data/cellphones/detail_htmls\macbook_61_specs.html
 Apple MACBOOK Pro 16 M4 Pro 14 Cpu 20 Gpu 48gb 1tb 2024,macbook,Apple,M4 Pro,4.0,,48.0,,,1024.0,16.2,3456 x 2234,120.0,Apple,2.14,Pin Li-Po 100 watt-giờ Thời gian xem video trực tuyến lên đến 24 giờ Thời gian duyệt web trên mạng không dây lên đến 17 giờ,81690000.0,data/cellphones/detail_htmls\macbook_60_specs.html
 MACBOOK Air 15 Inch M2 2023 16gb 256gb,macbook,Apple,M2,2.0,,16.0,,,256.0,15.0,,,Apple,1.51,Lên đến 18 giờ,37990000.0,data/cellphones/detail_htmls\macbook_62_specs.html
-MACBOOK Pro 16 Inch M4 Pro 14 Cpu 20 Gpu 48gb 1tb 2024,macbook,Apple,M4 Pro,4.0,,48.0,,,1024.0,16.2,3456 x 2234,120.0,Apple,2.14,Pin Li-Po 100 watt-giờ Thời gian xem video trực tuyến lên đến 24 giờ Thời gian duyệt web trên mạng không dây lên đến 17 giờ,,data/cellphones/detail_htmls\macbook_64_specs.html
 MACBOOK Air M3 13 Inch 8cpu 10gpu 24gb 512gb Sac 70w,macbook,Apple,M3,3.0,,24.0,,,512.0,13.6,,,Apple,,,37990000.0,data/cellphones/detail_htmls\macbook_63_specs.html
 MACBOOK Air 13 Inch M3 24gb 256gb 2024 Sac 30w,macbook,Apple,M3,3.0,,24.0,,,256.0,13.6,,,Apple,,,32990000.0,data/cellphones/detail_htmls\macbook_65_specs.html
 MACBOOK Pro M4 Pro 16 Inch 14cpu 20gpu 24gb 512gb Nano,macbook,Apple,M4 Pro,4.0,,24.0,,,512.0,16.2,3456 x 2234,120.0,Apple,2.14,Pin Li-Po 100 watt-giờ Thời gian xem video trực tuyến lên đến 24 giờ Thời gian duyệt web trên mạng không dây lên đến 17 giờ,70660000.0,data/cellphones/detail_htmls\macbook_66_specs.html
-MACBOOK Air 13 Inch M3 2023 24gb 1tb,macbook,Apple,M3,3.0,,24.0,,,1024.0,13.6,,,Apple,1.24,,,data/cellphones/detail_htmls\macbook_68_specs.html
 MACBOOK Pro 14 Inch M3 Pro 36gb 512gb Sac 70w,macbook,Apple,M3 Pro,3.0,,36.0,,,512.0,14.2,3024 x 1964,120.0,Apple,1.55,"Pin Li-Po 72,4 watt-giờ",59990000.0,data/cellphones/detail_htmls\macbook_67_specs.html
 MACBOOK Pro 14 Inch M3 Pro 2023 18gb 2tb,macbook,Apple,M3 Pro,3.0,,18.0,,,2048.0,14.2,3024 x 1964,120.0,Apple,1.61,70Wh,64990000.0,data/cellphones/detail_htmls\macbook_69_specs.html
-MACBOOK Pro 14 Inch M3 Pro 2023 36gb 1tb Sac 70w,macbook,Apple,M3 Pro,3.0,,36.0,,,1024.0,14.2,3024 x 1964,120.0,Apple,1.55,"Thời gian xem phim trên ứng dụng Apple TV lên đến 18 giờ Pin Li-Po 72,4 watt-giờ",,data/cellphones/detail_htmls\macbook_72_specs.html
 MACBOOK Air M3 15 Inch 24gb 512gb 2024 Sac 70w,macbook,Apple,M3,3.0,,24.0,,,512.0,15.3,,,Apple,,,42990000.0,data/cellphones/detail_htmls\macbook_71_specs.html
-MACBOOK Air 15 Inch M3 16gb 1tb 2024 Sac 70w,macbook,Apple,M3,3.0,,16.0,,,1024.0,15.3,2880 x 1864,60.0,Apple,1.51,Pin Li-Po 66.5 watt-giờ,,data/cellphones/detail_htmls\macbook_70_specs.html
-Apple MACBOOK Pro 14 M4 10cpu 10gpu 16gb 512gb 2024 Sac 96w,macbook,Apple,M4,4.0,,16.0,,,512.0,14.2,3024 x 1964,120.0,Apple,1.55,Pin Li-Po 72.4 watt-giờ Thời gian xem video trực tuyến lên đến 24 giờ Thời gian duyệt web trên mạng không dây lên đến 16 giờ,,data/cellphones/detail_htmls\macbook_73_specs.html
 Apple MACBOOK Air 13 M3 8cpu 10gpu 16gb 1tb 2024,macbook,Apple,M3,3.0,,16.0,,,1024.0,13.6,,,Apple,,,37990000.0,data/cellphones/detail_htmls\macbook_74_specs.html
 MACBOOK Pro 14 Inch M2 Max 64gb 2023,macbook,Apple,M2 Max,2.0,,64.0,,,1024.0,14.2,3024 x 1964,120.0,Apple,1.6,70Wh Đi kèm củ sạc 96W,92990000.0,data/cellphones/detail_htmls\macbook_75_specs.html
 GIGABYTE Gaming A16 Ga6h Cthi3vn893sh,gigabyte,Intel,Core I7,13620.0,4.9,16.0,DDR5,5200.0,4096.0,16.0,1920 x 1200,165.0,NVIDIA,2.23,4 Cell Int (76.1Wh),30990000.0,data/cellphones/detail_htmls\gigabyte_4_specs.html
@@ -708,12 +460,8 @@ GIGABYTE Gaming A16 Ga6h Cwhi3vnc94sh,gigabyte,Intel,Core I7,13620.0,4.9,16.0,DD
 GIGABYTE G6 Kf 9rc56kf0hjjanivn000,gigabyte,Intel,Core I7,13620.0,4.9,16.0,DDR5,4800.0,1024.0,16.0,1920 x 1200,165.0,NVIDIA,2.275,Lithium-Ion 54Wh,30990000.0,data/cellphones/detail_htmls\gigabyte_11_specs.html
 GIGABYTE Aero X16 Eg61h X161vh93vnc94dh RYZEN Ai 7,gigabyte,AMD,Ryzen AI 7,350.0,2.0,16.0,DDR5,5600.0,1024.0,16.0,2560 x 1600,165.0,NVIDIA,1.985,Li Polymer 76Wh,38690000.0,data/cellphones/detail_htmls\gigabyte_10_specs.html
 GIGABYTE G6 Kf 73vn854kh,gigabyte,Intel,Core I7,13700.0,5.0,16.0,DDR5,4800.0,1024.0,16.0,1920 x 1200,165.0,NVIDIA,2.299,Lithium-Ion 54Wh,28290000.0,data/cellphones/detail_htmls\gigabyte_12_specs.html
-GIGABYTE G5 Md 51s1123sh,gigabyte,Intel,Core I5,11400.0,,16.0,DDR4,3200.0,512.0,15.6,1920 x 1080,144.0,NVIDIA,2.2,4 Cell 150 W,,data/cellphones/detail_htmls\gigabyte_13_specs.html
-GIGABYTE G5 Mf5 52vn353sh,gigabyte,Intel,Core I5,13500.0,2.6,16.0,DDR5,4800.0,512.0,15.6,1920 x 1080,144.0,,2.0,"54 Wh, Pin liền",,data/cellphones/detail_htmls\gigabyte_14_specs.html
-GIGABYTE G5 Ke 52vn263sh,gigabyte,Intel,Core I5,12500.0,2.5,8.0,DDR4,3200.0,512.0,15.6,1920 x 1080,144.0,NVIDIA,1.99,4 Cell 54WHrs,,data/cellphones/detail_htmls\gigabyte_15_specs.html
 GIGABYTE G5 Kf5 53vn383sh,gigabyte,Intel,Core I5,13500.0,4.7,8.0,DDR5,4800.0,512.0,15.6,1920 x 1080,144.0,NVIDIA,2.08,54WHrs,26290000.0,data/cellphones/detail_htmls\gigabyte_16_specs.html
 GIGABYTE Gaming A16 Ga6h Cvhi3vn893sh,gigabyte,Intel,Core I7,13620.0,4.9,16.0,DDR5,5200.0,4096.0,16.0,1920 x 1200,165.0,NVIDIA,2.233,4 Cell Int (76.1Wh),34590000.0,data/cellphones/detail_htmls\gigabyte_17_specs.html
-GIGABYTE G5 Mf5 9rc55mf5feid91vn0d0,gigabyte,Intel,Core I5,13500.0,4.7,8.0,DDR5,4800.0,4096.0,15.6,1920 x 1080,144.0,NVIDIA,2.107,Lithium-Ion 54Wh,,data/cellphones/detail_htmls\gigabyte_18_specs.html
 ASUS Vivobook Gaming K3605vc Rp431w I5 13420h,asus,Intel,Core I5,13420.0,4.6,16.0,DDR4,3200.0,512.0,16.0,1920x1200,144.0,Intel,1.8,50 Whr 120 W,22090000.0,data/fpt/detail_htmls\asus_0_specs.html
 ASUS Vivobook 15 X1502va Bq886w I7 13620h,asus,Intel,Core I7,13620.0,4.9,16.0,DDR4,3200.0,512.0,15.6,1920x1200,60.0,Intel,1.7,42 WHrs 65 W,18490000.0,data/fpt/detail_htmls\asus_4_specs.html
 ASUS Vivobook E1504fa Bq1150w R5 7520u,asus,AMD,Ryzen 5,7520.0,4.3,16.0,LPDDR5,4800.0,512.0,15.6,1920x1080,60.0,AMD,1.63,42 WHrs 45 W,14990000.0,data/fpt/detail_htmls\asus_3_specs.html
