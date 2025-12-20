@@ -5,6 +5,7 @@ selenium
 webdriver-manager
 beautifulsoup4>=4.12.0
 polars
+scikit-learn>=1.2.0
 
 # Optional: if you want a more lenient pure-Python parser install html5lib
 # html5lib>=1.1
