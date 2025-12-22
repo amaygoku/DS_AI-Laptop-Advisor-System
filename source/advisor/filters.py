@@ -1,8 +1,10 @@
+from advisor.utils import normalize_user_types
+
 def apply_filters(df, query):
     df = df.copy()
 
     # =========================
-    # PRICE – hard constraint
+    # HARD CONSTRAINTS
     # =========================
     if "price_max" in query:
         df = df[
@@ -10,69 +12,22 @@ def apply_filters(df, query):
             (df["Price (VND)"] <= query["price_max"])
         ]
 
-    # =========================
-    # RAM
-    # =========================
     if "min_ram_gb" in query:
-        df = df[
-            df["RAM (GB)"].isna() |
-            (df["RAM (GB)"] >= query["min_ram_gb"])
-        ]
+        df = df[df["RAM (GB)"] >= query["min_ram_gb"]]
 
-    # =========================
-    # STORAGE
-    # =========================
     if "min_storage_gb" in query:
-        df = df[
-            df["Storage (GB)"].isna() |
-            (df["Storage (GB)"] >= query["min_storage_gb"])
-        ]
+        df = df[df["Storage (GB)"] >= query["min_storage_gb"]]
 
-    # =========================
-    # MANUFACTURER (fuzzy)
-    # =========================
-    if "manufacturer" in query:
-        df = df[
-            df["Manufacturer"]
-            .str.lower()
-            .str.contains(query["manufacturer"].lower(), na=False)
-        ]
-
-    # =========================
-    # CPU MANUFACTURER
-    # =========================
-    if "cpu_manufacturer" in query:
-        df = df[
-            df["CPU manufacturer"]
-            .str.lower()
-            .str.contains(query["cpu_manufacturer"].lower(), na=False)
-        ]
-
-    # =========================
-    # WEIGHT
-    # =========================
     if "max_weight_kg" in query:
-        df = df[
-            df["Weight (kg)"].isna() |
-            (df["Weight (kg)"] <= query["max_weight_kg"])
-        ]
+        df = df[df["Weight (kg)"] <= query["max_weight_kg"]]
 
     # =========================
-    # SCREEN SIZE
+    # INTENT-AWARE FILTER
     # =========================
-    if "min_screen_size_inch" in query:
-        df = df[
-            df["Screen Size (inch)"].isna() |
-            (df["Screen Size (inch)"] >= query["min_screen_size_inch"])
-        ]
+    user_types = normalize_user_types(query)
 
-    # =========================
-    # REFRESH RATE
-    # =========================
-    if "min_refresh_rate_hz" in query:
-        df = df[
-            df["Refresh Rate (Hz)"].isna() |
-            (df["Refresh Rate (Hz)"] >= query["min_refresh_rate_hz"])
-        ]
+    # gaming-only → bắt buộc gaming-ready
+    if user_types == ["gaming"]:
+        df = df[df["is_gaming_ready"]]
 
     return df

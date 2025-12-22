@@ -1,68 +1,57 @@
-import numpy as np
+from advisor.utils import normalize_user_types
 
-GPU_BONUS = {
-    "DISCRETE_GAMING": 1.0,
-    "DISCRETE_WORKSTATION": 0.95,
-    "DISCRETE_LIGHT": 0.8,
-    "APPLE": 0.75,
-    "INTEGRATED_ARM": 0.6,
-    "INTEGRATED": 0.5,
-    "UNKNOWN": 0.4
+INTENT_SCORE_MAP = {
+    "gaming": ["gaming_score"],
+    "ai": ["ai_graphics_score"],
+    "business": ["office_score"],
+    "study": ["office_score", "portability_score"],
+    "student": ["office_score", "portability_score"],
+    "general": ["general_score"]
 }
 
 def apply_scoring(df, query):
     df = df.copy()
-    usage = query.get("usage_type", "general").lower()
+    user_types = normalize_user_types(query)
+
+    single_intent = "user_type" in query
 
     # =========================
-    # GPU SCORE
+    # TASK SCORE
     # =========================
-    df["gpu_score"] = (
-        df["gpu_class"]
-        .map(GPU_BONUS)
-        .fillna(0.4)
-    )
+    if single_intent:
+        ut = user_types[0]
+        cols = INTENT_SCORE_MAP.get(ut, ["general_score"])
+        df["task_score"] = df[cols].mean(axis=1)
+    else:
+        # multi-intent → intersection
+        cols = []
+        for ut in user_types:
+            cols.extend(INTENT_SCORE_MAP.get(ut, []))
+        cols = list(set(cols))
+
+        df["task_score"] = df[cols].min(axis=1)
 
     # =========================
-    # PRICE SCORE
+    # PRICE FIT
     # =========================
     if "price_max" in query:
-        df["price_score"] = 1 - df["norm_price"]
+        budget = query["price_max"]
+        ratio = df["Price (VND)"] / budget
+        ideal = 0.8 if single_intent and user_types[0] == "gaming" else 0.75
+        df["price_fit"] = (1 - abs(ratio - ideal)).clip(0, 1)
     else:
-        df["price_score"] = 0.1
+        df["price_fit"] = 0.5
 
     # =========================
     # FINAL SCORE
     # =========================
-    if usage == "gaming":
+    if single_intent and user_types[0] == "gaming":
+        df["final_score"] = df["task_score"]  # gaming thuần
+    else:
         df["final_score"] = (
-            df["base_performance_score"] * 0.55 +
-            df["gpu_score"] * 0.35 +
-            df["base_portability_score"] * 0.10
+            df["task_score"] * 0.75 +
+            df["price_fit"] * 0.25
         )
 
-    elif usage == "business":
-        df["final_score"] = (
-            df["base_performance_score"] * 0.35 +
-            df["base_portability_score"] * 0.35 +
-            df["gpu_score"] * 0.10 +
-            df["price_score"] * 0.20
-        )
-
-    elif usage == "student":
-        df["final_score"] = (
-            df["base_performance_score"] * 0.30 +
-            df["base_portability_score"] * 0.40 +
-            df["price_score"] * 0.30
-        )
-
-    else:  # general / creator
-        df["final_score"] = (
-            df["base_performance_score"] * 0.45 +
-            df["gpu_score"] * 0.20 +
-            df["base_portability_score"] * 0.20 +
-            df["price_score"] * 0.15
-        )
-
-    df["final_score"] = df["final_score"].round(3)
+    df["final_score"] = df["final_score"].round(4)
     return df
