@@ -1,0 +1,823 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <title>Laptop Advisor Chat</title>
+  <style>
+    :root{
+      --bg:#0b0f17; --panel:#111827; --panel2:#0f172a;
+      --text:#e5e7eb; --muted:#9ca3af;
+      --user:#2563eb; --bot:#1f2937;
+      --border:rgba(255,255,255,.08);
+      --shadow: 0 12px 30px rgba(0,0,0,.35);
+      --ok: rgba(16,185,129,.25);
+      --warn: rgba(245,158,11,.22);
+      --bad: rgba(239,68,68,.22);
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+      background: radial-gradient(1200px 900px at 20% 0%, rgba(37,99,235,.18), transparent 55%),
+                  radial-gradient(1000px 700px at 80% 20%, rgba(16,185,129,.12), transparent 55%),
+                  var(--bg);
+      color:var(--text);
+      height:100vh; display:flex; align-items:center; justify-content:center;
+      padding:18px;
+    }
+    .app{
+      width:min(1080px, 100%);
+      height:min(900px, 100%);
+      background:linear-gradient(180deg, rgba(255,255,255,.03), transparent);
+      border:1px solid var(--border);
+      border-radius:16px;
+      box-shadow:var(--shadow);
+      display:flex; overflow:hidden;
+    }
+    .sidebar{
+      width:320px;
+      background:rgba(17,24,39,.75);
+      border-right:1px solid var(--border);
+      display:flex; flex-direction:column;
+    }
+    .side-header{
+      padding:16px 16px 10px;
+      border-bottom:1px solid var(--border);
+    }
+    .title{
+      font-weight:700; letter-spacing:.2px; font-size:16px;
+      margin:0 0 6px;
+    }
+    .subtitle{
+      margin:0; color:var(--muted); font-size:13px; line-height:1.35;
+    }
+    .settings{
+      padding:14px 16px;
+      display:flex; flex-direction:column; gap:10px;
+    }
+    label{font-size:12px; color:var(--muted); display:block; margin-bottom:6px;}
+    input[type="text"]{
+      width:100%; padding:10px 10px;
+      background:rgba(15,23,42,.75);
+      border:1px solid var(--border);
+      border-radius:10px;
+      color:var(--text);
+      outline:none;
+    }
+    .btn{
+      padding:10px 12px;
+      border-radius:10px;
+      border:1px solid var(--border);
+      background:rgba(37,99,235,.12);
+      color:var(--text);
+      cursor:pointer;
+      font-weight:600;
+    }
+    .btn:hover{background:rgba(37,99,235,.18)}
+    .btn.secondary{background:rgba(255,255,255,.06)}
+    .btn.secondary:hover{background:rgba(255,255,255,.10)}
+    .divider{height:1px; background:var(--border); margin:10px 0;}
+    .hint{
+      padding:0 16px 16px;
+      color:var(--muted); font-size:12px; line-height:1.45;
+    }
+
+    .main{
+      flex:1;
+      display:flex; flex-direction:column;
+      background:rgba(2,6,23,.35);
+    }
+    .chat{
+      flex:1;
+      padding:18px 18px 10px;
+      overflow:auto;
+    }
+    .msg{
+      display:flex;
+      margin:10px 0;
+    }
+    .msg.user{justify-content:flex-end}
+    .bubble{
+      max-width:78%;
+      padding:12px 12px;
+      border-radius:14px;
+      border:1px solid var(--border);
+      white-space:pre-wrap;
+      line-height:1.45;
+      font-size:14px;
+    }
+    .msg.user .bubble{
+      background:rgba(37,99,235,.18);
+      border-color:rgba(37,99,235,.35);
+    }
+    .msg.bot .bubble{
+      background:rgba(31,41,55,.60);
+    }
+
+    /* Recommendations cards */
+    .rec-wrap{
+      margin:10px 0 0;
+      padding:12px;
+      border:1px solid var(--border);
+      border-radius:14px;
+      background:rgba(15,23,42,.35);
+    }
+    .rec-header{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:10px;
+      margin-bottom:10px;
+    }
+    .rec-title{
+      font-weight:800;
+      font-size:13px;
+      color:var(--text);
+    }
+    .rec-meta{
+      font-size:12px;
+      color:var(--muted);
+    }
+    .grid{
+      display:grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap:10px;
+    }
+    @media (max-width: 980px){
+      .grid{grid-template-columns: 1fr;}
+      .sidebar{display:none}
+      .bubble{max-width:92%}
+    }
+    .card{
+      border:1px solid var(--border);
+      border-radius:14px;
+      padding:12px;
+      background:rgba(17,24,39,.55);
+      cursor:pointer;
+      transition: transform .08s ease, background .08s ease;
+    }
+    .card:hover{
+      transform: translateY(-1px);
+      background:rgba(17,24,39,.72);
+    }
+    .card-top{
+      display:flex; justify-content:space-between; align-items:flex-start; gap:10px;
+      margin-bottom:8px;
+    }
+    .card-name{
+      font-weight:800; font-size:14px; line-height:1.3;
+      margin:0;
+    }
+    .chip{
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+      font-size:11px;
+      padding:5px 8px;
+      border-radius:999px;
+      border:1px solid var(--border);
+      color:var(--text);
+      background:rgba(255,255,255,.06);
+      white-space:nowrap;
+    }
+    .chip.ok{background:var(--ok)}
+    .chip.warn{background:var(--warn)}
+    .chip.bad{background:var(--bad)}
+    .line{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      margin-top:6px;
+    }
+    .kv{
+      font-size:12px;
+      color:var(--muted);
+      border:1px solid var(--border);
+      background:rgba(0,0,0,.18);
+      border-radius:10px;
+      padding:6px 8px;
+    }
+    .price{
+      font-size:13px;
+      font-weight:800;
+      color:var(--text);
+    }
+    .brand{
+      font-size:12px;
+      color:var(--muted);
+      margin-top:2px;
+      text-transform:capitalize;
+    }
+    .score{
+      font-size:12px;
+      color:var(--muted);
+      margin-top:6px;
+    }
+
+    /* Debug collapsible */
+    details{
+      border:1px solid var(--border);
+      border-radius:12px;
+      background:rgba(15,23,42,.45);
+      margin-top:10px;
+      overflow:hidden;
+    }
+    summary{
+      cursor:pointer;
+      padding:10px 12px;
+      font-weight:700;
+      color:var(--text);
+      user-select:none;
+      list-style:none;
+    }
+    summary::-webkit-details-marker{display:none}
+    .details-body{
+      padding:0 12px 12px;
+      color:var(--muted);
+      font-size:12px;
+    }
+    pre{
+      margin:8px 0 0;
+      padding:10px;
+      background:rgba(0,0,0,.25);
+      border:1px solid var(--border);
+      border-radius:10px;
+      overflow:auto;
+      color:#d1d5db;
+    }
+
+    /* Composer */
+    .composer{
+      padding:12px;
+      border-top:1px solid var(--border);
+      display:flex;
+      gap:10px;
+      align-items:flex-end;
+      background:rgba(17,24,39,.35);
+    }
+    textarea{
+      flex:1;
+      resize:none;
+      min-height:46px;
+      max-height:180px;
+      padding:12px 12px;
+      border-radius:12px;
+      border:1px solid var(--border);
+      background:rgba(15,23,42,.65);
+      color:var(--text);
+      outline:none;
+      font-size:14px;
+      line-height:1.35;
+    }
+    .send{
+      min-width:110px;
+      height:46px;
+      border-radius:12px;
+      border:1px solid var(--border);
+      background:rgba(16,185,129,.14);
+      color:var(--text);
+      font-weight:800;
+      cursor:pointer;
+    }
+    .send:hover{background:rgba(16,185,129,.20)}
+
+    /* Typing */
+    .typing{
+      display:inline-flex;
+      gap:4px;
+      align-items:center;
+      padding:10px 12px;
+      color:var(--muted);
+      font-size:13px;
+    }
+    .dot{
+      width:6px; height:6px; border-radius:999px;
+      background:rgba(229,231,235,.6);
+      animation: blink 1.2s infinite ease-in-out;
+    }
+    .dot:nth-child(2){animation-delay:.15s}
+    .dot:nth-child(3){animation-delay:.30s}
+    @keyframes blink{
+      0%, 80%, 100%{opacity:.25; transform:translateY(0)}
+      40%{opacity:1; transform:translateY(-2px)}
+    }
+
+    /* Modal */
+    .modal-backdrop{
+      position:fixed;
+      inset:0;
+      background:rgba(0,0,0,.55);
+      display:none;
+      align-items:center;
+      justify-content:center;
+      padding:18px;
+      z-index:9999;
+    }
+    .modal{
+      width:min(920px, 100%);
+      max-height:min(86vh, 100%);
+      overflow:auto;
+      border-radius:16px;
+      border:1px solid var(--border);
+      background:rgba(17,24,39,.92);
+      box-shadow:var(--shadow);
+    }
+    .modal-header{
+      display:flex;
+      justify-content:space-between;
+      align-items:flex-start;
+      gap:12px;
+      padding:14px 16px;
+      border-bottom:1px solid var(--border);
+    }
+    .modal-title{
+      margin:0;
+      font-size:16px;
+      font-weight:900;
+      line-height:1.25;
+    }
+    .modal-sub{
+      margin:4px 0 0;
+      color:var(--muted);
+      font-size:12px;
+      text-transform:capitalize;
+    }
+    .close{
+      border:1px solid var(--border);
+      background:rgba(255,255,255,.06);
+      color:var(--text);
+      border-radius:10px;
+      padding:8px 10px;
+      cursor:pointer;
+      font-weight:800;
+      min-width:44px;
+    }
+    .close:hover{background:rgba(255,255,255,.10)}
+    .modal-body{
+      padding:14px 16px 18px;
+    }
+    .modal-grid{
+      display:grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap:12px;
+    }
+    @media (max-width: 860px){
+      .modal-grid{grid-template-columns:1fr;}
+    }
+    .panel{
+      border:1px solid var(--border);
+      border-radius:14px;
+      background:rgba(15,23,42,.45);
+      padding:12px;
+    }
+    .panel h4{
+      margin:0 0 8px;
+      font-size:13px;
+      font-weight:900;
+    }
+    .row{
+      display:grid;
+      grid-template-columns: 160px 1fr;
+      gap:10px;
+      padding:8px 0;
+      border-top:1px dashed rgba(255,255,255,.08);
+      font-size:13px;
+    }
+    .row:first-of-type{border-top:none}
+    .k{color:var(--muted)}
+    .v{color:var(--text)}
+  </style>
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="side-header">
+        <p class="title">Laptop Advisor – Chat UI</p>
+        <p class="subtitle">Frontend test cho FastAPI <code>/chat</code></p>
+      </div>
+
+      <div class="settings">
+        <div>
+          <label>API URL</label>
+          <input id="apiUrl" type="text" value="http://127.0.0.1:8000/chat" />
+        </div>
+        <div style="display:flex; gap:10px;">
+          <button class="btn secondary" id="btnNew">New chat</button>
+          <button class="btn" id="btnUse">Use suggestion</button>
+        </div>
+        <div class="divider"></div>
+        <div>
+          <label>Gợi ý test</label>
+          <input id="suggestion" type="text"
+                 value="Mình cần laptop cho lập trình + game nhẹ, ngân sách 18–22 triệu, ưu tiên i5 gen 12+ hoặc Ryzen 6000+, RAM 16GB, SSD 512GB, 15.6&quot; FHD 120Hz+, pin &gt;=50Wh, ưu tiên Lenovo/ASUS, loại Acer." />
+        </div>
+      </div>
+
+      <div class="hint">
+        <div><b>Lưu ý:</b> Nếu backend khác domain/port, sửa API URL ví dụ: <code>http://127.0.0.1:8000/chat</code>.</div>
+        <div style="margin-top:8px;">Nếu gặp CORS khi gọi khác domain, bật CORS middleware trong FastAPI.</div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <div class="chat" id="chat"></div>
+
+      <div class="composer">
+        <textarea id="input" placeholder="Nhập câu hỏi... (Enter để gửi, Shift+Enter xuống dòng)"></textarea>
+        <button class="send" id="send">Gửi</button>
+      </div>
+    </main>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal-backdrop" id="modalBackdrop" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true">
+      <div class="modal-header">
+        <div>
+          <h3 class="modal-title" id="modalTitle"></h3>
+          <div class="modal-sub" id="modalSub"></div>
+        </div>
+        <button class="close" id="modalClose">✕</button>
+      </div>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <script>
+    // =========================
+    // Elements
+    // =========================
+    const chatEl = document.getElementById('chat');
+    const inputEl = document.getElementById('input');
+    const sendBtn = document.getElementById('send');
+    const apiUrlEl = document.getElementById('apiUrl');
+    const btnNew = document.getElementById('btnNew');
+    const btnUse = document.getElementById('btnUse');
+    const suggestionEl = document.getElementById('suggestion');
+
+    // Modal elements
+    const modalBackdrop = document.getElementById('modalBackdrop');
+    const modalClose = document.getElementById('modalClose');
+    const modalTitle = document.getElementById('modalTitle');
+    const modalSub = document.getElementById('modalSub');
+    const modalBody = document.getElementById('modalBody');
+
+    // =========================
+    // Helpers
+    // =========================
+    function scrollToBottom(){
+      chatEl.scrollTop = chatEl.scrollHeight;
+    }
+
+    function formatVND(n){
+      if(n === null || n === undefined) return '-';
+      try{
+        return Number(n).toLocaleString('vi-VN') + ' đ';
+      }catch(e){
+        return String(n);
+      }
+    }
+
+    function addMessage(role, text){
+      const wrap = document.createElement('div');
+      wrap.className = `msg ${role}`;
+      const bubble = document.createElement('div');
+      bubble.className = 'bubble';
+      bubble.innerHTML = formatText(text);
+      wrap.appendChild(bubble);
+      chatEl.appendChild(wrap);
+      scrollToBottom();
+      return wrap;
+    }
+
+    function addTyping(){
+      const wrap = document.createElement('div');
+      wrap.className = 'msg bot';
+      const bubble = document.createElement('div');
+      bubble.className = 'bubble';
+      const typing = document.createElement('div');
+      typing.className = 'typing';
+      typing.innerHTML = `Đang trả lời <span class="dot"></span><span class="dot"></span><span class="dot"></span>`;
+      bubble.appendChild(typing);
+      wrap.appendChild(bubble);
+      chatEl.appendChild(wrap);
+      scrollToBottom();
+      return wrap;
+    }
+
+    function addDebugPanel(resp){
+      const details = document.createElement('details');
+      const summary = document.createElement('summary');
+      summary.textContent = 'Xem intent / query / recommendations';
+      details.appendChild(summary);
+
+      const body = document.createElement('div');
+      body.className = 'details-body';
+
+      const pre = document.createElement('pre');
+      pre.textContent = JSON.stringify(resp, null, 2);
+
+      body.appendChild(pre);
+      details.appendChild(body);
+      chatEl.appendChild(details);
+      scrollToBottom();
+    }
+
+    function scoreChip(label, val){
+      const v = (val ?? null);
+      let cls = '';
+      if(v === null) cls = '';
+      else if(v >= 0.70) cls = 'ok';
+      else if(v >= 0.50) cls = 'warn';
+      else cls = 'bad';
+
+      const chip = document.createElement('span');
+      chip.className = `chip ${cls}`;
+      chip.textContent = `${label}: ${v === null ? '-' : Number(v).toFixed(2)}`;
+      return chip;
+    }
+
+    // =========================
+    // Recommendations grid + modal
+    // =========================
+    function renderRecommendationsGrid(recs, titleText){
+      if(!Array.isArray(recs) || recs.length === 0) return;
+
+      const wrap = document.createElement('div');
+      wrap.className = 'rec-wrap';
+
+      const header = document.createElement('div');
+      header.className = 'rec-header';
+
+      const title = document.createElement('div');
+      title.className = 'rec-title';
+      title.textContent = titleText || `Gợi ý máy phù hợp (${recs.length})`;
+
+      const meta = document.createElement('div');
+      meta.className = 'rec-meta';
+      meta.textContent = 'Click để xem chi tiết';
+
+      header.appendChild(title);
+      header.appendChild(meta);
+      wrap.appendChild(header);
+
+      const grid = document.createElement('div');
+      grid.className = 'grid';
+
+      recs.forEach((r, idx) => {
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.tabIndex = 0;
+
+        const top = document.createElement('div');
+        top.className = 'card-top';
+
+        const left = document.createElement('div');
+        const name = document.createElement('p');
+        name.className = 'card-name';
+        name.textContent = `${idx+1}. ${r.name ?? 'Unknown laptop'}`;
+
+        const brand = document.createElement('div');
+        brand.className = 'brand';
+        brand.textContent = `Hãng: ${(r.brand ?? r.manufacturer ?? '—')}`;
+
+        left.appendChild(name);
+        left.appendChild(brand);
+
+        const right = document.createElement('div');
+        const price = document.createElement('div');
+        price.className = 'price';
+        price.textContent = formatVND(r.price_vnd ?? r.price ?? r["Price (VND)"]);
+        right.appendChild(price);
+
+        top.appendChild(left);
+        top.appendChild(right);
+
+        card.appendChild(top);
+
+        // Key specs
+        const specs = document.createElement('div');
+        specs.className = 'line';
+
+        const kvs = [
+          ['RAM', (r.ram_gb ?? r.ram ?? '-') + 'GB'],
+          ['SSD', (r.storage_gb ?? r.storage ?? '-') + 'GB'],
+          ['Nặng', (r.weight_kg ?? r.weight ?? '-') + 'kg'],
+          ['Màn', (r.screen_inch ?? r.screen ?? '-') + '"'],
+          ['Hz', (r.refresh_hz ?? r.refresh ?? '-')],
+        ];
+        kvs.forEach(([k,v]) => {
+          const el = document.createElement('span');
+          el.className = 'kv';
+          el.textContent = `${k}: ${v}`;
+          specs.appendChild(el);
+        });
+
+        card.appendChild(specs);
+
+        // click → modal
+        card.addEventListener('click', () => openModal(r));
+        card.addEventListener('keydown', (e) => {
+          if(e.key === 'Enter' || e.key === ' ') openModal(r);
+        });
+
+        grid.appendChild(card);
+      });
+
+      wrap.appendChild(grid);
+      chatEl.appendChild(wrap);
+      scrollToBottom();
+    }
+
+    function openModal(rec){
+      const brand = rec.brand ?? rec.manufacturer ?? '';
+
+      // ===== Header =====
+      modalTitle.textContent = rec.name ?? 'Laptop';
+      modalSub.textContent = brand ? `Hãng: ${brand}` : '';
+
+      // ===== Body: Thông tin chi tiết =====
+      const panel = document.createElement('div');
+      panel.className = 'panel';
+
+      panel.innerHTML = `
+        <h4>Thông tin sản phẩm</h4>
+
+        <div class="row">
+        <div class="k">Tên máy</div>
+        <div class="v">${rec.name ?? '-'}</div>
+        </div>
+
+        <div class="row">
+        <div class="k">Hãng</div>
+        <div class="v">${brand || '-'}</div>
+        </div>
+
+        <div class="row">
+        <div class="k">Giá tham khảo</div>
+        <div class="v">${formatVND(rec.price_vnd ?? rec.price)}</div>
+        </div>
+
+        <div class="row">
+        <div class="k">RAM</div>
+        <div class="v">${rec.ram_gb ?? '-'} GB</div>
+        </div>
+
+        <div class="row">
+        <div class="k">Ổ cứng</div>
+        <div class="v">SSD ${rec.storage_gb ?? '-'} GB</div>
+        </div>
+
+        <div class="row">
+        <div class="k">Khối lượng</div>
+        <div class="v">${rec.weight_kg ?? '-'} kg</div>
+        </div>
+
+        <div class="row">
+        <div class="k">Màn hình</div>
+        <div class="v">${rec.screen_inch ?? '-'} inch</div>
+        </div>
+
+        <div class="row">
+        <div class="k">Tần số quét</div>
+        <div class="v">${rec.refresh_hz ?? '-'} Hz</div>
+        </div>
+        `;
+
+        modalBody.innerHTML = '';
+        modalBody.appendChild(panel);
+
+        modalBackdrop.style.display = 'flex';
+        modalBackdrop.setAttribute('aria-hidden', 'false');
+    }
+
+
+    function closeModal(){
+      modalBackdrop.style.display = 'none';
+      modalBackdrop.setAttribute('aria-hidden', 'true');
+    }
+
+    modalClose.addEventListener('click', closeModal);
+    modalBackdrop.addEventListener('click', (e) => {
+      if(e.target === modalBackdrop) closeModal();
+    });
+    document.addEventListener('keydown', (e) => {
+      if(e.key === 'Escape' && modalBackdrop.style.display === 'flex') closeModal();
+    });
+
+    // =========================
+    // API
+    // =========================
+    async function postChat(text){
+      const url = apiUrlEl.value.trim() || '/chat';
+      const payload = { text };
+
+      const res = await fetch(url, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
+
+      if(!res.ok){
+        const raw = await res.text();
+        throw new Error(`HTTP ${res.status}: ${raw}`);
+      }
+      return await res.json();
+    }
+
+    function setSending(isSending){
+      sendBtn.disabled = isSending;
+      inputEl.disabled = isSending;
+      sendBtn.textContent = isSending ? 'Đang gửi...' : 'Gửi';
+    }
+
+    async function handleSend(){
+      const text = inputEl.value.trim();
+      if(!text) return;
+
+      inputEl.value = '';
+      autoResize();
+      addMessage('user', text);
+
+      setSending(true);
+      const typingNode = addTyping();
+
+      try{
+        const resp = await postChat(text);
+        typingNode.remove();
+
+        const answer = resp.answer ?? '(Không có câu trả lời)';
+        addMessage('bot', answer);
+
+        // Render cards grid
+        renderRecommendationsGrid(resp.recommendations, 'Danh sách gợi ý');
+
+        // Debug collapsible
+        addDebugPanel({
+          intent: resp.intent,
+          query: resp.query,
+          recommendations: resp.recommendations
+        });
+
+      }catch(err){
+        typingNode.remove();
+        addMessage('bot', `Lỗi gọi API: ${err.message}`);
+      }finally{
+        setSending(false);
+        inputEl.focus();
+      }
+    }
+
+    // Auto-resize textarea
+    function autoResize(){
+      inputEl.style.height = 'auto';
+      inputEl.style.height = Math.min(inputEl.scrollHeight, 180) + 'px';
+    }
+    inputEl.addEventListener('input', autoResize);
+
+    inputEl.addEventListener('keydown', (e) => {
+      if(e.key === 'Enter' && !e.shiftKey){
+        e.preventDefault();
+        handleSend();
+      }
+    });
+
+    sendBtn.addEventListener('click', handleSend);
+
+    btnNew.addEventListener('click', () => {
+      chatEl.innerHTML = '';
+      addMessage('bot', 'Chào bạn. Bạn đang cần tư vấn laptop theo nhu cầu nào?');
+      inputEl.focus();
+    });
+
+    btnUse.addEventListener('click', () => {
+      inputEl.value = suggestionEl.value;
+      autoResize();
+      inputEl.focus();
+    });
+    function formatText(text){
+      if(!text) return '';
+
+      let html = text;
+
+      // escape HTML cơ bản (tránh XSS)
+      html = html
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
+
+      // **bold**
+      html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+
+      // xuống dòng
+      html = html.replace(/\n/g, '<br>');
+
+      return html;
+    }
+    // initial greet
+    addMessage('bot', 'Chào bạn. Bạn đang cần tư vấn laptop theo nhu cầu nào?');
+  </script>
+</body>
+</html>
