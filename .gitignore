@@ -37,3 +37,9 @@ pnpm-debug.log*
 .DS_Store
 .vscode/
 .idea/
+# Node
+node_modules/
+**/node_modules/
+.next/
+out/
+dist/
