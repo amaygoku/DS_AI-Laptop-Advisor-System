@@ -163,16 +163,20 @@ def recommendations_to_json(df_top: pd.DataFrame, query: Dict[str, Any]) -> List
             "refresh_hz": r.get("Refresh Rate (Hz)"),
             "scores": {
                 "final_score": r.get("final_score"),
+                "general_score": r.get("general_score"),
                 "office_score": r.get("office_score"),
                 "gaming_score": r.get("gaming_score"),
                 "ai_graphics_score": r.get("ai_graphics_score"),
                 "portability_score": r.get("portability_score"),
+                "battery_score": r.get("battery_score"),
                 "price_fit": r.get("price_fit"),
             },
             "flags": {
                 "is_light": is_light,
-                "is_gaming_ready": r.get("is_gaming_ready", False),
-                "is_ai_ready": r.get("is_ai_ready", False),
+                "is_gaming_ready": bool(r.get("is_gaming_ready", False)),
+                "is_ai_ready": bool(r.get("is_ai_ready", False)),
+                "is_ultrabook": bool(r.get("is_ultrabook", False)),
+                "is_business_ready": bool(r.get("is_business_ready", False)),
             }
         })
 

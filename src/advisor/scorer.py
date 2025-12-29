@@ -47,10 +47,16 @@ def apply_scoring(df, query):
     if single_intent:
         ut = user_types[0]
         cols = INTENT_SCORE_MAP.get(ut, ["general_score"])
+        # Ensure we use columns present in df
         cols = [c for c in cols if c in df.columns]
         if not cols:
-            cols = ["office_score"] if "office_score" in df.columns else df.columns[:1].tolist()
-        df["task_score"] = df[cols].mean(axis=1)
+            cols = ["general_score"] if "general_score" in df.columns else ["office_score"]
+            cols = [c for c in cols if c in df.columns]
+        
+        if cols:
+            df["task_score"] = df[cols].mean(axis=1)
+        else:
+            df["task_score"] = 0.5 # fallback
     else:
         cols = []
         for ut in user_types:
@@ -58,8 +64,13 @@ def apply_scoring(df, query):
         cols = list(set(cols))
         cols = [c for c in cols if c in df.columns]
         if not cols:
-            cols = ["office_score"] if "office_score" in df.columns else df.columns[:1].tolist()
-        df["task_score"] = df[cols].min(axis=1)
+            cols = ["general_score"] if "general_score" in df.columns else ["office_score"]
+            cols = [c for c in cols if c in df.columns]
+            
+        if cols:
+            df["task_score"] = df[cols].min(axis=1)
+        else:
+            df["task_score"] = 0.5
 
     # =========================
     # PRICE / AFFORDABILITY (existing)
@@ -67,27 +78,35 @@ def apply_scoring(df, query):
     if "price_max" in query:
         budget = query["price_max"]
         ratio = df["Price (VND)"] / budget
-        ideal = 0.8 if single_intent and user_types[0] == "gaming" else 0.75
+        # Gaming users often willing to pay closer to max budget for performance
+        ideal = 0.85 if single_intent and user_types[0] == "gaming" else 0.75
         df["price_fit"] = (1 - abs(ratio - ideal)).clip(0, 1)
         df["affordability_score"] = df["price_fit"]
     else:
-        price = df["Price (VND)"]
-        p10 = price.quantile(0.10)
-        p90 = price.quantile(0.90)
-        denom = (p90 - p10) if (p90 - p10) != 0 else 1.0
-        price_norm = ((price - p10) / denom).clip(0, 1)
-        df["affordability_score"] = (1 - price_norm).clip(0, 1)
+        # If no budget, use norm_price if available, otherwise calculate
+        if "norm_price" in df.columns:
+            df["affordability_score"] = (1 - df["norm_price"]).clip(0, 1)
+        else:
+            price = df["Price (VND)"]
+            p10 = price.quantile(0.10)
+            p90 = price.quantile(0.90)
+            denom = (p90 - p10) if (p90 - p10) != 0 else 1.0
+            price_norm = ((price - p10) / denom).clip(0, 1)
+            df["affordability_score"] = (1 - price_norm).clip(0, 1)
         df["price_fit"] = 0.5
 
     # =========================
-    # WEIGHT SCORE (existing)
+    # WEIGHT SCORE (updated)
     # =========================
-    w = df["Weight (kg)"]
-    w10 = w.quantile(0.10)
-    w90 = w.quantile(0.90)
-    denom_w = (w90 - w10) if (w90 - w10) != 0 else 1.0
-    w_norm = ((w - w10) / denom_w).clip(0, 1)
-    df["weight_score"] = (1 - w_norm).clip(0, 1)
+    if "norm_weight" in df.columns:
+        df["weight_score"] = (1 - df["norm_weight"]).clip(0, 1)
+    else:
+        w = df["Weight (kg)"]
+        w10 = w.quantile(0.10)
+        w90 = w.quantile(0.90)
+        denom_w = (w90 - w10) if (w90 - w10) != 0 else 1.0
+        w_norm = ((w - w10) / denom_w).clip(0, 1)
+        df["weight_score"] = (1 - w_norm).clip(0, 1)
 
     # =========================
     # FINAL SCORE (existing logic + advanced bonus)
@@ -152,13 +171,21 @@ def apply_scoring(df, query):
         bonus += 0.03 * df["_brand_prefer"]
 
     # Battery bonus if requested
-    batt = query.get("battery_requirements")
-    if isinstance(batt, dict) and batt.get("min_wh") is not None and "Battery" in df.columns:
-        min_wh = float(batt["min_wh"])
-        df["_battery_wh"] = df["Battery"].apply(_parse_battery_wh)
+    batt_req = query.get("battery_requirements")
+    if isinstance(batt_req, dict) and batt_req.get("min_wh") is not None:
+        min_wh = float(batt_req["min_wh"])
+        if "Battery (Wh)" in df.columns:
+            df["_battery_wh"] = df["Battery (Wh)"]
+        else:
+            df["_battery_wh"] = df["Battery"].apply(_parse_battery_wh)
+        
         # if above requirement, small boost; if missing, 0
         df["_battery_ok"] = (df["_battery_wh"].fillna(0) >= min_wh).astype(float)
-        bonus += 0.02 * df["_battery_ok"]
+        bonus += 0.03 * df["_battery_ok"]
+    
+    # Use pre-calculated battery_score if available as a small general bonus
+    if "battery_score" in df.columns:
+        bonus += 0.02 * df["battery_score"].fillna(0)
 
     # Display bonus if requested
     disp = query.get("display_requirements")
@@ -166,6 +193,14 @@ def apply_scoring(df, query):
         min_hz = float(disp["min_refresh_hz"])
         df["_hz_ok"] = (df["Refresh Rate (Hz)"].fillna(0) >= min_hz).astype(float)
         bonus += 0.02 * df["_hz_ok"]
+
+    # Ready flags bonuses
+    if "is_gaming_ready" in df.columns and any(ut == "gaming" for ut in user_types):
+         bonus += 0.05 * df["is_gaming_ready"].astype(float)
+    if "is_ai_ready" in df.columns and any(ut == "ai" for ut in user_types):
+         bonus += 0.05 * df["is_ai_ready"].astype(float)
+    if "is_ultrabook" in df.columns and any(ut in ["business", "office", "student"] for ut in user_types):
+         bonus += 0.03 * df["is_ultrabook"].astype(float)
 
     # Apply bonus
     df["final_score"] = (df["final_score"] + bonus).clip(0, 1).round(4)

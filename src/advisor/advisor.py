@@ -5,26 +5,45 @@ from src.advisor.scorer import apply_scoring
 def explain(row, user_type):
     reasons = []
 
+    # Basic suitability based on intent
     if user_type in ["business", "office", "study", "student"]:
-        if row.get("office_score", 0) >= 0.6:
+        if row.get("is_business_ready") or row.get("is_ultrabook") or row.get("office_score", 0) >= 0.7:
             reasons.append("Phù hợp cho văn phòng / học tập")
-        if row.get("is_light", False):
-            reasons.append("Nhẹ, dễ mang theo")
+        if row.get("is_ultrabook"):
+            reasons.append("Thiết kế mỏng nhẹ cao cấp (Ultrabook)")
+        elif row.get("is_light"):
+            reasons.append("Nhẹ, dễ di chuyển")
 
     if user_type == "gaming":
-        if row.get("is_gaming_ready", False):
-            reasons.append("Cấu hình thiên về chơi game (gaming-ready)")
-        # nới ngưỡng để luôn có mô tả tương đối
+        if row.get("is_gaming_ready"):
+            reasons.append("Cấu hình tối ưu cho gaming")
         gs = row.get("gaming_score", 0)
-        if gs >= 0.55:
-            reasons.append("Hiệu năng game khá")
+        if gs >= 0.75:
+            reasons.append("Hiệu năng chơi game đỉnh cao")
+        elif gs >= 0.55:
+            reasons.append("Chiến tốt các tựa game hiện nay")
         elif gs >= 0.40:
-            reasons.append("Chơi game eSports mức vừa")
-        else:
-            reasons.append("Phù hợp game nhẹ, không tối ưu game nặng")
+            reasons.append("Chơi ổn các game eSports")
+            
+    if user_type == "ai":
+        if row.get("is_ai_ready"):
+            reasons.append("Hỗ trợ tốt các tác vụ AI / Học máy")
+        if row.get("ai_graphics_score", 0) >= 0.7:
+            reasons.append("Xử lý đồ họa / AI mạnh mẽ")
 
-    if row.get("price_fit", 0) >= 0.75:
-        reasons.append("Giá rất sát ngân sách")
+    # General features
+    if row.get("is_small_screen"):
+        reasons.append("Màn hình nhỏ gọn")
+    elif row.get("is_large_screen"):
+        reasons.append("Màn hình lớn, không gian làm việc rộng")
+
+    if row.get("battery_score", 0) >= 0.7:
+        reasons.append("Thời lượng pin ấn tượng")
+
+    if row.get("price_fit", 0) >= 0.8:
+        reasons.append("Rất sát với ngân sách đề ra")
+    elif row.get("price_fit", 0) >= 0.6:
+        reasons.append("Mức giá hợp lý so với cấu hình")
 
     return "; ".join(reasons)
 

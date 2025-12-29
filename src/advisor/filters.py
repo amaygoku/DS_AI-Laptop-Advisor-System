@@ -226,13 +226,15 @@ def apply_filters(df, query):
                     return (w >= 3840 and h >= 2160)
                 df = df[df["Screen Resolution"].apply(_res_ok)]
 
-    # --- Battery requirements ---
     batt = query.get("battery_requirements")
     if isinstance(batt, dict):
         min_wh = batt.get("min_wh")
-        if min_wh is not None and "Battery" in df.columns:
-            df["_battery_wh"] = df["Battery"].apply(_parse_battery_wh)
-            df = df[df["_battery_wh"].notna() & (df["_battery_wh"] >= float(min_wh))]
+        if min_wh is not None:
+            if "Battery (Wh)" in df.columns:
+                df = df[df["Battery (Wh)"].notna() & (df["Battery (Wh)"] >= float(min_wh))]
+            elif "Battery" in df.columns:
+                df["_battery_wh"] = df["Battery"].apply(_parse_battery_wh)
+                df = df[df["_battery_wh"].notna() & (df["_battery_wh"] >= float(min_wh))]
 
     # --- Ports requirements (dataset currently lacks ports) ---
     # If later you add a column like "Ports" or "has_lan"/"has_hdmi",

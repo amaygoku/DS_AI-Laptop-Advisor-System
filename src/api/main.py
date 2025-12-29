@@ -146,6 +146,8 @@ def _extract_top_n(text: str) -> Optional[int]:
         r"\bgợi\s*ý\s*(\d{1,2})\s*(máy|lựa\s*chọn|option)?\b",
         r"\bcho\s*tôi\s*(\d{1,2})\s*(máy|lựa\s*chọn|option)\b",
         r"\bđề\s*xuất\s*(\d{1,2})\s*(máy|lựa\s*chọn|option)?\b",
+        r"\btôi\s*muốn\s*(\d{1,2})\s*(máy|lựa\s*chọn|option)?\b",
+        r"\btôi\s*cần\s*(\d{1,2})\s*(máy|lựa\s*chọn|option)?\b",
     ]
     for p in patterns:
         m = re.search(p, t)
