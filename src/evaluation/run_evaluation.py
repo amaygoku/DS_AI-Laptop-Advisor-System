@@ -21,9 +21,9 @@ import json
 import os
 import sys
 from typing import Any, Dict, List
+from dotenv import load_dotenv
 
 import requests
-from dotenv import load_dotenv
 
 from src.evaluation.evaluator import RecommendationEvaluator
 
@@ -91,6 +91,13 @@ def evaluate_from_file(
         try:
             api_response = call_chat_api(query, api_url)
             recommendations = api_response.get("recommendations", [])
+            
+            # DEBUG: Log API response structure
+            print(f"    📦 API response keys: {list(api_response.keys())}")
+            print(f"    📊 Recommendations count: {len(recommendations)}")
+            if len(recommendations) == 0:
+                print(f"    ⚠️  WARNING: No recommendations returned!")
+                print(f"    🔍 Full API response: {json.dumps(api_response, indent=2, ensure_ascii=False)[:500]}...")
 
             test_cases.append({
                 "query": query,
@@ -99,7 +106,9 @@ def evaluate_from_file(
                 "api_intent": api_response.get("intent"),
             })
         except Exception as e:
-            print(f"    ⚠️ API error: {e}")
+            print(f"    ❌ API error: {type(e).__name__}: {e}")
+            import traceback
+            print(f"    🔍 Traceback: {traceback.format_exc()[:300]}")
             test_cases.append({
                 "query": query,
                 "recommendations": [],

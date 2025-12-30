@@ -12,7 +12,6 @@ import os
 import re
 import time
 from typing import Any, Dict, List, Optional
-
 from google import genai
 from google.genai import types
 
@@ -110,7 +109,7 @@ Return JSON only:
     def __init__(
         self,
         api_key: Optional[str] = None,
-        model: str = "gemini-2.0-flash",
+        model: str = "gemini-3-pro-preview",
         sleep_between_calls: float = 1.5
     ):
         api_key = api_key or os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
