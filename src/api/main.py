@@ -273,18 +273,22 @@ def patch_intent_from_text(user_text: str, intent: IntentV2) -> IntentV2:
     if any(k in t for k in _BATTERY_KW):
         intent.pref_battery = True
 
-    # 6) Student semantics (works for both single and multi)
-    has_student = (
+    # 6) Student semantics (persona-based constraints)
+    is_student_persona = (
         (intent.user_type == "student")
         or (intent.user_types is not None and "student" in intent.user_types)
     )
-    if has_student:
-        # force cheap preference for student
+    if is_student_persona:
+        # Force cheap preference for student persona
         intent.pref_cheap = True
 
-        # default cap only if user didn't give explicit budget
+        # Default cap only if user didn't give explicit budget
         if intent.price_max is None and intent.price_min is None and budget is None:
             intent.price_max = STUDENT_PRICE_CAP_VND
+
+    # 7) Study semantics (task-based)
+    # We DO NOT apply the 20M cap here to allow high-end study laptops (e.g. for CS students)
+    # but we can still suggest pref_light if suggested in text.
 
     # 7) top_n: only if explicitly mentioned
     n = _extract_top_n(user_text)

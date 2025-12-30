@@ -26,6 +26,10 @@ INTENT RULES:
 - If there are MULTIPLE purposes, use "user_types" (length >= 2) and OMIT "user_type".
 - Allowed intents only: business, office, study, student, gaming, ai, general.
 
+DISTINCTION:
+- "study": Focus on the task of learning/online classes (e.g., "học online", "zoom"). Do NOT assume low budget.
+- "student": Focus on the persona (e.g., "sinh viên", "học sinh"). This often implies a budget-conscious student.
+
 TOP_N RULE:
 - Only include "top_n" if user explicitly asks for a number (top 5, gợi ý 4 máy...).
 - If not mentioned, OMIT top_n (server defaults to 3).
