@@ -94,6 +94,17 @@ def apply_scoring(df, query):
             price_norm = ((price - p10) / denom).clip(0, 1)
             df["affordability_score"] = (1 - price_norm).clip(0, 1)
         df["price_fit"] = 0.5
+        
+        # New: Extra penalty for "cheap" preference when no budget set
+        # In Vietnam, "cheap" usually means < 20-22M. 
+        # Above that, we should drop the affordability score significantly.
+        if query.get("pref_cheap") is True:
+            # Drop score for anything above 22M
+            penalty_mask = df["Price (VND)"] > 22_000_000
+            df.loc[penalty_mask, "affordability_score"] *= 0.5
+            # Even harsher for > 30M
+            heavy_penalty_mask = df["Price (VND)"] > 30_000_000
+            df.loc[heavy_penalty_mask, "affordability_score"] *= 0.2
 
     # =========================
     # WEIGHT SCORE (updated)
@@ -168,7 +179,8 @@ def apply_scoring(df, query):
     prefer = set(_norm_brand(x) for x in (brand_pref.get("prefer") or []) if x)
     if prefer and "Manufacturer" in df.columns:
         df["_brand_prefer"] = df["Manufacturer"].fillna("").map(_norm_brand).isin(prefer).astype(float)
-        bonus += 0.03 * df["_brand_prefer"]
+        # Use a large bonus to prioritize brand above other soft factors
+        bonus += 0.4 * df["_brand_prefer"]
 
     # Battery bonus if requested
     batt_req = query.get("battery_requirements")
@@ -196,11 +208,38 @@ def apply_scoring(df, query):
 
     # Ready flags bonuses
     if "is_gaming_ready" in df.columns and any(ut == "gaming" for ut in user_types):
-         bonus += 0.05 * df["is_gaming_ready"].astype(float)
+         # Reduced from 0.05 per user request
+         bonus += 0.02 * df["is_gaming_ready"].astype(float)
     if "is_ai_ready" in df.columns and any(ut == "ai" for ut in user_types):
          bonus += 0.05 * df["is_ai_ready"].astype(float)
     if "is_ultrabook" in df.columns and any(ut in ["business", "office", "student"] for ut in user_types):
          bonus += 0.03 * df["is_ultrabook"].astype(float)
+
+    # =========================
+    # ABSOLUTE PENALTY (LIGHTWEIGHT)
+    # =========================
+    if query.get("pref_light") is True:
+        # If user explicitly asked for light, anything over 1.8kg gets penalized
+        penalty_1_8 = df["Weight (kg)"] > 1.8
+        df.loc[penalty_1_8, "final_score"] *= 0.7
+        # Over 2.2kg is definitely not light
+        penalty_2_2 = df["Weight (kg)"] > 2.2
+        df.loc[penalty_2_2, "final_score"] *= 0.4
+        # 2.7kg (like the user complained) is extremely non-light
+        penalty_2_5 = df["Weight (kg)"] > 2.5
+        df.loc[penalty_2_5, "final_score"] *= 0.1
+
+    # =========================
+    # BATTERY PRIORITY
+    # =========================
+    if query.get("pref_battery") is True:
+        # Give a substantial boost if battery_score is good
+        if "battery_score" in df.columns:
+            bonus += 0.1 * df["battery_score"].fillna(0)
+        # Penalize if battery is unknown or small (< 45Wh)
+        if "_battery_wh" in df.columns:
+            penalty_mask = df["_battery_wh"].fillna(0) < 45
+            df.loc[penalty_mask, "final_score"] *= 0.8
 
     # Apply bonus
     df["final_score"] = (df["final_score"] + bonus).clip(0, 1).round(4)

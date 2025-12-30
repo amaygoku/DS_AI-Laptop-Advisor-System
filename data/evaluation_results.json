@@ -1,0 +1,952 @@
+{
+  "num_queries": 20,
+  "top_k": 3,
+  "aggregate": {
+    "avg_precision_at_k": 0.6833333333333333,
+    "avg_ndcg_at_k": 0.6854683202527677,
+    "avg_csr": 0.5490196078431373,
+    "mrr": 0.7
+  },
+  "per_query_results": [
+    {
+      "query": "Tôi cần laptop",
+      "num_recommendations": 3,
+      "top_k": 3,
+      "precision_at_k": 1.0,
+      "ndcg_at_k": 1.0,
+      "relevances": [
+        1,
+        1,
+        1
+      ],
+      "judgments": [
+        {
+          "relevance_score": 1,
+          "short_reason": "Laptop này có thể phù hợp, nhưng cần thêm thông tin về nhu cầu cụ thể của người dùng để đánh giá chính xác hơn.",
+          "laptop_name": "MSI Prestige 13 Ai Evo A1mg 240vn"
+        },
+        {
+          "relevance_score": 1,
+          "short_reason": "Laptop này có vẻ phù hợp với nhu cầu cơ bản, nhưng cần thêm thông tin để đánh giá chính xác hơn (ví dụ: mục đích sử dụng cụ thể, ngân sách).",
+          "laptop_name": "LENOVO Ideapad Slim 5 14irh10r 83j0006cvn"
+        },
+        {
+          "relevance_score": 1,
+          "short_reason": "Laptop này có vẻ tốt, nhưng tôi cần thêm thông tin về nhu cầu của bạn để đánh giá chính xác hơn.",
+          "laptop_name": "LENOVO Yoga Pro 7 14iah10 83kf002bvn"
+        }
+      ]
+    },
+    {
+      "query": "Laptop giá rẻ",
+      "num_recommendations": 3,
+      "top_k": 3,
+      "precision_at_k": 0.6666666666666666,
+      "ndcg_at_k": 1.0,
+      "relevances": [
+        1,
+        1,
+        0
+      ],
+      "judgments": [
+        {
+          "relevance_score": 1,
+          "short_reason": "Laptop này có mức giá tương đối phù hợp với yêu cầu 'giá rẻ', nhưng cần xem xét các lựa chọn khác để so sánh.",
+          "laptop_name": "DELL Inspiron 15 3520 I5 1235u I5u165w11blu Fp"
+        },
+        {
+          "relevance_score": 1,
+          "short_reason": "Laptop này có cấu hình tốt nhưng giá không hẳn là rẻ.",
+          "laptop_name": "DELL Inspiron N3520 I5 1235u I5 1235ui5u165w11blu Fp"
+        },
+        {
+          "relevance_score": 0,
+          "short_reason": "Mặc dù có cấu hình tốt, mức giá 18,690,000 VND không phù hợp với yêu cầu \"laptop giá rẻ\".",
+          "laptop_name": "HP 14 Ep1179tu Core 5 120u C89zspa"
+        }
+      ],
+      "csr": 0.6666666666666666,
+      "constraint_details": [
+        {
+          "satisfied": true,
+          "details": {
+            "price_max": {
+              "required": 17000000,
+              "actual": 16690000.0,
+              "ok": true
+            }
+          }
+        },
+        {
+          "satisfied": true,
+          "details": {
+            "price_max": {
+              "required": 17000000,
+              "actual": 16690000.0,
+              "ok": true
+            }
+          }
+        },
+        {
+          "satisfied": false,
+          "details": {
+            "price_max": {
+              "required": 17000000,
+              "actual": 18690000.0,
+              "ok": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "query": "Laptop văn phòng",
+      "num_recommendations": 3,
+      "top_k": 3,
+      "precision_at_k": 1.0,
+      "ndcg_at_k": 1.0,
+      "relevances": [
+        2,
+        2,
+        2
+      ],
+      "judgments": [
+        {
+          "relevance_score": 2,
+          "short_reason": "MSI Prestige 13 Ai Evo A1mg 240vn là một ultrabook siêu nhẹ, màn hình nhỏ gọn, RAM lớn, phù hợp hoàn hảo cho dân văn phòng.",
+          "laptop_name": "MSI Prestige 13 Ai Evo A1mg 240vn"
+        },
+        {
+          "relevance_score": 2,
+          "short_reason": "LENOVO Yoga Book 9 phù hợp cho văn phòng với thiết kế mỏng nhẹ, màn hình đẹp, RAM lớn, ổ cứng dung lượng cao, và tính năng business.",
+          "laptop_name": "LENOVO Yoga Book 9 14iah10 83kj001qvn"
+        },
+        {
+          "relevance_score": 2,
+          "short_reason": "ASUS Zenbook 14 Um3406ka Pp590ws là một ultrabook nhẹ, màn hình đẹp, cấu hình mạnh mẽ, phù hợp cho công việc văn phòng.",
+          "laptop_name": "ASUS Zenbook 14 Um3406ka Pp590ws"
+        }
+      ]
+    },
+    {
+      "query": "Laptop gaming",
+      "num_recommendations": 3,
+      "top_k": 3,
+      "precision_at_k": 1.0,
+      "ndcg_at_k": 1.0,
+      "relevances": [
+        2,
+        2,
+        2
+      ],
+      "judgments": [
+        {
+          "relevance_score": 2,
+          "short_reason": "Laptop HP Victus 16 có cấu hình mạnh, màn hình 144Hz và card đồ họa phù hợp cho gaming, đáp ứng tốt nhu cầu của người dùng.",
+          "laptop_name": "HP Victus 16 R0223tx 9q974pa"
+        },
+        {
+          "relevance_score": 2,
+          "short_reason": "Laptop HP Victus 16 này là một lựa chọn tuyệt vời cho gaming với RAM 32GB, màn hình 144Hz và khả năng gaming được xác nhận.",
+          "laptop_name": "HP Victus 16 S0143ax 9q990pa"
+        },
+        {
+          "relevance_score": 2,
+          "short_reason": "Laptop HP Victus 16 này có cấu hình mạnh, màn hình tần số quét cao và khả năng gaming tốt, hoàn toàn phù hợp cho nhu cầu chơi game.",
+          "laptop_name": "HP Victus 16 R0358tx Ay8x4pa"
+        }
+      ],
+      "csr": 1.0,
+      "constraint_details": [
+        {
+          "satisfied": true,
+          "details": {
+            "is_gaming_ready": {
+              "required": true,
+              "actual": true,
+              "ok": true
+            }
+          }
+        },
+        {
+          "satisfied": true,
+          "details": {
+            "is_gaming_ready": {
+              "required": true,
+              "actual": true,
+              "ok": true
+            }
+          }
+        },
+        {
+          "satisfied": true,
+          "details": {
+            "is_gaming_ready": {
+              "required": true,
+              "actual": true,
+              "ok": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "query": "Laptop nhẹ để mang đi học",
+      "num_recommendations": 3,
+      "top_k": 3,
+      "precision_at_k": 1.0,
+      "ndcg_at_k": 1.0,
+      "relevances": [
+        2,
+        2,
+        1
+      ],
+      "judgments": [
+        {
+          "relevance_score": 2,
+          "short_reason": "Laptop này nhẹ (1.4kg) và phù hợp để mang đi học, đáp ứng yêu cầu của người dùng.",
+          "laptop_name": "ASUS Expertbook P1403cva I516 50w"
+        },
+        {
+          "relevance_score": 2,
+          "short_reason": "Laptop MSI Modern 14 nhẹ (1.5kg) và phù hợp để mang đi học.",
+          "laptop_name": "MSI Modern 14 F13mg 466vn"
+        },
+        {
+          "relevance_score": 1,
+          "short_reason": "Laptop này có trọng lượng 1.78kg, hơi nặng so với yêu cầu 'nhẹ' để mang đi học, nhưng vẫn có thể chấp nhận được nếu các yếu tố khác phù hợp.",
+          "laptop_name": "Colorful Rimbook L1 I5 12450h Ce50016512c G E1ac"
+        }
+      ],
+      "csr": 0.6666666666666666,
+      "constraint_details": [
+        {
+          "satisfied": true,
+          "details": {
+            "max_weight_kg": {
+              "required": 1.7,
+              "actual": 1.4,
+              "ok": true
+            }
+          }
+        },
+        {
+          "satisfied": true,
+          "details": {
+            "max_weight_kg": {
+              "required": 1.7,
+              "actual": 1.5,
+              "ok": true
+            }
+          }
+        },
+        {
+          "satisfied": false,
+          "details": {
+            "max_weight_kg": {
+              "required": 1.7,
+              "actual": 1.78,
+              "ok": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "query": "Laptop dưới 20 triệu",
+      "num_recommendations": 3,
+      "top_k": 3,
+      "precision_at_k": 1.0,
+      "ndcg_at_k": 1.0,
+      "relevances": [
+        2,
+        2,
+        2
+      ],
+      "judgments": [
+        {
+          "relevance_score": 2,
+          "short_reason": "Laptop này có giá dưới 20 triệu đồng và đáp ứng yêu cầu của người dùng.",
+          "laptop_name": "DELL Inspiron N3520 I5 1235u I5 1235ui5u165w11blu Fp"
+        },
+        {
+          "relevance_score": 2,
+          "short_reason": "Laptop này có giá dưới 20 triệu đồng và đáp ứng yêu cầu của người dùng.",
+          "laptop_name": "DELL Inspiron 15 3520 I5 1235u I5u165w11blu Fp"
+        },
+        {
+          "relevance_score": 2,
+          "short_reason": "Laptop HP 14 Ep1179tu có giá dưới 20 triệu đồng và đáp ứng yêu cầu của người dùng.",
+          "laptop_name": "HP 14 Ep1179tu Core 5 120u C89zspa"
+        }
+      ],
+      "csr": 1.0,
+      "constraint_details": [
+        {
+          "satisfied": true,
+          "details": {
+            "price_max": {
+              "required": 20000000,
+              "actual": 16690000.0,
+              "ok": true
+            }
+          }
+        },
+        {
+          "satisfied": true,
+          "details": {
+            "price_max": {
+              "required": 20000000,
+              "actual": 16690000.0,
+              "ok": true
+            }
+          }
+        },
+        {
+          "satisfied": true,
+          "details": {
+            "price_max": {
+              "required": 20000000,
+              "actual": 18690000.0,
+              "ok": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "query": "Laptop gaming giá khoảng 25 triệu",
+      "num_recommendations": 3,
+      "top_k": 3,
+      "precision_at_k": 1.0,
+      "ndcg_at_k": 1.0,
+      "relevances": [
+        1,
+        1,
+        1
+      ],
+      "judgments": [
+        {
+          "relevance_score": 1,
+          "short_reason": "Giá hơi cao hơn một chút so với yêu cầu 25 triệu, nhưng là một lựa chọn gaming tốt.",
+          "laptop_name": "GIGABYTE Gaming A16 Ga6h Cmhi2vn893sh"
+        },
+        {
+          "relevance_score": 1,
+          "short_reason": "Giá hơi cao hơn 25 triệu một chút, nhưng là một lựa chọn gaming tốt.",
+          "laptop_name": "HP Gaming Victus 15 Fb3116ax R7 7445hs Bx9c9pa"
+        },
+        {
+          "relevance_score": 1,
+          "short_reason": "Giá hơi cao hơn một chút so với yêu cầu 25 triệu, nhưng vẫn là một lựa chọn gaming tốt.",
+          "laptop_name": "GIGABYTE Gaming A16 Cmhi2vn893sh I7 13620h"
+        }
+      ],
+      "csr": 1.0,
+      "constraint_details": [
+        {
+          "satisfied": true,
+          "details": {
+            "price_min": {
+              "required": 23000000,
+              "actual": 27290000.0,
+              "ok": true
+            },
+            "price_max": {
+              "required": 28000000,
+              "actual": 27290000.0,
+              "ok": true
+            },
+            "is_gaming_ready": {
+              "required": true,
+              "actual": true,
+              "ok": true
+            }
+          }
+        },
+        {
+          "satisfied": true,
+          "details": {
+            "price_min": {
+              "required": 23000000,
+              "actual": 27990000.0,
+              "ok": true
+            },
+            "price_max": {
+              "required": 28000000,
+              "actual": 27990000.0,
+              "ok": true
+            },
+            "is_gaming_ready": {
+              "required": true,
+              "actual": true,
+              "ok": true
+            }
+          }
+        },
+        {
+          "satisfied": true,
+          "details": {
+            "price_min": {
+              "required": 23000000,
+              "actual": 26790000.0,
+              "ok": true
+            },
+            "price_max": {
+              "required": 28000000,
+              "actual": 26790000.0,
+              "ok": true
+            },
+            "is_gaming_ready": {
+              "required": true,
+              "actual": true,
+              "ok": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "query": "Laptop cho sinh viên công nghệ thông tin",
+      "num_recommendations": 3,
+      "top_k": 3,
+      "precision_at_k": 1.0,
+      "ndcg_at_k": 0.9514426589871553,
+      "relevances": [
+        2,
+        1,
+        2
+      ],
+      "judgments": [
+        {
+          "relevance_score": 2,
+          "short_reason": "ASUS Expertbook P1403cva I516 50w là một lựa chọn tốt cho sinh viên công nghệ thông tin với RAM 16GB, ổ cứng 512GB, thiết kế mỏng nhẹ và độ bền cao, phù hợp cho việc học tập và làm việc.",
+          "laptop_name": "ASUS Expertbook P1403cva I516 50w"
+        },
+        {
+          "relevance_score": 1,
+          "short_reason": "MSI Modern 14 có RAM 8GB và SSD 512GB phù hợp cho sinh viên IT, nhưng không phải là lựa chọn tối ưu vì không chuyên dụng cho các tác vụ nặng.",
+          "laptop_name": "MSI Modern 14 F13mg 466vn"
+        },
+        {
+          "relevance_score": 2,
+          "short_reason": "Laptop ASUS Expertbook P1403cva I516 63ws có RAM 16GB và ổ cứng 1TB, đủ mạnh để đáp ứng nhu cầu học tập và làm việc của sinh viên công nghệ thông tin. Thiết kế mỏng nhẹ, phù hợp để mang đi học.",
+          "laptop_name": "ASUS Expertbook P1403cva I516 63ws"
+        }
+      ],
+      "csr": 1.0,
+      "constraint_details": [
+        {
+          "satisfied": true,
+          "details": {
+            "price_max": {
+              "required": 20000000,
+              "actual": 15590000.0,
+              "ok": true
+            }
+          }
+        },
+        {
+          "satisfied": true,
+          "details": {
+            "price_max": {
+              "required": 20000000,
+              "actual": 14990000.0,
+              "ok": true
+            }
+          }
+        },
+        {
+          "satisfied": true,
+          "details": {
+            "price_max": {
+              "required": 20000000,
+              "actual": 16590000.0,
+              "ok": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "query": "Laptop RAM 16GB để code",
+      "num_recommendations": 3,
+      "top_k": 3,
+      "precision_at_k": 1.0,
+      "ndcg_at_k": 1.0,
+      "relevances": [
+        2,
+        1,
+        1
+      ],
+      "judgments": [
+        {
+          "relevance_score": 2,
+          "short_reason": "Laptop này có RAM 32GB, thừa sức đáp ứng nhu cầu code, và là ultrabook rất nhẹ, tiện lợi di chuyển.",
+          "laptop_name": "MSI Prestige 13 Ai Evo A1mg 240vn"
+        },
+        {
+          "relevance_score": 1,
+          "short_reason": "Laptop này có RAM lớn hơn 16GB, phù hợp để code, nhưng giá thành cao.",
+          "laptop_name": "LENOVO Yoga Book 9 14iah10 83kj001qvn"
+        },
+        {
+          "relevance_score": 1,
+          "short_reason": "Laptop này có RAM lớn hơn 16GB, phù hợp cho code, nhưng giá có thể hơi cao so với nhu cầu cơ bản.",
+          "laptop_name": "ASUS Zenbook 14 Um3406ka Pp590ws"
+        }
+      ],
+      "csr": 1.0,
+      "constraint_details": [
+        {
+          "satisfied": true,
+          "details": {
+            "min_ram_gb": {
+              "required": 16,
+              "actual": 32.0,
+              "ok": true
+            }
+          }
+        },
+        {
+          "satisfied": true,
+          "details": {
+            "min_ram_gb": {
+              "required": 16,
+              "actual": 32.0,
+              "ok": true
+            }
+          }
+        },
+        {
+          "satisfied": true,
+          "details": {
+            "min_ram_gb": {
+              "required": 16,
+              "actual": 32.0,
+              "ok": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "query": "Laptop màn hình lớn cho thiết kế đồ họa",
+      "num_recommendations": 3,
+      "top_k": 3,
+      "precision_at_k": 1.0,
+      "ndcg_at_k": 1.0,
+      "relevances": [
+        1,
+        1,
+        1
+      ],
+      "judgments": [
+        {
+          "relevance_score": 1,
+          "short_reason": "Laptop này có màn hình 15.6 inch phù hợp cho thiết kế đồ họa, nhưng không phải là lựa chọn tối ưu vì không có card đồ họa rời.",
+          "laptop_name": "DELL Inspiron 15 3520 I5 1235u I5u165w11blu Fp"
+        },
+        {
+          "relevance_score": 1,
+          "short_reason": "Laptop có màn hình 15.6 inch, phù hợp cho thiết kế đồ họa, nhưng không phải là lớn nhất. Cấu hình ổn nhưng không chuyên dụng cho đồ họa.",
+          "laptop_name": "DELL Inspiron N3520 I5 1235u I5 1235ui5u165w11blu Fp"
+        },
+        {
+          "relevance_score": 1,
+          "short_reason": "Laptop này có màn hình 15.6 inch, phù hợp cho thiết kế đồ họa, nhưng không phải là lớn nhất. Cấu hình ổn nhưng không chuyên dụng.",
+          "laptop_name": "HP 250r G10 Core 5 120u C3sh7at"
+        }
+      ]
+    },
+    {
+      "query": "Laptop gaming giá từ 20 đến 30 triệu",
+      "num_recommendations": 3,
+      "top_k": 3,
+      "precision_at_k": 1.0,
+      "ndcg_at_k": 1.0,
+      "relevances": [
+        2,
+        2,
+        2
+      ],
+      "judgments": [
+        {
+          "relevance_score": 2,
+          "short_reason": "Laptop này hoàn toàn phù hợp với yêu cầu của người dùng về laptop gaming trong khoảng giá từ 20 đến 30 triệu.",
+          "laptop_name": "GIGABYTE Gaming A16 Ga6h Cmhi2vn893sh"
+        },
+        {
+          "relevance_score": 2,
+          "short_reason": "Laptop GIGABYTE G6 Kf 73vn854kh có giá 28.290.000 VND, nằm trong khoảng giá 20-30 triệu mà người dùng yêu cầu và là laptop gaming.",
+          "laptop_name": "GIGABYTE G6 Kf 73vn854kh"
+        },
+        {
+          "relevance_score": 2,
+          "short_reason": "Laptop này hoàn toàn phù hợp với yêu cầu của người dùng về giá và mục đích sử dụng để chơi game.",
+          "laptop_name": "HP Gaming Victus 15 Fb3116ax R7 7445hs Bx9c9pa"
+        }
+      ],
+      "csr": 1.0,
+      "constraint_details": [
+        {
+          "satisfied": true,
+          "details": {
+            "price_min": {
+              "required": 20000000,
+              "actual": 27290000.0,
+              "ok": true
+            },
+            "price_max": {
+              "required": 30000000,
+              "actual": 27290000.0,
+              "ok": true
+            },
+            "is_gaming_ready": {
+              "required": true,
+              "actual": true,
+              "ok": true
+            }
+          }
+        },
+        {
+          "satisfied": true,
+          "details": {
+            "price_min": {
+              "required": 20000000,
+              "actual": 28290000.0,
+              "ok": true
+            },
+            "price_max": {
+              "required": 30000000,
+              "actual": 28290000.0,
+              "ok": true
+            },
+            "is_gaming_ready": {
+              "required": true,
+              "actual": true,
+              "ok": true
+            }
+          }
+        },
+        {
+          "satisfied": true,
+          "details": {
+            "price_min": {
+              "required": 20000000,
+              "actual": 27990000.0,
+              "ok": true
+            },
+            "price_max": {
+              "required": 30000000,
+              "actual": 27990000.0,
+              "ok": true
+            },
+            "is_gaming_ready": {
+              "required": true,
+              "actual": true,
+              "ok": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "query": "Laptop mỏng nhẹ dưới 15 triệu cho văn phòng",
+      "num_recommendations": 3,
+      "top_k": 3,
+      "precision_at_k": 1.0,
+      "ndcg_at_k": 0.7579237460681981,
+      "relevances": [
+        1,
+        1,
+        2
+      ],
+      "judgments": [
+        {
+          "relevance_score": 1,
+          "short_reason": "Laptop này mỏng nhẹ ở mức chấp nhận được và phù hợp cho văn phòng với mức giá tốt, nhưng không phải là ultrabook.",
+          "laptop_name": "Colorful Rimbook L1 I3 1220p Ca30016512c G E1ac"
+        },
+        {
+          "relevance_score": 1,
+          "short_reason": "Laptop này mỏng nhẹ ở mức chấp nhận được và phù hợp cho văn phòng, nhưng không hẳn là ultrabook.",
+          "laptop_name": "Colorful Rimbook L1 I3 1220p Ca30016512c S E1ad"
+        },
+        {
+          "relevance_score": 2,
+          "short_reason": "Laptop HP 15 Fd0305tu đáp ứng tốt yêu cầu: mỏng nhẹ (1.59kg), giá dưới 15 triệu, phù hợp cho văn phòng.",
+          "laptop_name": "HP 15 Fd0305tu A2nl6pa"
+        }
+      ],
+      "csr": 0.3333333333333333,
+      "constraint_details": [
+        {
+          "satisfied": false,
+          "details": {
+            "price_max": {
+              "required": 15000000,
+              "actual": 11290000.0,
+              "ok": true
+            },
+            "max_weight_kg": {
+              "required": 1.7,
+              "actual": 1.78,
+              "ok": false
+            }
+          }
+        },
+        {
+          "satisfied": false,
+          "details": {
+            "price_max": {
+              "required": 15000000,
+              "actual": 11290000.0,
+              "ok": true
+            },
+            "max_weight_kg": {
+              "required": 1.7,
+              "actual": 1.78,
+              "ok": false
+            }
+          }
+        },
+        {
+          "satisfied": true,
+          "details": {
+            "price_max": {
+              "required": 15000000,
+              "actual": 12490000.0,
+              "ok": true
+            },
+            "max_weight_kg": {
+              "required": 1.7,
+              "actual": 1.59,
+              "ok": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "query": "Laptop chơi game AAA, ngân sách 35 triệu",
+      "num_recommendations": 3,
+      "top_k": 3,
+      "precision_at_k": 1.0,
+      "ndcg_at_k": 1.0,
+      "relevances": [
+        2,
+        2,
+        2
+      ],
+      "judgments": [
+        {
+          "relevance_score": 2,
+          "short_reason": "Laptop HP Victus 16 đáp ứng tốt yêu cầu chơi game AAA với mức giá và cấu hình phù hợp (RAM 32GB, gaming ready).",
+          "laptop_name": "HP Victus 16 S0143ax 9q990pa"
+        },
+        {
+          "relevance_score": 2,
+          "short_reason": "Laptop HP Victus 16 đáp ứng yêu cầu chơi game AAA và nằm trong ngân sách 35 triệu.",
+          "laptop_name": "HP Victus 16 R0228tx 9q979pa"
+        },
+        {
+          "relevance_score": 2,
+          "short_reason": "Laptop Acer Nitro V đáp ứng yêu cầu chơi game AAA và nằm trong ngân sách 35 triệu.",
+          "laptop_name": "ACER Gaming Nitro V Anv15 51 91t5 Nh.qqesv.009"
+        }
+      ],
+      "csr": 0.6666666666666666,
+      "constraint_details": [
+        {
+          "satisfied": false,
+          "details": {
+            "price_min": {
+              "required": 32000000,
+              "actual": 31490000.0,
+              "ok": false
+            },
+            "price_max": {
+              "required": 38000000,
+              "actual": 31490000.0,
+              "ok": true
+            },
+            "is_gaming_ready": {
+              "required": true,
+              "actual": true,
+              "ok": true
+            }
+          }
+        },
+        {
+          "satisfied": true,
+          "details": {
+            "price_min": {
+              "required": 32000000,
+              "actual": 33990000.0,
+              "ok": true
+            },
+            "price_max": {
+              "required": 38000000,
+              "actual": 33990000.0,
+              "ok": true
+            },
+            "is_gaming_ready": {
+              "required": true,
+              "actual": true,
+              "ok": true
+            }
+          }
+        },
+        {
+          "satisfied": true,
+          "details": {
+            "price_min": {
+              "required": 32000000,
+              "actual": 32990000.0,
+              "ok": true
+            },
+            "price_max": {
+              "required": 38000000,
+              "actual": 32990000.0,
+              "ok": true
+            },
+            "is_gaming_ready": {
+              "required": true,
+              "actual": true,
+              "ok": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "query": "Laptop cho AI và machine learning, cần GPU mạnh",
+      "num_recommendations": 3,
+      "top_k": 3,
+      "precision_at_k": 1.0,
+      "ndcg_at_k": 1.0,
+      "relevances": [
+        2,
+        2,
+        2
+      ],
+      "judgments": [
+        {
+          "relevance_score": 2,
+          "short_reason": "Laptop này có GPU mạnh, RAM lớn và được đánh giá là phù hợp cho AI/Machine Learning, đáp ứng đầy đủ yêu cầu của người dùng.",
+          "laptop_name": "ACER Predator Helios 16 Ph16 72 95zm Nh.qnzsv.008"
+        },
+        {
+          "relevance_score": 2,
+          "short_reason": "Laptop này có GPU mạnh, RAM lớn và được đánh giá là 'AI ready', phù hợp cho AI và machine learning.",
+          "laptop_name": "LENOVO Legion Pro 5 16irx9 83df0046vn"
+        },
+        {
+          "relevance_score": 2,
+          "short_reason": "Laptop này có GPU mạnh, RAM đủ và được đánh giá là phù hợp cho AI/Machine Learning.",
+          "laptop_name": "ACER Predator Helios Phn16 72 78l4 Nh.qnpsv.012"
+        }
+      ],
+      "csr": 1.0,
+      "constraint_details": [
+        {
+          "satisfied": true,
+          "details": {
+            "is_ai_ready": {
+              "required": true,
+              "actual": true,
+              "ok": true
+            }
+          }
+        },
+        {
+          "satisfied": true,
+          "details": {
+            "is_ai_ready": {
+              "required": true,
+              "actual": true,
+              "ok": true
+            }
+          }
+        },
+        {
+          "satisfied": true,
+          "details": {
+            "is_ai_ready": {
+              "required": true,
+              "actual": true,
+              "ok": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "query": "Laptop doanh nhân cao cấp, nhẹ và pin trâu",
+      "num_recommendations": 0,
+      "top_k": 3,
+      "precision_at_k": 0.0,
+      "ndcg_at_k": 0.0,
+      "relevances": [],
+      "judgments": [],
+      "csr": 0.0,
+      "constraint_details": []
+    },
+    {
+      "query": "Laptop gaming nhưng vẫn mỏng nhẹ để mang đi làm",
+      "num_recommendations": 0,
+      "top_k": 3,
+      "precision_at_k": 0.0,
+      "ndcg_at_k": 0.0,
+      "relevances": [],
+      "judgments": [],
+      "csr": 0.0,
+      "constraint_details": []
+    },
+    {
+      "query": "Laptop 16GB RAM, SSD 512GB, giá dưới 18 triệu",
+      "num_recommendations": 0,
+      "top_k": 3,
+      "precision_at_k": 0.0,
+      "ndcg_at_k": 0.0,
+      "relevances": [],
+      "judgments": [],
+      "csr": 0.0,
+      "constraint_details": []
+    },
+    {
+      "query": "Laptop màn hình 144Hz để chơi game esports",
+      "num_recommendations": 0,
+      "top_k": 3,
+      "precision_at_k": 0.0,
+      "ndcg_at_k": 0.0,
+      "relevances": [],
+      "judgments": [],
+      "csr": 0.0,
+      "constraint_details": []
+    },
+    {
+      "query": "Laptop Ultrabook cao cấp cho công việc khoảng 40 triệu",
+      "num_recommendations": 0,
+      "top_k": 3,
+      "precision_at_k": 0.0,
+      "ndcg_at_k": 0.0,
+      "relevances": [],
+      "judgments": [],
+      "csr": 0.0,
+      "constraint_details": []
+    },
+    {
+      "query": "Laptop cho học sinh lớp 12, giá không quá 12 triệu, nhẹ",
+      "num_recommendations": 0,
+      "top_k": 3,
+      "precision_at_k": 0.0,
+      "ndcg_at_k": 0.0,
+      "relevances": [],
+      "judgments": [],
+      "csr": 0.0,
+      "constraint_details": []
+    }
+  ]
+}

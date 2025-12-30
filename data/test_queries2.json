@@ -1,0 +1,554 @@
+[
+    {
+        "id": 1,
+        "query": "Tôi cần laptop",
+        "expected_constraints": {},
+        "complexity": "simple",
+        "note": "Query tối giản, không ràng buộc"
+    },
+    {
+        "id": 2,
+        "query": "Laptop giá rẻ",
+        "expected_constraints": {
+            "price_max": 15000000
+        },
+        "complexity": "simple",
+        "note": "Chỉ ràng buộc giá thấp"
+    },
+    {
+        "id": 3,
+        "query": "Laptop văn phòng",
+        "expected_constraints": {},
+        "complexity": "simple",
+        "note": "Chỉ định use case đơn giản"
+    },
+    {
+        "id": 4,
+        "query": "Laptop gaming",
+        "expected_constraints": {
+            "is_gaming_ready": true
+        },
+        "complexity": "simple",
+        "note": "Yêu cầu gaming cơ bản"
+    },
+    {
+        "id": 5,
+        "query": "Laptop nhẹ để mang đi học",
+        "expected_constraints": {
+            "max_weight_kg": 1.7
+        },
+        "complexity": "simple",
+        "note": "Ràng buộc trọng lượng + use case"
+    },
+    {
+        "id": 6,
+        "query": "Laptop dưới 20 triệu",
+        "expected_constraints": {
+            "price_max": 20000000
+        },
+        "complexity": "medium",
+        "note": "Ràng buộc budget cụ thể"
+    },
+    {
+        "id": 7,
+        "query": "Laptop gaming giá khoảng 25 triệu",
+        "expected_constraints": {
+            "is_gaming_ready": true,
+            "price_min": 23000000,
+            "price_max": 27000000
+        },
+        "complexity": "medium",
+        "note": "Gaming + khoảng giá"
+    },
+    {
+        "id": 8,
+        "query": "Laptop cho sinh viên công nghệ thông tin",
+        "expected_constraints": {
+            "price_max": 20000000
+        },
+        "complexity": "medium",
+        "note": "User type sinh viên + ngành học"
+    },
+    {
+        "id": 9,
+        "query": "Laptop RAM 16GB để code",
+        "expected_constraints": {
+            "min_ram_gb": 16
+        },
+        "complexity": "medium",
+        "note": "Ràng buộc RAM cụ thể"
+    },
+    {
+        "id": 10,
+        "query": "Laptop màn hình lớn cho thiết kế đồ họa",
+        "expected_constraints": {},
+        "complexity": "medium",
+        "note": "Yêu cầu màn hình + use case đồ họa"
+    },
+    {
+        "id": 11,
+        "query": "Laptop gaming giá từ 20 đến 30 triệu",
+        "expected_constraints": {
+            "is_gaming_ready": true,
+            "price_min": 20000000,
+            "price_max": 30000000
+        },
+        "complexity": "medium",
+        "note": "Gaming + khoảng giá rõ ràng"
+    },
+    {
+        "id": 12,
+        "query": "Laptop mỏng nhẹ dưới 15 triệu cho văn phòng",
+        "expected_constraints": {
+            "price_max": 15000000,
+            "max_weight_kg": 1.7
+        },
+        "complexity": "medium",
+        "note": "Nhẹ + giá + use case"
+    },
+    {
+        "id": 13,
+        "query": "Laptop chơi game AAA, ngân sách 35 triệu",
+        "expected_constraints": {
+            "is_gaming_ready": true,
+            "price_min": 32000000,
+            "price_max": 38000000
+        },
+        "complexity": "complex",
+        "note": "Gaming hardcore + budget cao"
+    },
+    {
+        "id": 14,
+        "query": "Laptop cho AI và machine learning, cần GPU mạnh",
+        "expected_constraints": {
+            "is_ai_ready": true
+        },
+        "complexity": "complex",
+        "note": "Use case AI + yêu cầu GPU"
+    },
+    {
+        "id": 15,
+        "query": "Laptop doanh nhân cao cấp, nhẹ và pin trâu",
+        "expected_constraints": {
+            "is_business_ready": true,
+            "max_weight_kg": 1.5
+        },
+        "complexity": "complex",
+        "note": "Business + nhẹ + pin"
+    },
+    {
+        "id": 16,
+        "query": "Laptop gaming nhưng vẫn mỏng nhẹ để mang đi làm",
+        "expected_constraints": {
+            "is_gaming_ready": true,
+            "max_weight_kg": 2.0
+        },
+        "complexity": "complex",
+        "note": "Gaming + nhẹ (conflict nhẹ)"
+    },
+    {
+        "id": 17,
+        "query": "Laptop 16GB RAM, SSD 512GB, giá dưới 18 triệu",
+        "expected_constraints": {
+            "min_ram_gb": 16,
+            "price_max": 18000000
+        },
+        "complexity": "complex",
+        "note": "Nhiều specs cụ thể + giá"
+    },
+    {
+        "id": 18,
+        "query": "Laptop màn hình 144Hz để chơi game esports",
+        "expected_constraints": {
+            "is_gaming_ready": true
+        },
+        "complexity": "complex",
+        "note": "Yêu cầu refresh rate cụ thể"
+    },
+    {
+        "id": 19,
+        "query": "Laptop Ultrabook cao cấp cho công việc khoảng 40 triệu",
+        "expected_constraints": {
+            "is_ultrabook": true,
+            "price_min": 37000000,
+            "price_max": 43000000
+        },
+        "complexity": "complex",
+        "note": "Ultrabook + budget cao"
+    },
+    {
+        "id": 20,
+        "query": "Laptop cho học sinh lớp 12, giá không quá 12 triệu, nhẹ",
+        "expected_constraints": {
+            "price_max": 12000000,
+            "max_weight_kg": 1.8
+        },
+        "complexity": "complex",
+        "note": "Student + budget thấp + nhẹ"
+    },
+    {
+        "id": 21,
+        "query": "Laptop vừa chơi game vừa học AI, budget 30-40 triệu",
+        "expected_constraints": {
+            "is_gaming_ready": true,
+            "is_ai_ready": true,
+            "price_min": 30000000,
+            "price_max": 40000000
+        },
+        "complexity": "very_complex",
+        "note": "Multi use case: gaming + AI"
+    },
+    {
+        "id": 22,
+        "query": "Laptop văn phòng thương hiệu Dell hoặc Lenovo, dưới 20 triệu",
+        "expected_constraints": {
+            "price_max": 20000000
+        },
+        "complexity": "very_complex",
+        "note": "Brand preference + giá + use case"
+    },
+    {
+        "id": 23,
+        "query": "Laptop 32GB RAM cho render video 4K và chạy After Effects",
+        "expected_constraints": {
+            "min_ram_gb": 32
+        },
+        "complexity": "very_complex",
+        "note": "RAM cao + use case chuyên nghiệp"
+    },
+    {
+        "id": 24,
+        "query": "Laptop gaming màn 15 inch trở lên, RTX card, giá tầm 28 triệu, không quá 2.5kg",
+        "expected_constraints": {
+            "is_gaming_ready": true,
+            "price_min": 26000000,
+            "price_max": 30000000,
+            "max_weight_kg": 2.5
+        },
+        "complexity": "very_complex",
+        "note": "Nhiều ràng buộc: gaming + màn + GPU + giá + weight"
+    },
+    {
+        "id": 25,
+        "query": "Laptop cao cấp nhất cho AI research, train model deep learning, budget không giới hạn, ưu tiên VRAM GPU lớn",
+        "expected_constraints": {
+            "is_ai_ready": true
+        },
+        "complexity": "very_complex",
+        "note": "AI chuyên sâu + không giới hạn ngân sách"
+    },
+    {
+        "id": 26,
+        "query": "Laptop để xem phim và lướt web",
+        "expected_constraints": {},
+        "complexity": "simple",
+        "note": "Use case giải trí cơ bản"
+    },
+    {
+        "id": 27,
+        "query": "Laptop pin khỏe",
+        "expected_constraints": {},
+        "complexity": "simple",
+        "note": "Ưu tiên pin"
+    },
+    {
+        "id": 28,
+        "query": "Laptop học online cho con",
+        "expected_constraints": {
+            "price_max": 15000000
+        },
+        "complexity": "simple",
+        "note": "Student use case"
+    },
+    {
+        "id": 29,
+        "query": "Laptop chạy Photoshop",
+        "expected_constraints": {},
+        "complexity": "simple",
+        "note": "Use case đồ họa đơn giản"
+    },
+    {
+        "id": 30,
+        "query": "Laptop màn hình đẹp",
+        "expected_constraints": {},
+        "complexity": "simple",
+        "note": "Yêu cầu display quality"
+    },
+    {
+        "id": 31,
+        "query": "Laptop từ 15 đến 20 triệu",
+        "expected_constraints": {
+            "price_min": 15000000,
+            "price_max": 20000000
+        },
+        "complexity": "medium",
+        "note": "Khoảng giá cụ thể"
+    },
+    {
+        "id": 32,
+        "query": "Laptop 8GB RAM giá rẻ",
+        "expected_constraints": {
+            "min_ram_gb": 8,
+            "price_max": 12000000
+        },
+        "complexity": "medium",
+        "note": "RAM + giá thấp"
+    },
+    {
+        "id": 33,
+        "query": "Laptop chơi LOL và Valorant",
+        "expected_constraints": {
+            "is_gaming_ready": true
+        },
+        "complexity": "medium",
+        "note": "Gaming esports cụ thể"
+    },
+    {
+        "id": 34,
+        "query": "Laptop cho kế toán",
+        "expected_constraints": {},
+        "complexity": "medium",
+        "note": "Use case office chuyên biệt"
+    },
+    {
+        "id": 35,
+        "query": "Laptop SSD 1TB",
+        "expected_constraints": {},
+        "complexity": "medium",
+        "note": "Yêu cầu storage lớn"
+    },
+    {
+        "id": 36,
+        "query": "Laptop core i7",
+        "expected_constraints": {},
+        "complexity": "medium",
+        "note": "Yêu cầu CPU cụ thể"
+    },
+    {
+        "id": 37,
+        "query": "Laptop Asus gaming dưới 25 triệu",
+        "expected_constraints": {
+            "is_gaming_ready": true,
+            "price_max": 25000000
+        },
+        "complexity": "medium",
+        "note": "Brand + gaming + giá"
+    },
+    {
+        "id": 38,
+        "query": "Laptop lập trình Python và JavaScript",
+        "expected_constraints": {
+            "min_ram_gb": 8
+        },
+        "complexity": "medium",
+        "note": "Developer use case"
+    },
+    {
+        "id": 39,
+        "query": "Laptop cho streamer",
+        "expected_constraints": {
+            "is_gaming_ready": true,
+            "min_ram_gb": 16
+        },
+        "complexity": "complex",
+        "note": "Streaming use case"
+    },
+    {
+        "id": 40,
+        "query": "Laptop cảm ứng cho vẽ",
+        "expected_constraints": {},
+        "complexity": "complex",
+        "note": "Touchscreen + creative work"
+    },
+    {
+        "id": 41,
+        "query": "Laptop workstation chạy CAD và 3D modeling",
+        "expected_constraints": {
+            "min_ram_gb": 16,
+            "is_ai_ready": true
+        },
+        "complexity": "complex",
+        "note": "Workstation use case"
+    },
+    {
+        "id": 42,
+        "query": "Laptop giá tốt nhất trong tầm 22 triệu",
+        "expected_constraints": {
+            "price_max": 22000000
+        },
+        "complexity": "complex",
+        "note": "Value for money"
+    },
+    {
+        "id": 43,
+        "query": "Laptop cho giáo viên dạy online",
+        "expected_constraints": {
+            "price_max": 15000000
+        },
+        "complexity": "complex",
+        "note": "Teaching use case"
+    },
+    {
+        "id": 44,
+        "query": "Laptop gaming giá dưới 20 triệu chơi được GTA 5",
+        "expected_constraints": {
+            "is_gaming_ready": true,
+            "price_max": 20000000
+        },
+        "complexity": "complex",
+        "note": "Gaming + budget constraint + game cụ thể"
+    },
+    {
+        "id": 45,
+        "query": "Laptop 2 trong 1 có thể gập lại",
+        "expected_constraints": {},
+        "complexity": "complex",
+        "note": "2-in-1 form factor"
+    },
+    {
+        "id": 46,
+        "query": "Laptop chơi Elden Ring mượt",
+        "expected_constraints": {
+            "is_gaming_ready": true
+        },
+        "complexity": "complex",
+        "note": "Gaming AAA title cụ thể"
+    },
+    {
+        "id": 47,
+        "query": "Laptop cho data scientist, chạy Jupyter notebook và pandas",
+        "expected_constraints": {
+            "min_ram_gb": 16
+        },
+        "complexity": "complex",
+        "note": "Data science use case"
+    },
+    {
+        "id": 48,
+        "query": "Laptop gaming giá rẻ nhất có thể",
+        "expected_constraints": {
+            "is_gaming_ready": true,
+            "price_max": 18000000
+        },
+        "complexity": "complex",
+        "note": "Gaming + budget constraint thấp"
+    },
+    {
+        "id": 49,
+        "query": "Laptop HP hoặc Dell cho văn phòng",
+        "expected_constraints": {},
+        "complexity": "complex",
+        "note": "Multi brand preference"
+    },
+    {
+        "id": 50,
+        "query": "Laptop chơi game online nhẹ như PUBG Mobile, Free Fire",
+        "expected_constraints": {},
+        "complexity": "complex",
+        "note": "Light gaming esports"
+    },
+    {
+        "id": 51,
+        "query": "Laptop gaming RGB đẹp, ngân sách 30 triệu",
+        "expected_constraints": {
+            "is_gaming_ready": true,
+            "price_min": 28000000,
+            "price_max": 32000000
+        },
+        "complexity": "very_complex",
+        "note": "Gaming + aesthetic + budget"
+    },
+    {
+        "id": 52,
+        "query": "Laptop cho kiến trúc sư chạy AutoCAD và SketchUp",
+        "expected_constraints": {
+            "min_ram_gb": 16,
+            "is_ai_ready": true
+        },
+        "complexity": "very_complex",
+        "note": "Architecture + CAD use case"
+    },
+    {
+        "id": 53,
+        "query": "Laptop core i9, RTX 4080, không quan tâm giá",
+        "expected_constraints": {
+            "is_gaming_ready": true,
+            "is_ai_ready": true
+        },
+        "complexity": "very_complex",
+        "note": "High-end specs cụ thể"
+    },
+    {
+        "id": 54,
+        "query": "Laptop cho video editor chuyên nghiệp, làm phim 4K",
+        "expected_constraints": {
+            "min_ram_gb": 32,
+            "is_ai_ready": true
+        },
+        "complexity": "very_complex",
+        "note": "Professional video editing"
+    },
+    {
+        "id": 55,
+        "query": "Laptop để đi công tác, nhẹ dưới 1.5kg, pin trên 10 tiếng",
+        "expected_constraints": {
+            "max_weight_kg": 1.5,
+            "is_ultrabook": true
+        },
+        "complexity": "very_complex",
+        "note": "Business travel + weight + battery"
+    },
+    {
+        "id": 56,
+        "query": "Laptop chạy được nhiều máy ảo cùng lúc",
+        "expected_constraints": {
+            "min_ram_gb": 32
+        },
+        "complexity": "very_complex",
+        "note": "Virtualization use case"
+    },
+    {
+        "id": 57,
+        "query": "Laptop gaming cho con trai, giá tầm trung, không quá nặng",
+        "expected_constraints": {
+            "is_gaming_ready": true,
+            "price_min": 18000000,
+            "price_max": 25000000,
+            "max_weight_kg": 2.3
+        },
+        "complexity": "very_complex",
+        "note": "Gaming + gift + multi constraints"
+    },
+    {
+        "id": 58,
+        "query": "Laptop Macbook hoặc tương đương về design, giá dưới 35 triệu",
+        "expected_constraints": {
+            "is_ultrabook": true,
+            "price_max": 35000000
+        },
+        "complexity": "very_complex",
+        "note": "Premium design comparison"
+    },
+    {
+        "id": 59,
+        "query": "Laptop train neural network, cần CUDA cores nhiều, RTX 40 series",
+        "expected_constraints": {
+            "is_ai_ready": true,
+            "is_gaming_ready": true
+        },
+        "complexity": "very_complex",
+        "note": "Deep learning hardware specific"
+    },
+    {
+        "id": 60,
+        "query": "Laptop đa năng vừa chơi game, vừa làm việc, vừa học tập, giá 25-35 triệu, nhẹ dưới 2kg",
+        "expected_constraints": {
+            "is_gaming_ready": true,
+            "price_min": 25000000,
+            "price_max": 35000000,
+            "max_weight_kg": 2.0
+        },
+        "complexity": "very_complex",
+        "note": "All-rounder + multi constraints"
+    }
+]

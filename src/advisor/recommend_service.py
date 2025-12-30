@@ -1,4 +1,4 @@
-# src/advisor/service.py
+# src/advisor/recommend_service.py
 from __future__ import annotations
 
 from typing import Any, Dict, List
@@ -6,12 +6,6 @@ import pandas as pd
 
 from src.llm.schemas_v2 import IntentV2
 
-
-# src/advisor/recommend_service.py
-
-# src/advisor/recommend_service.py
-
-# src/advisor/recommend_service.py
 
 def _dump_model(obj):
     """Support Pydantic v2 models and normal dict."""
@@ -76,6 +70,11 @@ def build_query_from_intent(intent):
     if max_w is not None:
         q["max_weight_kg"] = float(max_w)
 
+    # ---------- CPU GEN ----------
+    min_cpu_gen = getattr(intent, "min_cpu_gen", None)
+    if min_cpu_gen is not None:
+        q["min_cpu_gen"] = int(min_cpu_gen)
+
     # ---------- soft prefs ----------
     pref_light = getattr(intent, "pref_light", None)
     pref_cheap = getattr(intent, "pref_cheap", None)
@@ -87,7 +86,15 @@ def build_query_from_intent(intent):
     # =========================================================
     # ADVANCED FIELDS (forward for future filters/scoring/advice)
     # =========================================================
-    cpu_req = _dump_model(getattr(intent, "cpu_requirements", None))
+    cpu_req = _dump_model(getattr(intent, "cpu_requirements", None)) or {}
+    cpu_brand = getattr(intent, "cpu_brand", None)
+    if cpu_brand:
+        cpu_req["cpu_brand"] = cpu_brand
+    
+    cpu_manu = getattr(intent, "cpu_manufacturer", None)
+    if cpu_manu:
+        cpu_req["cpu_manufacturer"] = cpu_manu
+
     if cpu_req:
         q["cpu_requirements"] = cpu_req
 
@@ -118,6 +125,10 @@ def build_query_from_intent(intent):
 
         if cleaned:
             q["brand_preferences"] = cleaned
+
+    pref_battery = getattr(intent, "pref_battery", None)
+    if pref_battery is not None:
+        q["pref_battery"] = pref_battery
 
     gaming_level = getattr(intent, "gaming_level", None)
     if gaming_level:
@@ -161,6 +172,9 @@ def recommendations_to_json(df_top: pd.DataFrame, query: Dict[str, Any]) -> List
             "weight_kg": r.get("Weight (kg)"),
             "screen_inch": r.get("Screen Size (inch)"),
             "refresh_hz": r.get("Refresh Rate (Hz)"),
+            "cpu_manufacturer": r.get("CPU manufacturer"),
+            "cpu_brand": r.get("CPU brand modifier"),
+            "cpu_generation": r.get("CPU generation"),
             "scores": {
                 "final_score": r.get("final_score"),
                 "general_score": r.get("general_score"),
