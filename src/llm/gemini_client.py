@@ -40,8 +40,8 @@ class GeminiClient:
     def __init__(
         self,
         api_key: Optional[str] = None,
-        model_intent: str = "gemini-2.0-flash",
-        model_advice: str = "gemini-2.0-flash",
+        model_intent: str = "gemini-3-pro-preview",
+        model_advice: str = "gemini-3-pro-preview",
     ) -> None:
         api_key = api_key or os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
         if not api_key:

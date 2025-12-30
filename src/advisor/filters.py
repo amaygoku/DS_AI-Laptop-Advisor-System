@@ -100,14 +100,19 @@ def _cpu_passes_requirements(row: Dict[str, Any], cpu_req: Dict[str, Any]) -> bo
     cpu_num = row.get("CPU generation", None)
     modifier = str(row.get("CPU brand modifier", "")).lower()
 
+    cpu_manu_req = cpu_req.get("cpu_manufacturer")
+    if cpu_manu_req and cpu_manu_req.lower() not in manu:
+        return False
+
     intel_req = cpu_req.get("intel")
     amd_req = cpu_req.get("amd")
+    cpu_brand = cpu_req.get("cpu_brand") # new unified field
 
     ok = False
 
-    if intel_req and "intel" in manu:
-        min_gen = intel_req.get("min_gen")
-        min_family = intel_req.get("min_family")  # i5/i7...
+    if (intel_req or cpu_brand) and "intel" in manu:
+        min_gen = (intel_req or {}).get("min_gen")
+        min_family = (intel_req or {}).get("min_family") or cpu_brand
         gen = _intel_gen_from_cpu_number(cpu_num)
 
         family_ok = True
@@ -121,14 +126,16 @@ def _cpu_passes_requirements(row: Dict[str, Any], cpu_req: Dict[str, Any]) -> bo
 
         ok = ok or (family_ok and gen_ok)
 
-    if amd_req and "amd" in manu:
-        min_series = amd_req.get("min_series")  # 6000, 7000...
-        min_family = amd_req.get("min_family")  # ryzen 5...
+    if (amd_req or cpu_brand) and "amd" in manu:
+        min_series = (amd_req or {}).get("min_series")
+        min_family = (amd_req or {}).get("min_family") or cpu_brand
         series = _amd_series_from_cpu_number(cpu_num)
 
         family_ok = True
         if min_family:
-            family_ok = (min_family.lower() in modifier.replace("ryzen5", "ryzen 5").replace("ryzen7", "ryzen 7"))
+            min_family_clean = min_family.lower().replace("ryzen", "").strip()
+            # check if numbers like '5' or '7' are in modifier
+            family_ok = (min_family_clean in modifier)
 
         series_ok = True
         if min_series is not None:
@@ -136,11 +143,28 @@ def _cpu_passes_requirements(row: Dict[str, Any], cpu_req: Dict[str, Any]) -> bo
 
         ok = ok or (family_ok and series_ok)
 
-    # If cpu_req exists but neither intel_req nor amd_req matched manufacturer, fail (strict)
-    if (intel_req or amd_req) and not ok:
+    # If cpu_req exists but neither matched manufacturer, fail (strict)
+    # Added cpu_manufacturer to the condition
+    if (intel_req or amd_req or cpu_brand or cpu_manu_req) and not ok:
+        # If we only had manufacturer req and it passed the first check, we are potentially ok
+        if cpu_manu_req and not (intel_req or amd_req or cpu_brand):
+            return True
         return False
 
     return True
+
+
+def _cpu_gen_passes(row: Dict[str, Any], min_gen: int) -> bool:
+    cpu_num = row.get("CPU generation")
+    manu = str(row.get("CPU manufacturer", "")).lower()
+    
+    if "intel" in manu:
+        gen = _intel_gen_from_cpu_number(cpu_num)
+        return gen is not None and gen >= min_gen
+    
+    # AMD is trickier with 'generation', usually we use 'series'
+    # But for a general 'min_cpu_gen' query, we can try to guess or skip
+    return True 
 
 
 def apply_filters(df, query):
@@ -191,6 +215,11 @@ def apply_filters(df, query):
     if isinstance(cpu_req, dict) and (cpu_req.get("intel") or cpu_req.get("amd")):
         # strict filter: must satisfy intel OR amd req
         mask = df.apply(lambda r: _cpu_passes_requirements(r.to_dict(), cpu_req), axis=1)
+        df = df[mask]
+
+    min_cpu_gen = query.get("min_cpu_gen")
+    if min_cpu_gen is not None:
+        mask = df.apply(lambda r: _cpu_gen_passes(r.to_dict(), int(min_cpu_gen)), axis=1)
         df = df[mask]
 
     # --- Display requirements ---

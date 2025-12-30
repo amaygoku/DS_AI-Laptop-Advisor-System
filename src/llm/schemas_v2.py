@@ -68,6 +68,9 @@ class IntentV2(BaseModel):
     min_storage_gb: Optional[int] = Field(default=None, ge=0)
     max_weight_kg: Optional[float] = Field(default=None, gt=0)
     min_weight_kg: Optional[float] = Field(default=None, gt=0)
+    min_cpu_gen: Optional[int] = Field(default=None, ge=1)
+    cpu_brand: Optional[str] = None  # e.g., "i5", "ryzen 7"
+    cpu_manufacturer: Optional[str] = None  # e.g., "Intel", "AMD"
 
 
     # advanced constraints
@@ -80,4 +83,5 @@ class IntentV2(BaseModel):
     # preferences
     pref_light: Optional[bool] = None
     pref_cheap: Optional[bool] = None
+    pref_battery: Optional[bool] = None
     gaming_level: Optional[Literal["light", "medium", "hardcore"]] = None

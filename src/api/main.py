@@ -106,6 +106,7 @@ _GAMING_KW = [
 
 _CHEAP_KW = ["rẻ", "tiết kiệm", "giá tốt", "giá mềm", "ngon bổ rẻ"]
 _LIGHT_KW = ["nhẹ", "mỏng nhẹ", "dễ mang", "di chuyển", "portable"]
+_BATTERY_KW = ["pin", "pin trâu", "pin lâu", "dung lượng pin", "battery"]
 
 
 def _extract_budget_vnd(text: str) -> Optional[int]:
@@ -157,16 +158,60 @@ def _extract_top_n(text: str) -> Optional[int]:
                 return n
     return None
 
-
 STUDENT_PRICE_CAP_VND = 20_000_000
 
-_STUDENT_KW = [
-    "học sinh", "hs", "sinh viên", "sv",
-    "đi học", "học tập", "học online", "làm bài",
-    "word", "excel", "powerpoint", "soạn thảo", "zoom", "meet", "teams"
-]
 
-STUDENT_PRICE_CAP_VND = 20_000_000
+def _extract_cpu_gen(text: str) -> Optional[int]:
+    """
+    Detect CPU generation mention:
+    - "đời 13", "thế hệ 12", "gen 11", "13th gen"
+    """
+    t = text.lower()
+    patterns = [
+        r"(?:đời|thế hệ|gen)\s*(\d{1,2})\b",
+        r"(\d{1,2})(?:th|nd|rd|st)?\s*gen\b",
+    ]
+    for p in patterns:
+        m = re.search(p, t)
+        if m:
+            return int(m.group(1))
+    return None
+
+
+    return None
+
+
+def _extract_cpu_brand(text: str) -> Optional[str]:
+    """
+    Detect CPU brand/family:
+    - "i5", "core i7", "ryzen 5", "r7"
+    """
+    t = text.lower()
+    # Intel Core
+    m = re.search(r"\b(i[3579])\b", t)
+    if m:
+        return m.group(1)
+    
+    # AMD Ryzen
+    m2 = re.search(r"\b(ryzen|r)\s*([3579])\b", t)
+    if m2:
+        return f"ryzen {m2.group(2)}"
+    
+    return None
+
+
+def _extract_cpu_manu(text: str) -> Optional[str]:
+    """
+    Detect CPU manufacturer:
+    - "intel", "amd"
+    """
+    t = text.lower()
+    if "intel" in t:
+        return "Intel"
+    if "amd" in t:
+        return "AMD"
+    return None
+
 
 def patch_intent_from_text(user_text: str, intent: IntentV2) -> IntentV2:
     t = user_text.lower()
@@ -205,11 +250,28 @@ def patch_intent_from_text(user_text: str, intent: IntentV2) -> IntentV2:
             if intent.price_max is None:
                 intent.price_max = budget
 
-    # 5) Preferences from keywords
+    # 5) CPU Generation extraction
+    cpu_gen = _extract_cpu_gen(user_text)
+    if cpu_gen is not None:
+        intent.min_cpu_gen = cpu_gen
+
+    # 6) CPU Brand extraction
+    cpu_brand = _extract_cpu_brand(user_text)
+    if cpu_brand is not None:
+        intent.cpu_brand = cpu_brand
+
+    # 7) CPU Manufacturer extraction
+    cpu_manu = _extract_cpu_manu(user_text)
+    if cpu_manu is not None:
+        intent.cpu_manufacturer = cpu_manu
+
+    # 8) Preferences from keywords
     if any(k in t for k in _CHEAP_KW):
         intent.pref_cheap = True
     if any(k in t for k in _LIGHT_KW):
         intent.pref_light = True
+    if any(k in t for k in _BATTERY_KW):
+        intent.pref_battery = True
 
     # 6) Student semantics (works for both single and multi)
     has_student = (
@@ -233,7 +295,7 @@ def patch_intent_from_text(user_text: str, intent: IntentV2) -> IntentV2:
 
 INTENT_KW = {
     "gaming": ["chơi game", "gaming", "fps", "valorant", "cs2", "pubg", "lol", "liên minh", "dota", "game"],
-    "ai": ["ai", "học máy", "machine learning", "deep learning", "cuda", "train model", "pytorch", "tensorflow"],
+    "ai": ["ai", "học máy", "machine learning", "deep learning", "cuda", "train model", "pytorch", "tensorflow", "đồ hoạ", "graphics", "nhân tạo"],
     "business": ["doanh nhân", "kinh doanh", "gặp khách", "thuyết trình", "bảo mật"],
     "office": ["văn phòng", "office", "word", "excel", "powerpoint", "kế toán", "hành chính"],
     "study": ["học tập", "đi học", "làm bài", "zoom", "meet", "teams", "học online", "lap trinh", "lập trình"],
@@ -254,19 +316,11 @@ def detect_user_types_from_text(t: str) -> list[str]:
 
 def sort_recommendations_for_intent(intent: Dict[str, Any], recs: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     """
-    Improve presentation: for gaming, prioritize gaming_ready and gaming_score.
+    Keep as pass-through or implement generic top-level ranking.
+    Since final_score now incorporates brand preference heavily, 
+    we just trust the scorer's final_score.
     """
-    if intent.get("user_type") == "gaming":
-        recs = sorted(
-            recs,
-            key=lambda x: (
-                bool(x.get("flags", {}).get("is_gaming_ready", False)),
-                float(x.get("scores", {}).get("gaming_score") or 0),
-                float(x.get("scores", {}).get("final_score") or 0),
-            ),
-            reverse=True,
-        )
-    return recs
+    return sorted(recs, key=lambda x: float(x.get("scores", {}).get("final_score") or 0), reverse=True)
 
 
 # ============================================================
@@ -293,7 +347,7 @@ def chat(req: ChatRequest):
     if USE_LLM:
         intent_obj = gemini.extract_intent(user_text)  # safe default if LLM fails
     else:
-        intent_obj = Intent(user_type="general")  # top_n defaults to 3
+        intent_obj = IntentV2(user_type="general")  # top_n defaults to 3
 
     # 2) Patch intent from raw text for robustness
     intent_obj = patch_intent_from_text(user_text, intent_obj)
@@ -327,7 +381,6 @@ def chat(req: ChatRequest):
             answer = fallback_advice_no_llm(user_text, intent_dict, recs)
     else:
         answer = fallback_advice_no_llm(user_text, intent_dict, recs)
-
     return {
         "intent": intent_dict,
         "query": query,
