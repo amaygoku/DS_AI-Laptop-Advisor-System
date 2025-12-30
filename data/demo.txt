@@ -1,0 +1,43 @@
+A. Câu hỏi đơn giản
+1. Tôi cần laptop văn phòng
+2. Tôi cần laptop nhẹ để mang đi học, dưới 18 triệu
+3. Tôi cần laptop chơi game AAA, ngân sách 35 triệu
+
+
+
+B. Câu hỏi vừa
+Tôi cần laptop học online và làm việc từ xa, đủ mạnh cho đa nhiệm cơ bản.
+Tôi cần laptop văn phòng mỏng nhẹ, ưu tiên pin, giá dưới 20 triệu.
+
+
+C. Câu hỏi phức tạp
+Tôi cần laptop pin trâu, màn hình đẹp, hiệu năng ổn cho văn phòng và lập trình, ngân sách 26 triệu.
+Tôi cần laptop vừa lập trình, vừa chơi game, RAM tối thiểu 16GB, có GPU rời, trọng lượng không quá 2.3kg, ngân sách tối đa 32 triệu.
+Tôi cần laptop cho sinh viên năm cuối ngành CNTT, RAM tối thiểu 16GB, SSD tối thiểu 512GB, pin dùng được trên 6 giờ, trọng lượng không quá 2kg, giá dưới 28 triệu.
+
+
+B. Câu hỏi vừa
+
+Tôi cần laptop lập trình, chạy tốt các IDE phổ biến, giá khoảng 25 triệu.
+
+Tôi cần laptop cho sinh viên IT, pin khá, màn hình dễ nhìn, dưới 22 triệu.
+
+Tôi cần laptop chơi game và làm đồ họa nhẹ, ngân sách khoảng 30 triệu.
+
+Tôi cần laptop văn phòng mỏng nhẹ, ưu tiên pin, giá dưới 20 triệu.
+
+Tôi cần laptop học online và làm việc từ xa, đủ mạnh cho đa nhiệm cơ bản.
+
+C. Câu hỏi phức tạp
+
+Tôi cần laptop vừa lập trình, vừa chơi game, ngân sách tối đa 32 triệu, không quá nặng.
+
+Tôi cần laptop cho AI và machine learning, có GPU rời, RAM tối thiểu 16GB, giá khoảng 40 triệu.
+
+Tôi cần laptop chơi game AAA, ưu tiên GPU mạnh, nhưng vẫn có thể mang đi làm việc hằng ngày.
+
+Tôi cần laptop cho thiết kế đồ họa và dựng video, màn hình tốt, hiệu năng cao, ngân sách 45 triệu.
+
+Tôi cần laptop cho sinh viên năm cuối ngành CNTT, vừa học tập, vừa làm đồ án, giá dưới 28 triệu.
+
+Tôi cần laptop pin trâu, màn hình đẹp, hiệu năng ổn cho văn phòng và lập trình, ngân sách 26 triệu.

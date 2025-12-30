@@ -1,0 +1,88 @@
+[
+    {
+        "id": 1,
+        "query": "Tôi cần laptop",
+        "expected_constraints": {},
+        "complexity": "simple",
+        "note": "Query tối giản, không ràng buộc"
+    },
+    {
+        "id": 2,
+        "query": "Laptop giá rẻ",
+        "expected_constraints": {
+            "price_max": 17000000
+        },
+        "complexity": "simple",
+        "note": "Chỉ ràng buộc giá thấp"
+    },
+    {
+        "id": 3,
+        "query": "Laptop văn phòng",
+        "expected_constraints": {},
+        "complexity": "simple",
+        "note": "Chỉ định use case đơn giản"
+    },
+    {
+        "id": 4,
+        "query": "Laptop gaming",
+        "expected_constraints": {
+            "is_gaming_ready": true
+        },
+        "complexity": "simple",
+        "note": "Yêu cầu gaming cơ bản"
+    },
+    {
+        "id": 5,
+        "query": "Laptop nhẹ để mang đi học",
+        "expected_constraints": {
+            "max_weight_kg": 1.7
+        },
+        "complexity": "simple",
+        "note": "Ràng buộc trọng lượng + use case"
+    },
+    {
+        "id": 6,
+        "query": "Laptop dưới 20 triệu",
+        "expected_constraints": {
+            "price_max": 20000000
+        },
+        "complexity": "medium",
+        "note": "Ràng buộc budget cụ thể"
+    },
+    {
+        "id": 7,
+        "query": "Laptop gaming giá khoảng 25 triệu",
+        "expected_constraints": {
+            "is_gaming_ready": true,
+            "price_min": 23000000,
+            "price_max": 28000000
+        },
+        "complexity": "medium",
+        "note": "Gaming + khoảng giá"
+    },
+    {
+        "id": 8,
+        "query": "Laptop cho sinh viên công nghệ thông tin",
+        "expected_constraints": {
+            "price_max": 20000000
+        },
+        "complexity": "medium",
+        "note": "User type sinh viên + ngành học"
+    },
+    {
+        "id": 9,
+        "query": "Laptop RAM 16GB để code",
+        "expected_constraints": {
+            "min_ram_gb": 16
+        },
+        "complexity": "medium",
+        "note": "Ràng buộc RAM cụ thể"
+    },
+    {
+        "id": 10,
+        "query": "Laptop màn hình lớn cho thiết kế đồ họa",
+        "expected_constraints": {},
+        "complexity": "medium",
+        "note": "Yêu cầu màn hình + use case đồ họa"
+    }
+]

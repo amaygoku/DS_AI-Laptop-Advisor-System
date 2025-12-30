@@ -6,7 +6,14 @@ from typing import Any, Dict, Optional, Tuple
 
 from src.advisor.utils import normalize_user_types
 
-# giữ nguyên INTENT_SCORE_MAP, AFFORDABILITY_WEIGHT, WEIGHT_PREF_WEIGHT như file của bạn
+# ============================================================================
+# ADJUSTED FOR NEW SCORE DATA (2024-12-30)
+# ============================================================================
+# Changes made to work with recalculated scores in laptops_features2.csv:
+# - Reduced bonus multipliers to prevent score inflation
+# - Fine-tuned weight dictionaries for better balance
+# - Adjusted penalty thresholds for more appropriate filtering
+# ============================================================================
 
 
 def _norm_brand(s: str) -> str:
@@ -32,7 +39,7 @@ def apply_scoring(df, query):
     single_intent = "user_type" in query
 
     # =========================
-    # TASK SCORE (existing)
+    # TASK SCORE
     # =========================
     INTENT_SCORE_MAP = {
         "gaming": ["gaming_score"],
@@ -73,7 +80,7 @@ def apply_scoring(df, query):
             df["task_score"] = 0.5
 
     # =========================
-    # PRICE / AFFORDABILITY (existing)
+    # PRICE / AFFORDABILITY
     # =========================
     if "price_max" in query:
         budget = query["price_max"]
@@ -95,9 +102,8 @@ def apply_scoring(df, query):
             df["affordability_score"] = (1 - price_norm).clip(0, 1)
         df["price_fit"] = 0.5
         
-        # New: Extra penalty for "cheap" preference when no budget set
-        # In Vietnam, "cheap" usually means < 20-22M. 
-        # Above that, we should drop the affordability score significantly.
+        # Extra penalty for "cheap" preference when no budget set
+        # In Vietnam, "cheap" usually means < 20-22M
         if query.get("pref_cheap") is True:
             # Drop score for anything above 22M
             penalty_mask = df["Price (VND)"] > 22_000_000
@@ -107,7 +113,7 @@ def apply_scoring(df, query):
             df.loc[heavy_penalty_mask, "affordability_score"] *= 0.2
 
     # =========================
-    # WEIGHT SCORE (updated)
+    # WEIGHT SCORE
     # =========================
     if "norm_weight" in df.columns:
         df["weight_score"] = (1 - df["norm_weight"]).clip(0, 1)
@@ -120,47 +126,49 @@ def apply_scoring(df, query):
         df["weight_score"] = (1 - w_norm).clip(0, 1)
 
     # =========================
-    # FINAL SCORE (existing logic + advanced bonus)
+    # FINAL SCORE CALCULATION
     # =========================
+    # ADJUSTED: Fine-tuned weights for better balance with new score data
     AFFORDABILITY_WEIGHT = {
-        "student": 0.35,
-        "study": 0.25,
-        "business": 0.15,
-        "office": 0.15,
-        "general": 0.20,
-        "ai": 0.10,
-        "gaming": 0.05,
+        "student": 0.30,   # Reduced from 0.35 for better task score influence
+        "study": 0.22,     # Reduced from 0.25
+        "business": 0.15,  # Unchanged
+        "office": 0.15,    # Unchanged
+        "general": 0.18,   # Reduced from 0.20
+        "ai": 0.10,        # Unchanged
+        "gaming": 0.05,    # Unchanged
     }
     WEIGHT_PREF_WEIGHT = {
-        "student": 0.20,
-        "study": 0.25,
-        "business": 0.15,
-        "office": 0.15,
-        "general": 0.15,
-        "ai": 0.10,
-        "gaming": 0.05,
+        "student": 0.18,   # Reduced from 0.20
+        "study": 0.22,     # Reduced from 0.25
+        "business": 0.15,  # Unchanged
+        "office": 0.15,    # Unchanged
+        "general": 0.12,   # Reduced from 0.15
+        "ai": 0.08,        # Reduced from 0.10
+        "gaming": 0.05,    # Unchanged
     }
 
     if single_intent and user_types[0] == "gaming":
+        # Gaming: pure task score (performance is everything)
         df["final_score"] = df["task_score"]
     else:
         if single_intent:
-            base_aff = AFFORDABILITY_WEIGHT.get(user_types[0], 0.20)
-            base_wt = WEIGHT_PREF_WEIGHT.get(user_types[0], 0.15)
+            base_aff = AFFORDABILITY_WEIGHT.get(user_types[0], 0.18)
+            base_wt = WEIGHT_PREF_WEIGHT.get(user_types[0], 0.12)
         else:
-            base_aff = max(AFFORDABILITY_WEIGHT.get(ut, 0.20) for ut in user_types)
-            base_wt = max(WEIGHT_PREF_WEIGHT.get(ut, 0.15) for ut in user_types)
+            base_aff = max(AFFORDABILITY_WEIGHT.get(ut, 0.18) for ut in user_types)
+            base_wt = max(WEIGHT_PREF_WEIGHT.get(ut, 0.12) for ut in user_types)
 
         if query.get("pref_cheap") is True:
-            base_aff = max(base_aff, 0.35)
+            base_aff = max(base_aff, 0.30)  # Reduced from 0.35
 
         if query.get("pref_light") is True:
-            base_wt = max(base_wt, 0.25)
+            base_wt = max(base_wt, 0.22)  # Reduced from 0.25
         elif query.get("pref_light") is False:
             base_wt = min(base_wt, 0.05)
 
-        w_aff = min(base_aff, 0.45)
-        w_wt = min(base_wt, 0.35)
+        w_aff = min(base_aff, 0.40)  # Reduced cap from 0.45
+        w_wt = min(base_wt, 0.30)    # Reduced cap from 0.35
         w_task = max(0.0, 1.0 - w_aff - w_wt)
 
         df["final_score"] = (
@@ -170,19 +178,20 @@ def apply_scoring(df, query):
         )
 
     # =========================
-    # ADVANCED SOFT BONUSES
+    # SOFT BONUSES
     # =========================
+    # ADJUSTED: Reduced bonus multipliers to prevent score inflation
     bonus = 0.0
 
-    # Brand prefer bonus
+    # Brand preference bonus
     brand_pref = query.get("brand_preferences") or {}
     prefer = set(_norm_brand(x) for x in (brand_pref.get("prefer") or []) if x)
     if prefer and "Manufacturer" in df.columns:
         df["_brand_prefer"] = df["Manufacturer"].fillna("").map(_norm_brand).isin(prefer).astype(float)
-        # Use a large bonus to prioritize brand above other soft factors
-        bonus += 0.4 * df["_brand_prefer"]
+        # ADJUSTED: Reduced from 0.4 to 0.25 to prevent over-prioritization
+        bonus += 0.25 * df["_brand_prefer"]
 
-    # Battery bonus if requested
+    # Battery requirement bonus
     batt_req = query.get("battery_requirements")
     if isinstance(batt_req, dict) and batt_req.get("min_wh") is not None:
         min_wh = float(batt_req["min_wh"])
@@ -191,43 +200,52 @@ def apply_scoring(df, query):
         else:
             df["_battery_wh"] = df["Battery"].apply(_parse_battery_wh)
         
-        # if above requirement, small boost; if missing, 0
+        # If above requirement, small boost
         df["_battery_ok"] = (df["_battery_wh"].fillna(0) >= min_wh).astype(float)
-        bonus += 0.03 * df["_battery_ok"]
+        # ADJUSTED: Reduced from 0.03 to 0.02
+        bonus += 0.02 * df["_battery_ok"]
     
-    # Use pre-calculated battery_score if available as a small general bonus
+    # General battery score bonus
     if "battery_score" in df.columns:
-        bonus += 0.02 * df["battery_score"].fillna(0)
+        # ADJUSTED: Reduced from 0.02 to 0.015
+        bonus += 0.015 * df["battery_score"].fillna(0)
 
-    # Display bonus if requested
+    # Display refresh rate bonus
     disp = query.get("display_requirements")
     if isinstance(disp, dict) and disp.get("min_refresh_hz") is not None and "Refresh Rate (Hz)" in df.columns:
         min_hz = float(disp["min_refresh_hz"])
         df["_hz_ok"] = (df["Refresh Rate (Hz)"].fillna(0) >= min_hz).astype(float)
-        bonus += 0.02 * df["_hz_ok"]
+        # ADJUSTED: Reduced from 0.02 to 0.015
+        bonus += 0.015 * df["_hz_ok"]
 
     # Ready flags bonuses
     if "is_gaming_ready" in df.columns and any(ut == "gaming" for ut in user_types):
-         # Reduced from 0.05 per user request
-         bonus += 0.02 * df["is_gaming_ready"].astype(float)
+         # ADJUSTED: Reduced from 0.02 to 0.015
+         bonus += 0.015 * df["is_gaming_ready"].astype(float)
     if "is_ai_ready" in df.columns and any(ut == "ai" for ut in user_types):
-         bonus += 0.05 * df["is_ai_ready"].astype(float)
+         # ADJUSTED: Reduced from 0.05 to 0.04
+         bonus += 0.04 * df["is_ai_ready"].astype(float)
     if "is_ultrabook" in df.columns and any(ut in ["business", "office", "student"] for ut in user_types):
-         bonus += 0.03 * df["is_ultrabook"].astype(float)
+         # ADJUSTED: Reduced from 0.03 to 0.02
+         bonus += 0.02 * df["is_ultrabook"].astype(float)
 
     # =========================
-    # ABSOLUTE PENALTY (LIGHTWEIGHT)
+    # ABSOLUTE PENALTIES
     # =========================
+    # ADJUSTED: More gradual weight penalties for better differentiation
     if query.get("pref_light") is True:
-        # If user explicitly asked for light, anything over 1.8kg gets penalized
-        penalty_1_8 = df["Weight (kg)"] > 1.8
-        df.loc[penalty_1_8, "final_score"] *= 0.7
-        # Over 2.2kg is definitely not light
-        penalty_2_2 = df["Weight (kg)"] > 2.2
-        df.loc[penalty_2_2, "final_score"] *= 0.4
-        # 2.7kg (like the user complained) is extremely non-light
-        penalty_2_5 = df["Weight (kg)"] > 2.5
-        df.loc[penalty_2_5, "final_score"] *= 0.1
+        # Gradual penalties for increasing weight
+        penalty_1_7 = df["Weight (kg)"] > 1.7  # New: earlier threshold
+        df.loc[penalty_1_7, "final_score"] *= 0.85  # Mild penalty
+        
+        penalty_2_0 = df["Weight (kg)"] > 2.0  # Adjusted from 1.8
+        df.loc[penalty_2_0, "final_score"] *= 0.65  # Adjusted from 0.7
+        
+        penalty_2_3 = df["Weight (kg)"] > 2.3  # Adjusted from 2.2
+        df.loc[penalty_2_3, "final_score"] *= 0.35  # Adjusted from 0.4
+        
+        penalty_2_6 = df["Weight (kg)"] > 2.6  # Adjusted from 2.5
+        df.loc[penalty_2_6, "final_score"] *= 0.08  # Adjusted from 0.1
 
     # =========================
     # BATTERY PRIORITY
@@ -235,13 +253,15 @@ def apply_scoring(df, query):
     if query.get("pref_battery") is True:
         # Give a substantial boost if battery_score is good
         if "battery_score" in df.columns:
-            bonus += 0.1 * df["battery_score"].fillna(0)
+            # ADJUSTED: Reduced from 0.1 to 0.08
+            bonus += 0.08 * df["battery_score"].fillna(0)
         # Penalize if battery is unknown or small (< 45Wh)
         if "_battery_wh" in df.columns:
             penalty_mask = df["_battery_wh"].fillna(0) < 45
-            df.loc[penalty_mask, "final_score"] *= 0.8
+            # ADJUSTED: Slightly harsher penalty (0.8 -> 0.75)
+            df.loc[penalty_mask, "final_score"] *= 0.75
 
-    # Apply bonus
+    # Apply bonus and clip to valid range
     df["final_score"] = (df["final_score"] + bonus).clip(0, 1).round(4)
 
     return df
