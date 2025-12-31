@@ -9,8 +9,8 @@ import logging
 # =========================
 logging.basicConfig(level=logging.INFO, format="%(levelname)s | %(message)s")
 
-DATA_PATH = r"D:\DS_project\DS_AI-Laptop-Advisor-System\EDA\clean_final.csv"
-OUTPUT_PATH = r"D:\DS_project\DS_AI-Laptop-Advisor-System\EDA\clean_final_v3.csv"
+DATA_PATH = r"C:\Users\ASUS\OneDrive - Hanoi University of Science and Technology\Desktop\DS_AI\DS_AI-Laptop-Advisor-System\src\EDA\clean_final_v2.csv"
+OUTPUT_PATH = r"C:\Users\ASUS\OneDrive - Hanoi University of Science and Technology\Desktop\DS_AI\DS_AI-Laptop-Advisor-System\src\EDA\clean_final_v3.csv"
 
 # =========================
 # GPU LABEL KEYWORDS

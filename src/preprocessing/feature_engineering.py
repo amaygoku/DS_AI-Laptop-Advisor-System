@@ -6,8 +6,8 @@ import re
 # ===============================
 # PATHS
 # ===============================
-INPUT_PATH = r"D:\DS_project\DS_AI-Laptop-Advisor-System\data\processed\laptops_normalized.csv"
-OUTPUT_PATH = r"D:\DS_project\DS_AI-Laptop-Advisor-System\data\processed\laptops_features.csv"
+INPUT_PATH = r"C:\Users\ASUS\OneDrive - Hanoi University of Science and Technology\Desktop\DS_AI\DS_AI-Laptop-Advisor-System\data\processed\laptops_normalized.csv"
+OUTPUT_PATH = r"C:\Users\ASUS\OneDrive - Hanoi University of Science and Technology\Desktop\DS_AI\DS_AI-Laptop-Advisor-System\data\processed\laptops_features.csv"
 
 # ===============================
 # LOAD

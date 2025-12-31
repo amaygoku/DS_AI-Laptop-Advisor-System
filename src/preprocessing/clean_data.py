@@ -3,8 +3,8 @@ import numpy as np
 import re
 import os
 
-INPUT_PATH = r"D:\DS_project\DS_AI-Laptop-Advisor-System\EDA\FinalData.csv"
-OUTPUT_PATH = r"D:\DS_project\DS_AI-Laptop-Advisor-System\data\processed\laptops_clean.csv"
+INPUT_PATH = r"C:\Users\ASUS\OneDrive - Hanoi University of Science and Technology\Desktop\DS_AI\DS_AI-Laptop-Advisor-System\src\EDA\clean_final.csv"
+OUTPUT_PATH = r"C:\Users\ASUS\OneDrive - Hanoi University of Science and Technology\Desktop\DS_AI\DS_AI-Laptop-Advisor-System\src\EDA\clean_final_v2.csv"
 
 
 
